@@ -1,0 +1,17 @@
+﻿domain,method_breakdown,source_count
+auto_parts_fitment,"{""account_api_or_commercial_feed"": 9, ""direct_download_or_public_api"": 3, ""manual_review"": 2, ""public_site_catalog_parse"": 6}",20
+computer_it_communications,"{""account_api_or_commercial_feed"": 3, ""direct_download_or_public_api"": 6, ""manual_review"": 11, ""pdf_or_catalog_parse"": 1}",21
+furnishings_furniture,"{""account_api_or_commercial_feed"": 3, ""direct_download_or_public_api"": 1, ""manual_review"": 10}",14
+housewares_kitchen_appliances_clothing,"{""account_api_or_commercial_feed"": 3, ""direct_download_or_public_api"": 3, ""manual_review"": 8}",14
+housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;furnishings_furniture,"{""account_api_or_commercial_feed"": 1}",1
+housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification,"{""manual_review"": 1}",1
+housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet,"{""manual_review"": 1}",1
+housewares_kitchen_appliances_clothing;product_identity_barcode_classification,"{""direct_download_or_public_api"": 1}",1
+housing_construction_materials,"{""account_api_or_commercial_feed"": 4, ""already_imported_reference"": 1, ""direct_download_or_public_api"": 1, ""manual_review"": 11, ""pdf_or_catalog_parse"": 2}",19
+newark_current_online,"{""account_api_or_commercial_feed"": 2, ""manual_review"": 3, ""public_site_catalog_parse"": 1}",6
+office_supplies_low_cost_general,"{""account_api_or_commercial_feed"": 1, ""manual_review"": 7, ""public_site_catalog_parse"": 2}",10
+office_supplies_low_cost_general;product_identity_barcode_classification,"{""manual_review"": 2}",2
+product_identity_barcode_classification,"{""account_api_or_commercial_feed"": 1, ""direct_download_or_public_api"": 3, ""manual_review"": 6}",10
+product_identity_barcode_classification;furnishings_furniture,"{""direct_download_or_public_api"": 1}",1
+product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet,"{""already_imported_reference"": 1}",1
+tools_fasteners_hardware_property_cabinet,"{""account_api_or_commercial_feed"": 1, ""manual_review"": 10, ""pdf_or_catalog_parse"": 3, ""public_site_catalog_parse"": 16}",30

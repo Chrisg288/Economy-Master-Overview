@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "domain": "auto_parts_fitment",
+      "source_count": 20,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 9, \"direct_download_or_public_api\": 3, \"manual_review\": 2, \"public_site_catalog_parse\": 6}"
+    },
+    {
+      "domain": "computer_it_communications",
+      "source_count": 21,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 3, \"direct_download_or_public_api\": 6, \"manual_review\": 11, \"pdf_or_catalog_parse\": 1}"
+    },
+    {
+      "domain": "furnishings_furniture",
+      "source_count": 14,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 3, \"direct_download_or_public_api\": 1, \"manual_review\": 10}"
+    },
+    {
+      "domain": "housewares_kitchen_appliances_clothing",
+      "source_count": 14,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 3, \"direct_download_or_public_api\": 3, \"manual_review\": 8}"
+    },
+    {
+      "domain": "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;furnishings_furniture",
+      "source_count": 1,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 1}"
+    },
+    {
+      "domain": "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification",
+      "source_count": 1,
+      "method_breakdown": "{\"manual_review\": 1}"
+    },
+    {
+      "domain": "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet",
+      "source_count": 1,
+      "method_breakdown": "{\"manual_review\": 1}"
+    },
+    {
+      "domain": "housewares_kitchen_appliances_clothing;product_identity_barcode_classification",
+      "source_count": 1,
+      "method_breakdown": "{\"direct_download_or_public_api\": 1}"
+    },
+    {
+      "domain": "housing_construction_materials",
+      "source_count": 19,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 4, \"already_imported_reference\": 1, \"direct_download_or_public_api\": 1, \"manual_review\": 11, \"pdf_or_catalog_parse\": 2}"
+    },
+    {
+      "domain": "newark_current_online",
+      "source_count": 6,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 2, \"manual_review\": 3, \"public_site_catalog_parse\": 1}"
+    },
+    {
+      "domain": "office_supplies_low_cost_general",
+      "source_count": 10,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 1, \"manual_review\": 7, \"public_site_catalog_parse\": 2}"
+    },
+    {
+      "domain": "office_supplies_low_cost_general;product_identity_barcode_classification",
+      "source_count": 2,
+      "method_breakdown": "{\"manual_review\": 2}"
+    },
+    {
+      "domain": "product_identity_barcode_classification",
+      "source_count": 10,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 1, \"direct_download_or_public_api\": 3, \"manual_review\": 6}"
+    },
+    {
+      "domain": "product_identity_barcode_classification;furnishings_furniture",
+      "source_count": 1,
+      "method_breakdown": "{\"direct_download_or_public_api\": 1}"
+    },
+    {
+      "domain": "product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet",
+      "source_count": 1,
+      "method_breakdown": "{\"already_imported_reference\": 1}"
+    },
+    {
+      "domain": "tools_fasteners_hardware_property_cabinet",
+      "source_count": 30,
+      "method_breakdown": "{\"account_api_or_commercial_feed\": 1, \"manual_review\": 10, \"pdf_or_catalog_parse\": 3, \"public_site_catalog_parse\": 16}"
+    }
+  ]
+}

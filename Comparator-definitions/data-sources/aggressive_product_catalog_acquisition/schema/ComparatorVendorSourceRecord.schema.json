@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComparatorVendorSourceRecord",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_name",
+    "domain",
+    "url",
+    "acquisition_method"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "access": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "best_use": {
+      "type": "string"
+    },
+    "data_fit": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "acquisition_method": {
+      "type": "string"
+    },
+    "next_action": {
+      "type": "string"
+    },
+    "comparator_record_type": {
+      "type": "string"
+    },
+    "vendor_positive_required_fields": {
+      "type": "string"
+    },
+    "public_display_guidance": {
+      "type": "string"
+    }
+  }
+}

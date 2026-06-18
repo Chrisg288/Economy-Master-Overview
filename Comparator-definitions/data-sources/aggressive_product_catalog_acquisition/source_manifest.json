@@ -1,0 +1,25 @@
+{
+  "package_id": "Comparator_Aggressive_Product_Catalog_Acquisition_v0_1",
+  "created": "2026-06-18",
+  "source_count": 152,
+  "job_count": 152,
+  "priority_large_catalog_target_count": 26,
+  "domains": [
+    "auto_parts_fitment",
+    "computer_it_communications",
+    "furnishings_furniture",
+    "housewares_kitchen_appliances_clothing",
+    "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;furnishings_furniture",
+    "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification",
+    "housewares_kitchen_appliances_clothing;office_supplies_low_cost_general;product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet",
+    "housewares_kitchen_appliances_clothing;product_identity_barcode_classification",
+    "housing_construction_materials",
+    "newark_current_online",
+    "office_supplies_low_cost_general",
+    "office_supplies_low_cost_general;product_identity_barcode_classification",
+    "product_identity_barcode_classification",
+    "product_identity_barcode_classification;furnishings_furniture",
+    "product_identity_barcode_classification;furnishings_furniture;tools_fasteners_hardware_property_cabinet",
+    "tools_fasteners_hardware_property_cabinet"
+  ]
+}
