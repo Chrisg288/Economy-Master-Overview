@@ -1,0 +1,7 @@
+﻿source_id,source_name,url,access,use
+NEWARK_SEARCH_API,Newark Search API,https://www.newark.com/services/purchasing-procurement-support/search-api,API key required; self-serve API portal,"Current product pricing, quantity breaks, stock, warehouse, manufacturer, manufacturer part number, RoHS, descriptions, attributes, datasheet links, image links, country of origin, pack size and unit of measure."
+ELEMENT14_PRODUCT_SEARCH_API_DOCS,element14 Product Search API REST docs,https://partner.element14.com/docs/Product_Search_API_REST__Description,Public docs; API key required for calls,"Keyword search, element14/Newark order code search, manufacturer part-number search."
+ELEMENT14_IO_DOCS,element14 API I/O Docs,https://partner.element14.com/io-docs,Interactive API docs,"Try keyword, order-code and manufacturer-part-number searches; storeInfo.id includes www.newark.com and canada.newark.com."
+NEWARK_STATUS_HELP,Newark pricing and availability help,https://www.newark.com/help-pricing-availability,Public help page,Normalize lifecycle and availability labels.
+NEWARK_BROWSE,Newark Browse All Products,https://www.newark.com/browse-for-products,Public website,Current category browsing and category discovery.
+NEWARK_PROCUREMENT_TOOLS,Newark procurement support tools,https://www.newark.com/services/purchasing-procurement-support,Public page; several tools require account,"BOM upload, paste list, custom catalog feeds, search API, order API, quote and purchasing tools."

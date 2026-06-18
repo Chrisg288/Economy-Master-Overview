@@ -1,0 +1,7 @@
+{
+  "package_id": "Newark_Current_Online_Acquisition_v0_1",
+  "source_records": 6,
+  "category_seed_rows": 16,
+  "search_terms": 25,
+  "requires_api_key_for_bulk_current_rows": true
+}

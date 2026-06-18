@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "source_id": "NEWARK_SEARCH_API",
+      "source_name": "Newark Search API",
+      "url": "https://www.newark.com/services/purchasing-procurement-support/search-api",
+      "access": "API key required; self-serve API portal",
+      "use": "Current product pricing, quantity breaks, stock, warehouse, manufacturer, manufacturer part number, RoHS, descriptions, attributes, datasheet links, image links, country of origin, pack size and unit of measure."
+    },
+    {
+      "source_id": "ELEMENT14_PRODUCT_SEARCH_API_DOCS",
+      "source_name": "element14 Product Search API REST docs",
+      "url": "https://partner.element14.com/docs/Product_Search_API_REST__Description",
+      "access": "Public docs; API key required for calls",
+      "use": "Keyword search, element14/Newark order code search, manufacturer part-number search."
+    },
+    {
+      "source_id": "ELEMENT14_IO_DOCS",
+      "source_name": "element14 API I/O Docs",
+      "url": "https://partner.element14.com/io-docs",
+      "access": "Interactive API docs",
+      "use": "Try keyword, order-code and manufacturer-part-number searches; storeInfo.id includes www.newark.com and canada.newark.com."
+    },
+    {
+      "source_id": "NEWARK_STATUS_HELP",
+      "source_name": "Newark pricing and availability help",
+      "url": "https://www.newark.com/help-pricing-availability",
+      "access": "Public help page",
+      "use": "Normalize lifecycle and availability labels."
+    },
+    {
+      "source_id": "NEWARK_BROWSE",
+      "source_name": "Newark Browse All Products",
+      "url": "https://www.newark.com/browse-for-products",
+      "access": "Public website",
+      "use": "Current category browsing and category discovery."
+    },
+    {
+      "source_id": "NEWARK_PROCUREMENT_TOOLS",
+      "source_name": "Newark procurement support tools",
+      "url": "https://www.newark.com/services/purchasing-procurement-support",
+      "access": "Public page; several tools require account",
+      "use": "BOM upload, paste list, custom catalog feeds, search API, order API, quote and purchasing tools."
+    }
+  ]
+}

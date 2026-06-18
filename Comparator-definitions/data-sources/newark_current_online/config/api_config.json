@@ -1,0 +1,9 @@
+{
+  "api_url": "https://api.element14.com/catalog/products",
+  "api_key_placeholder": "PUT_YOUR_API_KEY_IN_ENVIRONMENT_VARIABLE",
+  "store_info_id": "www.newark.com",
+  "alternate_store_info_id": "canada.newark.com",
+  "number_of_results": 10,
+  "response_group": "large",
+  "delay_seconds": 0.25
+}

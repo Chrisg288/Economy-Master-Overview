@@ -1,0 +1,26 @@
+﻿term_id,search_term,search_mode,source_note
+term-0001,cable assemblies,keyword,Historical index term
+term-0002,d-sub connector,keyword,Historical index term
+term-0003,soldering iron,keyword,Historical index term
+term-0004,wire stripper,keyword,Historical index term
+term-0005,zener diode,keyword,Historical index term
+term-0006,microcontroller,keyword,Historical index term
+term-0007,linear power supply,keyword,Historical index term
+term-0008,LCR meter,keyword,Historical index term
+term-0009,LED indicator,keyword,Historical index term
+term-0010,terminal block,keyword,Historical index term
+term-0011,circular connector,keyword,Current category
+term-0012,resistor,keyword,Current category
+term-0013,capacitor,keyword,Current category
+term-0014,power relay,keyword,Current category
+term-0015,development board,keyword,Current category
+term-0016,sensor,keyword,Current category
+term-0017,oscilloscope,keyword,Current category
+term-0018,multimeter,keyword,Current category
+term-0019,heat shrink tubing,keyword,Historical index term
+term-0020,static control wrist strap,keyword,Historical index term
+term-0021,TE Connectivity 350766-1,manufacturer_or_keyword,Sample current part
+term-0022,LM339,manufacturer_or_keyword,Common comparator IC
+term-0023,NE555,manufacturer_or_keyword,Common timer IC
+term-0024,CD4011,manufacturer_or_keyword,Common CMOS logic IC
+term-0025,IRF540,manufacturer_or_keyword,Common MOSFET
