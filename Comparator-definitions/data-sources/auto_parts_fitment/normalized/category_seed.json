@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "category": "Vehicle Fitment Identity",
+      "domain": "fitment",
+      "notes": "year, make, model, engine, trim, body, drivetrain, region"
+    },
+    {
+      "category": "Part Identity",
+      "domain": "part_identity",
+      "notes": "brand, manufacturer part number, interchange, UPC/GTIN, NAPA/RockAuto/vendor SKU"
+    },
+    {
+      "category": "Brakes",
+      "domain": "auto_parts",
+      "notes": "pads, rotors, calipers, drums, shoes, hydraulic parts"
+    },
+    {
+      "category": "Filters",
+      "domain": "auto_parts",
+      "notes": "oil, air, cabin, fuel, transmission filters"
+    },
+    {
+      "category": "Ignition / Electrical",
+      "domain": "auto_parts",
+      "notes": "spark plugs, coils, alternators, starters, sensors"
+    },
+    {
+      "category": "Steering / Suspension",
+      "domain": "auto_parts",
+      "notes": "struts, shocks, control arms, tie rods, ball joints"
+    },
+    {
+      "category": "Engine Parts",
+      "domain": "auto_parts",
+      "notes": "belts, timing, gaskets, pumps, mounts, seals"
+    },
+    {
+      "category": "Cooling / HVAC",
+      "domain": "auto_parts",
+      "notes": "radiators, thermostats, hoses, compressors, condensers"
+    },
+    {
+      "category": "Exhaust / Emissions",
+      "domain": "auto_parts",
+      "notes": "mufflers, catalytic converters, oxygen sensors, EGR"
+    },
+    {
+      "category": "Drivetrain / Axles",
+      "domain": "auto_parts",
+      "notes": "CV axles, bearings, hubs, clutches, driveshafts"
+    },
+    {
+      "category": "Fluids / Chemicals",
+      "domain": "auto_supplies",
+      "notes": "oil, coolant, ATF, brake fluid, cleaners, grease"
+    },
+    {
+      "category": "Batteries / Charging",
+      "domain": "auto_parts",
+      "notes": "batteries, alternators, starters, chargers"
+    },
+    {
+      "category": "Tires / Wheels",
+      "domain": "auto_parts",
+      "notes": "tires, wheels, TPMS, lug nuts, wheel weights"
+    },
+    {
+      "category": "Body / Lighting",
+      "domain": "auto_parts",
+      "notes": "headlamps, bulbs, mirrors, body panels, wipers"
+    },
+    {
+      "category": "Tools / Shop Supplies",
+      "domain": "auto_supplies",
+      "notes": "scan tools, jacks, stands, pullers, service tools"
+    },
+    {
+      "category": "Warranty / Core / Compliance",
+      "domain": "evidence",
+      "notes": "core charge, warranty, emissions legality, recall evidence"
+    }
+  ]
+}

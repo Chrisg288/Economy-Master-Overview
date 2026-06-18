@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "source_id": "AUTOCARE_ACES_PIES",
+      "record_type": "standard_backbone",
+      "title": "ACES / PIES data standards",
+      "category": "Vehicle Fitment Identity",
+      "availability": "standard_subscription_or_membership",
+      "evidence_status": "verified",
+      "source_url": "https://www.autocare.org/data-standards"
+    },
+    {
+      "source_id": "ROCKAUTO_PUBLIC_CATALOG",
+      "record_type": "public_retail_catalog",
+      "title": "RockAuto year/make/model parts catalog",
+      "category": "Auto Parts Retail Offers",
+      "availability": "public_catalog",
+      "evidence_status": "linked",
+      "source_url": "https://www.rockauto.com/en/catalog/"
+    },
+    {
+      "source_id": "NAPA_PUBLIC_CATALOG",
+      "record_type": "public_retail_catalog",
+      "title": "NAPA Auto Parts public catalog",
+      "category": "Auto Parts Retail Offers",
+      "availability": "public_catalog_region_dependent",
+      "evidence_status": "linked",
+      "source_url": "https://www.napaonline.com/"
+    },
+    {
+      "source_id": "NAPA_PROLINK",
+      "record_type": "commercial_parts_catalog",
+      "title": "NAPA PROLink commercial parts ordering",
+      "category": "Commercial Repair Shop Catalog",
+      "availability": "commercial_account_required",
+      "evidence_status": "linked",
+      "source_url": "https://www.napaprolink.com/"
+    },
+    {
+      "source_id": "SHOWMETHEPARTS",
+      "record_type": "catalog_fitment_platform",
+      "title": "ShowMeTheParts ACES/PIES catalog platform",
+      "category": "Fitment / Catalog Platform",
+      "availability": "commercial_platform",
+      "evidence_status": "linked",
+      "source_url": "https://info.showmetheparts.com/"
+    },
+    {
+      "source_id": "NHTSA_VPIC",
+      "record_type": "vehicle_reference_api",
+      "title": "NHTSA vPIC vehicle reference API",
+      "category": "Vehicle Fitment Identity",
+      "availability": "public_api",
+      "evidence_status": "verified",
+      "source_url": "https://vpic.nhtsa.dot.gov/api/"
+    },
+    {
+      "source_id": "NHTSA_RECALLS",
+      "record_type": "safety_evidence_api",
+      "title": "NHTSA recalls and safety APIs",
+      "category": "Warranty / Core / Compliance",
+      "availability": "public_api",
+      "evidence_status": "verified",
+      "source_url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis"
+    }
+  ]
+}

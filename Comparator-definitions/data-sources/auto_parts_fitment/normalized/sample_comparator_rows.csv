@@ -1,0 +1,8 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+AUTOCARE_ACES_PIES,standard_backbone,ACES / PIES data standards,Vehicle Fitment Identity,standard_subscription_or_membership,verified,https://www.autocare.org/data-standards
+ROCKAUTO_PUBLIC_CATALOG,public_retail_catalog,RockAuto year/make/model parts catalog,Auto Parts Retail Offers,public_catalog,linked,https://www.rockauto.com/en/catalog/
+NAPA_PUBLIC_CATALOG,public_retail_catalog,NAPA Auto Parts public catalog,Auto Parts Retail Offers,public_catalog_region_dependent,linked,https://www.napaonline.com/
+NAPA_PROLINK,commercial_parts_catalog,NAPA PROLink commercial parts ordering,Commercial Repair Shop Catalog,commercial_account_required,linked,https://www.napaprolink.com/
+SHOWMETHEPARTS,catalog_fitment_platform,ShowMeTheParts ACES/PIES catalog platform,Fitment / Catalog Platform,commercial_platform,linked,https://info.showmetheparts.com/
+NHTSA_VPIC,vehicle_reference_api,NHTSA vPIC vehicle reference API,Vehicle Fitment Identity,public_api,verified,https://vpic.nhtsa.dot.gov/api/
+NHTSA_RECALLS,safety_evidence_api,NHTSA recalls and safety APIs,Warranty / Core / Compliance,public_api,verified,https://www.nhtsa.gov/nhtsa-datasets-and-apis

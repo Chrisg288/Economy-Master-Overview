@@ -1,0 +1,19 @@
+{
+  "template_id": "VehicleFitmentRecord_v0_1",
+  "purpose": "Vehicle/application identity record separate from part and offer rows.",
+  "fields": [
+    "vehicle_id",
+    "year",
+    "make",
+    "model",
+    "submodel",
+    "engine",
+    "body",
+    "drive_type",
+    "fuel_type",
+    "region",
+    "source_id",
+    "source_vehicle_key",
+    "evidence_status"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "label": "Use ACES/PIES as the real backbone",
+      "details": "ACES is the fitment/applications layer; PIES is the product/part information layer. Treat retailer catalogs as offer sources, not the data standard."
+    },
+    {
+      "step": 2,
+      "label": "Build vehicle reference separately",
+      "details": "Use NHTSA vPIC/recalls and later VCdb-style reference tables for vehicle identity. Do not hard-code vehicle strings inside parts."
+    },
+    {
+      "step": 3,
+      "label": "Use public catalogs for examples and links",
+      "details": "RockAuto, NAPA, AutoZone, O'Reilly and Advance can provide public current-offer examples, but full structured feeds require proper access or commercial tools."
+    },
+    {
+      "step": 4,
+      "label": "Use commercial fitment platforms for serious catalog scale",
+      "details": "ShowMeTheParts, PDM Automotive, Parts Square and Vertical Development represent the serious ACES/PIES ecosystem."
+    },
+    {
+      "step": 5,
+      "label": "Normalize four linked record types",
+      "details": "VehicleFitmentRecord, AutoPartIdentityRecord, AutoPartRetailOffer and Evidence/Warranty/Safety records should be separate and linkable."
+    }
+  ]
+}

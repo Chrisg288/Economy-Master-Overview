@@ -1,0 +1,224 @@
+{
+  "records": [
+    {
+      "source_id": "AUTOCARE_ACES_PIES",
+      "name": "Auto Care Association ACES / PIES data standards",
+      "type": "official_aftermarket_data_standards",
+      "region": "US/Canada/Mexico",
+      "access": "Membership/licensing may be required for full standard/reference data",
+      "url": "https://www.autocare.org/data-standards",
+      "best_use": "Authoritative aftermarket data standards: ACES for fitment, PIES for product/part information.",
+      "data_fit": "standard_backbone",
+      "priority": 1
+    },
+    {
+      "source_id": "AUTOCARE_VCDB_PCDB",
+      "name": "Auto Care VCdb / PCdb / Qdb / Brand Table",
+      "type": "official_aftermarket_reference_databases",
+      "region": "US/Canada/Mexico",
+      "access": "Auto Care standards subscription/licensing required",
+      "url": "https://www.autocare.org/data-standards",
+      "best_use": "Vehicle configuration, part categories, qualifiers and brand reference tables for serious fitment work.",
+      "data_fit": "reference_database",
+      "priority": 1
+    },
+    {
+      "source_id": "ROCKAUTO_PUBLIC_CATALOG",
+      "name": "RockAuto public parts catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "US/Canada/international",
+      "access": "Public website; no official bulk API found",
+      "url": "https://www.rockauto.com/en/catalog/",
+      "best_use": "Very broad year/make/model/engine public parts reference and current retail offers.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "ROCKAUTO_PART_SEARCH",
+      "name": "RockAuto part number search",
+      "type": "public_auto_parts_part_search",
+      "region": "US/Canada/international",
+      "access": "Public website",
+      "url": "https://www.rockauto.com/en/partsearch/",
+      "best_use": "Search by part number/manufacturer/part group/type; useful for part identity cross-checking.",
+      "data_fit": "part_identity_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "NAPA_PUBLIC_CATALOG",
+      "name": "NAPA Auto Parts public catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "US/Canada",
+      "access": "Public website; regional store/pricing may vary",
+      "url": "https://www.napaonline.com/",
+      "best_use": "Current NAPA aftermarket parts catalog, categories, brand/part info and local availability.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "NAPA_PROLINK",
+      "name": "NAPA PROLink",
+      "type": "commercial_repair_shop_parts_catalog",
+      "region": "US/Canada",
+      "access": "Commercial account/login required",
+      "url": "https://www.napaprolink.com/",
+      "best_use": "Professional repair-shop ordering, VIN scanning, in-stock parts and same-day delivery workflow.",
+      "data_fit": "commercial_parts_offer_source",
+      "priority": 2
+    },
+    {
+      "source_id": "NAPA_TRACS",
+      "name": "NAPA TRACS / shop management ecosystem",
+      "type": "shop_management_parts_integration",
+      "region": "US/Canada",
+      "access": "Commercial subscription/access",
+      "url": "https://www.napatracs.com/",
+      "best_use": "Shop management and parts integration context for professional auto repair.",
+      "data_fit": "commercial_workflow_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "AUTOZONE_PUBLIC_CATALOG",
+      "name": "AutoZone public auto parts catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "US",
+      "access": "Public website; no official public catalog API found",
+      "url": "https://www.autozone.com/parts",
+      "best_use": "Retail auto parts categories, fitment and current offer examples.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "OREILLY_PUBLIC_CATALOG",
+      "name": "O'Reilly Auto Parts public catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "US",
+      "access": "Public website; no official public catalog API found",
+      "url": "https://www.oreillyauto.com/",
+      "best_use": "Retail auto parts categories, fitment and current offer examples.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "ADVANCE_AUTO_PUBLIC_CATALOG",
+      "name": "Advance Auto Parts public catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "US",
+      "access": "Public website; no official public catalog API found",
+      "url": "https://shop.advanceautoparts.com/",
+      "best_use": "Retail auto parts categories, fitment and current offer examples.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "PARTSAVATAR_CANADA",
+      "name": "PartsAvatar Canada public catalog",
+      "type": "public_auto_parts_retail_catalog",
+      "region": "Canada",
+      "access": "Public website",
+      "url": "https://partsavatar.ca/",
+      "best_use": "Canadian auto parts retail reference and local-market pricing examples.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "SHOWMETHEPARTS",
+      "name": "ShowMeTheParts",
+      "type": "auto_parts_catalog_fitment_platform",
+      "region": "US/Canada",
+      "access": "Commercial platform/contact required",
+      "url": "https://info.showmetheparts.com/",
+      "best_use": "ACES/PIES catalog creation, mapping, updating, e-commerce and fitment lookup platform.",
+      "data_fit": "commercial_catalog_platform",
+      "priority": 2
+    },
+    {
+      "source_id": "SHOWMETHEPARTS_API",
+      "name": "ShowMeTheParts API",
+      "type": "commercial_auto_parts_fitment_api",
+      "region": "US/Canada",
+      "access": "Commercial/API access required",
+      "url": "https://info.showmetheparts.com/utilize-showmetheparts-api-for-detailed-searches-beyond-year-make-model/",
+      "best_use": "Year/make/model, VIN, license-plate and detailed part-fitment searches where available.",
+      "data_fit": "commercial_fitment_api",
+      "priority": 2
+    },
+    {
+      "source_id": "VERTICAL_DEVELOPMENT",
+      "name": "Vertical Development auto parts catalog/fitment services",
+      "type": "auto_parts_catalog_data_services",
+      "region": "US/Canada",
+      "access": "Commercial service",
+      "url": "https://www.verticaldev.com/",
+      "best_use": "ACES/PIES expertise, catalog strategy, cleanup, mapping, data sync and delivery.",
+      "data_fit": "commercial_catalog_data_services",
+      "priority": 3
+    },
+    {
+      "source_id": "PDM_AUTOMOTIVE",
+      "name": "PDM Automotive",
+      "type": "auto_parts_product_data_platform",
+      "region": "US/Canada",
+      "access": "Commercial platform",
+      "url": "https://pdmautomotive.com/",
+      "best_use": "ACES/PIES product data management, syndication and marketplace feeds.",
+      "data_fit": "commercial_pim_feed_platform",
+      "priority": 3
+    },
+    {
+      "source_id": "PARTS_SQUARE_CATALOG_DATA",
+      "name": "Parts Square automotive catalog data",
+      "type": "commercial_aces_pies_catalog_feed",
+      "region": "multi-region",
+      "access": "Commercial data/demo",
+      "url": "https://square.parts/solutions/automotive-catalog-data",
+      "best_use": "ACES/PIES-compliant catalog data with many brands and multi-region coverage.",
+      "data_fit": "commercial_catalog_feed",
+      "priority": 3
+    },
+    {
+      "source_id": "CATALOGBRIDGE_STANDARDS",
+      "name": "CatalogBridge ACES / PIES standards reference",
+      "type": "standards_reference",
+      "region": "US/Canada",
+      "access": "Public reference/commercial services",
+      "url": "https://catalogbridge.com/standards",
+      "best_use": "Plain-language ACES/PIES overview and resource pointer.",
+      "data_fit": "reference",
+      "priority": 4
+    },
+    {
+      "source_id": "NHTSA_VPIC",
+      "name": "NHTSA vPIC vehicle API",
+      "type": "official_vehicle_reference_api",
+      "region": "US/international",
+      "access": "Public API",
+      "url": "https://vpic.nhtsa.dot.gov/api/",
+      "best_use": "Vehicle make/model/year/manufacturer reference layer; not a parts catalog.",
+      "data_fit": "vehicle_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "NHTSA_RECALLS",
+      "name": "NHTSA recalls API",
+      "type": "vehicle_recall_safety_api",
+      "region": "US",
+      "access": "Public API",
+      "url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+      "best_use": "Vehicle/part safety evidence and recalls context.",
+      "data_fit": "safety_evidence",
+      "priority": 2
+    },
+    {
+      "source_id": "TRANSPORT_CANADA_RECALLS",
+      "name": "Transport Canada vehicle recalls",
+      "type": "vehicle_recall_safety_dataset",
+      "region": "Canada",
+      "access": "Public search/download options",
+      "url": "https://tc.canada.ca/en/road-transportation/defects-recalls-vehicles-tires-child-car-seats",
+      "best_use": "Canadian recall/safety evidence for vehicles, tires and child seats.",
+      "data_fit": "safety_evidence",
+      "priority": 2
+    }
+  ]
+}

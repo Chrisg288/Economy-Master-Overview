@@ -1,0 +1,20 @@
+{
+  "template_id": "AutoPartIdentityRecord_v0_1",
+  "purpose": "Auto part identity record independent of retailer price/stock.",
+  "fields": [
+    "part_identity_id",
+    "brand",
+    "manufacturer",
+    "manufacturer_part_no",
+    "interchange_part_no",
+    "part_category",
+    "upc_gtin",
+    "material",
+    "dimensions",
+    "package_quantity",
+    "warranty",
+    "pies_product_id",
+    "source_id",
+    "evidence_status"
+  ]
+}

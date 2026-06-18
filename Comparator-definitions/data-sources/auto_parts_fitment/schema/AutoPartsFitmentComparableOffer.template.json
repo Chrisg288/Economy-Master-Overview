@@ -1,0 +1,202 @@
+{
+  "template_id": "AutoPartsFitmentComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Comparator datagrid fields for automotive aftermarket parts, vehicle fitment, retailer offers and fitment evidence.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "seller_sku",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "interchange_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "part_category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "vehicle_year",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "vehicle_make",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "vehicle_model",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "engine",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "trim_or_body",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "position",
+      "type": "enum",
+      "values": [
+        "front",
+        "rear",
+        "left",
+        "right",
+        "front_left",
+        "front_right",
+        "rear_left",
+        "rear_right",
+        "upper",
+        "lower",
+        "inner",
+        "outer",
+        "set",
+        "not_applicable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "fitment_notes",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "currency",
+      "type": "enum",
+      "values": [
+        "CAD",
+        "USD"
+      ],
+      "grid": false
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "backorder",
+        "special_order",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "core_charge",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "warranty",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "grade_or_quality",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "package_quantity",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "emissions_or_regulatory_notes",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "aces_application_id",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "pies_product_id",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "image_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}
