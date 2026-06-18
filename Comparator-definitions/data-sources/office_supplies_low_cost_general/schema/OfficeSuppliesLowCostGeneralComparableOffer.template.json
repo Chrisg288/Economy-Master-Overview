@@ -1,0 +1,179 @@
+{
+  "template_id": "OfficeSuppliesLowCostGeneralComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Comparator fields for Staples-style office supplies, procurement catalogs, Dollarama-style low-cost general merchandise and packaged commodity goods.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "retail_channel",
+      "type": "enum",
+      "values": [
+        "public_web",
+        "business_account",
+        "punchout",
+        "marketplace_delivery",
+        "barcode_database",
+        "classification"
+      ],
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "sku_or_item_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gtin_upc_ean",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "model_or_variant",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "currency",
+      "type": "enum",
+      "values": [
+        "CAD",
+        "USD"
+      ],
+      "grid": false
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "local_only",
+        "delivery_only",
+        "business_account_only",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "store_or_region",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "unit_of_measure",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "package_quantity",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "price_per_unit",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "colour",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "size_or_dimensions",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "rating",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "review_count",
+      "type": "integer",
+      "grid": true
+    },
+    {
+      "name": "business_procurement_supported",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "punchout_or_edi_supported",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "image_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}

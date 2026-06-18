@@ -1,0 +1,202 @@
+{
+  "records": [
+    {
+      "source_id": "STAPLES_CANADA_PUBLIC_SITE",
+      "name": "Staples Canada public catalogue",
+      "type": "retailer_public_site",
+      "region": "Canada",
+      "access": "Public website; store selection affects stock/pickup/delivery",
+      "url": "https://www.staples.ca/",
+      "best_use": "Office supplies, paper, ink/toner, tech, furniture, school supplies, cleaning/breakroom and print services.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "STAPLES_CA_EPROCUREMENT",
+      "name": "Staples Canada e-Procurement integration",
+      "type": "business_procurement_integration",
+      "region": "Canada",
+      "access": "Business integration/account path",
+      "url": "https://www.staples.ca/a/content/e-procurement",
+      "best_use": "Automated shopping, purchase orders, invoicing and controlled business procurement.",
+      "data_fit": "procurement_access_path",
+      "priority": 1
+    },
+    {
+      "source_id": "STAPLES_ADVANTAGE_EPROCUREMENT",
+      "name": "Staples Business Advantage eProcurement integrations",
+      "type": "business_procurement_punchout",
+      "region": "US/North America",
+      "access": "Business account / integration required",
+      "url": "https://www.staplesadvantage.com/learn/eprocurement-integrations",
+      "best_use": "PunchOut/eProcurement approach for enterprise/catalog integration.",
+      "data_fit": "procurement_access_path",
+      "priority": 1
+    },
+    {
+      "source_id": "STAPLES_ADVANTAGE",
+      "name": "Staples Business Advantage / Staples Business",
+      "type": "business_retail_catalog",
+      "region": "US/North America",
+      "access": "Free business account; catalog/integration features vary",
+      "url": "https://www.staplesadvantage.com/",
+      "best_use": "Business office supplies, procurement controls and product catalogue access.",
+      "data_fit": "current_business_catalog",
+      "priority": 2
+    },
+    {
+      "source_id": "DOLLARAMA_PUBLIC_SITE",
+      "name": "Dollarama public website",
+      "type": "retailer_public_site",
+      "region": "Canada",
+      "access": "Public website; product browsing limited/variable",
+      "url": "https://www.dollarama.com/en-ca/",
+      "best_use": "Low-cost general merchandise, seasonal items, household goods, party, craft, food/snacks, cleaning and small office supplies.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "DOLLARAMA_INSTACART",
+      "name": "Dollarama on Instacart Canada",
+      "type": "delivery_marketplace_catalog",
+      "region": "Canada",
+      "access": "Public marketplace; product availability depends on local store/market",
+      "url": "https://www.instacart.ca/store/dollarama/storefront",
+      "best_use": "Current local Dollarama delivery catalogue rows where available.",
+      "data_fit": "marketplace_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "DOLLARAMA_UBEREATS",
+      "name": "Dollarama on Uber Eats",
+      "type": "delivery_marketplace_catalog",
+      "region": "Canada",
+      "access": "Public marketplace; product availability depends on local store/market",
+      "url": "https://www.ubereats.com/ca/brand/dollarama",
+      "best_use": "Current local Dollarama product browsing through delivery marketplace where available.",
+      "data_fit": "marketplace_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "GS1_GPC",
+      "name": "GS1 Global Product Classification",
+      "type": "official_global_product_classification",
+      "region": "global",
+      "access": "Public browser and standard files",
+      "url": "https://www.gs1.org/standards/gpc/access-gpc-standards",
+      "best_use": "Classification backbone for office supplies, stationery, cleaning goods, housewares and general merchandise.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "GS1_CA_ECCNET",
+      "name": "GS1 Canada ECCnet Registry / Content API",
+      "type": "canadian_product_registry_api",
+      "region": "Canada",
+      "access": "GS1 Canada membership/API access required",
+      "url": "https://gs1ca.org/content-access/",
+      "best_use": "Canadian product listing data, product data and image access through ECCnet Content API.",
+      "data_fit": "product_registry_api",
+      "priority": 2
+    },
+    {
+      "source_id": "OPEN_PRODUCTS_FACTS",
+      "name": "Open Products Facts",
+      "type": "open_product_database",
+      "region": "global",
+      "access": "Open data / API; coverage uneven",
+      "url": "https://world.openproductsfacts.org/",
+      "best_use": "Open product database for non-food goods; useful for general merchandise/barcode/product identity experiments.",
+      "data_fit": "open_product_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "OPEN_BEAUTY_FACTS",
+      "name": "Open Beauty Facts",
+      "type": "open_product_database",
+      "region": "global",
+      "access": "Open data / API",
+      "url": "https://world.openbeautyfacts.org/",
+      "best_use": "Cosmetics/personal care goods that often overlap dollar-store/general-merchandise categories.",
+      "data_fit": "open_product_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS",
+      "name": "Open Food Facts",
+      "type": "open_food_product_database",
+      "region": "global",
+      "access": "Open data/API; bulk downloads available",
+      "url": "https://world.openfoodfacts.org/data",
+      "best_use": "Food/snacks/beverages sold in office and discount retail channels; strong barcode/product identity source.",
+      "data_fit": "open_product_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "GO_UPC",
+      "name": "Go-UPC Global Barcode Database API",
+      "type": "global_barcode_product_api",
+      "region": "global",
+      "access": "Paid/free tier API",
+      "url": "https://go-upc.com/",
+      "best_use": "UPC/EAN/ISBN barcode lookup for office supplies, stationery and general merchandise when barcode is known.",
+      "data_fit": "barcode_lookup",
+      "priority": 3
+    },
+    {
+      "source_id": "BIG_PRODUCT_DATA",
+      "name": "Big Product Data API",
+      "type": "large_barcode_product_database_api",
+      "region": "global",
+      "access": "RapidAPI / paid API",
+      "url": "https://rapidapi.com/bigproductdata/api/big-product-data",
+      "best_use": "Large UPC/GTIN/EAN/ISBN lookup source for product identity enrichment.",
+      "data_fit": "barcode_lookup",
+      "priority": 4
+    },
+    {
+      "source_id": "UPCITEMDB",
+      "name": "UPCitemdb",
+      "type": "barcode_product_database_api",
+      "region": "global",
+      "access": "API/free-limited or paid",
+      "url": "https://www.upcitemdb.com/",
+      "best_use": "Barcode lookup for general merchandise, office supplies and packaged goods.",
+      "data_fit": "barcode_lookup",
+      "priority": 3
+    },
+    {
+      "source_id": "UNSPSC",
+      "name": "UNSPSC commodity classification",
+      "type": "global_commodity_classification",
+      "region": "global",
+      "access": "Public classification browser/download options vary",
+      "url": "https://www.unspsc.org/",
+      "best_use": "Procurement-friendly classification for office supplies, business equipment, cleaning supplies and services.",
+      "data_fit": "classification",
+      "priority": 2
+    },
+    {
+      "source_id": "AMAZON_PRODUCT_ADVERTISING_API",
+      "name": "Amazon Product Advertising API",
+      "type": "retail_marketplace_api",
+      "region": "US/Canada/global",
+      "access": "Associate account/API credentials required",
+      "url": "https://webservices.amazon.com/paapi5/documentation/",
+      "best_use": "Marketplace product lookup for office supplies/general merchandise where credentials and terms allow.",
+      "data_fit": "marketplace_offer_source",
+      "priority": 4
+    },
+    {
+      "source_id": "WALMART_MARKETPLACE_API",
+      "name": "Walmart Marketplace APIs",
+      "type": "retail_marketplace_api",
+      "region": "US/Canada varies",
+      "access": "Marketplace seller/API access required",
+      "url": "https://developer.walmart.com/",
+      "best_use": "Possible offer/reference source for low-cost general merchandise, office supplies and housewares.",
+      "data_fit": "marketplace_offer_source",
+      "priority": 4
+    }
+  ]
+}

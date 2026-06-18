@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "source_id": "STAPLES_CANADA_PUBLIC_SITE",
+      "record_type": "retailer_public_catalog",
+      "title": "Staples Canada public catalogue",
+      "category": "Office Supplies",
+      "availability": "public_site_store_dependent",
+      "evidence_status": "linked",
+      "source_url": "https://www.staples.ca/"
+    },
+    {
+      "source_id": "STAPLES_CA_EPROCUREMENT",
+      "record_type": "business_procurement_integration",
+      "title": "Staples Canada e-Procurement integration",
+      "category": "Procurement / PunchOut Evidence",
+      "availability": "business_account_required",
+      "evidence_status": "linked",
+      "source_url": "https://www.staples.ca/a/content/e-procurement"
+    },
+    {
+      "source_id": "DOLLARAMA_PUBLIC_SITE",
+      "record_type": "retailer_public_site",
+      "title": "Dollarama public website",
+      "category": "Dollar-store General Merchandise",
+      "availability": "public_site_limited_catalog",
+      "evidence_status": "linked",
+      "source_url": "https://www.dollarama.com/en-ca/"
+    },
+    {
+      "source_id": "DOLLARAMA_INSTACART",
+      "record_type": "marketplace_catalog",
+      "title": "Dollarama on Instacart Canada",
+      "category": "Low-cost general merchandise",
+      "availability": "local_store_marketplace_dependent",
+      "evidence_status": "linked",
+      "source_url": "https://www.instacart.ca/store/dollarama/storefront"
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS",
+      "record_type": "open_barcode_product_database",
+      "title": "Open Food Facts bulk/API data",
+      "category": "Breakroom / Coffee / Snacks",
+      "availability": "open_data",
+      "evidence_status": "verified",
+      "source_url": "https://world.openfoodfacts.org/data"
+    },
+    {
+      "source_id": "GS1_CA_ECCNET",
+      "record_type": "canadian_product_registry_api",
+      "title": "GS1 Canada ECCnet Content API",
+      "category": "Commodity / Barcode Evidence",
+      "availability": "membership_required",
+      "evidence_status": "linked",
+      "source_url": "https://gs1ca.org/content-access/"
+    },
+    {
+      "source_id": "UNSPSC",
+      "record_type": "commodity_classification",
+      "title": "UNSPSC procurement classification",
+      "category": "Office Supplies",
+      "availability": "classification_access_varies",
+      "evidence_status": "linked",
+      "source_url": "https://www.unspsc.org/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "label": "Separate office procurement from low-cost retail",
+      "details": "Staples is strongest as business/procurement/catalog/PunchOut data. Dollarama is strongest as local/marketplace public offer reference plus barcode identity."
+    },
+    {
+      "step": 2,
+      "label": "Use official classification and barcode layers",
+      "details": "Use GS1/GPC, GS1 Canada ECCnet, UPC databases and UNSPSC for identity/classification before scraping live retail pages."
+    },
+    {
+      "step": 3,
+      "label": "Use Staples business/eProcurement paths",
+      "details": "For serious structured office-supply rows, pursue Staples Business/eProcurement/PunchOut access rather than scraping consumer pages."
+    },
+    {
+      "step": 4,
+      "label": "Use marketplace catalog snapshots for Dollarama",
+      "details": "Instacart/Uber Eats expose local Dollarama product listings where available; these are local offer snapshots, not universal catalog records."
+    },
+    {
+      "step": 5,
+      "label": "Normalize into offer/evidence rows",
+      "details": "Keep retailer offer rows separate from product identity records, barcode records, procurement records and marketplace-local rows."
+    }
+  ]
+}

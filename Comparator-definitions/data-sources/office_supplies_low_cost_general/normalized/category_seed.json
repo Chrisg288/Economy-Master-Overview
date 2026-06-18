@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "category": "Office Paper / Notebooks",
+      "domain": "office_supplies",
+      "notes": "copy paper, notebooks, pads, journals, sticky notes"
+    },
+    {
+      "category": "Writing Instruments",
+      "domain": "office_supplies",
+      "notes": "pens, pencils, markers, highlighters"
+    },
+    {
+      "category": "Desk Supplies",
+      "domain": "office_supplies",
+      "notes": "staplers, tape, clips, scissors, rulers, organizers"
+    },
+    {
+      "category": "Binders / Filing / Storage",
+      "domain": "office_supplies",
+      "notes": "binders, folders, file boxes, labels"
+    },
+    {
+      "category": "Ink / Toner / Printing Supplies",
+      "domain": "office_supplies",
+      "notes": "ink cartridges, toner, labels, printer paper"
+    },
+    {
+      "category": "Office Technology",
+      "domain": "office_equipment",
+      "notes": "calculators, shredders, laminators, phones, webcams"
+    },
+    {
+      "category": "Office Furniture",
+      "domain": "office_furniture",
+      "notes": "chairs, desks, shelving, mats"
+    },
+    {
+      "category": "School Supplies",
+      "domain": "education_supplies",
+      "notes": "backpacks, crayons, binders, craft supplies"
+    },
+    {
+      "category": "Cleaning / Janitorial",
+      "domain": "facility_supplies",
+      "notes": "cleaners, wipes, paper towels, garbage bags, dispensers"
+    },
+    {
+      "category": "Breakroom / Coffee / Snacks",
+      "domain": "facility_supplies",
+      "notes": "coffee, cups, plates, cutlery, snacks, beverages"
+    },
+    {
+      "category": "Shipping / Mailing",
+      "domain": "office_supplies",
+      "notes": "envelopes, boxes, tape, bubble mailers, labels"
+    },
+    {
+      "category": "Dollar-store General Merchandise",
+      "domain": "low_cost_general",
+      "notes": "seasonal goods, party, toys, crafts, household basics"
+    },
+    {
+      "category": "Household Basics",
+      "domain": "low_cost_general",
+      "notes": "storage, kitchen tools, laundry, bath, small hardware"
+    },
+    {
+      "category": "Personal Care / Beauty",
+      "domain": "low_cost_general",
+      "notes": "soap, shampoo, cosmetics, dental, grooming"
+    },
+    {
+      "category": "Pet / Garden / Outdoor",
+      "domain": "low_cost_general",
+      "notes": "seasonal outdoor, garden, pet accessories"
+    },
+    {
+      "category": "Party / Craft / Seasonal",
+      "domain": "low_cost_general",
+      "notes": "decorations, gift wrap, craft supplies, holiday goods"
+    },
+    {
+      "category": "Commodity / Barcode Evidence",
+      "domain": "evidence",
+      "notes": "GS1, UPC/EAN, product identity, package size, brand"
+    },
+    {
+      "category": "Procurement / PunchOut Evidence",
+      "domain": "evidence",
+      "notes": "business account catalog, cXML/OCI/PunchOut/EDI, approval controls"
+    }
+  ]
+}

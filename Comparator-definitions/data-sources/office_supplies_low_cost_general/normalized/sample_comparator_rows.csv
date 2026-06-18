@@ -1,0 +1,8 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+STAPLES_CANADA_PUBLIC_SITE,retailer_public_catalog,Staples Canada public catalogue,Office Supplies,public_site_store_dependent,linked,https://www.staples.ca/
+STAPLES_CA_EPROCUREMENT,business_procurement_integration,Staples Canada e-Procurement integration,Procurement / PunchOut Evidence,business_account_required,linked,https://www.staples.ca/a/content/e-procurement
+DOLLARAMA_PUBLIC_SITE,retailer_public_site,Dollarama public website,Dollar-store General Merchandise,public_site_limited_catalog,linked,https://www.dollarama.com/en-ca/
+DOLLARAMA_INSTACART,marketplace_catalog,Dollarama on Instacart Canada,Low-cost general merchandise,local_store_marketplace_dependent,linked,https://www.instacart.ca/store/dollarama/storefront
+OPEN_FOOD_FACTS,open_barcode_product_database,Open Food Facts bulk/API data,Breakroom / Coffee / Snacks,open_data,verified,https://world.openfoodfacts.org/data
+GS1_CA_ECCNET,canadian_product_registry_api,GS1 Canada ECCnet Content API,Commodity / Barcode Evidence,membership_required,linked,https://gs1ca.org/content-access/
+UNSPSC,commodity_classification,UNSPSC procurement classification,Office Supplies,classification_access_varies,linked,https://www.unspsc.org/
