@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "source_id": "ENERGY_STAR_RESIDENTIAL_REFRIGERATORS",
+      "record_type": "certified_appliance_dataset",
+      "title": "ENERGY STAR Certified Residential Refrigerators",
+      "category": "Kitchen Appliances",
+      "availability": "public_dataset",
+      "evidence_status": "verified",
+      "source_url": "https://data.energystar.gov/Active-Specifications/ENERGY-STAR-Certified-Residential-Refrigerators/p5st-her9"
+    },
+    {
+      "source_id": "ENERGY_STAR_ELECTRIC_COOKING",
+      "record_type": "certified_appliance_dataset",
+      "title": "ENERGY STAR Certified Residential Electric Cooking Products",
+      "category": "Kitchen Appliances",
+      "availability": "public_dataset",
+      "evidence_status": "verified",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-residential-electric-cooking-products"
+    },
+    {
+      "source_id": "BEST_BUY_PRODUCTS_API",
+      "record_type": "retailer_catalog_api",
+      "title": "Best Buy Products API",
+      "category": "Appliances / Electronics / Housewares",
+      "availability": "api_key_required",
+      "evidence_status": "linked",
+      "source_url": "https://developer.bestbuy.com/apis"
+    },
+    {
+      "source_id": "GS1_CA_ECCNET",
+      "record_type": "canadian_product_registry_api",
+      "title": "GS1 Canada ECCnet Content API",
+      "category": "Housewares / Kitchenwares / Apparel / Appliances",
+      "availability": "membership_required",
+      "evidence_status": "linked",
+      "source_url": "https://gs1ca.org/content-access/"
+    },
+    {
+      "source_id": "PARAM_AGGARWAL_FASHION_SMALL",
+      "record_type": "fashion_catalog_dataset",
+      "title": "Fashion Product Images Small dataset",
+      "category": "Clothing",
+      "availability": "kaggle_terms_apply",
+      "evidence_status": "linked",
+      "source_url": "https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small"
+    },
+    {
+      "source_id": "FASHIONPEDIA",
+      "record_type": "fashion_attribute_dataset",
+      "title": "Fashionpedia clothing attributes dataset",
+      "category": "Apparel Attribute Evidence",
+      "availability": "research_dataset_terms_apply",
+      "evidence_status": "linked",
+      "source_url": "https://fashionpedia.github.io/home/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "label": "Start with appliance evidence data",
+      "details": "ENERGY STAR and NRCan give verified appliance model records and performance metrics before retail offers."
+    },
+    {
+      "step": 2,
+      "label": "Use Best Buy API for appliance/current retail rows",
+      "details": "Best Buy's API is a strong current/historical product catalog for appliances and related electronics, but needs an API key."
+    },
+    {
+      "step": 3,
+      "label": "Use GS1/ECCnet for Canadian packaged goods identity",
+      "details": "GS1 Canada ECCnet is likely useful for housewares, kitchenwares, apparel and appliance GTIN/product content, but needs access."
+    },
+    {
+      "step": 4,
+      "label": "Use fashion datasets for clothing taxonomy/attributes",
+      "details": "Kaggle/Hugging Face/Fashionpedia/Atlas/iMaterialist sources are useful for category, image and attribute training, not necessarily live prices."
+    },
+    {
+      "step": 5,
+      "label": "Normalize to multiple Comparator row types",
+      "details": "Separate live retail offers, product identity records, certification/evidence records and fashion attribute/taxonomy records."
+    }
+  ]
+}

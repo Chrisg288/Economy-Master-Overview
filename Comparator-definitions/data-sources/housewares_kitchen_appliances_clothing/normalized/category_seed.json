@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "category": "Kitchen Appliances",
+      "domain": "appliances",
+      "notes": "refrigerators, freezers, dishwashers, ovens, ranges, cooktops, microwaves"
+    },
+    {
+      "category": "Laundry Appliances",
+      "domain": "appliances",
+      "notes": "clothes washers, clothes dryers, washer/dryer combos"
+    },
+    {
+      "category": "Small Kitchen Appliances",
+      "domain": "small_appliances",
+      "notes": "coffee makers, blenders, mixers, toasters, air fryers, food processors"
+    },
+    {
+      "category": "Housewares",
+      "domain": "housewares",
+      "notes": "storage, bins, cleaning tools, laundry, home organization"
+    },
+    {
+      "category": "Kitchenwares",
+      "domain": "kitchenwares",
+      "notes": "cookware, bakeware, knives, utensils, food storage, tableware"
+    },
+    {
+      "category": "Dinnerware / Tabletop",
+      "domain": "kitchenwares",
+      "notes": "plates, bowls, glasses, mugs, flatware, serving ware"
+    },
+    {
+      "category": "Cleaning / Janitorial Home Goods",
+      "domain": "housewares",
+      "notes": "mops, brooms, brushes, detergents, buckets, trash cans"
+    },
+    {
+      "category": "Home Textiles",
+      "domain": "soft_goods",
+      "notes": "towels, bedding, curtains, rugs, mats"
+    },
+    {
+      "category": "Men's Clothing",
+      "domain": "clothing",
+      "notes": "tops, bottoms, outerwear, underwear, socks"
+    },
+    {
+      "category": "Women's Clothing",
+      "domain": "clothing",
+      "notes": "tops, bottoms, dresses, outerwear, underwear"
+    },
+    {
+      "category": "Children's Clothing",
+      "domain": "clothing",
+      "notes": "tops, bottoms, schoolwear, outerwear"
+    },
+    {
+      "category": "Footwear",
+      "domain": "clothing_accessories",
+      "notes": "shoes, boots, sandals, work footwear"
+    },
+    {
+      "category": "Accessories",
+      "domain": "clothing_accessories",
+      "notes": "bags, belts, hats, watches, jewellery, gloves"
+    },
+    {
+      "category": "Workwear / PPE Clothing",
+      "domain": "clothing_safety",
+      "notes": "hi-vis, coveralls, flame resistant, rainwear, work boots"
+    },
+    {
+      "category": "Apparel Attribute Evidence",
+      "domain": "evidence",
+      "notes": "size, colour, gender, fabric, season, style, fit, material, care instructions"
+    },
+    {
+      "category": "Appliance Energy Evidence",
+      "domain": "evidence",
+      "notes": "ENERGY STAR, EnerGuide/NRCan, annual energy use, water use"
+    }
+  ]
+}

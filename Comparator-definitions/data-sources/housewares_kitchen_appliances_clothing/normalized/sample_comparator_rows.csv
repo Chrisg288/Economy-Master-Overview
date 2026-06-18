@@ -1,0 +1,7 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+ENERGY_STAR_RESIDENTIAL_REFRIGERATORS,certified_appliance_dataset,ENERGY STAR Certified Residential Refrigerators,Kitchen Appliances,public_dataset,verified,https://data.energystar.gov/Active-Specifications/ENERGY-STAR-Certified-Residential-Refrigerators/p5st-her9
+ENERGY_STAR_ELECTRIC_COOKING,certified_appliance_dataset,ENERGY STAR Certified Residential Electric Cooking Products,Kitchen Appliances,public_dataset,verified,https://catalog.data.gov/dataset/energy-star-certified-residential-electric-cooking-products
+BEST_BUY_PRODUCTS_API,retailer_catalog_api,Best Buy Products API,Appliances / Electronics / Housewares,api_key_required,linked,https://developer.bestbuy.com/apis
+GS1_CA_ECCNET,canadian_product_registry_api,GS1 Canada ECCnet Content API,Housewares / Kitchenwares / Apparel / Appliances,membership_required,linked,https://gs1ca.org/content-access/
+PARAM_AGGARWAL_FASHION_SMALL,fashion_catalog_dataset,Fashion Product Images Small dataset,Clothing,kaggle_terms_apply,linked,https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
+FASHIONPEDIA,fashion_attribute_dataset,Fashionpedia clothing attributes dataset,Apparel Attribute Evidence,research_dataset_terms_apply,linked,https://fashionpedia.github.io/home/
