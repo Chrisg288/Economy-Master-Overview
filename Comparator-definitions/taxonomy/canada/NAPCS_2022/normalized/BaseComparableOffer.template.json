@@ -1,0 +1,111 @@
+{
+  "template_id": "BaseComparableOffer",
+  "purpose": "Shared comparison fields for any imported NAPCS product/service node.",
+  "fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "required": true,
+      "grid": true
+    },
+    {
+      "name": "seller_provider",
+      "type": "entity_ref",
+      "grid": true
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "values": [
+        "available",
+        "limited",
+        "watch",
+        "expired",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "posted_date",
+      "type": "date",
+      "grid": true
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "required": true,
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "unit": "CAD",
+      "grid": true
+    },
+    {
+      "name": "minimum_bid",
+      "type": "currency",
+      "unit": "CAD",
+      "grid": true
+    },
+    {
+      "name": "availability",
+      "type": "number",
+      "scale": "0-100",
+      "grid": true
+    },
+    {
+      "name": "comparative_quality",
+      "type": "number",
+      "scale": "0-100",
+      "grid": true
+    },
+    {
+      "name": "condition",
+      "type": "enum",
+      "values": [
+        "new",
+        "excellent",
+        "good",
+        "fair",
+        "poor",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "location",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "risk",
+      "type": "enum",
+      "values": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "scale": "0-100",
+      "grid": true
+    }
+  ],
+  "note": "NAPCS supplies classification, definitions and examples\u2014not live commercial listings. Add class-specific fields at meaningful Comparator leaf nodes."
+}

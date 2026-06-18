@@ -1,0 +1,87 @@
+{
+  "package_id": "CA_NAPCS_2022_Comparator_Import_v0_1",
+  "source": {
+    "publisher": "Statistics Canada",
+    "classification": "North American Product Classification System (NAPCS) Canada 2022 Version 1.0",
+    "release_date": "2022-03-31",
+    "official_page": "https://www.statcan.gc.ca/en/subjects/standard/napcs/2022/index",
+    "licence_note": "Statistics Canada Open Licence Agreement applies; verify current terms at source."
+  },
+  "statistics": {
+    "structure_node_count": 5199,
+    "root_group_count": 158,
+    "level_counts": {
+      "Group": 158,
+      "Class": 515,
+      "Subclass": 1477,
+      "Detail": 3049
+    },
+    "leaf_count": 3049,
+    "element_code_count": 3571,
+    "element_record_counts": {
+      "Inclusion(s)": 996,
+      "Exclusion(s)": 3911,
+      "Illustrative example(s)": 15210,
+      "All examples": 45661
+    }
+  },
+  "raw_files": [
+    {
+      "name": "napcs_canada_2022_structure_en.csv",
+      "relative_path": "raw/napcs_canada_2022_structure_en.csv",
+      "bytes": 958578,
+      "sha256": "2c7cecdc5977bb1011d38a68b4c4e1546f8751b536d3df1f5b4a6af9bdbc9d2a"
+    },
+    {
+      "name": "napcs_canada_2022_elements_en.csv",
+      "relative_path": "raw/napcs_canada_2022_elements_en.csv",
+      "bytes": 8051138,
+      "sha256": "f27458e7ad0d716941a10f18a722d91a2ea2bcc16f786479f8c3da0edff2ed1e"
+    },
+    {
+      "name": "napcs_2022_manufacturing_logging_update1.csv",
+      "relative_path": "raw/variants/napcs_2022_manufacturing_logging_update1.csv",
+      "bytes": 1603196,
+      "sha256": "a7bbfa3e6ff98f8aec8a6affaadd156968197e2ee754e2e5cc47ba2080fb3546"
+    },
+    {
+      "name": "napcs_2022_agricultural_goods.csv",
+      "relative_path": "raw/variants/napcs_2022_agricultural_goods.csv",
+      "bytes": 244995,
+      "sha256": "817547349b9d690b6533ba0c06941926755d790d2c446402777dae2331f988b1"
+    },
+    {
+      "name": "napcs_2022_fppi.csv",
+      "relative_path": "raw/variants/napcs_2022_fppi.csv",
+      "bytes": 124668,
+      "sha256": "762480f1afade820b87f4d42e41454df5eefa159dc12a56352aad17673eb85a5"
+    },
+    {
+      "name": "napcs_2022_ippi.csv",
+      "relative_path": "raw/variants/napcs_2022_ippi.csv",
+      "bytes": 853397,
+      "sha256": "a26199b9b5cb2a7819f587a822675a8800b49c35684d846e12e99f4c2c74c05a"
+    },
+    {
+      "name": "napcs_2022_merchandise_import_export.csv",
+      "relative_path": "raw/variants/napcs_2022_merchandise_import_export.csv",
+      "bytes": 906711,
+      "sha256": "e2d6d5dcdeb85e3af37d63b745a6064afee6a335b3b90d3df00e180b30da9dfb"
+    },
+    {
+      "name": "napcs_2022_rmpi.csv",
+      "relative_path": "raw/variants/napcs_2022_rmpi.csv",
+      "bytes": 110667,
+      "sha256": "5ab76448d5c16f3bb2ee0813cd9aedfad88f48769cff1b896f1e714d760b825e"
+    }
+  ],
+  "normalized_files": [
+    "BaseComparableOffer.template.json",
+    "napcs_canada_2022_comparator_search_index.json",
+    "napcs_canada_2022_elements_by_code.json",
+    "napcs_canada_2022_groups.csv",
+    "napcs_canada_2022_leaf_nodes.csv",
+    "napcs_canada_2022_nodes_flat.json",
+    "napcs_canada_2022_tree.json"
+  ]
+}
