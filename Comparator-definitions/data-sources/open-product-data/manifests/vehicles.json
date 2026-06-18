@@ -1,0 +1,53 @@
+{
+  "manifest_id": "vehicles",
+  "sources": [
+    {
+      "source_id": "NHTSA_VPIC",
+      "name": "NHTSA Product Information Catalog and Vehicle Listing (vPIC)",
+      "organization": "U.S. National Highway Traffic Safety Administration",
+      "country": "United States / global manufacturers",
+      "domains": [
+        "vehicles",
+        "manufacturers",
+        "makes",
+        "models",
+        "VIN",
+        "equipment plants"
+      ],
+      "content_type": "Manufacturer-reported vehicle and equipment catalog data",
+      "update_frequency": "Continuously maintained",
+      "access_method": "Free API in JSON/CSV/XML plus standalone databases",
+      "license": "U.S. government public data; review terms",
+      "size_class": "API / medium",
+      "status": "Included current all-makes CSV",
+      "included": true,
+      "official_page": "https://vpic.nhtsa.dot.gov/",
+      "direct_download": "https://vpic.nhtsa.dot.gov/api/vehicles/getallmakes?format=csv",
+      "local_path": "sample_data/nhtsa_all_makes_current.csv",
+      "recommended_use": "Make/model/manufacturer/VIN classification and vehicle field enrichment."
+    },
+    {
+      "source_id": "TRANSPORT_CANADA_RECALLS",
+      "name": "Transport Canada Road Safety Recalls Database",
+      "organization": "Transport Canada",
+      "country": "Canada",
+      "domains": [
+        "vehicles",
+        "tires",
+        "child restraints",
+        "recalls"
+      ],
+      "content_type": "Canadian road-safety recall records",
+      "update_frequency": "Maintained online",
+      "access_method": "Search and downloadable records where provided",
+      "license": "Government of Canada terms",
+      "size_class": "Reference",
+      "status": "Manual/API TBD",
+      "included": false,
+      "official_page": "https://recalls-rappels.canada.ca/en/search/site?f%5B0%5D=category%3A137",
+      "direct_download": "",
+      "local_path": "raw/transport_canada/",
+      "recommended_use": "Canadian vehicle defect/recall evidence linked to vehicle offers."
+    }
+  ]
+}

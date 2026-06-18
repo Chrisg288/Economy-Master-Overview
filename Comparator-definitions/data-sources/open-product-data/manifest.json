@@ -1,0 +1,21 @@
+{
+  "package_id": "Open_Product_Data_Sources_GitHub_Import_v0_1",
+  "source_count": 22,
+  "included_files": [
+    {
+      "path": "sample_data/canada_recalls_current.csv",
+      "bytes": 12731087,
+      "sha256": "ba85bf4c3bc0a8204c16fcd9cc3c34bb8bfba454a48d3c1ab424c1ae41cb8497",
+      "rows": 33672
+    },
+    {
+      "path": "sample_data/nhtsa_all_makes_current.csv",
+      "bytes": 303965,
+      "sha256": "5c3a99e5a5b73ec559151c9918210234f276da52eac4513bf6649c879c568d45",
+      "rows": 12269
+    }
+  ],
+  "viewer": "index.html",
+  "catalog_json": "source_catalog.json",
+  "catalog_csv": "source_catalog.csv"
+}

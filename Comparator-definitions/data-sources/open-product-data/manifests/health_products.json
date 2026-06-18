@@ -1,0 +1,99 @@
+{
+  "manifest_id": "health_products",
+  "sources": [
+    {
+      "source_id": "HEALTH_CANADA_DPD",
+      "name": "Health Canada Drug Product Database (DPD)",
+      "organization": "Health Canada",
+      "country": "Canada",
+      "domains": [
+        "drugs",
+        "veterinary drugs",
+        "disinfectants",
+        "radiopharmaceuticals"
+      ],
+      "content_type": "Authorized drug product records and monograph links",
+      "update_frequency": "Nightly database; extract updates vary",
+      "access_method": "Online query and compressed data extract",
+      "license": "Open Government Licence – Canada",
+      "size_class": "Medium",
+      "status": "Manual extract",
+      "included": false,
+      "official_page": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+      "direct_download": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html",
+      "local_path": "raw/health_canada/dpd/",
+      "recommended_use": "Canadian authorized product identity, DIN, status, ingredient/form/company and regulatory evidence."
+    },
+    {
+      "source_id": "HEALTH_CANADA_LNHPD",
+      "name": "Licensed Natural Health Products Database (LNHPD)",
+      "organization": "Health Canada",
+      "country": "Canada",
+      "domains": [
+        "natural health products",
+        "supplements",
+        "ingredients",
+        "dosage",
+        "claims",
+        "risk"
+      ],
+      "content_type": "Licensed product, ingredient, dosage, purpose, risk and route records",
+      "update_frequency": "Nightly / API",
+      "access_method": "Paginated JSON/XML API and data extracts",
+      "license": "Open Government Licence – Canada",
+      "size_class": "Large API",
+      "status": "API/manual",
+      "included": false,
+      "official_page": "https://health-products.canada.ca/lnhpd-bdpsnh/index-eng.jsp",
+      "direct_download": "https://health-products.canada.ca/api/natural-licences/productlicence/?lang=en&type=json",
+      "local_path": "raw/health_canada/lnhpd/",
+      "recommended_use": "NPN/DIN-HM, brand, licence holder, dosage form, ingredients, purpose and risk evidence."
+    },
+    {
+      "source_id": "HEALTH_CANADA_NHPID",
+      "name": "Natural Health Products Ingredients Database (NHPID)",
+      "organization": "Health Canada",
+      "country": "Canada",
+      "domains": [
+        "ingredients",
+        "controlled vocabulary",
+        "monographs",
+        "quality methods"
+      ],
+      "content_type": "Ingredient and terminology reference",
+      "update_frequency": "Maintained online",
+      "access_method": "Search interface / extracts where available",
+      "license": "Government of Canada terms",
+      "size_class": "Reference",
+      "status": "Manual/API research",
+      "included": false,
+      "official_page": "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/",
+      "direct_download": "",
+      "local_path": "raw/health_canada/nhpid/",
+      "recommended_use": "Ingredient ontology, dosage-form vocabulary and acceptable-use evidence."
+    },
+    {
+      "source_id": "OPENFDA_NDC",
+      "name": "openFDA / National Drug Code Directory",
+      "organization": "U.S. Food and Drug Administration",
+      "country": "United States",
+      "domains": [
+        "drugs",
+        "NDC",
+        "labels",
+        "manufacturers"
+      ],
+      "content_type": "Drug product and package records",
+      "update_frequency": "Maintained by FDA",
+      "access_method": "API and downloadable files",
+      "license": "U.S. government data / CC0 for openFDA datasets",
+      "size_class": "Large",
+      "status": "API/manual",
+      "included": false,
+      "official_page": "https://open.fda.gov/apis/drug/ndc/",
+      "direct_download": "https://open.fda.gov/data/downloads/",
+      "local_path": "raw/openfda/",
+      "recommended_use": "U.S. drug identity, package, labeler and regulatory reference."
+    }
+  ]
+}

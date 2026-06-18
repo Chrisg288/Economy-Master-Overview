@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EnergyCertifiedProduct",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "product_category": {
+      "type": "string"
+    },
+    "brand": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model": {
+      "type": "string"
+    },
+    "upc": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "certification_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "energy_use": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "energy_unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "efficiency_metrics": {
+      "type": "object"
+    },
+    "markets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "source_id",
+    "product_category",
+    "model"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProductRecallRecord",
+  "type": "object",
+  "properties": {
+    "recall_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "product": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "organization": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hazard_problem": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recommended_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recall_class": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "archived": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "recall_id",
+    "title"
+  ]
+}

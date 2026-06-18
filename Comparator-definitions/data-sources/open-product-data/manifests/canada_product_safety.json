@@ -1,0 +1,54 @@
+{
+  "manifest_id": "canada_product_safety",
+  "sources": [
+    {
+      "source_id": "CANADA_RECALLS",
+      "name": "Canada Recalls and Safety Alerts",
+      "organization": "Government of Canada / Health Canada",
+      "country": "Canada",
+      "domains": [
+        "consumer products",
+        "food",
+        "health products",
+        "medical devices",
+        "vehicles",
+        "safety"
+      ],
+      "content_type": "Recall and safety-alert records",
+      "update_frequency": "Daily",
+      "access_method": "Direct CSV and JSON feed",
+      "license": "Open Government Licence – Canada",
+      "size_class": "Medium",
+      "status": "Included current CSV",
+      "included": true,
+      "official_page": "https://recalls-rappels.canada.ca/en",
+      "direct_download": "https://recalls-rappels.canada.ca/sites/default/files/opendata-donneesouvertes/SCRSAMDonneesOuvertes.csv",
+      "local_path": "sample_data/canada_recalls_current.csv",
+      "recommended_use": "Risk, safety, defect, corrective-action and evidence layer for products and vehicles.",
+      "notes": "The captured CSV currently presents French field names/content. Preserve source language and map fields during normalization."
+    },
+    {
+      "source_id": "TRANSPORT_CANADA_RECALLS",
+      "name": "Transport Canada Road Safety Recalls Database",
+      "organization": "Transport Canada",
+      "country": "Canada",
+      "domains": [
+        "vehicles",
+        "tires",
+        "child restraints",
+        "recalls"
+      ],
+      "content_type": "Canadian road-safety recall records",
+      "update_frequency": "Maintained online",
+      "access_method": "Search and downloadable records where provided",
+      "license": "Government of Canada terms",
+      "size_class": "Reference",
+      "status": "Manual/API TBD",
+      "included": false,
+      "official_page": "https://recalls-rappels.canada.ca/en/search/site?f%5B0%5D=category%3A137",
+      "direct_download": "",
+      "local_path": "raw/transport_canada/",
+      "recommended_use": "Canadian vehicle defect/recall evidence linked to vehicle offers."
+    }
+  ]
+}

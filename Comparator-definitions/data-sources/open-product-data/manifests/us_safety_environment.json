@@ -1,0 +1,51 @@
+{
+  "manifest_id": "us_safety_environment",
+  "sources": [
+    {
+      "source_id": "CPSC_RECALLS",
+      "name": "U.S. Consumer Product Safety Commission Recalls API",
+      "organization": "U.S. CPSC",
+      "country": "United States",
+      "domains": [
+        "consumer products",
+        "recalls",
+        "hazards",
+        "injuries"
+      ],
+      "content_type": "Recall records",
+      "update_frequency": "Ongoing",
+      "access_method": "JSON/XML REST service and CSV downloads",
+      "license": "U.S. government public data; review terms",
+      "size_class": "Medium",
+      "status": "Direct API/manual",
+      "included": false,
+      "official_page": "https://www.cpsc.gov/Recalls",
+      "direct_download": "https://www.saferproducts.gov/RestWebServices/Recall?format=json",
+      "local_path": "raw/us_cpsc/recalls.json",
+      "recommended_use": "U.S. consumer product hazard and recall evidence."
+    },
+    {
+      "source_id": "EPA_SAFER_CHOICE",
+      "name": "EPA Safer Choice Product List",
+      "organization": "U.S. Environmental Protection Agency",
+      "country": "United States / Canada-relevant",
+      "domains": [
+        "cleaning products",
+        "chemicals",
+        "safety",
+        "environment"
+      ],
+      "content_type": "Certified safer chemical product records",
+      "update_frequency": "Maintained list",
+      "access_method": "Searchable list and downloadable spreadsheet",
+      "license": "U.S. government public information; review spreadsheet terms",
+      "size_class": "Small",
+      "status": "Manual spreadsheet",
+      "included": false,
+      "official_page": "https://www.epa.gov/saferchoice/products",
+      "direct_download": "",
+      "local_path": "raw/epa_safer_choice/",
+      "recommended_use": "Cleaning-product safety/environmental evidence and certified-product filtering."
+    }
+  ]
+}

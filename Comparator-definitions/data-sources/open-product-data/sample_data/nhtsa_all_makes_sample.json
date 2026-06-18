@@ -1,0 +1,406 @@
+{
+  "source_id": "NHTSA_VPIC_MAKES",
+  "row_count": 12269,
+  "sample_rows": [
+    {
+      "make_id": "12858",
+      "make_name": "#1 ALPINE CUSTOMS"
+    },
+    {
+      "make_id": "4877",
+      "make_name": "1/OFF KUSTOMS, LLC"
+    },
+    {
+      "make_id": "11257",
+      "make_name": "102 IRONWORKS, INC."
+    },
+    {
+      "make_id": "12255",
+      "make_name": "12832429 CANADA INC."
+    },
+    {
+      "make_id": "13053",
+      "make_name": "137 INDUSTRIES INC."
+    },
+    {
+      "make_id": "6387",
+      "make_name": "17 CREEK ENTERPRISES"
+    },
+    {
+      "make_id": "12948",
+      "make_name": "1955 CUSTOM BELAIR"
+    },
+    {
+      "make_id": "9172",
+      "make_name": "1M CUSTOM CAR TRANSPORTS, INC."
+    },
+    {
+      "make_id": "6124",
+      "make_name": "1ST CHOICE MANUFACTURING INC"
+    },
+    {
+      "make_id": "12972",
+      "make_name": "2 GOLDEN EAGLES"
+    },
+    {
+      "make_id": "6488",
+      "make_name": "2-G TRAILER CO LLC"
+    },
+    {
+      "make_id": "11399",
+      "make_name": "24/7 ONSITE CAMERAS INC"
+    },
+    {
+      "make_id": "608",
+      "make_name": "280 TRAILERS"
+    },
+    {
+      "make_id": "10123",
+      "make_name": "3 CUSTOM SOLUTIONS"
+    },
+    {
+      "make_id": "11253",
+      "make_name": "3 STAR MFG LTD"
+    },
+    {
+      "make_id": "8792",
+      "make_name": "3&1 ENTERPRISES, LLC DBA IMPACT TRAILERS"
+    },
+    {
+      "make_id": "13576",
+      "make_name": "321TRAILERS"
+    },
+    {
+      "make_id": "7388",
+      "make_name": "33 EAST MAINTENANCE INC"
+    },
+    {
+      "make_id": "10005",
+      "make_name": "357 GOLF CARTS"
+    },
+    {
+      "make_id": "11527",
+      "make_name": "36 FEET LLC"
+    },
+    {
+      "make_id": "12488",
+      "make_name": "360 CUSTOM TRAILERS"
+    },
+    {
+      "make_id": "9857",
+      "make_name": "3C CATTLE FEEDERS INC."
+    },
+    {
+      "make_id": "675",
+      "make_name": "3D CUSTOM ALUMINUM"
+    },
+    {
+      "make_id": "4800",
+      "make_name": "3M DYNAMIC MESSAGE SYSTEMS"
+    },
+    {
+      "make_id": "12538",
+      "make_name": "3PLUSCOCO"
+    },
+    {
+      "make_id": "674",
+      "make_name": "3T MFG."
+    },
+    {
+      "make_id": "11657",
+      "make_name": "4 BOSS"
+    },
+    {
+      "make_id": "8195",
+      "make_name": "4 STAR FABRICATION"
+    },
+    {
+      "make_id": "10980",
+      "make_name": "4 W "
+    },
+    {
+      "make_id": "12443",
+      "make_name": "4 WIDE"
+    },
+    {
+      "make_id": "8175",
+      "make_name": "4 X 4 TRAILERS LTD"
+    },
+    {
+      "make_id": "5676",
+      "make_name": "4-STAR TRAILERS INC."
+    },
+    {
+      "make_id": "12874",
+      "make_name": "41 SERIES"
+    },
+    {
+      "make_id": "10908",
+      "make_name": "4L TRAILERS"
+    },
+    {
+      "make_id": "7349",
+      "make_name": "4M FARM & TRAILER SALES"
+    },
+    {
+      "make_id": "7374",
+      "make_name": "5 STARR TRAILER COMPANY, INC"
+    },
+    {
+      "make_id": "4702",
+      "make_name": "505 FABRICATION"
+    },
+    {
+      "make_id": "6521",
+      "make_name": "5280 TRAILERWORKS"
+    },
+    {
+      "make_id": "9707",
+      "make_name": "55 GRILLS"
+    },
+    {
+      "make_id": "673",
+      "make_name": "58TH STREET CUSTOMS"
+    },
+    {
+      "make_id": "13240",
+      "make_name": "5G MODULAR"
+    },
+    {
+      "make_id": "10122",
+      "make_name": "5JS WELDING"
+    },
+    {
+      "make_id": "10301",
+      "make_name": "5M TRAILERS"
+    },
+    {
+      "make_id": "8101",
+      "make_name": "5R RANCH TRAILERS"
+    },
+    {
+      "make_id": "8851",
+      "make_name": "6 & 34 TRAILERS & MFG, INC."
+    },
+    {
+      "make_id": "12191",
+      "make_name": "6186433 MB LTD / IRONMEN INDUSTRIES"
+    },
+    {
+      "make_id": "13352",
+      "make_name": "62DNC TRAILER"
+    },
+    {
+      "make_id": "12345",
+      "make_name": "643 ENTERPRISE"
+    },
+    {
+      "make_id": "12888",
+      "make_name": "7 ENERGY"
+    },
+    {
+      "make_id": "10636",
+      "make_name": "7 SEAS TRAILERS"
+    },
+    {
+      "make_id": "10653",
+      "make_name": "7 SONS CONSTRUCTION"
+    },
+    {
+      "make_id": "11425",
+      "make_name": "702 TRAILER'S & WELDING LLC"
+    },
+    {
+      "make_id": "13645",
+      "make_name": "79BIKE"
+    },
+    {
+      "make_id": "10955",
+      "make_name": "7X OFFROAD"
+    },
+    {
+      "make_id": "4991",
+      "make_name": "801 TRAILER MANUFACTURING"
+    },
+    {
+      "make_id": "11968",
+      "make_name": "818"
+    },
+    {
+      "make_id": "10007",
+      "make_name": "9149-0847 QUEBEC INC."
+    },
+    {
+      "make_id": "632",
+      "make_name": "A & A MANUFACTURING"
+    },
+    {
+      "make_id": "7770",
+      "make_name": "A & B INDUSTRIES"
+    },
+    {
+      "make_id": "8220",
+      "make_name": "A & D COMPANY"
+    },
+    {
+      "make_id": "3832",
+      "make_name": "A & E FABRICATORS"
+    },
+    {
+      "make_id": "609",
+      "make_name": "A & E TRAILERS"
+    },
+    {
+      "make_id": "6665",
+      "make_name": "A & F TRAILER MFG INC"
+    },
+    {
+      "make_id": "5983",
+      "make_name": "A & H"
+    },
+    {
+      "make_id": "9910",
+      "make_name": "A & K TRAILERS"
+    },
+    {
+      "make_id": "11466",
+      "make_name": "A & L SMOKERS"
+    },
+    {
+      "make_id": "11245",
+      "make_name": "A & L TRAILERS"
+    },
+    {
+      "make_id": "645",
+      "make_name": "A & M FABRICATIONS"
+    },
+    {
+      "make_id": "13972",
+      "make_name": "A & O"
+    },
+    {
+      "make_id": "9158",
+      "make_name": "A & R CUSTOM TRAILERS"
+    },
+    {
+      "make_id": "13778",
+      "make_name": "A & V TRAILERS"
+    },
+    {
+      "make_id": "6666",
+      "make_name": "A & W TRAILOR MANUFACTURE"
+    },
+    {
+      "make_id": "5695",
+      "make_name": "A BAR K TRAILERS"
+    },
+    {
+      "make_id": "5266",
+      "make_name": "A SMITH GT BENTLEY"
+    },
+    {
+      "make_id": "9296",
+      "make_name": "A TEAM TRAILERS, LTD."
+    },
+    {
+      "make_id": "631",
+      "make_name": "A TO Z AUTO"
+    },
+    {
+      "make_id": "10338",
+      "make_name": "A TO Z METAL WORKS CO."
+    },
+    {
+      "make_id": "4614",
+      "make_name": "A TRINITY TRAILER"
+    },
+    {
+      "make_id": "10216",
+      "make_name": "A&A STEEL ENTERPRISES LTD."
+    },
+    {
+      "make_id": "10785",
+      "make_name": "A&D "
+    },
+    {
+      "make_id": "13052",
+      "make_name": "A&M TRAILER LLC"
+    },
+    {
+      "make_id": "11770",
+      "make_name": "A&P WELDING"
+    },
+    {
+      "make_id": "11655",
+      "make_name": "A&R ECONOMY CARGO TRAILERS"
+    },
+    {
+      "make_id": "610",
+      "make_name": "A-1 CUSTOM TRAILER AKA TOW MASTER"
+    },
+    {
+      "make_id": "5803",
+      "make_name": "A-1 HITCH & TRAILER SALES, INC."
+    },
+    {
+      "make_id": "7751",
+      "make_name": "A-1 TRUCK REPAIR"
+    },
+    {
+      "make_id": "611",
+      "make_name": "A-BAR-D MFG."
+    },
+    {
+      "make_id": "9632",
+      "make_name": "A-N-S MANUFACTURING, INC."
+    },
+    {
+      "make_id": "3833",
+      "make_name": "A. B. CHANCE COMPANY"
+    },
+    {
+      "make_id": "9135",
+      "make_name": "A. BERGMAN"
+    },
+    {
+      "make_id": "3834",
+      "make_name": "A.A. TRAILER"
+    },
+    {
+      "make_id": "11956",
+      "make_name": "A.G.A EL AMIGUITO"
+    },
+    {
+      "make_id": "628",
+      "make_name": "A.N. BOWLING"
+    },
+    {
+      "make_id": "7414",
+      "make_name": "A.P.C. MOTOR COMPANY"
+    },
+    {
+      "make_id": "7018",
+      "make_name": "A.P.E, INC"
+    },
+    {
+      "make_id": "626",
+      "make_name": "A.Q. MANUFACTURING"
+    },
+    {
+      "make_id": "12745",
+      "make_name": "A.R. SERVICES"
+    },
+    {
+      "make_id": "614",
+      "make_name": "A.R.M."
+    },
+    {
+      "make_id": "9635",
+      "make_name": "A.S.C."
+    },
+    {
+      "make_id": "8793",
+      "make_name": "A.T.M."
+    }
+  ]
+}

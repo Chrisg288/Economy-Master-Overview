@@ -1,0 +1,98 @@
+{
+  "manifest_id": "food_and_nutrition",
+  "sources": [
+    {
+      "source_id": "USDA_FDC_FOUNDATION",
+      "name": "USDA FoodData Central — Foundation Foods",
+      "organization": "USDA Agricultural Research Service",
+      "country": "United States",
+      "domains": [
+        "food",
+        "nutrition",
+        "ingredients"
+      ],
+      "content_type": "Food composition and nutrient reference records",
+      "update_frequency": "Periodic releases",
+      "access_method": "CSV/JSON ZIP download and API",
+      "license": "U.S. public domain / CC0",
+      "size_class": "Small-to-medium",
+      "status": "Direct script",
+      "included": false,
+      "official_page": "https://fdc.nal.usda.gov/download-datasets",
+      "direct_download": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_csv_2026-04-30.zip",
+      "local_path": "raw/usda_food/Foundation_Foods_2026_04_CSV.zip",
+      "recommended_use": "Nutrient, ingredient, quality and evidence fields for meaningful food classes."
+    },
+    {
+      "source_id": "USDA_CNDB",
+      "name": "USDA Child Nutrition Database (CNDB)",
+      "organization": "USDA Food and Nutrition Service",
+      "country": "United States",
+      "domains": [
+        "food",
+        "branded products",
+        "school food",
+        "nutrition",
+        "GTIN"
+      ],
+      "content_type": "Six-table product/nutrient database including manufactured K–12 products",
+      "update_frequency": "Monthly for manufacturer data; other sources typically twice yearly",
+      "access_method": "CSV/JSON/SQL/XML ZIP download",
+      "license": "U.S. federal data; verify included documentation",
+      "size_class": "Small",
+      "status": "Direct script",
+      "included": false,
+      "official_page": "https://fdc.nal.usda.gov/cndb",
+      "direct_download": "https://fdc.nal.usda.gov/fdc-datasets/CN.2026.05-CSV.zip",
+      "local_path": "raw/usda_food/CNDB_CN2026_05_CSV.zip",
+      "recommended_use": "Branded food product records, brand owner, GTIN/GPC links, weights and nutrient values."
+    },
+    {
+      "source_id": "CANADA_CNF_2026",
+      "name": "Canadian Nutrient File 2026",
+      "organization": "Health Canada",
+      "country": "Canada",
+      "domains": [
+        "food",
+        "nutrition",
+        "Canadian reference"
+      ],
+      "content_type": "Relational food composition database",
+      "update_frequency": "Release-based",
+      "access_method": "ZIP/CSV via Open Government",
+      "license": "Open Government Licence – Canada",
+      "size_class": "Medium",
+      "status": "Manual/current resource page",
+      "included": false,
+      "official_page": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-about-us.html",
+      "direct_download": "https://open.canada.ca/data/en/dataset/1b6139bd-ed7e-4043-bc28-ff00e10f3109",
+      "local_path": "raw/canada_food/CNF_2026/",
+      "recommended_use": "Canadian food composition evidence and crosswalk to food classes; not generally brand-specific."
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS",
+      "name": "Open Food Facts — Global Product Dump",
+      "organization": "Open Food Facts community",
+      "country": "Global",
+      "domains": [
+        "branded food",
+        "barcodes",
+        "ingredients",
+        "nutrition",
+        "labels"
+      ],
+      "content_type": "Crowdsourced branded-food product records",
+      "update_frequency": "Daily exports",
+      "access_method": "Large JSONL/CSV data dump and API",
+      "license": "Open Database Licence (ODbL)",
+      "size_class": "Very large",
+      "status": "Optional large external archive",
+      "included": false,
+      "official_page": "https://world.openfoodfacts.org/data",
+      "direct_download": "https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz",
+      "local_path": "raw/large_optional/openfoodfacts-products.jsonl.gz",
+      "recommended_use": "Broad branded-food catalogue, barcode, brand, ingredients and label data. Keep raw archive outside normal Git history.",
+      "notes": "Use attribution/share-alike rules and avoid API crawling for bulk acquisition."
+    }
+  ]
+}
