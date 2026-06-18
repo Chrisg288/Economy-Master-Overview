@@ -1,0 +1,451 @@
+{
+  "files": {
+    "Balance_sheet_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "Financial_ratios_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 254,
+      "anomalies": []
+    },
+    "Profit_Margin_Total_expenses_percentage_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "Total_expenses_percentage_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "Total_expenses_value_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "Total_revenue_2024_5M_20M.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "balance_sheet_2024_30k_5m.csv": {
+      "rows_loaded": 24352,
+      "sentinel_rows": 14355,
+      "anomalies": []
+    },
+    "financial_ratios_2024_30k_5m.csv": {
+      "rows_loaded": 24352,
+      "sentinel_rows": 14896,
+      "anomalies": []
+    },
+    "profit_margin_balance_sheet_2024_30k_5m.csv": {
+      "rows_loaded": 24352,
+      "sentinel_rows": 14552,
+      "anomalies": []
+    },
+    "profit_margin_balance_sheet_2024_5m_20m.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "profit_margin_financial_ratios_2024_30k_5m.csv": {
+      "rows_loaded": 24352,
+      "sentinel_rows": 14937,
+      "anomalies": []
+    },
+    "profit_margin_financial_ratios_2024_5m_20m.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 254,
+      "anomalies": []
+    },
+    "profit_margin_financial_ratios_canada_incorporated_2024_30k_5m.csv": {
+      "rows_loaded": 45797,
+      "sentinel_rows": 24408,
+      "anomalies": []
+    },
+    "profit_margin_profit_non_profit_businesses_2024_30k_5m.csv": {
+      "rows_loaded": 25461,
+      "sentinel_rows": 25459,
+      "anomalies": []
+    },
+    "profit_margin_total_expenses_percentage_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38880,
+      "anomalies": []
+    },
+    "profit_margin_total_expenses_value_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38880,
+      "anomalies": []
+    },
+    "profit_margin_total_expenses_value_2024_5m_20m.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "profit_margin_total_revenue_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38880,
+      "anomalies": []
+    },
+    "profit_margin_total_revenue_2024_5m_20m.csv": {
+      "rows_loaded": 1019,
+      "sentinel_rows": 242,
+      "anomalies": []
+    },
+    "profit_non_profit_businesses_2024_30k_5m.csv": {
+      "rows_loaded": 25461,
+      "sentinel_rows": 17679,
+      "anomalies": []
+    },
+    "total_expenses_percentage_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38152,
+      "anomalies": []
+    },
+    "total_expenses_value_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38152,
+      "anomalies": [
+        [
+          29345,
+          "split_prefix"
+        ],
+        [
+          29346,
+          "split_repaired"
+        ]
+      ]
+    },
+    "total_revenue_2024_30k_5m.csv": {
+      "rows_loaded": 70149,
+      "sentinel_rows": 38152,
+      "anomalies": [
+        [
+          20338,
+          "blank"
+        ],
+        [
+          20339,
+          "blank"
+        ],
+        [
+          20340,
+          "blank"
+        ],
+        [
+          20341,
+          "blank"
+        ],
+        [
+          20342,
+          "blank"
+        ],
+        [
+          20343,
+          "blank"
+        ],
+        [
+          20344,
+          "blank"
+        ],
+        [
+          20345,
+          "blank"
+        ],
+        [
+          20346,
+          "blank"
+        ],
+        [
+          20347,
+          "blank"
+        ],
+        [
+          20348,
+          "blank"
+        ],
+        [
+          20349,
+          "blank"
+        ],
+        [
+          20350,
+          "blank"
+        ],
+        [
+          20351,
+          "blank"
+        ],
+        [
+          20352,
+          "blank"
+        ],
+        [
+          20353,
+          "blank"
+        ],
+        [
+          20354,
+          "blank"
+        ],
+        [
+          44707,
+          "blank"
+        ],
+        [
+          44708,
+          "blank"
+        ],
+        [
+          44709,
+          "blank"
+        ],
+        [
+          44710,
+          "blank"
+        ],
+        [
+          44711,
+          "blank"
+        ],
+        [
+          44712,
+          "blank"
+        ],
+        [
+          44713,
+          "blank"
+        ],
+        [
+          44714,
+          "blank"
+        ],
+        [
+          44715,
+          "blank"
+        ],
+        [
+          44716,
+          "blank"
+        ],
+        [
+          44717,
+          "blank"
+        ],
+        [
+          44718,
+          "blank"
+        ],
+        [
+          44719,
+          "blank"
+        ],
+        [
+          44720,
+          "blank"
+        ],
+        [
+          44721,
+          "blank"
+        ],
+        [
+          44722,
+          "blank"
+        ],
+        [
+          44723,
+          "blank"
+        ]
+      ]
+    }
+  },
+  "repairs": [
+    {
+      "file": "total_expenses_value_2024_30k_5m.csv",
+      "line": 29346,
+      "repair": "split_repaired"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20338,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20339,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20340,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20341,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20342,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20343,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20344,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20345,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20346,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20347,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20348,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20349,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20350,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20351,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20352,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20353,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 20354,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44707,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44708,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44709,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44710,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44711,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44712,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44713,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44714,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44715,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44716,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44717,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44718,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44719,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44720,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44721,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44722,
+      "repair": "blank"
+    },
+    {
+      "file": "total_revenue_2024_30k_5m.csv",
+      "line": 44723,
+      "repair": "blank"
+    }
+  ],
+  "summary": {
+    "raw_csv_files": 24,
+    "naics_2024_count": 2059,
+    "priority_business_types": 17,
+    "contexts": 204,
+    "fully_suppressed_contexts": 6,
+    "partially_suppressed_contexts": 41,
+    "raw_archive_sha256": "ec1bb337440833733a49bdbdbee94f947622304aafd5d23926505c886ff249e3"
+  }
+}

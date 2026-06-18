@@ -1,0 +1,2060 @@
+﻿naics_code,description_en,description_fr,year
+11,"Agriculture, forestry, fishing and hunting","Agriculture, foresterie, pêche et chasse",2024
+21,"Mining, quarrying, and oil and gas extraction","Extraction minière, exploitation en carrière, et extraction de pétrole et de gaz",2024
+22,Utilities,Services publics,2024
+23,Construction,Construction,2024
+41,Wholesale trade,Commerce de gros,2024
+51,Information and cultural industries,Industrie de l'information et industrie culturelle,2024
+52,Finance and insurance,Finance et assurances,2024
+53,Real estate and rental and leasing,Services immobiliers et services de location et de location à bail,2024
+54,"Professional, scientific and technical services","Services professionnels, scientifiques et techniques",2024
+55,Management of companies and enterprises,Gestion de sociétés et d'entreprises,2024
+56,"Administrative and support, waste management and remediation services","Services administratifs, services de soutien, services de gestion des déchets et services d'assainissement",2024
+61,Educational services,Services d'enseignement,2024
+62,Health care and social assistance,Soins de santé et assistance sociale,2024
+71,"Arts, entertainment and recreation","Arts, spectacles et loisirs",2024
+72,Accommodation and food services,Services d'hébergement et de restauration,2024
+81,Other services (except public administration),Autres services (sauf les administrations publiques),2024
+91,Public administration,Administrations publiques,2024
+111,Crop production,Cultures agricoles,2024
+112,Animal production and aquaculture,Élevage et aquaculture,2024
+113,Forestry and logging,Foresterie et exploitation forestière,2024
+114,"Fishing, hunting and trapping","Pêche, chasse et piégeage",2024
+115,Support activities for agriculture and forestry,Activités de soutien à l'agriculture et à la foresterie,2024
+211,Oil and gas extraction,Extraction de pétrole et de gaz,2024
+212,Mining and quarrying (except oil and gas),Extraction minière et exploitation en carrière (sauf l'extraction de pétrole et de gaz),2024
+213,"Support activities for mining, and oil and gas extraction","Activités de soutien à l'extraction minière, pétrolière et gazière",2024
+221,Utilities,Services publics,2024
+236,Construction of buildings,Construction de bâtiments,2024
+237,Heavy and civil engineering construction,Travaux de génie civil,2024
+238,Specialty trade contractors,Entrepreneurs spécialisés,2024
+311,Food manufacturing,Fabrication d'aliments,2024
+312,Beverage and tobacco product manufacturing,Fabrication de boissons et de produits du tabac,2024
+313,Textile mills,Usines de textiles,2024
+314,Textile product mills,Usines de produits textiles,2024
+315,Apparel manufacturing,Fabrication de vêtements,2024
+316,Leather and allied product manufacturing,Fabrication de produits en cuir et de produits analogues,2024
+321,Wood product manufacturing,Fabrication de produits en bois,2024
+322,Paper manufacturing,Fabrication du papier,2024
+323,Printing and related support activities,Impression et activités connexes de soutien,2024
+324,Petroleum and coal product manufacturing,Fabrication de produits du pétrole et du charbon,2024
+325,Chemical manufacturing,Fabrication de produits chimiques,2024
+326,Plastics and rubber products manufacturing,Fabrication de produits en plastique et en caoutchouc,2024
+327,Non-metallic mineral product manufacturing,Fabrication de produits minéraux non métalliques,2024
+331,Primary metal manufacturing,Première transformation des métaux,2024
+332,Fabricated metal product manufacturing,Fabrication de produits métalliques,2024
+333,Machinery manufacturing,Fabrication de machines,2024
+334,Computer and electronic product manufacturing,Fabrication de produits informatiques et électroniques,2024
+335,"Electrical equipment, appliance and component manufacturing","Fabrication de matériel, d'appareils et de composants électriques",2024
+336,Transportation equipment manufacturing,Fabrication de matériel de transport,2024
+337,Furniture and related product manufacturing,Fabrication de meubles et de produits connexes,2024
+339,Miscellaneous manufacturing,Activités diverses de fabrication,2024
+411,Farm product merchant wholesalers,Grossistes-marchands de produits agricoles,2024
+412,"Petroleum, petroleum products, and other hydrocarbons merchant wholesalers","Grossistes-marchands de pétrole, de produits pétroliers, et d'autres hydrocarbures",2024
+413,"Food, beverage and tobacco merchant wholesalers","Grossistes-marchands de produits alimentaires, de boissons et de tabac",2024
+414,Personal and household goods merchant wholesalers,Grossistes-marchands d'articles personnels et ménagers,2024
+415,Motor vehicle and motor vehicle parts and accessories merchant wholesalers,"Grossistes-marchands de véhicules automobiles, et de pièces et d'accessoires de véhicules automobiles",2024
+416,Building material and supplies merchant wholesalers,Grossistes-marchands de matériaux et fournitures de construction,2024
+417,"Machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, de matériel et de fournitures",2024
+418,Miscellaneous merchant wholesalers,Grossistes-marchands de produits divers,2024
+419,"Business-to-business electronic markets, and agents and brokers","Commerce électronique de gros entre entreprises, et agents et courtiers",2024
+441,Motor vehicle and parts dealers,Concessionnaires de véhicules et de pièces automobiles,2024
+444,Building material and garden equipment and supplies dealers,Marchands de matériaux de construction et de matériel et fournitures de jardinage,2024
+445,Food and beverage retailers,Détaillants d'alimentation,2024
+449,"Furniture, home furnishings, electronics and appliances retailers","Détaillants de meubles, accessoires de maison, appareils électroniques et ménagers",2024
+455,General merchandise retailers,Détaillants de marchandises diverses,2024
+456,Health and personal care retailers,Détaillants de produits de santé et de soins personnels,2024
+457,Gasoline stations and fuel vendors,Stations-service et marchands de combustibles,2024
+458,"Clothing, clothing accessories, shoes, jewelry, luggage and leather goods retailers","Détaillants de vêtements , d'accessoires vestimentaires, de chaussures, bijouteries, bagages et de maroquinerie",2024
+459,"Sporting goods, hobby, musical instrument, book, and miscellaneous retailers",Détaillants d'articles de sport et de passe-temps et d'instruments de musique et de détails divers,2024
+481,Air transportation,Transport aérien,2024
+482,Rail transportation,Transport ferroviaire,2024
+483,Water transportation,Transport par eau,2024
+484,Truck transportation,Transport par camion,2024
+485,Transit and ground passenger transportation,Transport en commun et transport terrestre de voyageurs,2024
+486,Pipeline transportation,Transport par pipeline,2024
+487,Scenic and sightseeing transportation,Transport de tourisme et d'agrément,2024
+488,Support activities for transportation,Activités de soutien au transport,2024
+491,Postal service,Services postaux,2024
+492,Couriers and messengers,Messageries et services de messagers,2024
+493,Warehousing and storage,Entreposage,2024
+512,Motion picture and sound recording industries,Industries du film et de l'enregistrement sonore,2024
+513,Publishing industries,Édition,2024
+516,Broadcasting and content providers,Radiotélévision et fournisseurs de contenu,2024
+517,Telecommunications,Télécommunications,2024
+518,"Computing infrastructure providers, data processing, web hosting, and related services","Fournisseurs d'infrastructures informatiques, traitement de données, hébergement de données et services connexes",2024
+519,"Web search portals, libraries, archives, and all other information services","Portails de recherche Web, bibliothèques, archives et tous les autres services d'information",2024
+521,Monetary authorities - central bank,Autorités monétaires - banque centrale,2024
+522,Credit intermediation and related activities,Intermédiation financière et activités connexes,2024
+523,"Securities, commodity contracts, and other financial investment and related activities","Valeurs mobilières, contrats de marchandises et autres activités d'investissement financier connexes",2024
+524,Insurance carriers and related activities,Sociétés d'assurance et activités connexes,2024
+526,Funds and other financial vehicles,Fonds et autres instruments financiers,2024
+531,Real estate,Services immobiliers,2024
+532,Rental and leasing services,Services de location et de location à bail,2024
+533,Lessors of non-financial intangible assets (except copyrighted works),Bailleurs de biens incorporels non financiers (sauf les oeuvres protégées par le droit d'auteur),2024
+541,"Professional, scientific and technical services","Services professionnels, scientifiques et techniques",2024
+551,Management of companies and enterprises,Gestion de sociétés et d'entreprises,2024
+561,Administrative and support services,Services administratifs et services de soutien,2024
+562,Waste management and remediation services,Services de gestion des déchets et d'assainissement,2024
+611,Educational services,Services d'enseignement,2024
+621,Ambulatory health care services,Services de soins de santé ambulatoires,2024
+622,Hospitals,Hôpitaux,2024
+623,Nursing and residential care facilities,Établissements de soins infirmiers et de soins pour bénéficiaires internes,2024
+624,Social assistance,Assistance sociale,2024
+711,"Performing arts, spectator sports and related industries","Arts d'interprétation, sports-spectacles et activités connexes",2024
+712,Heritage institutions,Établissements du patrimoine,2024
+713,"Amusement, gambling and recreation industries","Divertissement, loisirs, jeux de hasard et loteries",2024
+721,Accommodation services,Services d'hébergement,2024
+722,Food services and drinking places,Services de restauration et débits de boissons,2024
+811,Repair and maintenance,Réparation et entretien,2024
+812,Personal and laundry services,Services personnels et services de blanchissage,2024
+813,"Religious, grant-making, civic, and professional and similar organizations","Organismes religieux, fondations, groupes de citoyens et organisations professionnelles et similaires",2024
+814,Private households,Ménages privés,2024
+911,Federal government public administration,Administration publique fédérale,2024
+912,Provincial and territorial public administration,Administrations publiques provinciales et territoriales,2024
+913,"Local, municipal and regional public administration","Administrations publiques locales, municipales et régionales",2024
+914,Indigenous public administration,Administrations publiques autochtones,2024
+919,International and other extra-territorial public administration,Organismes publics internationaux et autres organismes publics extra-territoriaux,2024
+1111,Oilseed and grain farming,Culture de plantes oléagineuses et de céréales,2024
+1112,Vegetable and melon farming,Culture de légumes et de melons,2024
+1113,Fruit and tree nut farming,Culture de fruits et de noix,2024
+1114,"Greenhouse, nursery and floriculture production","Culture en serre et en pépinière, et floriculture",2024
+1119,Other crop farming,Autres cultures agricoles,2024
+1121,Cattle ranching and farming,Élevage de bovins,2024
+1122,Hog and pig farming,Élevage de porcs,2024
+1123,Poultry and egg production,Élevage de volailles et production d'oeufs,2024
+1124,Sheep and goat farming,Élevage de moutons et de chèvres,2024
+1125,Aquaculture,Aquaculture,2024
+1129,Other animal production,Autres types d'élevage,2024
+1131,Timber tract operations,Exploitation de terres à bois,2024
+1132,Forest nurseries and gathering of forest products,Pépinières forestières et récolte de produits forestiers,2024
+1133,Logging,Exploitation forestière,2024
+1141,Fishing,Pêche,2024
+1142,Hunting and trapping,Chasse et piégeage,2024
+1151,Support activities for crop production,Activités de soutien aux cultures agricoles,2024
+1152,Support activities for animal production,Activités de soutien à l'élevage,2024
+1153,Support activities for forestry,Activités de soutien à la foresterie,2024
+2111,Oil and gas extraction,Extraction de pétrole et de gaz,2024
+2121,Coal mining,Extraction de charbon,2024
+2122,Metal ore mining,Extraction de minerais métalliques,2024
+2123,Non-metallic mineral mining and quarrying,Extraction de minerais non métalliques,2024
+2131,"Support activities for mining, and oil and gas extraction","Activités de soutien à l'extraction minière, pétrolière et gazière",2024
+2211,"Electric power generation, transmission and distribution","Production, transport et distribution d'électricité",2024
+2212,Natural gas distribution,Distribution de gaz naturel,2024
+2213,"Water, sewage and other systems",Réseaux d'aqueduc et d'égout et autres,2024
+2361,Residential building construction,Construction résidentielle,2024
+2362,Non-residential building construction,Construction non résidentielle,2024
+2371,Utility system construction,Construction d'installations de services publics,2024
+2372,Land subdivision,Lotissement de terrains,2024
+2373,"Highway, street and bridge construction","Construction de routes, de rues et de ponts",2024
+2379,Other heavy and civil engineering construction,Autres travaux de génie civil,2024
+2381,"Foundation, structure, and building exterior contractors","Entrepreneurs en travaux de fondations, de structure, et d'extérieur de bâtiment",2024
+2382,Building equipment contractors,Entrepreneurs en installation d'équipements techniques,2024
+2383,Building finishing contractors,Entrepreneurs en travaux de finition de bâtiments,2024
+2389,Other specialty trade contractors,Autres entrepreneurs spécialisés,2024
+3111,Animal food manufacturing,Fabrication d'aliments pour animaux,2024
+3112,Grain and oilseed milling,Mouture de grains céréaliers et de graines oléagineuses,2024
+3113,Sugar and confectionery product manufacturing,Fabrication de sucre et de confiseries,2024
+3114,Fruit and vegetable preserving and specialty food manufacturing,Mise en conserve de fruits et de légumes et fabrication de spécialités alimentaires,2024
+3115,Dairy product manufacturing,Fabrication de produits laitiers,2024
+3116,Meat product manufacturing,Fabrication de produits de viande,2024
+3117,Seafood product preparation and packaging,Préparation et conditionnement de poissons et de fruits de mer,2024
+3118,Bakeries and tortilla manufacturing,Boulangeries et fabrication de tortillas,2024
+3119,Other food manufacturing,Fabrication d'autres aliments,2024
+3121,Beverage manufacturing,Fabrication de boissons,2024
+3122,Tobacco manufacturing,Fabrication du tabac,2024
+3123,Cannabis product manufacturing,Fabrication de produits du cannabis,2024
+3131,"Fibre, yarn and thread mills","Usines de fibres, de filés et de fils",2024
+3132,Fabric mills,Usines de tissus,2024
+3133,Textile and fabric finishing and fabric coating,Finissage de textiles et de tissus et revêtement de tissus,2024
+3141,Textile furnishings mills,Usines de textiles domestiques,2024
+3149,Other textile product mills,Usines d'autres produits textiles,2024
+3151,Apparel knitting mills,Usines de tricotage de vêtements,2024
+3152,Cut and sew clothing manufacturing,Fabrication de vêtements coupés-cousus,2024
+3159,Clothing accessories and other clothing manufacturing,Fabrication d'accessoires vestimentaires et d'autres vêtements,2024
+3161,Leather and hide tanning and finishing,Tannage et finissage du cuir et des peaux,2024
+3162,Footwear manufacturing,Fabrication de chaussures,2024
+3169,Other leather and allied product manufacturing,Fabrication d'autres produits en cuir et produits analogues,2024
+3211,Sawmills and wood preservation,Scieries et préservation du bois,2024
+3212,"Veneer, plywood and engineered wood product manufacturing","Fabrication de placages, de contreplaqués et de produits en bois reconstitué",2024
+3219,Other wood product manufacturing,Fabrication d'autres produits en bois,2024
+3221,"Pulp, paper and paperboard mills","Usines de pâte à papier, de papier et de carton",2024
+3222,Converted paper product manufacturing,Fabrication de produits en papier transformé,2024
+3231,Printing and related support activities,Impression et activités connexes de soutien,2024
+3241,Petroleum and coal product manufacturing,Fabrication de produits du pétrole et du charbon,2024
+3251,Basic chemical manufacturing,Fabrication de produits chimiques de base,2024
+3252,"Resin, synthetic rubber, and artificial and synthetic fibres and filaments manufacturing","Fabrication de résines, de caoutchouc synthétique et de fibres et de filaments artificiels et synthétiques",2024
+3253,"Pesticide, fertilizer and other agricultural chemical manufacturing","Fabrication de pesticides, d'engrais et d'autres produits chimiques agricoles",2024
+3254,Pharmaceutical and medicine manufacturing,Fabrication de produits pharmaceutiques et de médicaments,2024
+3255,"Paint, coating and adhesive manufacturing","Fabrication de peintures, de revêtements et d'adhésifs",2024
+3256,"Soap, cleaning compound and toilet preparation manufacturing","Fabrication de savons, de détachants et de produits de toilette",2024
+3259,Other chemical product manufacturing,Fabrication d'autres produits chimiques,2024
+3261,Plastic product manufacturing,Fabrication de produits en plastique,2024
+3262,Rubber product manufacturing,Fabrication de produits en caoutchouc,2024
+3271,Clay product and refractory manufacturing,Fabrication de produits en argile et produits réfractaires,2024
+3272,Glass and glass product manufacturing,Fabrication de verre et de produits en verre,2024
+3273,Cement and concrete product manufacturing,Fabrication de ciment et de produits en béton,2024
+3274,Lime and gypsum product manufacturing,Fabrication de chaux et de produits en gypse,2024
+3279,Other non-metallic mineral product manufacturing,Fabrication d'autres produits minéraux non métalliques,2024
+3311,Iron and steel mills and ferro-alloy manufacturing,Sidérurgie,2024
+3312,Steel product manufacturing from purchased steel,Fabrication de produits en acier à partir d'acier acheté,2024
+3313,Alumina and aluminum production and processing,Production et transformation d'alumine et d'aluminium,2024
+3314,Non-ferrous metal (except aluminum) production and processing,Production et transformation de métaux non ferreux (sauf l'aluminium),2024
+3315,Foundries,Fonderies,2024
+3321,Forging and stamping,Forgeage et estampage,2024
+3322,Cutlery and hand tool manufacturing,Fabrication de coutellerie et d'outils à main,2024
+3323,Architectural and structural metals manufacturing,Fabrication de produits d'architecture et d'éléments de charpentes métalliques,2024
+3324,"Boiler, tank and shipping container manufacturing","Fabrication de chaudières, de réservoirs et de contenants d'expédition",2024
+3325,Hardware manufacturing,Fabrication d'articles de quincaillerie,2024
+3326,Spring and wire product manufacturing,Fabrication de ressorts et de produits en fil métallique,2024
+3327,"Machine shops, turned product, and screw, nut and bolt manufacturing","Ateliers d'usinage, fabrication de produits tournés, de vis, d'écrous et de boulons",2024
+3328,"Coating, engraving, cold and heat treating and allied activities","Revêtement, gravure, traitement thermique et par le froid, et activités analogues",2024
+3329,Other fabricated metal product manufacturing,Fabrication d'autres produits métalliques,2024
+3331,"Agricultural, construction and mining machinery manufacturing","Fabrication de machines pour l'agriculture, la construction et l'extraction minière",2024
+3332,Industrial machinery manufacturing,Fabrication de machines industrielles,2024
+3333,Commercial and service industry machinery manufacturing,Fabrication de machines pour le commerce et les industries de services,2024
+3334,"Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing","Fabrication d'appareils de ventilation, de chauffage, de climatisation et de réfrigération commerciale",2024
+3335,Metalworking machinery manufacturing,Fabrication de machines-outils pour le travail du métal,2024
+3336,"Engine, turbine and power transmission equipment manufacturing","Fabrication de moteurs, de turbines et de matériel de transmission de puissance",2024
+3339,Other general-purpose machinery manufacturing,Fabrication d'autres machines d'usage général,2024
+3341,Computer and peripheral equipment manufacturing,Fabrication de matériel informatique et périphérique,2024
+3342,Communications equipment manufacturing,Fabrication de matériel de communication,2024
+3343,Audio and video equipment manufacturing,Fabrication de matériel audio et vidéo,2024
+3344,Semiconductor and other electronic component manufacturing,Fabrication de semi-conducteurs et d'autres composants électroniques,2024
+3345,"Navigational, measuring, medical and control instruments manufacturing","Fabrication d'instruments de navigation, de mesure et de commande et d'instruments médicaux",2024
+3346,Manufacturing and reproducing magnetic and optical media,Fabrication et reproduction de supports magnétiques et optiques,2024
+3351,Electric lighting equipment manufacturing,Fabrication de matériel électrique d'éclairage,2024
+3352,Household appliance manufacturing,Fabrication d'appareils ménagers,2024
+3353,Electrical equipment manufacturing,Fabrication de matériel électrique,2024
+3359,Other electrical equipment and component manufacturing,Fabrication d'autres types de matériel et de composants électriques,2024
+3361,Motor vehicle manufacturing,Fabrication de véhicules automobiles,2024
+3362,Motor vehicle body and trailer manufacturing,Fabrication de carrosseries et de remorques de véhicules automobiles,2024
+3363,Motor vehicle parts manufacturing,Fabrication de pièces pour véhicules automobiles,2024
+3364,Aerospace product and parts manufacturing,Fabrication de produits aérospatiaux et de leurs pièces,2024
+3365,Railroad rolling stock manufacturing,Fabrication de matériel ferroviaire roulant,2024
+3366,Ship and boat building,Construction de navires et d'embarcations,2024
+3369,Other transportation equipment manufacturing,Fabrication d'autres types de matériel de transport,2024
+3371,Household and institutional furniture and kitchen cabinet manufacturing,Fabrication de meubles de maison et d'établissement institutionnel et d'armoires de cuisine,2024
+3372,Office furniture (including fixtures) manufacturing,Fabrication de meubles de bureau (y compris les articles d'ameublement),2024
+3379,Other furniture-related product manufacturing,Fabrication d'autres produits connexes aux meubles,2024
+3391,Medical equipment and supplies manufacturing,Fabrication de fournitures et de matériel médicaux,2024
+3399,Other miscellaneous manufacturing,Autres activités diverses de fabrication,2024
+4111,Farm product merchant wholesalers,Grossistes-marchands de produits agricoles,2024
+4121,"Petroleum, petroleum products, and other hydrocarbons merchant wholesalers","Grossistes-marchands de pétrole, de produits pétroliers, et d'autres hydrocarbures",2024
+4131,Food merchant wholesalers,Grossistes-marchands de produits alimentaires,2024
+4132,Beverage merchant wholesalers,Grossistes-marchands de boissons,2024
+4133,Cigarette and tobacco product merchant wholesalers,Grossistes-marchands de cigarettes et de produits du tabac,2024
+4134,Cannabis merchant wholesalers,Grossistes-marchands de cannabis,2024
+4141,"Textile, clothing and footwear merchant wholesalers","Grossistes-marchands de textiles, de vêtements et de chaussures",2024
+4142,Home entertainment equipment and household appliance merchant wholesalers,Grossistes-marchands de matériel de divertissement au foyer et d'appareils ménagers,2024
+4143,Home furnishings merchant wholesalers,Grossistes-marchands d'accessoires de maison,2024
+4144,Personal goods merchant wholesalers,Grossistes-marchands d'articles personnels,2024
+4145,"Pharmaceuticals, toiletries, cosmetics and sundries merchant wholesalers","Grossistes-marchands de produits pharmaceutiques, d'articles de toilette, de cosmétiques et d'articles divers",2024
+4151,Motor vehicle merchant wholesalers,Grossistes-marchands de véhicules automobiles,2024
+4152,New motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands de pièces et d'accessoires neufs pour véhicules automobiles,2024
+4153,Used motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands de pièces et d'accessoires d'occasion pour véhicules automobiles,2024
+4161,"Electrical, plumbing, heating and air-conditioning equipment and supplies merchant wholesalers","Grossistes-marchands de matériel et fournitures électriques, de plomberie, de chauffage et de climatisation",2024
+4162,Metal service centres,Grossistes-distributeurs de métaux et de produits métalliques,2024
+4163,"Lumber, millwork, hardware and other building supplies merchant wholesalers","Grossistes-marchands de bois d'oeuvre, de menuiseries préfabriquées, d'articles de quincaillerie et d'autres fournitures de construction",2024
+4171,"Farm, lawn and garden machinery and equipment merchant wholesalers","Grossistes-marchands de machines et matériel pour l'agriculture, l'entretien des pelouses et le jardinage",2024
+4172,"Construction, forestry, mining, and industrial machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures industriels et pour la construction, la foresterie et l'extraction minière",2024
+4173,Computer and communications equipment and supplies merchant wholesalers,Grossistes-marchands d'ordinateurs et de matériel de communication,2024
+4179,"Other machinery, equipment and supplies merchant wholesalers","Grossistes-marchands d'autres machines, matériel et fournitures",2024
+4181,Recyclable material merchant wholesalers,Grossistes-marchands de matières recyclables,2024
+4182,"Paper, paper product and disposable plastic product merchant wholesalers",Grossistes-marchands de papier et produits du papier et de produits en plastique jetables,2024
+4183,Agricultural supplies merchant wholesalers,Grossistes-marchands de fournitures agricoles,2024
+4184,Chemical (except agricultural) and allied product merchant wholesalers,Grossistes-marchands de produits chimiques et de produits analogues (sauf agricoles),2024
+4185,"Mineral, ore and precious metal merchant wholesalers","Grossistes-marchands de minéraux, de minerais et de métaux précieux",2024
+4186,"Log, wood chips, and other wood products merchant wholesalers","Grossistes-marchands de billes, copeaux et autres produits de bois",2024
+4189,Other miscellaneous merchant wholesalers,Grossistes-marchands d'autres produits divers,2024
+4191,"Business-to-business electronic markets, and agents and brokers","Commerce électronique de gros entre entreprises, et agents et courtiers",2024
+4411,Automobile dealers,Concessionnaires d'automobiles,2024
+4412,Other motor vehicle dealers,Autres concessionnaires de véhicules automobiles,2024
+4413,"Automotive parts, accessories and tire retailers","Détaillants de pièces, de pneus et d'accessoires pour véhicules automobiles",2024
+4441,Building material and supplies dealers,Marchands de matériaux et fournitures de construction,2024
+4442,Lawn and garden equipment and supplies retailers,Détaillants de matériel et fournitures pour le jardinage et l'entretien des pelouses,2024
+4451,Grocery and convenience retailers,Épiceries et dépanneurs,2024
+4452,Specialty food retailers,Détaillants d'alimentation spécialisés,2024
+4453,"Beer, wine and liquor retailers","Détaillants de bière, de vin et de spiritueux",2024
+4491,"Furniture, floor covering, window treatment and other home furnishings retailers","Détaillants de meubles, de revêtements de sol, garnitures de fenêtres et d'accessoires de maisons",2024
+4492,Electronics and appliances retailers,Détaillants d'appareils électroniques et ménagers,2024
+4551,Department stores,Grands détaillants,2024
+4552,"Warehouse clubs, Supercentres and other general merchandise retailers","Clubs-entrepôts, supercentres et autres détaillants de marchandises diverses",2024
+4561,Health and personal care retailers,Détaillants de produits de santé et de soins personnels,2024
+4571,Gasoline stations,Stations-service,2024
+4572,Fuel dealers,Marchands de combustibles,2024
+4581,Clothing and clothing accessories retailers,Détaillants de vêtements et d'accessoires vestimentaires,2024
+4582,Shoe retailers,Détaillants de chaussures,2024
+4583,"Jewellery, luggage and leather goods retailers",Bijouteries et détaillants de bagages et de maroquinerie,2024
+4591,"Sporting goods, hobby and musical instrument retailers","Détaillants d'articles de sport, de passe-temps et d'instruments de musique",2024
+4592,Book retailers and news dealers,Librairies et marchands de journaux,2024
+4593,Florists,Fleuristes,2024
+4594,"Office supplies, stationery and gift retailers","Détaillants de fournitures de bureau, de papeterie et de cadeaux",2024
+4595,Used merchandise retailers,Détaillants de marchandises d'occasion,2024
+4599,Other miscellaneous store retailers,Autres détaillants de détail divers,2024
+4811,Scheduled air transportation,Transport aérien régulier,2024
+4812,Non-scheduled air transportation,Transport aérien non régulier,2024
+4821,Rail transportation,Transport ferroviaire,2024
+4831,"Deep sea, coastal and Great Lakes water transportation","Transport hauturier, côtier et sur les Grands Lacs",2024
+4832,Inland water transportation,Transport sur les eaux intérieures,2024
+4841,General freight trucking,Transport par camion de marchandises diverses,2024
+4842,Specialized freight trucking,Transport par camion de marchandises spéciales,2024
+4851,Urban transit systems,Services urbains de transport en commun,2024
+4852,Interurban and rural bus transportation,Transport interurbain et rural par autocar,2024
+4853,Taxi and limousine service,Services de taxi et de limousine,2024
+4854,School and employee bus transportation,Transport scolaire et transport d'employés par autobus,2024
+4855,Charter bus industry,Services d'autobus nolisés,2024
+4859,Other transit and ground passenger transportation,Autres services de transport en commun et de transport terrestre de voyageurs,2024
+4861,Pipeline transportation of crude oil,Transport du pétrole brut par oléoduc,2024
+4862,Pipeline transportation of natural gas,Transport du gaz naturel par gazoduc,2024
+4869,Other pipeline transportation,Autres services de transport par pipeline,2024
+4871,"Scenic and sightseeing transportation, land",Transport terrestre de tourisme et d'agrément,2024
+4872,"Scenic and sightseeing transportation, water",Transport par eau de tourisme et d'agrément,2024
+4879,"Scenic and sightseeing transportation, other",Autres services de transport de tourisme et d'agrément,2024
+4881,Support activities for air transportation,Activités de soutien au transport aérien,2024
+4882,Support activities for rail transportation,Activités de soutien au transport ferroviaire,2024
+4883,Support activities for water transportation,Activités de soutien au transport par eau,2024
+4884,Support activities for road transportation,Activités de soutien au transport routier,2024
+4885,Freight transportation arrangement,Intermédiaires en transport de marchandises,2024
+4889,Other support activities for transportation,Autres activités de soutien au transport,2024
+4911,Postal service,Services postaux,2024
+4921,Couriers,Messageries,2024
+4922,Local messengers and local delivery,Services locaux de messagers et de livraison,2024
+4931,Warehousing and storage,Entreposage,2024
+5121,Motion picture and video industries,Industries du film et de vidéo,2024
+5122,Sound recording industries,Industries de l'enregistrement sonore,2024
+5131,"Newspaper, periodical, book and directory publishers","Éditeurs de journaux, de périodiques, de livres et de répertoires",2024
+5132,Software publishers,Éditeurs de logiciels,2024
+5161,Radio and television broadcasting stations,Stations de radiodiffusion et de télédiffusion,2024
+5162,"Media streaming distribution services, and other media networks and content providers",Services de distribution de contenu médiatique diffusé en continu et autres réseaux et fournisseurs de contenu médiatique,2024
+5173,Wired and wireless telecommunications carriers(except satellite),Télécommunications par fil et sans fil (sauf par satellite),2024
+5174,Satellite telecommunications,Télécommunications par satellite,2024
+5179,Other telecommunications,Autres services de télécommunications,2024
+5182,"Computing infrastructure providers, data processing, web hosting, and related services","Fournisseurs d'infrastructures informatiques, traitement de données, hébergement de données et services connexes",2024
+5192,"Web search portals, libraries and archives, and all other information services","Portails de recherche Web, bibliothèques, archives et tous les autres services d'information",2024
+5211,Monetary authorities - central bank,Autorités monétaires - banque centrale,2024
+5221,Depository credit intermediation,Intermédiation financière par le biais de dépôts,2024
+5222,Non-depository credit intermediation,Intermédiation financière non faite par le biais de dépôts,2024
+5223,Activities related to credit intermediation,Activités liées à l'intermédiation financière,2024
+5231,Securities and commodity contracts intermediation and brokerage,Intermédiation et courtage de valeurs mobilières et de contrats de marchandises,2024
+5232,Securities and commodity exchanges,Bourses de valeurs mobilières et de marchandises,2024
+5239,Other financial investment activities,Autres activités d'investissement financier,2024
+5241,Insurance carriers,Sociétés d'assurance,2024
+5242,"Agencies, brokerages and other insurance related activities",Agences et courtiers d'assurance et autres activités liées à l'assurance,2024
+5261,Pension funds,Caisses de retraite,2024
+5269,Other funds and financial vehicles,Autres fonds et instruments financiers,2024
+5311,Lessors of real estate,Bailleurs de biens immobiliers,2024
+5312,Offices of real estate agents and brokers,Bureaux d'agents et de courtiers immobiliers,2024
+5313,Activities related to real estate,Activités liées à l'immobilier,2024
+5321,Automotive equipment rental and leasing,Location et location à bail de matériel automobile,2024
+5322,Consumer goods rental,Location de biens de consommation,2024
+5323,General rental centres,Centres de location d'articles divers,2024
+5324,Commercial and industrial machinery and equipment rental and leasing,Location et location à bail de machines et matériel d'usage commercial et industriel,2024
+5331,Lessors of non-financial intangible assets (except copyrighted works),Bailleurs de biens incorporels non financiers (sauf les oeuvres protégées par le droit d'auteur),2024
+5411,Legal services,Services juridiques,2024
+5412,"Accounting, tax preparation, bookkeeping and payroll services","Services de comptabilité, de préparation de déclarations de revenus, de tenue de livres et de paye",2024
+5413,"Architectural, engineering and related services","Architecture, génie et services connexes",2024
+5414,Specialized design services,Services spécialisés de design,2024
+5415,Computer systems design and related services,Conception de systèmes informatiques et services connexes,2024
+5416,"Management, scientific and technical consulting services",Services de conseils en gestion et de conseils scientifiques et techniques,2024
+5417,Scientific research and development services,Services de recherche et de développement scientifiques,2024
+5418,"Advertising, public relations, and related services","Publicité, relations publiques et services connexes",2024
+5419,"Other professional, scientific and technical services","Autres services professionnels, scientifiques et techniques",2024
+5511,Management of companies and enterprises,Gestion de sociétés et d'entreprises,2024
+5611,Office administrative services,Services administratifs de bureau,2024
+5612,Facilities support services,Services de soutien d'installations,2024
+5613,Employment services,Services d'emploi,2024
+5614,Business support services,Services de soutien aux entreprises,2024
+5615,Travel arrangement and reservation services,Services de préparation de voyages et de réservation,2024
+5616,Investigation and security services,Services d'enquêtes et de sécurité,2024
+5617,Services to buildings and dwellings,Services relatifs aux bâtiments et aux logements,2024
+5619,Other support services,Autres services de soutien,2024
+5621,Waste collection,Collecte de déchets,2024
+5622,Waste treatment and disposal,Traitement et élimination des déchets,2024
+5629,Remediation and other waste management services,Services d'assainissement et autres services de gestion des déchets,2024
+6111,Elementary and secondary schools,Écoles primaires et secondaires,2024
+6112,Community colleges and C.E.G.E.P.s,Collèges communautaires et cégeps,2024
+6113,Universities,Universités,2024
+6114,Business schools and computer and management training,Écoles de commerce et de formation en informatique et en gestion,2024
+6115,Technical and trade schools,Écoles techniques et écoles de métiers,2024
+6116,Other schools and instruction,Autres établissements d'enseignement et de formation,2024
+6117,Educational support services,Services de soutien à l'enseignement,2024
+6211,Offices of physicians,Cabinets de médecins,2024
+6212,Offices of dentists,Cabinets de dentistes,2024
+6213,Offices of other health practitioners,Cabinets d'autres praticiens de la santé,2024
+6214,Out-patient care centres,Centres de soins ambulatoires,2024
+6215,Medical and diagnostic laboratories,Laboratoires médicaux et d'analyses diagnostiques,2024
+6216,Home health care services,Services de soins de santé à domicile,2024
+6219,Other ambulatory health care services,Autres services de soins de santé ambulatoires,2024
+6221,General medical and surgical hospitals,Hôpitaux généraux et hôpitaux de soins chirurgicaux,2024
+6222,Psychiatric and substance use hospitals,Hôpitaux psychiatriques et hôpitaux pour les troubles liés à la consommation d'alcool ou de drogues,2024
+6223,Specialty hospitals (except psychiatric and substance use),Hôpitaux spécialisés (sauf psychiatriques et pour les problèmes liés à la consommation d'alcool et de drogues),2024
+6231,Nursing care facilities,Établissements de soins infirmiers,2024
+6232,"Residential facilities for persons with an intellectual or developmental disability, a mental health or substance use condition","Établissements résidentiels pour personnes ayant une incapacité liés au développement, problèmes de santé mentale, et problèmes liés à la consommation d'alcool ou de drogues",2024
+6233,Community care facilities for the elderly,Établissements communautaires de soins pour personnes âgées,2024
+6239,Other residential care facilities,Autres établissements de soins pour bénéficiaires internes,2024
+6241,Individual and family services,Services individuels et familiaux,2024
+6242,"Community food and housing, and emergency and other relief services","Services communautaires d'alimentation et d'hébergement, services d'urgence et autres secours",2024
+6243,Vocational rehabilitation services,Services de réadaptation professionnelle,2024
+6244,Child day-care services,Services de garderie,2024
+7111,Performing arts companies,Compagnies d'arts d'interprétation,2024
+7112,Spectator sports,Sports-spectacles,2024
+7113,"Promoters (presenters) of performing arts, sports and similar events",Promoteurs (diffuseurs) d'événements artistiques et sportifs et d'événements similaires,2024
+7114,"Agents and managers for artists, athletes, entertainers and other public figures","Agents et représentants d'artistes, d'athlètes et d'autres personnalités publiques",2024
+7115,"Independent artists, writers and performers","Artistes, auteurs et interprètes indépendants",2024
+7121,Heritage institutions,Établissements du patrimoine,2024
+7131,Amusement parks and arcades,Parcs d'attractions et salles de jeux électroniques,2024
+7132,Gambling industries,Jeux de hasard et loteries,2024
+7139,Other amusement and recreation industries,Autres services de divertissement et de loisirs,2024
+7211,Traveller accommodation,Hébergement des voyageurs,2024
+7212,Recreational vehicle (RV) parks and recreational camps,Parcs pour véhicules récréatifs (VR) et camps de loisirs,2024
+7213,Rooming and boarding houses,Maisons de chambres et pensions de famille,2024
+7223,Special food services,Services de restauration spéciaux,2024
+7224,Drinking places (alcoholic beverages),Débits de boissons alcoolisées,2024
+7225,Full-service restaurants and limited-service eating places,Restaurants à service complet et établissements de restauration à service restreint,2024
+8111,Automotive repair and maintenance,Réparation et entretien de véhicules automobiles,2024
+8112,Electronic and precision equipment repair and maintenance,Réparation et entretien de matériel électronique et de matériel de précision,2024
+8113,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,Réparation et entretien de machines et de matériel d'usage commercial et industriel (sauf les véhicules automobiles et le matériel électronique),2024
+8114,Personal and household goods repair and maintenance,Réparation et entretien d'articles personnels et ménagers,2024
+8121,Personal care services,Services de soins personnels,2024
+8122,Funeral services,Services funéraires,2024
+8123,Dry cleaning and laundry services,Services de nettoyage à sec et de blanchissage,2024
+8129,Other personal services,Autres services personnels,2024
+8131,Religious organizations,Organismes religieux,2024
+8132,Grant-making and giving services,Fondations et organismes de charité,2024
+8133,Social advocacy organizations,Organismes d'action sociale,2024
+8134,Civic and social organizations,Organisations civiques et sociales,2024
+8139,"Business, professional, labour and other membership organizations","Associations de gens d'affaires, organisations professionnelles et syndicales et autres associations de personnes",2024
+8141,Private households,Ménages privés,2024
+9111,Defence services,Services de défense,2024
+9112,Federal protective services,Services de protection fédéraux,2024
+9113,"Federal labour, employment and immigration services","Services fédéraux relatifs à la main-d'oeuvre, à l'emploi et à l'immigration",2024
+9114,Foreign affairs and international assistance,Affaires étrangères et aide internationale,2024
+9119,Other federal government public administration,Autres services de l'administration publique fédérale,2024
+9121,Provincial protective services,Services de protection provinciaux,2024
+9122,Provincial labour and employment services,Services provinciaux relatifs à la main-d'oeuvre et à l'emploi,2024
+9129,Other provincial and territorial public administration,Autres services des administrations publiques provinciales et territoriales,2024
+9131,Municipal protective services,Services de protection municipaux,2024
+9139,"Other local, municipal and regional public administration","Autres services des administrations publiques locales, municipales et régionales",2024
+9141,Indigenous public administration,Administrations publiques autochtones,2024
+9191,International and other extra-territorial public administration,Organismes publics internationaux et autres organismes publics extra-territoriaux,2024
+11111,Soybean farming,Culture du soja,2024
+11112,Oilseed (except soybean) farming,Culture de plantes oléagineuses (sauf le soja),2024
+11113,Dry pea and bean farming,Culture de pois et de haricots secs,2024
+11114,Wheat farming,Culture du blé,2024
+11115,Corn farming,Culture du maïs,2024
+11116,Rice farming,Culture du riz,2024
+11119,Other grain farming,Autres cultures céréalières,2024
+11121,Vegetable and melon farming,Culture de légumes et de melons,2024
+11131,Orange groves,Culture d'oranges,2024
+11132,Citrus (except orange) groves,Culture d'agrumes (sauf les oranges),2024
+11133,Non-citrus fruit and tree nut farming,Culture de noix et de fruits (sauf les agrumes),2024
+11141,Food crops grown under cover,Culture vivrière en serre,2024
+11142,Nursery and floriculture production,Culture en pépinière et floriculture,2024
+11191,Tobacco farming,Culture du tabac,2024
+11192,Cotton farming,Culture du coton,2024
+11193,Sugar cane farming,Culture de la canne à sucre,2024
+11194,Hay farming,Culture du foin,2024
+11199,All other crop farming,Toutes les autres cultures agricoles,2024
+11211,"Beef cattle ranching and farming, including feedlots","Élevage de bovins de boucherie, y compris l'exploitation de parcs d'engraissement",2024
+11212,Dairy cattle and milk production,Élevage de bovins laitiers et production laitière,2024
+11221,Hog and pig farming,Élevage de porcs,2024
+11231,Chicken egg production,Production d'oeufs de poules,2024
+11232,Broiler and other meat-type chicken production,Élevage de poulets à griller et d'autres volailles d'abattage,2024
+11233,Turkey production,Élevage de dindons,2024
+11234,Poultry hatcheries,Couvoirs,2024
+11239,Other poultry production,Élevage d'autres volailles,2024
+11241,Sheep farming,Élevage de moutons,2024
+11242,Goat farming,Élevage de chèvres,2024
+11251,Aquaculture,Aquaculture,2024
+11291,Apiculture,Apiculture,2024
+11292,Horse and other equine production,Élevage de chevaux et d'autres équidés,2024
+11293,Fur-bearing animal and rabbit production,Élevage d'animaux à fourrure et de lapins,2024
+11299,All other animal production,Tous les autres types d'élevage,2024
+11311,Timber tract operations,Exploitation de terres à bois,2024
+11321,Forest nurseries and gathering of forest products,Pépinières forestières et récolte de produits forestiers,2024
+11331,Logging,Exploitation forestière,2024
+11411,Fishing,Pêche,2024
+11421,Hunting and trapping,Chasse et piégeage,2024
+11511,Support activities for crop production,Activités de soutien aux cultures agricoles,2024
+11521,Support activities for animal production,Activités de soutien à l'élevage,2024
+11531,Support activities for forestry,Activités de soutien à la foresterie,2024
+21111,Oil and gas extraction (except oil sands),Extraction de pétrole et de gaz (à l'exception des sables bitumineux),2024
+21114,Oil sands extraction,Extraction de sables bitumineux,2024
+21211,Coal mining,Extraction de charbon,2024
+21221,Iron ore mining,Extraction de minerais de fer,2024
+21222,Gold and silver ore mining,Extraction de minerais d'or et d'argent,2024
+21223,"Copper, nickel, lead and zinc ore mining","Extraction de minerais de cuivre, de nickel, de plomb et de zinc",2024
+21229,Other metal ore mining,Extraction d'autres minerais métalliques,2024
+21231,Stone mining and quarrying,Extraction de pierre,2024
+21232,"Sand, gravel, clay, and ceramic and refractory minerals mining and quarrying","Extraction de sable, de gravier, d'argile, de céramique et de minerais réfractaires",2024
+21239,Other non-metallic mineral mining and quarrying,Extraction d'autres minerais non métalliques,2024
+21311,"Support activities for mining, and oil and gas extraction","Activités de soutien à l'extraction minière, pétrolière et gazière",2024
+22111,Electric power generation,Production d'électricité,2024
+22112,"Electric power transmission, control and distribution","Transport, gestion et distribution d'électricité",2024
+22121,Natural gas distribution,Distribution de gaz naturel,2024
+22131,Water supply and irrigation systems,Réseaux d'aqueduc et systèmes d'irrigation,2024
+22132,Sewage treatment facilities,Installations d'épuration des eaux usées,2024
+22133,Steam and air-conditioning supply,Production de vapeur et conditionnement de l'air,2024
+23611,Residential building construction,Construction résidentielle,2024
+23621,Industrial building and structure construction,Construction de bâtiments et de structures à usage industriel,2024
+23622,Commercial and institutional building construction,Construction de bâtiments à usage commercial et institutionnel,2024
+23711,Water and sewer line and related structures construction,Construction d'aqueducs et d'égouts et structures connexes,2024
+23712,Oil and gas pipeline and related structures construction,Construction d'oléoducs et de gazoducs et structures connexes,2024
+23713,Power and communication line and related structures construction,Construction de lignes de transmission d'énergie électrique et de télécommunication et structures connexes,2024
+23721,Land subdivision,Lotissement de terrains,2024
+23731,"Highway, street and bridge construction","Construction de routes, de rues et de ponts",2024
+23799,Other heavy and civil engineering construction,Autres travaux de génie civil,2024
+23811,Poured concrete foundation and structure contractors,Entrepreneurs en travaux de fondations et de structure en béton coulé,2024
+23812,Structural steel and precast concrete contractors,Entrepreneurs en montage de charpentes d'acier et mise en place de béton préfabriqué,2024
+23813,Framing contractors,Entrepreneurs en charpenterie,2024
+23814,Masonry contractors,Entrepreneurs en travaux de maçonnerie,2024
+23815,Glass and glazing contractors,Entrepreneurs en travaux de vitrage et de vitrerie,2024
+23816,Roofing contractors,Entrepreneurs en travaux de toiture,2024
+23817,Siding contractors,Entrepreneurs en travaux de parements,2024
+23819,"Other foundation, structure and building exterior contractors","Entrepreneurs en autres travaux de fondations, de structure, et d'extérieur de bâtiment",2024
+23821,Electrical contractors and other wiring installation contractors,Entrepreneurs en travaux d'électricité et en installation de câblage,2024
+23822,"Plumbing, heating and air-conditioning contractors","Entrepreneurs en plomberie, chauffage et climatisation",2024
+23829,Other building equipment contractors,Entrepreneurs en installation d'autres équipements techniques,2024
+23831,Drywall and insulation contractors,Entrepreneurs en installation de cloisons sèches et travaux d'isolation,2024
+23832,Painting and wall covering contractors,Entrepreneurs en peinture et tapisserie,2024
+23833,Flooring contractors,Entrepreneurs en travaux de revêtements de sol,2024
+23834,Tile and terrazzo contractors,Entrepreneurs en pose de carreaux et coulage de terrazzo,2024
+23835,Finish carpentry contractors,Entrepreneurs en petite menuiserie,2024
+23839,Other building finishing contractors,Entrepreneurs en autres travaux de finition de bâtiment,2024
+23891,Site preparation contractors,Entrepreneurs en préparation de terrains,2024
+23899,All other specialty trade contractors,Tous les autres entrepreneurs spécialisés,2024
+31-33,Manufacturing,Fabrication,2024
+31111,Animal food manufacturing,Fabrication d'aliments pour animaux,2024
+31121,Flour milling and malt manufacturing,Minoterie et malterie,2024
+31122,Starch and vegetable fat and oil manufacturing,Amidonnerie et fabrication de graisses et d'huiles végétales,2024
+31123,Breakfast cereal manufacturing,Fabrication de céréales pour petit déjeuner,2024
+31131,Sugar manufacturing,Fabrication de sucre,2024
+31134,Non-chocolate confectionery manufacturing,Fabrication de confiseries non chocolatées,2024
+31135,Chocolate and chocolate confectionery manufacturing,Fabrication de chocolat et de confiseries chocolatées,2024
+31141,Frozen food manufacturing,Fabrication d'aliments congelés,2024
+31142,"Fruit and vegetable canning, pickling and drying","Mise en conserve, marinage et séchage de fruits et de légumes",2024
+31151,Dairy product (except frozen) manufacturing,Fabrication de produits laitiers (sauf congelés),2024
+31152,Ice cream and frozen dessert manufacturing,Fabrication de crème glacée et de desserts congelés,2024
+31161,Animal slaughtering and processing,Abattage et transformation d'animaux,2024
+31171,Seafood product preparation and packaging,Préparation et conditionnement de poissons et de fruits de mer,2024
+31181,Bread and bakery product manufacturing,Fabrication de pain et de produits de boulangerie,2024
+31182,"Cookie, cracker and pasta manufacturing","Fabrication de biscuits, de craquelins et de pâtes alimentaires",2024
+31183,Tortilla manufacturing,Fabrication de tortillas,2024
+31191,Snack food manufacturing,Fabrication d'aliments à grignoter,2024
+31192,Coffee and tea manufacturing,Fabrication de café et de thé,2024
+31193,Flavouring syrup and concentrate manufacturing,Fabrication de sirops et de concentrés aromatisants,2024
+31194,Seasoning and dressing manufacturing,Fabrication d'assaisonnements et de vinaigrettes,2024
+31199,All other food manufacturing,Fabrication de tous les autres aliments,2024
+31211,Soft drink and ice manufacturing,Fabrication de boissons gazeuses et de glace,2024
+31212,Breweries,Brasseries,2024
+31213,Wineries,Vineries,2024
+31214,Distilleries,Distilleries,2024
+31221,Tobacco stemming and redrying,Écôtage et resséchage des feuilles de tabac,2024
+31222,Tobacco product manufacturing,Fabrication de produits du tabac,2024
+31231,Cannabis product manufacturing,Fabrication de produits du cannabis,2024
+31311,"Fibre, yarn and thread mills","Usines de fibres, de filés et de fils",2024
+31321,Broad-woven fabric mills,Usines de tissus larges,2024
+31322,Narrow fabric mills and schiffli machine embroidery,Usines de tissus étroits et de broderies schiffli,2024
+31323,Nonwoven fabric mills,Usines de non-tissés,2024
+31324,Knit fabric mills,Usines de tricots,2024
+31331,Textile and fabric finishing,Finissage de textiles et de tissus,2024
+31332,Fabric coating,Revêtement de tissus,2024
+31411,Carpet and rug mills,Usines de tapis et de carpettes,2024
+31412,Curtain and linen mills,Usines de rideaux et de linge de maison,2024
+31491,Textile bag and canvas mills,Usines de sacs en textile et de grosse toile,2024
+31499,All other textile product mills,Usines de tous les autres produits textiles,2024
+31512,Apparel knitting mills,Usines de tricotage de vêtements,2024
+31521,Cut and sew clothing contracting,Fabrication à forfait de vêtements coupés-cousus,2024
+31525,Cut and sew apparel manufacturing (except contractors),Fabrication de vêtements coupés-cousus (sauf les entrepreneurs),2024
+31599,Clothing accessories and other clothing manufacturing,Fabrication d'accessoires vestimentaires et d'autres vêtements,2024
+31611,Leather and hide tanning and finishing,Tannage et finissage du cuir et des peaux,2024
+31621,Footwear manufacturing,Fabrication de chaussures,2024
+31699,Other leather and allied product manufacturing,Fabrication d'autres produits en cuir et produits analogues,2024
+32111,Sawmills and wood preservation,Scieries et préservation du bois,2024
+32121,"Veneer, plywood and engineered wood product manufacturing","Fabrication de placages, de contreplaqués et de produits en bois reconstitué",2024
+32191,Millwork,Fabrication de menuiseries préfabriquées,2024
+32192,Wood container and pallet manufacturing,Fabrication de contenants et de palettes en bois,2024
+32199,All other wood product manufacturing,Fabrication de tous les autres produits en bois,2024
+32211,Pulp mills,Usines de pâte à papier,2024
+32212,Paper mills,Usines de papier,2024
+32213,Paperboard mills,Usines de carton,2024
+32221,Paperboard container manufacturing,Fabrication de contenants en carton,2024
+32222,Paper bag and coated and treated paper manufacturing,Fabrication de sacs en papier et de papier couché et traité,2024
+32223,Stationery product manufacturing,Fabrication d'articles de papeterie,2024
+32229,Other converted paper product manufacturing,Fabrication d'autres produits en papier transformé,2024
+32311,Printing,Impression,2024
+32312,Support activities for printing,Activités de soutien à l'impression,2024
+32411,Petroleum refineries,Raffineries de pétrole,2024
+32412,"Asphalt paving, roofing and saturated materials manufacturing","Fabrication d'asphaltage, de papier-toiture asphalté et de matériaux imprégnés d'asphalte",2024
+32419,Other petroleum and coal product manufacturing,Fabrication d'autres produits du pétrole et du charbon,2024
+32511,Petrochemical manufacturing,Fabrication de produits pétrochimiques,2024
+32512,Industrial gas manufacturing,Fabrication de gaz industriels,2024
+32513,Synthetic dye and pigment manufacturing,Fabrication de teintures et de pigments synthétiques,2024
+32518,Other basic inorganic chemical manufacturing,Fabrication d'autres produits chimiques inorganiques de base,2024
+32519,Other basic organic chemical manufacturing,Fabrication d'autres produits chimiques organiques de base,2024
+32521,Resin and synthetic rubber manufacturing,Fabrication de résines et de caoutchouc synthétique,2024
+32522,Artificial and synthetic fibres and filaments manufacturing,Fabrication de fibres et de filaments artificiels et synthétiques,2024
+32531,Fertilizer manufacturing,Fabrication d'engrais,2024
+32532,Pesticide and other agricultural chemical manufacturing,Fabrication de pesticides et d'autres produits chimiques agricoles,2024
+32541,Pharmaceutical and medicine manufacturing,Fabrication de produits pharmaceutiques et de médicaments,2024
+32551,Paint and coating manufacturing,Fabrication de peintures et de revêtements,2024
+32552,Adhesive manufacturing,Fabrication d'adhésifs,2024
+32561,Soap and cleaning compound manufacturing,Fabrication de savons et d'autres produits nettoyants,2024
+32562,Toilet preparation manufacturing,Fabrication de produits de toilette,2024
+32591,Printing ink manufacturing,Fabrication d'encre d'imprimerie,2024
+32592,Explosives manufacturing,Fabrication d'explosifs,2024
+32599,All other chemical product manufacturing,Fabrication de tous les autres produits chimiques,2024
+32611,Plastic packaging materials and unlaminated film and sheet manufacturing,Fabrication de matériel d'emballage et de pellicules et feuilles non stratifiées en plastique,2024
+32612,"Plastic pipe, pipe fitting, and unlaminated profile shape manufacturing","Fabrication de tuyaux, de raccords de tuyauterie et de profilés non stratifiés en plastique",2024
+32613,"Laminated plastic plate, sheet (except packaging), and shape manufacturing","Fabrication de plaques, de feuilles (sauf d'emballage) et de formes stratifiées en plastique",2024
+32614,Polystyrene foam product manufacturing,Fabrication de produits en mousse de polystyrène,2024
+32615,Urethane and other foam product (except polystyrene) manufacturing,Fabrication de produits en mousse d'uréthane et en d'autres mousses plastiques (sauf de polystyrène),2024
+32616,Plastic bottle manufacturing,Fabrication de bouteilles en plastique,2024
+32619,Other plastic product manufacturing,Fabrication d'autres produits en plastique,2024
+32621,Tire manufacturing,Fabrication de pneus,2024
+32622,Rubber and plastic hose and belting manufacturing,Fabrication de tuyaux souples et de courroies en caoutchouc et en plastique,2024
+32629,Other rubber product manufacturing,Fabrication d'autres produits en caoutchouc,2024
+32711,"Pottery, ceramics and plumbing fixture manufacturing","Fabrication de poteries, d'articles en céramique et d'appareils sanitaires",2024
+32712,Clay building material and refractory manufacturing,Fabrication de matériaux de construction en argile et de produits réfractaires,2024
+32721,Glass and glass product manufacturing,Fabrication de verre et de produits en verre,2024
+32731,Cement manufacturing,Fabrication de ciment,2024
+32732,Ready-mix concrete manufacturing,Fabrication de béton préparé,2024
+32733,"Concrete pipe, brick and block manufacturing","Fabrication de tuyaux, briques et blocs en béton",2024
+32739,Other concrete product manufacturing,Fabrication d'autres produits en béton,2024
+32741,Lime manufacturing,Fabrication de chaux,2024
+32742,Gypsum product manufacturing,Fabrication de produits en gypse,2024
+32791,Abrasive product manufacturing,Fabrication de produits abrasifs,2024
+32799,All other non-metallic mineral product manufacturing,Fabrication de tous les autres produits minéraux non métalliques,2024
+33111,Iron and steel mills and ferro-alloy manufacturing,Sidérurgie,2024
+33121,Iron and steel pipes and tubes manufacturing from purchased steel,Fabrication de tubes et de tuyaux en fer et en acier à partir d'acier acheté,2024
+33122,Rolling and drawing of purchased steel,Laminage et étirage d'acier acheté,2024
+33131,Alumina and aluminum production and processing,Production et transformation d'alumine et d'aluminium,2024
+33141,Non-ferrous metal (except aluminum) smelting and refining,Fonte et affinage de métaux non ferreux (sauf l'aluminium),2024
+33142,"Copper rolling, drawing, extruding and alloying","Laminage, étirage, extrusion et alliage du cuivre",2024
+33149,"Non-ferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying","Laminage, étirage, extrusion et alliage de métaux non ferreux (sauf le cuivre et l'aluminium)",2024
+33151,Ferrous metal foundries,Fonderies de métaux ferreux,2024
+33152,Non-ferrous metal foundries,Fonderies de métaux non ferreux,2024
+33211,Forging and stamping,Forgeage et estampage,2024
+33221,Cutlery and hand tool manufacturing,Fabrication de coutellerie et d'outils à main,2024
+33231,Plate work and fabricated structural product manufacturing,Fabrication de tôles fortes et d'éléments de charpentes,2024
+33232,Ornamental and architectural metal product manufacturing,Fabrication de produits métalliques d'ornement et d'architecture,2024
+33241,Power boiler and heat exchanger manufacturing,Fabrication de chaudières et d'échangeurs de chaleur,2024
+33242,Metal tank (heavy gauge) manufacturing,Fabrication de réservoirs en métal (épais),2024
+33243,"Metal can, box and other metal container (light gauge) manufacturing","Fabrication de canettes, de boîtes et d'autres contenants en métal (mince)",2024
+33251,Hardware manufacturing,Fabrication d'articles de quincaillerie,2024
+33261,Spring and wire product manufacturing,Fabrication de ressorts et de produits en fil métallique,2024
+33271,Machine shops,Ateliers d'usinage,2024
+33272,"Turned product and screw, nut and bolt manufacturing","Fabrication de produits tournés, de vis, d'écrous et de boulons",2024
+33281,"Coating, engraving, cold and heat treating and allied activities","Revêtement, gravure, traitement thermique et par le froid, et activités analogues",2024
+33291,Metal valve manufacturing,Fabrication de soupapes en métal,2024
+33299,All other fabricated metal product manufacturing,Fabrication de tous les autres produits métalliques,2024
+33311,Agricultural implement manufacturing,Fabrication de machines agricoles,2024
+33312,Construction machinery manufacturing,Fabrication de machines pour la construction,2024
+33313,Mining and oil and gas field machinery manufacturing,Fabrication de machines pour l'extraction minière et l'exploitation pétrolière et gazière,2024
+33324,Industrial machinery manufacturing,Fabrication de machines industrielles,2024
+33331,Commercial and service industry machinery manufacturing,Fabrication de machines pour le commerce et les industries de services,2024
+33341,"Ventilation, heating, air-conditioning and commercial refrigeration equipment manufacturing","Fabrication d'appareils de ventilation, de chauffage, de climatisation et de réfrigération commerciale",2024
+33351,Metalworking machinery manufacturing,Fabrication de machines-outils pour le travail du métal,2024
+33361,"Engine, turbine and power transmission equipment manufacturing","Fabrication de moteurs, de turbines et de matériel de transmission de puissance",2024
+33391,Pump and compressor manufacturing,Fabrication de pompes et de compresseurs,2024
+33392,Material handling equipment manufacturing,Fabrication de matériel de manutention,2024
+33399,All other general-purpose machinery manufacturing,Fabrication de toutes les autres machines d'usage général,2024
+33411,Computer and peripheral equipment manufacturing,Fabrication de matériel informatique et périphérique,2024
+33421,Telephone apparatus manufacturing,Fabrication de matériel téléphonique,2024
+33422,Radio and television broadcasting and wireless communications equipment manufacturing,"Fabrication de matériel de radiodiffusion, de télédiffusion et de communication sans fil",2024
+33429,Other communications equipment manufacturing,Fabrication d'autres types de matériel de communication,2024
+33431,Audio and video equipment manufacturing,Fabrication de matériel audio et vidéo,2024
+33441,Semiconductor and other electronic component manufacturing,Fabrication de semi-conducteurs et d'autres composants électroniques,2024
+33451,"Navigational, measuring, medical and control instruments manufacturing","Fabrication d'instruments de navigation, de mesure et de commande et d'instruments médicaux",2024
+33461,Manufacturing and reproducing magnetic and optical media,Fabrication et reproduction de supports magnétiques et optiques,2024
+33513,Electric lighting equipment manufacturing,Fabrication de matériel électrique d'éclairage,2024
+33521,Small electrical appliance manufacturing,Fabrication de petits appareils électroménagers,2024
+33522,Major appliance manufacturing,Fabrication de gros appareils ménagers,2024
+33531,Electrical equipment manufacturing,Fabrication de matériel électrique,2024
+33591,Battery manufacturing,Fabrication de batteries et de piles,2024
+33592,Communication and energy wire and cable manufacturing,Fabrication de fils et de câbles électriques et de communication,2024
+33593,Wiring device manufacturing,Fabrication de dispositifs de câblage,2024
+33599,All other electrical equipment and component manufacturing,Fabrication de tous les autres types de matériel et composants électriques,2024
+33611,Automobile and light-duty motor vehicle manufacturing,Fabrication de voitures et de véhicules automobiles légers,2024
+33612,Heavy-duty truck manufacturing,Fabrication de camions lourds,2024
+33621,Motor vehicle body and trailer manufacturing,Fabrication de carrosseries et de remorques de véhicules automobiles,2024
+33631,Motor vehicle gasoline engine and engine parts manufacturing,Fabrication de moteurs et de pièces de moteurs à essence pour véhicules automobiles,2024
+33632,Motor vehicle electrical and electronic equipment manufacturing,Fabrication de matériel électrique et électronique pour véhicules automobiles,2024
+33633,Motor vehicle steering and suspension components (except spring) manufacturing,Fabrication de composants de direction et de suspension pour véhicules automobiles (sauf les ressorts),2024
+33634,Motor vehicle brake system manufacturing,Fabrication de systèmes de freinage pour véhicules automobiles,2024
+33635,Motor vehicle transmission and power train parts manufacturing,Fabrication de pièces de transmission et de groupe motopropulseur pour véhicules automobiles,2024
+33636,Motor vehicle seating and interior trim manufacturing,Fabrication de sièges et enjolivures intérieures pour véhicules automobiles,2024
+33637,Motor vehicle metal stamping,Emboutissage de pièces en métal pour véhicules automobiles,2024
+33639,Other motor vehicle parts manufacturing,Fabrication d'autres pièces pour véhicules automobiles,2024
+33641,Aerospace product and parts manufacturing,Fabrication de produits aérospatiaux et de leurs pièces,2024
+33651,Railroad rolling stock manufacturing,Fabrication de matériel ferroviaire roulant,2024
+33661,Ship and boat building,Construction de navires et d'embarcations,2024
+33699,Other transportation equipment manufacturing,Fabrication d'autres types de matériel de transport,2024
+33711,Wood kitchen cabinet and counter top manufacturing,Fabrication d'armoires et de comptoirs de cuisine en bois,2024
+33712,Household and institutional furniture manufacturing,Fabrication de meubles de maison et d'établissement institutionnel,2024
+33721,Office furniture (including fixtures) manufacturing,Fabrication de meubles de bureau (y compris les articles d'ameublement),2024
+33791,Mattress manufacturing,Fabrication de matelas,2024
+33792,Blind and shade manufacturing,Fabrication de stores et de persiennes,2024
+33911,Medical equipment and supplies manufacturing,Fabrication de fournitures et de matériel médicaux,2024
+33991,Jewellery and silverware manufacturing,Fabrication de bijoux et de pièces d'argenterie,2024
+33992,Sporting and athletic goods manufacturing,Fabrication d'articles de sport et d'athlétisme,2024
+33993,"Doll, toy and game manufacturing","Fabrication de poupées, de jouets et de jeux",2024
+33994,Office supplies (except paper) manufacturing,Fabrication de fournitures de bureau (sauf la papeterie),2024
+33995,Sign manufacturing,Fabrication d'enseignes,2024
+33999,All other miscellaneous manufacturing,Toutes les autres activités diverses de fabrication,2024
+41111,Live animal merchant wholesalers,Grossistes-marchands d'animaux vivants,2024
+41112,Oilseed and grain merchant wholesalers,Grossistes-marchands de graines oléagineuses et de grains céréaliers,2024
+41113,Nursery stock and plant merchant wholesalers,Grossistes-marchands de produits et plantes de pépinières,2024
+41119,Other farm product merchant wholesalers,Grossistes-marchands d'autres produits agricoles,2024
+41211,"Petroleum, petroleum products, and other hydrocarbons merchant wholesalers","Grossistes-marchands de pétrole, de produits pétroliers, et d'autres hydrocarbures",2024
+41311,General-line food merchant wholesalers,Grossistes-marchands de gamme complète d'aliments,2024
+41312,Dairy and milk products merchant wholesalers,Grossistes-marchands de produits laitiers,2024
+41313,Poultry and egg merchant wholesalers,Grossistes-marchands de volailles et d'oeufs,2024
+41314,Fish and seafood product merchant wholesalers,Grossistes-marchands de poissons et de fruits de mer,2024
+41315,Fresh fruit and vegetable merchant wholesalers,Grossistes-marchands de fruits et légumes frais,2024
+41316,Red meat and meat product merchant wholesalers,Grossistes-marchands de viandes rouges et de produits de viande,2024
+41319,Other specialty-line food merchant wholesalers,Grossistes-marchands d'autres gammes spécialisées d'aliments,2024
+41321,Non-alcoholic beverage merchant wholesalers,Grossistes-marchands de boissons non alcoolisées,2024
+41322,Alcoholic beverage merchant wholesalers,Grossistes-marchands de boissons alcoolisées,2024
+41331,Cigarette and tobacco product merchant wholesalers,Grossistes-marchands de cigarettes et de produits du tabac,2024
+41341,Cannabis merchant wholesalers,Grossistes-marchands de cannabis,2024
+41411,Clothing and clothing accessories merchant wholesalers,Grossistes-marchands de vêtements et d'accessoires vestimentaires,2024
+41412,Footwear merchant wholesalers,Grossistes-marchands de chaussures,2024
+41413,"Piece goods, notions and other dry goods merchant wholesalers",Grossistes-marchands de tissus à la pièce et d'articles de mercerie,2024
+41421,Home entertainment equipment merchant wholesalers,Grossistes-marchands de matériel de divertissement au foyer,2024
+41422,Household appliance merchant wholesalers,Grossistes-marchands d'appareils ménagers,2024
+41431,"China, glassware, crockery and pottery merchant wholesalers","Grossistes-marchands de porcelaine, verrerie, faïence et poterie",2024
+41432,Floor covering merchant wholesalers,Grossistes-marchands de revêtements de sol,2024
+41433,"Linen, drapery and other textile furnishings merchant wholesalers","Grossistes-marchands de linge de maison, de tentures et d'autres textiles domestiques",2024
+41439,Other home furnishings merchant wholesalers,Grossistes-marchands d'autres accessoires de maison,2024
+41441,Jewellery and watch merchant wholesalers,Grossistes-marchands de bijoux et de montres,2024
+41442,"Book, periodical and newspaper merchant wholesalers","Grossistes-marchands de livres, de périodiques et de journaux",2024
+41443,Photographic equipment and supplies merchant wholesalers,Grossistes-marchands de matériel et fournitures photographiques,2024
+41444,Sound recording merchant wholesalers,Grossistes-marchands d'enregistrements sonores,2024
+41445,Video recording merchant wholesalers,Grossistes-marchands d'enregistrements vidéo,2024
+41446,Toy and hobby goods merchant wholesalers,Grossistes-marchands de jouets et d'articles de passe-temps,2024
+41447,Amusement and sporting goods merchant wholesalers,Grossistes-marchands d'articles de divertissement et de sport,2024
+41451,Pharmaceuticals and pharmacy supplies merchant wholesalers,Grossistes-marchands de produits et fournitures pharmaceutiques,2024
+41452,"Toiletries, cosmetics and sundries merchant wholesalers","Grossistes-marchands d'articles de toilette, de cosmétiques et d'articles divers",2024
+41511,New and used automobile and light-duty truck merchant wholesalers,Grossistes-marchands d'automobiles et de camions légers neufs et d'occasion,2024
+41512,"Truck, truck tractor and bus merchant wholesalers","Grossistes-marchands de camions, de tracteurs routiers et d'autobus",2024
+41519,Recreational and other motor vehicles merchant wholesalers,Grossistes-marchands de véhicules de plaisance et d'autres véhicules automobiles,2024
+41521,Tire merchant wholesalers,Grossistes-marchands de pneus,2024
+41529,Other new motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands d'autres pièces et d'accessoires neufs pour véhicules automobiles,2024
+41531,Used motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands de pièces et d'accessoires d'occasion pour véhicules automobiles,2024
+41611,Electrical wiring and construction supplies merchant wholesalers,Grossistes-marchands de fils et de fournitures électriques de construction,2024
+41612,"Plumbing, heating and air-conditioning equipment and supplies merchant wholesalers","Grossistes-marchands de matériel et fournitures de plomberie, de chauffage et de climatisation",2024
+41621,Metal service centres,Grossistes-distributeurs de métaux et de produits métalliques,2024
+41631,General-line building supplies merchant wholesalers,Grossistes-marchands d'une gamme générale de fournitures de construction,2024
+41632,"Lumber, plywood and millwork merchant wholesalers","Grossistes-marchands de bois d'oeuvre, de contreplaqués et de menuiseries préfabriquées",2024
+41633,Hardware merchant wholesalers,Grossistes-marchands d'articles de quincaillerie,2024
+41634,"Paint, glass and wallpaper merchant wholesalers","Grossistes-marchands de peintures, de vitres et de papier peint",2024
+41639,Other specialty-line building supplies merchant wholesalers,Grossistes-marchands de gammes spécialisées de fournitures de construction,2024
+41711,"Farm, lawn and garden machinery and equipment merchant wholesalers","Grossistes-marchands de machines et matériel pour l'agriculture, l'entretien des pelouses et le jardinage",2024
+41721,"Construction and forestry machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures pour la construction et la foresterie",2024
+41722,"Mining and oil and gas well machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures pour l'extraction minière, pétrolière et gazière",2024
+41723,"Industrial machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures industriels",2024
+41731,"Computer, computer peripheral and pre-packaged software merchant wholesalers","Grossistes-marchands d'ordinateurs, de périphériques et de logiciels de série",2024
+41732,"Electronic components, navigational and communications equipment and supplies merchant wholesalers","Grossistes-marchands de composants électroniques, et de matériel et fournitures de navigation et de communication",2024
+41791,Office and store machinery and equipment merchant wholesalers,Grossistes-marchands de machines et matériel de bureau et de magasin,2024
+41792,"Service establishment machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures d'établissements de service",2024
+41793,"Professional machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures d'usage professionnel",2024
+41799,"All other machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de tous les autres machines, matériel et fournitures",2024
+41811,Recyclable metal merchant wholesalers,Grossistes-marchands de métaux recyclables,2024
+41812,Recyclable paper and paperboard merchant wholesalers,Grossistes-marchands de papier et carton recyclables,2024
+41819,Other recyclable material merchant wholesalers,Grossistes-marchands d'autres matières recyclables,2024
+41821,Stationery and office supplies merchant wholesalers,Grossistes-marchands de papeterie et de fournitures de bureau,2024
+41822,Other paper and disposable plastic product merchant wholesalers,Grossistes-marchands d'autres papiers et de produits en plastique jetables,2024
+41831,Agricultural feed merchant wholesalers,Grossistes-marchands d'aliments pour animaux d'élevage,2024
+41832,Seed merchant wholesalers,Grossistes-marchands de semences,2024
+41839,Agricultural chemical and other farm supplies merchant wholesalers,Grossistes-marchands de produits chimiques et autres fournitures agricoles,2024
+41841,Chemical (except agricultural) and allied product merchant wholesalers,Grossistes-marchands de produits chimiques et de produits analogues (sauf agricoles),2024
+41851,"Mineral, ore and precious metal merchant wholesalers","Grossistes-marchands de minéraux, de minerais et de métaux précieux",2024
+41861,"Log, wood chips, and other wood products merchant wholesalers","Grossistes-marchands de billes, copeaux et autres produits de bois",2024
+41893,Second-hand goods (except machinery and automotive) merchant wholesalers,Grossistes-marchands de marchandises d'occasion (sauf les machines et les produits automobiles),2024
+41899,All other merchant wholesalers,Tous les autres grossistes-marchands,2024
+41911,Business-to-business electronic markets,Commerce électronique de gros entre entreprises,2024
+41912,Wholesale trade agents and brokers,Agents et courtiers du commerce de gros,2024
+44-45,Retail trade,Commerce de détail,2024
+44111,New car dealers,Concessionnaires d'automobiles neuves,2024
+44112,Used car dealers,Concessionnaires d'automobiles d'occasion,2024
+44121,Recreational vehicle dealers,Concessionnaires de véhicules récréatifs,2024
+44122,"Motorcycle, boat and other motor vehicle dealers","Concessionnaires de motocyclettes, de bateaux et d'autres véhicules automobiles",2024
+44133,Automotive parts and accessories retailers,Détaillants de pièces et d'accessoires pour véhicules automobiles,2024
+44134,Tire dealers,Marchands de pneus,2024
+44411,Home centres,Centres de rénovation,2024
+44412,Paint and wallpaper retailers,Détaillants de peinture et de papier peint,2024
+44414,Hardware retailers,Quincailleries,2024
+44418,Other building material dealers,Autres marchands de matériaux de construction,2024
+44423,Outdoor power equipment retailers,Détaillants de matériel motorisé pour l'extérieur,2024
+44424,Nursery retailers and garden centres,Pépinières et centres de jardinage,2024
+44511,Supermarkets and other grocery retailers (except Convenience retailers),Supermarchés et autres épiceries (sauf les dépanneurs),2024
+44513,Convenience retailers and vending machine operators,Dépanneurs et exploitants de distributeurs automatiques,2024
+44523,Fruit and vegetable markets,Marchés de fruits et de légumes,2024
+44524,Meat markets,Boucheries,2024
+44525,Fish and seafood markets,Poissonneries,2024
+44529,Other specialty food retailers,Autres détaillants d'alimentation spécialisés,2024
+44532,"Beer, wine and liquor retailers","Détaillants de bière, de vin et de spiritueux",2024
+44911,Furniture retailers,Détaillants de meubles,2024
+44912,"Floor covering, window treatment and other home furnishing retailers","Détaillants de revêtements de sol, garnitures de fenêtres et autres accessoires de maison",2024
+44921,Electronics and appliances retailers,Détaillants d'appareils électroniques et ménagers,2024
+45511,Department stores,Grands détaillants,2024
+45521,"Warehouse clubs, Supercentres and other general merchandise retailers","Clubs-entrepôts, supercentres et autres détaillants de marchandises diverses",2024
+45611,Pharmacies and drug stores,Pharmacies,2024
+45612,"Cosmetics, beauty supplies and perfume retailers","Détaillants de cosmétiques, de produits de beauté et de parfums",2024
+45613,Optical goods retailers,Détaillants de produits optiques,2024
+45619,Other health and personal care retailers,Détaillants d'autres produits de santé et de soins personnels,2024
+45711,Gasoline stations with convenience stores,Stations-service avec dépanneurs,2024
+45712,Other gasoline stations,Autres stations-service,2024
+45721,Fuel dealers,Marchands de combustibles,2024
+45811,Clothing and clothing accessories retailers,Détaillants de vêtements et d'accessoires vestimentaires,2024
+45821,Shoe retailers,Détaillants de chaussures,2024
+45831,Jewellery retailers,Bijouteries,2024
+45832,Luggage and leather goods retailers,Détaillants de bagages et de maroquinerie,2024
+45911,Sporting goods retailers,Détaillants d'articles de sport,2024
+45912,"Hobby, toy and game retailers","Détaillants d'articles de passe-temps, de jouets et de jeux",2024
+45913,"Sewing, needlework and piece goods retailers",Détaillants d'articles de couture et de travaux d'aiguille et de tissus à la pièce,2024
+45914,Musical instrument and supplies retailers,Détaillants d'instruments et de fournitures de musique,2024
+45921,Book retailers and news dealers,Librairies et marchands de journaux,2024
+45931,Florists,Fleuristes,2024
+45941,Office supplies and stationery retailers,Détaillants de fournitures de bureau et de papeterie,2024
+45942,"Gift, novelty and souvenir retailers","Détaillants de cadeaux, d'articles de fantaisie et de souvenirs",2024
+45951,Used merchandise retailers,Détaillants de marchandises d'occasion,2024
+45991,Pet and pet supplies retailers,Animaleries et détaillants de fournitures pour animaux,2024
+45992,Art dealers,Marchands d'oeuvres d'art,2024
+45993,Manufactured (mobile) home dealers,Marchands de maisons préfabriquées (mobiles),2024
+45999,All other miscellaneous retailers,Tous les autres détaillants de détail divers,2024
+48-49,Transportation and warehousing,Transport et entreposage,2024
+48111,Scheduled air transportation,Transport aérien régulier,2024
+48121,Non-scheduled air transportation,Transport aérien non régulier,2024
+48211,Rail transportation,Transport ferroviaire,2024
+48311,"Deep sea, coastal and Great Lakes water transportation","Transport hauturier, côtier et sur les Grands Lacs",2024
+48321,Inland water transportation,Transport sur les eaux intérieures,2024
+48411,"General freight trucking, local",Transport local par camion de marchandises diverses,2024
+48412,"General freight trucking, long distance",Transport par camion de marchandises diverses sur de longues distances,2024
+48421,Used household and office goods moving,Déménagement de biens usagés de maison et de bureau,2024
+48422,"Specialized freight (except used goods) trucking, local",Transport local par camion de marchandises spéciales (sauf les biens usagés),2024
+48423,"Specialized freight (except used goods) trucking, long distance",Transport par camion de marchandises spéciales sur de longues distances (sauf les biens usagés),2024
+48511,Urban transit systems,Services urbains de transport en commun,2024
+48521,Interurban and rural bus transportation,Transport interurbain et rural par autocar,2024
+48531,Taxi service,Services de taxi,2024
+48532,Limousine service,Services de limousine,2024
+48541,School and employee bus transportation,Transport scolaire et transport d'employés par autobus,2024
+48551,Charter bus industry,Services d'autobus nolisés,2024
+48599,Other transit and ground passenger transportation,Autres services de transport en commun et de transport terrestre de voyageurs,2024
+48611,Pipeline transportation of crude oil,Transport du pétrole brut par oléoduc,2024
+48621,Pipeline transportation of natural gas,Transport du gaz naturel par gazoduc,2024
+48691,Pipeline transportation of refined petroleum products,Transport par pipeline de produits pétroliers raffinés,2024
+48699,All other pipeline transportation,Tous les autres services de transport par pipeline,2024
+48711,"Scenic and sightseeing transportation, land",Transport terrestre de tourisme et d'agrément,2024
+48721,"Scenic and sightseeing transportation, water",Transport par eau de tourisme et d'agrément,2024
+48799,"Scenic and sightseeing transportation, other",Autres services de transport de tourisme et d'agrément,2024
+48811,Airport operations,Opérations aéroportuaires,2024
+48819,Other support activities for air transportation,Autres activités de soutien au transport aérien,2024
+48821,Support activities for rail transportation,Activités de soutien au transport ferroviaire,2024
+48831,Port and harbour operations,Opérations portuaires,2024
+48832,Marine cargo handling,Manutention du fret maritime,2024
+48833,Navigational services to shipping,Services de navigation pour le transport par eau,2024
+48839,Other support activities for water transportation,Autres activités de soutien au transport par eau,2024
+48841,Motor vehicle towing,Remorquage de véhicules automobiles,2024
+48849,Other support activities for road transportation,Autres activités de soutien au transport routier,2024
+48851,Freight transportation arrangement,Intermédiaires en transport de marchandises,2024
+48899,Other support activities for transportation,Autres activités de soutien au transport,2024
+49111,Postal service,Services postaux,2024
+49211,Couriers,Messageries,2024
+49221,Local messengers and local delivery,Services locaux de messagers et de livraison,2024
+49311,General warehousing and storage,Entreposage général,2024
+49312,Refrigerated warehousing and storage,Entreposage frigorifique,2024
+49313,Farm product warehousing and storage,Entreposage de produits agricoles,2024
+49319,Other warehousing and storage,Autres activités d'entreposage,2024
+51211,Motion picture and video production,Production de films et de vidéos,2024
+51212,Motion picture and video distribution,Distribution de films et de vidéos,2024
+51213,Motion picture and video exhibition,Présentation de films et de vidéos,2024
+51219,Post-production and other motion picture and video industries,Postproduction et autres industries du film et de la vidéo,2024
+51223,Music publishers,Éditeurs de musique,2024
+51224,Sound recording studios,Studios d'enregistrement sonore,2024
+51225,Record production and distribution,Production et distribution d'enregistrements,2024
+51229,Other sound recording industries,Autres industries de l'enregistrement sonore,2024
+51311,Newspaper publishers,Éditeurs de journaux,2024
+51312,Periodical publishers,Éditeurs de périodiques,2024
+51313,Book publishers,Éditeurs de livres,2024
+51314,Directory and mailing list publishers,Éditeurs d'annuaires et de répertoires,2024
+51319,Other publishers,Autres éditeurs,2024
+51321,Software publishers,Éditeurs de logiciels,2024
+51611,Radio broadcasting stations,Stations de radiodiffusion,2024
+51612,Television broadcasting stations,Stations de télédiffusion,2024
+51621,"Media streaming distribution services, and other media networks and content providers",Services de distribution de contenu médiatique diffusé en continu et autres réseaux et fournisseurs de contenu médiatique,2024
+51731,Wired and wireless telecommunications carriers (except satellite),Télécommunications par fil et sans fil (sauf par satellite),2024
+51741,Satellite telecommunications,Télécommunications par satellite,2024
+51791,Other telecommunications,Autres services de télécommunications,2024
+51821,"Computing infrastructure providers, data processing, web hosting, and related services","Fournisseurs d'infrastructures informatiques, traitement de données, hébergement de données et services connexes",2024
+51921,Libraries and archives,Bibliothèques et archives,2024
+51929,Web search portals and all other information services,Portails de recherche Web et tous les autres services d'information,2024
+52111,Monetary authorities - central bank,Autorités monétaires - banque centrale,2024
+52211,Banking,Activités bancaires,2024
+52213,Credit unions,Coopératives de crédit et caisses populaires,2024
+52219,Other depository credit intermediation,Autres activités d'intermédiation financière par le biais de dépôts,2024
+52221,Credit card issuing,Émission de cartes de crédit,2024
+52222,Sales financing,Financement de ventes à crédit,2024
+52229,Other non-depository credit intermediation,Autres activités d'intermédiation financière non faite par le biais de dépôts,2024
+52231,Mortgage and non-mortgage loan brokers,Courtiers en prêts hypothécaires et non-hypothécaires,2024
+52232,"Financial transactions processing, reserve and clearing house activities",Traitement de transactions financières et activités liées à la réserve et à la chambre de compensation,2024
+52239,Other activities related to credit intermediation,Autres activités liées à l'intermédiation financière,2024
+52311,Investment banking and securities dealing,Services bancaires d'investissement et commerce des valeurs mobilières,2024
+52312,Securities brokerage,Courtage de valeurs mobilières,2024
+52313,Commodity contracts dealing,Négociation de contrats de marchandises,2024
+52314,Commodity contracts brokerage,Courtage de contrats de marchandises,2024
+52321,Securities and commodity exchanges,Bourses de valeurs mobilières et de marchandises,2024
+52391,Miscellaneous intermediation,Activités diverses d'intermédiation,2024
+52392,Portfolio management,Gestion de portefeuille,2024
+52393,Investment advice,Services de conseils en placement,2024
+52399,All other financial investment activities,Toutes les autres activités d'investissement financier,2024
+52411,"Direct life, health and medical insurance carriers","Sociétés d'assurance directe : vie, maladie et soins médicaux",2024
+52412,"Direct insurance (except life, health and medical) carriers","Sociétés d'assurance directe (sauf vie, maladie et soins médicaux)",2024
+52413,Reinsurance carriers,Sociétés de réassurance,2024
+52421,Insurance agencies and brokerages,Agences et courtiers d'assurance,2024
+52429,Other insurance related activities,Autres activités liées à l'assurance,2024
+52611,Pension funds,Caisses de retraite,2024
+52691,Open-end investment funds,Fonds de placement à capital variable,2024
+52693,Segregated (except pension) funds,Fonds distincts (sauf les caisses de retraite),2024
+52698,All other funds and financial vehicles,Tous les autres fonds et instruments financiers,2024
+53111,Lessors of residential buildings and dwellings,Bailleurs d'immeubles résidentiels et de logements,2024
+53112,Lessors of non-residential buildings (except mini-warehouses),Bailleurs d'immeubles non résidentiels (sauf les mini-entrepôts),2024
+53113,Self-storage mini-warehouses,Mini-entrepôts libre-service,2024
+53119,Lessors of other real estate property,Bailleurs d'autres biens immobiliers,2024
+53121,Offices of real estate agents and brokers,Bureaux d'agents et de courtiers immobiliers,2024
+53131,Real estate property managers,Gestionnaires de biens immobiliers,2024
+53132,Offices of real estate appraisers,Bureaux d'évaluateurs de biens immobiliers,2024
+53139,Other activities related to real estate,Autres activités liées à l'immobilier,2024
+53211,Passenger car rental and leasing,Location et location à bail d'automobiles,2024
+53212,"Truck, utility trailer and recreational vehicle (RV) rental and leasing","Location et location à bail de camions, de remorques utilitaires et de véhicules de plaisance",2024
+53221,Consumer electronics and appliance rental,Location d'appareils électroniques domestiques et d'appareils ménagers,2024
+53228,All other consumer goods rental,Location d'autres biens de consommation,2024
+53231,General rental centres,Centres de location d'articles divers,2024
+53241,"Construction, transportation, mining, and forestry machinery and equipment rental and leasing","Location et location à bail de machines et matériel pour la construction, le transport, l'extraction minière et la foresterie",2024
+53242,Office machinery and equipment rental and leasing,Location et location à bail de machines et matériel de bureau,2024
+53249,Other commercial and industrial machinery and equipment rental and leasing,Location et location à bail d'autres machines et matériel d'usage commercial et industriel,2024
+53311,Lessors of non-financial intangible assets (except copyrighted works),Bailleurs de biens incorporels non financiers (sauf les oeuvres protégées par le droit d'auteur),2024
+54111,Offices of lawyers,Études d'avocats,2024
+54112,Offices of notaries,Études de notaires,2024
+54119,Other legal services,Autres services juridiques,2024
+54121,"Accounting, tax preparation, bookkeeping and payroll services","Services de comptabilité, de préparation de déclarations de revenus, de tenue de livres et de paye",2024
+54131,Architectural services,Services d'architecture,2024
+54132,Landscape architectural services,Services d'architecture paysagère,2024
+54133,Engineering services,Services de génie,2024
+54134,Drafting services,Services de dessin technique,2024
+54135,Building inspection services,Services d'inspection des bâtiments,2024
+54136,Geophysical surveying and mapping services,Services de prospection et de levé géophysiques,2024
+54137,Surveying and mapping (except geophysical) services,Services d'arpentage et de cartographie (sauf les levés géophysiques),2024
+54138,Testing laboratories,Laboratoires d'essai,2024
+54141,Interior design services,Services de design d'intérieur,2024
+54142,Industrial design services,Services de design industriel,2024
+54143,Graphic design services,Services de design graphique,2024
+54149,Other specialized design services,Autres services spécialisés de design,2024
+54151,Computer systems design and related services,Conception de systèmes informatiques et services connexes,2024
+54161,Management consulting services,Services de conseils en gestion,2024
+54162,Environmental consulting services,Services de conseils en environnement,2024
+54169,Other scientific and technical consulting services,Autres services de conseils scientifiques et techniques,2024
+54171,"Research and development in the physical, engineering and life sciences","Recherche et développement en sciences physiques, en génie et en sciences de la vie",2024
+54172,Research and development in the social sciences and humanities,"Recherche et développement, en sciences humaines et en sciences sociales",2024
+54181,Advertising agencies,Agences de publicité,2024
+54182,Public relations services,Services de relations publiques,2024
+54183,Media buying agencies,Agences d'achat de médias,2024
+54184,Media representatives,Représentants de médias,2024
+54185,Display advertising,Publicité par affichage,2024
+54186,Direct mail advertising,Publipostage,2024
+54187,Advertising material distribution services,Services de distribution de matériel publicitaire,2024
+54189,Other services related to advertising,Autres services liés à la publicité,2024
+54191,Marketing research and public opinion polling,Études de marché et sondages d'opinion,2024
+54192,Photographic services,Services photographiques,2024
+54193,Translation and interpretation services,Services de traduction et d'interprétation,2024
+54194,Veterinary services,Services vétérinaires,2024
+54199,"All other professional, scientific and technical services","Tous les autres services professionnels, scientifiques et techniques",2024
+55111,Management of companies and enterprises,Gestion de sociétés et d'entreprises,2024
+56111,Office administrative services,Services administratifs de bureau,2024
+56121,Facilities support services,Services de soutien d'installations,2024
+56131,Employment placement agencies and executive search services,Agences de placement et services de recherche de cadres,2024
+56132,Temporary help services,Location de personnel suppléant,2024
+56133,Professional employer organizations,Location de personnel permanent,2024
+56141,Document preparation services,Services de préparation de documents,2024
+56142,Telephone call centres,Centres d'appels téléphoniques,2024
+56143,Business service centres,Centres de services aux entreprises,2024
+56144,Collection agencies,Agences de recouvrement,2024
+56145,Credit bureaus,Agences d'évaluation du crédit,2024
+56149,Other business support services,Autres services de soutien aux entreprises,2024
+56151,Travel agencies,Agences de voyage,2024
+56152,Tour operators,Voyagistes,2024
+56159,Other travel arrangement and reservation services,Autres services de préparation de voyages et de réservation,2024
+56161,"Investigation, guard and armoured car services","Services d'enquêtes, de garde et de voitures blindées",2024
+56162,Security systems services,Services de systèmes de sécurité,2024
+56171,Exterminating and pest control services,Services d'extermination et de lutte antiparasitaire,2024
+56172,Janitorial services,Services de conciergerie,2024
+56173,Landscaping services,Services d'aménagement paysager,2024
+56174,Carpet and upholstery cleaning services,Services de nettoyage de tapis et de meubles rembourrés,2024
+56179,Other services to buildings and dwellings,Autres services relatifs aux bâtiments et aux logements,2024
+56191,Packaging and labelling services,Services d'emballage et d'étiquetage,2024
+56192,Convention and trade show organizers,"Organisateurs de congrès, de salons et de foires commerciales",2024
+56199,All other support services,Tous les autres services de soutien,2024
+56211,Waste collection,Collecte de déchets,2024
+56221,Waste treatment and disposal,Traitement et élimination des déchets,2024
+56291,Remediation services,Services d'assainissement,2024
+56292,Material recovery facilities,Installations de récupération de matériaux,2024
+56299,All other waste management services,Tous les autres services de gestion des déchets,2024
+61111,Elementary and secondary schools,Écoles primaires et secondaires,2024
+61121,Community colleges and C.E.G.E.P.s,Collèges communautaires et cégeps,2024
+61131,Universities,Universités,2024
+61141,Business and secretarial schools,Écoles de commerce et de secrétariat,2024
+61142,Computer training,Formation en informatique,2024
+61143,Professional and management development training,Formation professionnelle et perfectionnement en gestion,2024
+61151,Technical and trade schools,Écoles techniques et écoles de métiers,2024
+61161,Fine arts schools,Écoles des beaux-arts,2024
+61162,Athletic instruction,Formation athlétique,2024
+61163,Language schools,Écoles de langues,2024
+61169,All other schools and instruction,Tous les autres établissements d'enseignement et de formation,2024
+61171,Educational support services,Services de soutien à l'enseignement,2024
+62111,Offices of physicians,Cabinets de médecins,2024
+62121,Offices of dentists,Cabinets de dentistes,2024
+62131,Offices of chiropractors,Cabinets de chiropraticiens,2024
+62132,Offices of optometrists,Cabinets d'optométristes,2024
+62133,Offices of mental health practitioners (except physicians),Cabinets de praticiens en santé mentale (sauf les médecins),2024
+62134,"Offices of physical, occupational, and speech therapists and audiologists","Cabinets de physiothérapeutes, d'ergothérapeutes, d'orthophonistes et d'audiologistes",2024
+62139,Offices of all other health practitioners,Cabinets de tous les autres praticiens de la santé,2024
+62141,Family planning centres,Centres de planification familiale,2024
+62142,Out-patient mental health and substance use centres,Centres de soins ambulatoires pour personnes atteintes de problèmes de santé mentale ou troubles liés à la consommation d'alcool et de drogues,2024
+62149,Other out-patient care centres,Autres centres de soins ambulatoires,2024
+62151,Medical and diagnostic laboratories,Laboratoires médicaux et d'analyses diagnostiques,2024
+62161,Home health care services,Services de soins de santé à domicile,2024
+62191,Ambulance services,Services d'ambulance,2024
+62199,All other ambulatory health care services,Tous les autres services de soins de santé ambulatoires,2024
+62211,General medical and surgical hospitals,Hôpitaux généraux et hôpitaux de soins chirurgicaux,2024
+62221,Psychiatric and substance use hospitals,Hôpitaux psychiatriques et hôpitaux pour les troubles liés à la consommation d'alcool ou de drogues,2024
+62231,Specialty hospitals (except psychiatric and substance use),Hôpitaux spécialisés (sauf psychiatriques et pour les problèmes liés à la consommation d'alcool et de drogues),2024
+62311,Nursing care facilities,Établissements de soins infirmiers,2024
+62321,Residential facilities for persons with a developmental disability,Établissements résidentiels pour personnes ayant une incapacité liés au développement,2024
+62322,Residential facilities for persons with a mental health or substance use condition,Établissements résidentiels pour personnes ayant un problème de santé mentale ou un problème de consommation d'alcool et de drogues,2024
+62331,Community care facilities for the elderly,Établissements communautaires de soins pour personnes âgées,2024
+62399,Other residential care facilities,Autres établissements de soins pour bénéficiaires internes,2024
+62411,Child and youth services,Services à l'enfance et à la jeunesse,2024
+62412,Services for the elderly and persons with a disability,Services aux personnes âgées et aux personnes ayant une incapacité,2024
+62419,Other individual and family services,Autres services individuels et familiaux,2024
+62421,Community food services,Services communautaires d'alimentation,2024
+62422,Community housing services,Services communautaires d'hébergement,2024
+62423,Emergency and other relief services,Services d'urgence et autres secours,2024
+62431,Vocational rehabilitation services,Services de réadaptation professionnelle,2024
+62441,Child day-care services,Services de garderie,2024
+71111,Theatre companies and dinner theatres,Compagnies de théâtre et cafés-théâtres,2024
+71112,Dance companies,Compagnies de danse,2024
+71113,Musical groups and artists,Formations musicales et musiciens,2024
+71119,Other performing arts companies,Autres compagnies d'arts d'interprétation,2024
+71121,Spectator sports,Sports-spectacles,2024
+71131,"Promoters (presenters) of performing arts, sports and similar events with facilities","Promoteurs (diffuseurs) d'événements artistiques et sportifs et d'événements similaires, avec installations",2024
+71132,"Promoters (presenters) of performing arts, sports and similar events without facilities","Promoteurs (diffuseurs) d'événements artistiques et sportifs et d'événements similaires, sans installations",2024
+71141,"Agents and managers for artists, athletes, entertainers and other public figures","Agents et représentants d'artistes, d'athlètes et d'autres personnalités publiques",2024
+71151,"Independent artists, writers and performers","Artistes, auteurs et interprètes indépendants",2024
+71211,Museums,Musées,2024
+71212,Historic and heritage sites,Lieux historiques et d'intérêt patrimonial,2024
+71213,Zoos and botanical gardens,Jardins zoologiques et botaniques,2024
+71219,Nature parks and other similar institutions,Parcs naturels et autres institutions similaires,2024
+71311,Amusement and theme parks,Parcs d'attractions et jardins thématiques,2024
+71312,Amusement arcades,Salles de jeux électroniques,2024
+71321,Casinos (except casino hotels),Casinos (sauf hôtels-casinos),2024
+71329,Other gambling industries,Autres jeux de hasard et loteries,2024
+71391,Golf courses and country clubs,Terrains de golf et country clubs,2024
+71392,Skiing facilities,Centres de ski,2024
+71393,Marinas,Marinas,2024
+71394,Fitness and recreational sports centres,Centres de sports récréatifs et de conditionnement physique,2024
+71395,Bowling centres,Salles de quilles,2024
+71399,Other amusement and recreation industries,Autres services de divertissement et de loisirs,2024
+72111,Hotels (except casino hotels) and motels,Hôtels et motels (sauf les hôtels-casinos),2024
+72112,Casino hotels,Hôtels-casinos,2024
+72119,Other traveller accommodation,Autres services d'hébergement des voyageurs,2024
+72121,Recreational vehicle (RV) parks and recreational camps,Parcs pour véhicules récréatifs (VR) et camps de loisirs,2024
+72131,Rooming and boarding houses,Maisons de chambres et pensions de famille,2024
+72231,Food service contractors,Services de restauration contractuels,2024
+72232,Caterers,Traiteurs,2024
+72233,Mobile food services,Cantines et comptoirs mobiles,2024
+72241,Drinking places (alcoholic beverages),Débits de boissons alcoolisées,2024
+72251,Full-service restaurants and limited-service eating places,Restaurants à service complet et établissements de restauration à service restreint,2024
+81111,Automotive mechanical and electrical repair and maintenance,Réparation et entretien mécaniques et électriques de véhicules automobiles,2024
+81112,"Automotive body, paint, interior and glass repair","Réparation de la carrosserie, de la peinture, de l'intérieur et des vitres de véhicules automobiles",2024
+81119,Other automotive repair and maintenance,Autres services de réparation et d'entretien de véhicules automobiles,2024
+81121,Electronic and precision equipment repair and maintenance,Réparation et entretien de matériel électronique et de matériel de précision,2024
+81131,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,Réparation et entretien de machines et de matériel d'usage commercial et industriel (sauf les véhicules automobiles et le matériel électronique),2024
+81141,Home and garden equipment and appliance repair and maintenance,Réparation et entretien d'appareils ménagers et de matériel de maison et de jardin,2024
+81142,Reupholstery and furniture repair,Rembourrage et réparation de meubles,2024
+81143,Footwear and leather goods repair,Réparation de chaussures et de maroquinerie,2024
+81149,Other personal and household goods repair and maintenance,Autres services de réparation et d'entretien d'articles personnels et ménagers,2024
+81211,Hair care and esthetic services,Services de coiffure et d'esthétique,2024
+81219,Other personal care services,Autres services de soins personnels,2024
+81221,Funeral homes,Salons funéraires,2024
+81222,Cemeteries and crematoria,Cimetières et crématoriums,2024
+81231,Coin-operated laundries and dry cleaners,Blanchisseries et nettoyeurs à sec libre-service,2024
+81232,Dry cleaning and laundry services (except coin-operated),Services de nettoyage à sec et de blanchissage (sauf le libre-service),2024
+81233,Linen and uniform supply,Fourniture de linge et d'uniformes,2024
+81291,Pet care (except veterinary) services,Soins pour animaux de maison (sauf vétérinaires),2024
+81292,Photo finishing services,Services de développement et de tirage de photos,2024
+81293,Parking lots and garages,Stationnements et garages,2024
+81299,All other personal services,Tous les autres services personnels,2024
+81311,Religious organizations,Organismes religieux,2024
+81321,Grant-making and giving services,Fondations et organismes de charité,2024
+81331,Social advocacy organizations,Organismes d'action sociale,2024
+81341,Civic and social organizations,Organisations civiques et sociales,2024
+81391,Business associations,Associations de gens d'affaires,2024
+81392,Professional organizations,Organisations professionnelles,2024
+81393,Labour organizations,Organisations syndicales,2024
+81394,Political organizations,Organisations politiques,2024
+81399,Other membership organizations,Autres associations,2024
+81411,Private households,Ménages privés,2024
+91111,Defence services,Services de défense,2024
+91121,Federal courts of law,Tribunaux fédéraux,2024
+91122,Federal correctional services,Services correctionnels fédéraux,2024
+91123,Federal police services,Services de police fédéraux,2024
+91124,Federal regulatory services,Services de réglementation fédéraux,2024
+91129,Other federal protective services,Autres services de protection fédéraux,2024
+91131,Federal labour and employment services,Services fédéraux relatifs à la main-d'oeuvre et à l'emploi,2024
+91132,Immigration services,Services d'immigration,2024
+91139,"Other federal labour, employment and immigration services","Autres services fédéraux relatifs à la main-d'oeuvre, à l'emploi et à l'immigration",2024
+91141,Foreign affairs,Affaires étrangères,2024
+91142,International assistance,Aide internationale,2024
+91191,Other federal government public administration,Autres services de l'administration publique fédérale,2024
+91211,Provincial courts of law,Tribunaux provinciaux,2024
+91212,Provincial correctional services,Services correctionnels provinciaux,2024
+91213,Provincial police services,Services de police provinciaux,2024
+91214,Provincial fire-fighting services,Services provinciaux de lutte contre les incendies,2024
+91215,Provincial regulatory services,Services de réglementation provinciaux,2024
+91219,Other provincial protective services,Autres services de protection provinciaux,2024
+91221,Provincial labour and employment services,Services provinciaux relatifs à la main-d'oeuvre et à l'emploi,2024
+91291,Other provincial and territorial public administration,Autres services des administrations publiques provinciales et territoriales,2024
+91311,Municipal courts of law,Cours municipales,2024
+91312,Municipal correctional services,Services correctionnels municipaux,2024
+91313,Municipal police services,Services de police municipaux,2024
+91314,Municipal fire-fighting services,Services municipaux de lutte contre les incendies,2024
+91315,Municipal regulatory services,Services de réglementation municipaux,2024
+91319,Other municipal protective services,Autres services de protection municipaux,2024
+91391,"Other local, municipal and regional public administration","Autres services des administrations publiques locales, municipales et régionales",2024
+91411,Indigenous public administration,Administrations publiques autochtones,2024
+91911,International and other extra-territorial public administration,Organismes publics internationaux et autres organismes publics extra-territoriaux,2024
+111110,Soybean farming,Culture du soja,2024
+111120,Oilseed (except soybean) farming,Culture de plantes oléagineuses (sauf le soja),2024
+111130,Dry pea and bean farming,Culture de pois et de haricots secs,2024
+111140,Wheat farming,Culture du blé,2024
+111150,Corn farming,Culture du maïs,2024
+111160,Rice farming,Culture du riz,2024
+111190,Other grain farming,Autres cultures céréalières,2024
+111211,Potato farming,Culture de pommes de terre,2024
+111219,Other vegetable (except potato) and melon farming,Autres cultures de légumes et de melons (sauf de pommes de terre),2024
+111310,Orange groves,Culture d'oranges,2024
+111320,Citrus (except orange) groves,Culture d'agrumes (sauf les oranges),2024
+111330,Non-citrus fruit and tree nut farming,Culture de noix et de fruits (sauf les agrumes),2024
+111411,Mushroom production,Culture de champignons,2024
+111412,Cannabis grown under cover,Culture de cannabis sous abri,2024
+111419,Other food crops grown under cover,Autres cultures vivrières en serre,2024
+111421,Nursery and tree production,Culture en pépinière et arboriculture,2024
+111422,Floriculture production,Floriculture,2024
+111910,Tobacco farming,Culture du tabac,2024
+111920,Cotton farming,Culture du coton,2024
+111930,Sugar cane farming,Culture de la canne à sucre,2024
+111940,Hay farming,Culture du foin,2024
+111993,Fruit and vegetable combination farming,Culture mixte de fruits et de légumes,2024
+111994,Maple syrup and products production,Production de sirop d'érable et d'autres produits de l'érable,2024
+111995,Cannabis grown in open fields,Culture de cannabis en plein champ,2024
+111999,All other miscellaneous crop farming,Toutes les autres cultures agricoles diverses,2024
+112110,"Beef cattle ranching and farming, including feedlots","Élevage de bovins de boucherie, y compris l'exploitation de parcs d'engraissement",2024
+112120,Dairy cattle and milk production,Élevage de bovins laitiers et production laitière,2024
+112210,Hog and pig farming,Élevage de porcs,2024
+112310,Chicken egg production,Production d'oeufs de poules,2024
+112320,Broiler and other meat-type chicken production,Élevage de poulets à griller et d'autres volailles d'abattage,2024
+112330,Turkey production,Élevage de dindons,2024
+112340,Poultry hatcheries,Couvoirs,2024
+112391,Combination poultry and egg production,Élevage de volailles combiné à la production d'oeufs,2024
+112399,All other poultry production,Élevage de toutes autres volailles,2024
+112410,Sheep farming,Élevage de moutons,2024
+112420,Goat farming,Élevage de chèvres,2024
+112510,Aquaculture,Aquaculture,2024
+112910,Apiculture,Apiculture,2024
+112920,Horse and other equine production,Élevage de chevaux et d'autres équidés,2024
+112930,Fur-bearing animal and rabbit production,Élevage d'animaux à fourrure et de lapins,2024
+112991,Animal combination farming,Élevage mixte d'animaux,2024
+112999,All other miscellaneous animal production,Tous les autres types d'élevage divers,2024
+113110,Timber tract operations,Exploitation de terres à bois,2024
+113210,Forest nurseries and gathering of forest products,Pépinières forestières et récolte de produits forestiers,2024
+113311,Logging (except contract),Exploitation forestière (sauf à forfait),2024
+113312,Contract logging,Exploitation forestière à forfait,2024
+114113,Salt water fishing,Pêche en eau salée,2024
+114114,Freshwater fishing,Pêche en eau douce,2024
+114210,Hunting and trapping,Chasse et piégeage,2024
+115110,Support activities for crop production,Activités de soutien aux cultures agricoles,2024
+115210,Support activities for animal production,Activités de soutien à l'élevage,2024
+115310,Support activities for forestry,Activités de soutien à la foresterie,2024
+211110,Oil and gas extraction (except oil sands),Extraction de pétrole et de gaz (à l'exception des sables bitumineux),2024
+211141,In-situ oil sands extraction,Extraction in situ de sables bitumineux,2024
+211142,Mined oil sands extraction,Extraction minière de sables bitumineux,2024
+212114,Bituminous coal mining,Extraction de charbon bitumineux,2024
+212115,Subbituminous coal mining,Extraction de charbon subbitumineux,2024
+212116,Lignite coal mining,Extraction de charbon de lignite,2024
+212210,Iron ore mining,Extraction de minerais de fer,2024
+212220,Gold and silver ore mining,Extraction de minerais d'or et d'argent,2024
+212231,Lead-zinc ore mining,Extraction de minerais de plomb-zinc,2024
+212232,Nickel-copper ore mining,Extraction de minerais de nickel-cuivre,2024
+212233,Copper-zinc ore mining,Extraction de minerais de cuivre-zinc,2024
+212291,Uranium ore mining,Extraction de minerais d'uranium,2024
+212299,All other metal ore mining,Extraction de tous les autres minerais métalliques,2024
+212314,Granite mining and quarrying,Extraction de granite,2024
+212315,Limestone mining and quarrying,Extraction de calcaire,2024
+212316,Marble mining and quarrying,Extraction de marbre,2024
+212317,Sandstone mining and quarrying,Extraction de grès,2024
+212323,Sand and gravel mining and quarrying,Extraction de sable et de gravier,2024
+212326,"Shale, clay and refractory mineral mining and quarrying","Extraction de schiste, d'argile et de minerais réfractaires",2024
+212392,Diamond mining,Extraction de diamant,2024
+212393,Salt mining,Extraction de sel,2024
+212394,Asbestos mining,Extraction d'amiante,2024
+212395,Gypsum mining,Extraction de gypse,2024
+212396,Potash mining,Extraction de potasse,2024
+212397,Peat extraction,Extraction de tourbe,2024
+212398,All other non-metallic mineral mining and quarrying,Extraction de tous les autres minerais non métalliques,2024
+213111,Oil and gas contract drilling,Forage à forfait de puits de pétrole et de gaz,2024
+213117,Contract drilling (except oil and gas),Forage à forfait (sauf de puits de pétrole et de gaz),2024
+213118,Services to oil and gas extraction,Services relatifs à l'extraction de pétrole et de gaz,2024
+213119,Other support activities for mining,Autres activités de soutien à l'extraction minière,2024
+221111,Hydro-electric power generation,Production d'hydroélectricité,2024
+221112,Fossil-fuel electric power generation,Production d'électricité à partir de combustibles fossiles,2024
+221113,Nuclear electric power generation,Production d'électricité d'origine nucléaire,2024
+221119,Other electric power generation,Autres activités de production d'électricité,2024
+221121,Electric bulk power transmission and control,Transport et gestion d'électricité en bloc,2024
+221122,Electric power distribution,Distribution d'électricité,2024
+221210,Natural gas distribution,Distribution de gaz naturel,2024
+221310,Water supply and irrigation systems,Réseaux d'aqueduc et systèmes d'irrigation,2024
+221320,Sewage treatment facilities,Installations d'épuration des eaux usées,2024
+221330,Steam and air-conditioning supply,Production de vapeur et conditionnement de l'air,2024
+236110,Residential building construction,Construction résidentielle,2024
+236210,Industrial building and structure construction,Construction de bâtiments et de structures à usage industriel,2024
+236220,Commercial and institutional building construction,Construction de bâtiments à usage commercial et institutionnel,2024
+237110,Water and sewer line and related structures construction,Construction d'aqueducs et d'égouts et structures connexes,2024
+237120,Oil and gas pipeline and related structures construction,Construction d'oléoducs et de gazoducs et structures connexes,2024
+237130,Power and communication line and related structures construction,Construction de lignes de transmission d'énergie électrique et de télécommunication et structures connexes,2024
+237210,Land subdivision,Lotissement de terrains,2024
+237310,"Highway, street and bridge construction","Construction de routes, de rues et de ponts",2024
+237990,Other heavy and civil engineering construction,Autres travaux de génie civil,2024
+238110,Poured concrete foundation and structure contractors,Entrepreneurs en travaux de fondations et de structure en béton coulé,2024
+238120,Structural steel and precast concrete contractors,Entrepreneurs en montage de charpentes d'acier et mise en place de béton préfabriqué,2024
+238130,Framing contractors,Entrepreneurs en charpenterie,2024
+238140,Masonry contractors,Entrepreneurs en travaux de maçonnerie,2024
+238150,Glass and glazing contractors,Entrepreneurs en travaux de vitrage et de vitrerie,2024
+238160,Roofing contractors,Entrepreneurs en travaux de toiture,2024
+238170,Siding contractors,Entrepreneurs en travaux de parements,2024
+238190,"Other foundation, structure and building exterior contractors","Entrepreneurs en autres travaux de fondations, de structure, et d'extérieur de bâtiment",2024
+238210,Electrical contractors and other wiring installation contractors,Entrepreneurs en travaux d'électricité et en installation de câblage,2024
+238220,"Plumbing, heating and air-conditioning contractors","Entrepreneurs en plomberie, chauffage et climatisation",2024
+238291,Elevator and escalator installation contractors,Entrepreneurs en installation d'ascenseurs et d'escaliers roulants,2024
+238299,All other building equipment contractors,Entrepreneurs en installation de tout autre équipement technique,2024
+238310,Drywall and insulation contractors,Entrepreneurs en installation de cloisons sèches et travaux d'isolation,2024
+238320,Painting and wall covering contractors,Entrepreneurs en peinture et tapisserie,2024
+238330,Flooring contractors,Entrepreneurs en travaux de revêtements de sol,2024
+238340,Tile and terrazzo contractors,Entrepreneurs en pose de carreaux et coulage de terrazzo,2024
+238350,Finish carpentry contractors,Entrepreneurs en petite menuiserie,2024
+238390,Other building finishing contractors,Entrepreneurs en autres travaux de finition de bâtiment,2024
+238910,Site preparation contractors,Entrepreneurs en préparation de terrains,2024
+238990,All other specialty trade contractors,Tous les autres entrepreneurs spécialisés,2024
+311111,Dog and cat food manufacturing,Fabrication d'aliments pour chiens et chats,2024
+311119,Other animal food manufacturing,Fabrication d'aliments pour autres animaux,2024
+311211,Flour milling,Minoterie,2024
+311214,Rice milling and malt manufacturing,Usinage du riz et malterie,2024
+311221,Wet corn milling,Mouture humide du maïs,2024
+311224,Oilseed processing,Transformation de graines oléagineuses,2024
+311225,Fat and oil refining and blending,Raffinage et mélange de graisses et d'huiles,2024
+311230,Breakfast cereal manufacturing,Fabrication de céréales pour petit déjeuner,2024
+311310,Sugar manufacturing,Fabrication de sucre,2024
+311340,Non-chocolate confectionery manufacturing,Fabrication de confiseries non chocolatées,2024
+311351,Chocolate and chocolate confectionery manufacturing from cacao beans,Fabrication de chocolat et de confiseries chocolatées à partir de fèves de cacao,2024
+311352,Confectionery manufacturing from purchased chocolate,Fabrication de confiseries à partir de chocolat acheté,2024
+311410,Frozen food manufacturing,Fabrication d'aliments congelés,2024
+311420,"Fruit and vegetable canning, pickling and drying","Mise en conserve, marinage et séchage de fruits et de légumes",2024
+311511,Fluid milk manufacturing,Fabrication de lait de consommation,2024
+311515,"Butter, cheese, and dry and condensed dairy product manufacturing","Fabrication de beurre, de fromage et de produits laitiers secs et concentrés",2024
+311520,Ice cream and frozen dessert manufacturing,Fabrication de crème glacée et de desserts congelés,2024
+311614,Rendering and meat processing from carcasses,Fonte de graisses animales et transformation de la viande provenant de carcasses,2024
+311615,Poultry slaughtering and processing,Abattage et transformation de la volaille,2024
+311616,Beef cattle slaughtering,Abattage de bovins de boucherie,2024
+311617,Hog slaughtering,Abattage de porcs,2024
+311619,Other animal slaughtering,Abattage d'autres animaux,2024
+311710,Seafood product preparation and packaging,Préparation et conditionnement de poissons et de fruits de mer,2024
+311811,"Bakeries, manufacture of products for retail sale","Boulangeries, fabrication de produits pour la vente au détail",2024
+311814,Commercial bakeries and frozen bakery product manufacturing,Boulangeries commerciales et fabrication de produits de boulangerie congelés,2024
+311821,Cookie and cracker manufacturing,Fabrication de biscuits et de craquelins,2024
+311824,"Flour mixes, dough, and pasta manufacturing from purchased flour","Fabrication de pâtes alimentaires sèches, de pâte et de mélanges de farine à partir de farine achetée",2024
+311830,Tortilla manufacturing,Fabrication de tortillas,2024
+311911,Roasted nut and peanut butter manufacturing,Fabrication de noix grillées et de beurre d'arachides,2024
+311919,Other snack food manufacturing,Fabrication d'autres aliments à grignoter,2024
+311920,Coffee and tea manufacturing,Fabrication de café et de thé,2024
+311930,Flavouring syrup and concentrate manufacturing,Fabrication de sirops et de concentrés aromatisants,2024
+311940,Seasoning and dressing manufacturing,Fabrication d'assaisonnements et de vinaigrettes,2024
+311990,All other food manufacturing,Fabrication de tous les autres aliments,2024
+312110,Soft drink and ice manufacturing,Fabrication de boissons gazeuses et de glace,2024
+312120,Breweries,Brasseries,2024
+312130,Wineries,Vineries,2024
+312140,Distilleries,Distilleries,2024
+312210,Tobacco stemming and redrying,Écôtage et resséchage des feuilles de tabac,2024
+312220,Tobacco product manufacturing,Fabrication de produits du tabac,2024
+312310,Cannabis product manufacturing,Fabrication de produits du cannabis,2024
+313110,"Fibre, yarn and thread mills","Usines de fibres, de filés et de fils",2024
+313210,Broad-woven fabric mills,Usines de tissus larges,2024
+313220,Narrow fabric mills and schiffli machine embroidery,Usines de tissus étroits et de broderies schiffli,2024
+313230,Nonwoven fabric mills,Usines de non-tissés,2024
+313240,Knit fabric mills,Usines de tricots,2024
+313310,Textile and fabric finishing,Finissage de textiles et de tissus,2024
+313320,Fabric coating,Revêtement de tissus,2024
+314110,Carpet and rug mills,Usines de tapis et de carpettes,2024
+314120,Curtain and linen mills,Usines de rideaux et de linge de maison,2024
+314910,Textile bag and canvas mills,Usines de sacs en textile et de grosse toile,2024
+314990,All other textile product mills,Usines de tous les autres produits textiles,2024
+315120,Apparel knitting mills,Usines de tricotage de vêtements,2024
+315210,Cut and sew clothing contracting,Fabrication à forfait de vêtements coupés-cousus,2024
+315250,Cut and sew apparel manufacturing (except contractors),Fabrication de vêtements coupés-cousus (sauf les entrepreneurs),2024
+315990,Clothing accessories and other clothing manufacturing,Fabrication d'accessoires vestimentaires et d'autres vêtements,2024
+316110,Leather and hide tanning and finishing,Tannage et finissage du cuir et des peaux,2024
+316210,Footwear manufacturing,Fabrication de chaussures,2024
+316990,Other leather and allied product manufacturing,Fabrication d'autres produits en cuir et produits analogues,2024
+321111,Sawmills (except shingle and shake mills),Scieries (sauf les usines de bardeaux et de bardeaux de fente),2024
+321112,Shingle and shake mills,Usines de bardeaux et de bardeaux de fente,2024
+321114,Wood preservation,Préservation du bois,2024
+321211,Hardwood veneer and plywood mills,Usines de placages et de contreplaqués de feuillus,2024
+321212,Softwood veneer and plywood mills,Usines de placages et de contreplaqués de résineux,2024
+321215,Structural wood product manufacturing,Fabrication de produits de charpente en bois,2024
+321216,Particle board and fibreboard mills,Usines de panneaux de particules et de fibres,2024
+321217,Waferboard mills,Usines de panneaux de copeaux,2024
+321911,Wood window and door manufacturing,Fabrication de fenêtres et de portes en bois,2024
+321919,Other millwork,Fabrication d'autres menuiseries préfabriquées,2024
+321920,Wood container and pallet manufacturing,Fabrication de contenants et de palettes en bois,2024
+321991,Manufactured (mobile) home manufacturing,Préfabrication de maisons (mobiles),2024
+321992,Prefabricated wood building manufacturing,Préfabrication de bâtiments en bois,2024
+321999,All other miscellaneous wood product manufacturing,Fabrication de tous les autres produits divers en bois,2024
+322111,Mechanical pulp mills,Usines de pâte mécanique,2024
+322112,Chemical pulp mills,Usines de pâte chimique,2024
+322121,Paper (except newsprint) mills,Usines de papier (sauf le papier journal),2024
+322122,Newsprint mills,Usines de papier journal,2024
+322130,Paperboard mills,Usines de carton,2024
+322211,Corrugated and solid fibre box manufacturing,Fabrication de boîtes en carton ondulé et en carton compact,2024
+322212,Folding paperboard box manufacturing,Fabrication de boîtes pliantes en carton,2024
+322219,Other paperboard container manufacturing,Fabrication d'autres contenants en carton,2024
+322220,Paper bag and coated and treated paper manufacturing,Fabrication de sacs en papier et de papier couché et traité,2024
+322230,Stationery product manufacturing,Fabrication d'articles de papeterie,2024
+322291,Sanitary paper product manufacturing,Fabrication de produits hygiéniques en papier,2024
+322299,All other converted paper product manufacturing,Fabrication de tous les autres produits en papier transformé,2024
+323113,Commercial screen printing,Sérigraphie commerciale,2024
+323114,Quick printing,Impression instantanée,2024
+323115,Digital printing,Impression numérique,2024
+323116,Manifold business forms printing,Impression de formulaires commerciaux en liasses,2024
+323119,Other printing,Autres activités d'impression,2024
+323120,Support activities for printing,Activités de soutien à l'impression,2024
+324110,Petroleum refineries,Raffineries de pétrole,2024
+324121,Asphalt paving mixture and block manufacturing,Fabrication de mélanges d'asphaltage et de pavés d'asphalte,2024
+324122,Asphalt shingle and coating material manufacturing,Fabrication de bardeaux et de matériaux de revêtement en asphalte,2024
+324190,Other petroleum and coal product manufacturing,Fabrication d'autres produits du pétrole et du charbon,2024
+325110,Petrochemical manufacturing,Fabrication de produits pétrochimiques,2024
+325120,Industrial gas manufacturing,Fabrication de gaz industriels,2024
+325130,Synthetic dye and pigment manufacturing,Fabrication de teintures et de pigments synthétiques,2024
+325181,Alkali and chlorine manufacturing,Fabrication d'alcalis et de chlore,2024
+325189,All other basic inorganic chemical manufacturing,Fabrication de tous les autres produits chimiques inorganiques de base,2024
+325190,Other basic organic chemical manufacturing,Fabrication d'autres produits chimiques organiques de base,2024
+325210,Resin and synthetic rubber manufacturing,Fabrication de résines et de caoutchouc synthétique,2024
+325220,Artificial and synthetic fibres and filaments manufacturing,Fabrication de fibres et de filaments artificiels et synthétiques,2024
+325313,Chemical fertilizer (except potash) manufacturing,Fabrication d'engrais chimiques (sauf la potasse),2024
+325314,Mixed fertilizer manufacturing,Fabrication d'engrais mixtes,2024
+325320,Pesticide and other agricultural chemical manufacturing,Fabrication de pesticides et d'autres produits chimiques agricoles,2024
+325410,Pharmaceutical and medicine manufacturing,Fabrication de produits pharmaceutiques et de médicaments,2024
+325510,Paint and coating manufacturing,Fabrication de peintures et de revêtements,2024
+325520,Adhesive manufacturing,Fabrication d'adhésifs,2024
+325610,Soap and cleaning compound manufacturing,Fabrication de savons et d'autres produits nettoyants,2024
+325620,Toilet preparation manufacturing,Fabrication de produits de toilette,2024
+325910,Printing ink manufacturing,Fabrication d'encre d'imprimerie,2024
+325920,Explosives manufacturing,Fabrication d'explosifs,2024
+325991,Custom compounding of purchased resins,Compoundage sur commande de résines achetées,2024
+325999,All other miscellaneous chemical product manufacturing,Fabrication de tous les autres produits chimiques divers,2024
+326111,Plastic bag and pouch manufacturing,Fabrication de sacs et de sachets en plastique,2024
+326114,Plastic film and sheet manufacturing,Fabrication de pellicules et de feuilles en plastique,2024
+326121,Unlaminated plastic profile shape manufacturing,Fabrication de profilés non stratifiés en plastique,2024
+326122,Plastic pipe and pipe fitting manufacturing,Fabrication de tuyaux et de raccords de tuyauterie en plastique,2024
+326130,"Laminated plastic plate, sheet (except packaging), and shape manufacturing","Fabrication de plaques, de feuilles (sauf d'emballage) et de formes stratifiées en plastique",2024
+326140,Polystyrene foam product manufacturing,Fabrication de produits en mousse de polystyrène,2024
+326150,Urethane and other foam product (except polystyrene) manufacturing,Fabrication de produits en mousse d'uréthane et en d'autres mousses plastiques (sauf de polystyrène),2024
+326160,Plastic bottle manufacturing,Fabrication de bouteilles en plastique,2024
+326191,Plastic plumbing fixture manufacturing,Fabrication d'appareils sanitaires en plastique,2024
+326193,Motor vehicle plastic parts manufacturing,Fabrication de pièces en plastique pour véhicules automobiles,2024
+326196,Plastic window and door manufacturing,Fabrication de portes et de fenêtres en plastique,2024
+326198,All other plastic product manufacturing,Fabrication de tous les autres produits en plastique,2024
+326210,Tire manufacturing,Fabrication de pneus,2024
+326220,Rubber and plastic hose and belting manufacturing,Fabrication de tuyaux souples et de courroies en caoutchouc et en plastique,2024
+326290,Other rubber product manufacturing,Fabrication d'autres produits en caoutchouc,2024
+327110,"Pottery, ceramics and plumbing fixture manufacturing","Fabrication de poteries, d'articles en céramique et d'appareils sanitaires",2024
+327120,Clay building material and refractory manufacturing,Fabrication de matériaux de construction en argile et de produits réfractaires,2024
+327214,Glass manufacturing,Fabrication de verre,2024
+327215,Glass product manufacturing from purchased glass,Fabrication de produits en verre à partir de verre acheté,2024
+327310,Cement manufacturing,Fabrication de ciment,2024
+327320,Ready-mix concrete manufacturing,Fabrication de béton préparé,2024
+327330,"Concrete pipe, brick and block manufacturing","Fabrication de tuyaux, briques et blocs en béton",2024
+327390,Other concrete product manufacturing,Fabrication d'autres produits en béton,2024
+327410,Lime manufacturing,Fabrication de chaux,2024
+327420,Gypsum product manufacturing,Fabrication de produits en gypse,2024
+327910,Abrasive product manufacturing,Fabrication de produits abrasifs,2024
+327990,All other non-metallic mineral product manufacturing,Fabrication de tous les autres produits minéraux non métalliques,2024
+331110,Iron and steel mills and ferro-alloy manufacturing,Sidérurgie,2024
+331210,Iron and steel pipes and tubes manufacturing from purchased steel,Fabrication de tubes et de tuyaux en fer et en acier à partir d'acier acheté,2024
+331221,Cold-rolled steel shape manufacturing,Fabrication de formes en acier laminé à froid,2024
+331222,Steel wire drawing,Étirage de fils d'acier,2024
+331313,Primary production of alumina and aluminum,Production primaire d'alumine et d'aluminium,2024
+331317,"Aluminum rolling, drawing, extruding and alloying","Laminage, étirage, extrusion et alliage de l'aluminium",2024
+331410,Non-ferrous metal (except aluminum) smelting and refining,Fonte et affinage de métaux non ferreux (sauf l'aluminium),2024
+331420,"Copper rolling, drawing, extruding and alloying","Laminage, étirage, extrusion et alliage du cuivre",2024
+331490,"Non-ferrous metal (except copper and aluminum) rolling, drawing, extruding and alloying","Laminage, étirage, extrusion et alliage de métaux non ferreux (sauf le cuivre et l'aluminium)",2024
+331511,Iron foundries,Fonderies de fer,2024
+331514,Steel foundries,Fonderies d'acier,2024
+331523,Non-ferrous metal die-casting foundries,"Fonderies de métaux non ferreux, moulage sous pression",2024
+331529,Non-ferrous metal foundries (except die-casting),Fonderies de métaux non ferreux (sauf moulage sous pression),2024
+332113,Forging,Forgeage,2024
+332118,Stamping,Estampage,2024
+332210,Cutlery and hand tool manufacturing,Fabrication de coutellerie et d'outils à main,2024
+332311,Prefabricated metal building and component manufacturing,Préfabrication de bâtiments en métal et de leurs composants,2024
+332314,Concrete reinforcing bar manufacturing,Fabrication de barres pour béton armé,2024
+332319,Other plate work and fabricated structural product manufacturing,Fabrication d'autres tôles fortes et éléments de charpentes,2024
+332321,Metal window and door manufacturing,Fabrication de portes et de fenêtres en métal,2024
+332329,Other ornamental and architectural metal product manufacturing,Fabrication d'autres produits métalliques d'ornement et d'architecture,2024
+332410,Power boiler and heat exchanger manufacturing,Fabrication de chaudières et d'échangeurs de chaleur,2024
+332420,Metal tank (heavy gauge) manufacturing,Fabrication de réservoirs en métal (épais),2024
+332431,Metal can manufacturing,Fabrication de canettes,2024
+332439,Other metal container manufacturing,Fabrication d'autres contenants en métal,2024
+332510,Hardware manufacturing,Fabrication d'articles de quincaillerie,2024
+332611,Spring (heavy gauge) manufacturing,Fabrication de ressorts (en métal épais),2024
+332619,Other fabricated wire product manufacturing,Fabrication d'autres produits en fil métallique,2024
+332710,Machine shops,Ateliers d'usinage,2024
+332720,"Turned product and screw, nut and bolt manufacturing","Fabrication de produits tournés, de vis, d'écrous et de boulons",2024
+332810,"Coating, engraving, cold and heat treating and allied activities","Revêtement, gravure, traitement thermique et par le froid, et activités analogues",2024
+332910,Metal valve manufacturing,Fabrication de soupapes en métal,2024
+332991,Ball and roller bearing manufacturing,Fabrication de roulements à billes et à rouleaux,2024
+332999,All other miscellaneous fabricated metal product manufacturing,Fabrication de tous les autres produits métalliques divers,2024
+333110,Agricultural implement manufacturing,Fabrication de machines agricoles,2024
+333120,Construction machinery manufacturing,Fabrication de machines pour la construction,2024
+333130,Mining and oil and gas field machinery manufacturing,Fabrication de machines pour l'extraction minière et l'exploitation pétrolière et gazière,2024
+333245,Sawmill and woodworking machinery manufacturing,Fabrication de machines pour les scieries et le travail du bois,2024
+333246,Rubber and plastics industry machinery manufacturing,Fabrication de machines pour l'industrie du caoutchouc et du plastique,2024
+333247,Paper industry machinery manufacturing,Fabrication de machines pour l'industrie papetière,2024
+333248,All other industrial machinery manufacturing,Fabrication de toutes les autres machines industrielles,2024
+333310,Commercial and service industry machinery manufacturing,Fabrication de machines pour le commerce et les industries de services,2024
+333413,Industrial and commercial fan and blower and air purification equipment manufacturing,"Fabrication de ventilateurs, de soufflantes et de purificateurs d'air industriels et commerciaux",2024
+333416,Heating equipment and commercial refrigeration equipment manufacturing,Fabrication d'appareils de chauffage et de réfrigération commerciale,2024
+333511,Industrial mould manufacturing,Fabrication de moules industriels,2024
+333519,Other metalworking machinery manufacturing,Fabrication d'autres machines-outils pour le travail du métal,2024
+333611,Turbine and turbine generator set unit manufacturing,Fabrication de turbines et de groupes turbogénérateurs,2024
+333619,Other engine and power transmission equipment manufacturing,Fabrication d'autres moteurs et types de matériel de transmission de puissance,2024
+333910,Pump and compressor manufacturing,Fabrication de pompes et de compresseurs,2024
+333920,Material handling equipment manufacturing,Fabrication de matériel de manutention,2024
+333990,All other general-purpose machinery manufacturing,Fabrication de toutes les autres machines d'usage général,2024
+334110,Computer and peripheral equipment manufacturing,Fabrication de matériel informatique et périphérique,2024
+334210,Telephone apparatus manufacturing,Fabrication de matériel téléphonique,2024
+334220,Radio and television broadcasting and wireless communications equipment manufacturing,"Fabrication de matériel de radiodiffusion, de télédiffusion et de communication sans fil",2024
+334290,Other communications equipment manufacturing,Fabrication d'autres types de matériel de communication,2024
+334310,Audio and video equipment manufacturing,Fabrication de matériel audio et vidéo,2024
+334410,Semiconductor and other electronic component manufacturing,Fabrication de semi-conducteurs et d'autres composants électroniques,2024
+334511,Navigational and guidance instruments manufacturing,Fabrication d'instruments de navigation et de guidage,2024
+334512,"Measuring, medical and controlling devices manufacturing",Fabrication d'appareils de mesure et de commande et d'appareils médicaux,2024
+334610,Manufacturing and reproducing magnetic and optical media,Fabrication et reproduction de supports magnétiques et optiques,2024
+335130,Electric lighting equipment manufacturing,Fabrication de matériel électrique d'éclairage,2024
+335210,Small electrical appliance manufacturing,Fabrication de petits appareils électroménagers,2024
+335223,Major kitchen appliance manufacturing,Fabrication de gros appareils ménagers de cuisine,2024
+335229,Other major appliance manufacturing,Fabrication d'autres gros appareils ménagers,2024
+335311,"Power, distribution and specialty transformers manufacturing",Fabrication de transformateurs de puissance et de distribution et de transformateurs spéciaux,2024
+335312,Motor and generator manufacturing,Fabrication de moteurs et de générateurs,2024
+335315,"Switchgear and switchboard, and relay and industrial control apparatus manufacturing","Fabrication d'appareillage de connexion, de commutation et de relais et de commandes d'usage industriel",2024
+335910,Battery manufacturing,Fabrication de batteries et de piles,2024
+335920,Communication and energy wire and cable manufacturing,Fabrication de fils et de câbles électriques et de communication,2024
+335930,Wiring device manufacturing,Fabrication de dispositifs de câblage,2024
+335990,All other electrical equipment and component manufacturing,Fabrication de tous les autres types de matériel et composants électriques,2024
+336110,Automobile and light-duty motor vehicle manufacturing,Fabrication de voitures et de véhicules automobiles légers,2024
+336120,Heavy-duty truck manufacturing,Fabrication de camions lourds,2024
+336211,Motor vehicle body manufacturing,Fabrication de carrosseries de véhicules automobiles,2024
+336212,Truck trailer manufacturing,Fabrication de remorques de camions,2024
+336215,"Motor home, travel trailer and camper manufacturing","Fabrication de maisons mobiles, roulottes de tourisme et campeuses",2024
+336310,Motor vehicle gasoline engine and engine parts manufacturing,Fabrication de moteurs et de pièces de moteurs à essence pour véhicules automobiles,2024
+336320,Motor vehicle electrical and electronic equipment manufacturing,Fabrication de matériel électrique et électronique pour véhicules automobiles,2024
+336330,Motor vehicle steering and suspension components (except spring) manufacturing,Fabrication de composants de direction et de suspension pour véhicules automobiles (sauf les ressorts),2024
+336340,Motor vehicle brake system manufacturing,Fabrication de systèmes de freinage pour véhicules automobiles,2024
+336350,Motor vehicle transmission and power train parts manufacturing,Fabrication de pièces de transmission et de groupe motopropulseur pour véhicules automobiles,2024
+336360,Motor vehicle seating and interior trim manufacturing,Fabrication de sièges et enjolivures intérieures pour véhicules automobiles,2024
+336370,Motor vehicle metal stamping,Emboutissage de pièces en métal pour véhicules automobiles,2024
+336390,Other motor vehicle parts manufacturing,Fabrication d'autres pièces pour véhicules automobiles,2024
+336410,Aerospace product and parts manufacturing,Fabrication de produits aérospatiaux et de leurs pièces,2024
+336510,Railroad rolling stock manufacturing,Fabrication de matériel ferroviaire roulant,2024
+336611,Ship building and repairing,Construction et réparation de navires,2024
+336612,Boat building,Construction d'embarcations,2024
+336990,Other transportation equipment manufacturing,Fabrication d'autres types de matériel de transport,2024
+337110,Wood kitchen cabinet and counter top manufacturing,Fabrication d'armoires et de comptoirs de cuisine en bois,2024
+337121,Upholstered household furniture manufacturing,Fabrication de meubles de maison rembourrés,2024
+337123,Other wood household furniture manufacturing,Fabrication d'autres meubles de maison en bois,2024
+337126,Household furniture (except wood and upholstered) manufacturing,Fabrication de meubles de maison (sauf en bois et rembourrés),2024
+337127,Institutional furniture manufacturing,Fabrication de meubles d'établissement institutionnel,2024
+337213,"Wood office furniture, including custom architectural woodwork, manufacturing","Fabrication de meubles de bureau en bois, y compris les boiseries architecturales faites sur commande",2024
+337214,Office furniture (except wood) manufacturing,Fabrication de meubles de bureau (sauf en bois),2024
+337215,"Showcase, partition, shelving and locker manufacturing","Fabrication de vitrines d'exposition, de cloisons, de rayonnages et de casiers",2024
+337910,Mattress manufacturing,Fabrication de matelas,2024
+337920,Blind and shade manufacturing,Fabrication de stores et de persiennes,2024
+339110,Medical equipment and supplies manufacturing,Fabrication de fournitures et de matériel médicaux,2024
+339910,Jewellery and silverware manufacturing,Fabrication de bijoux et de pièces d'argenterie,2024
+339920,Sporting and athletic goods manufacturing,Fabrication d'articles de sport et d'athlétisme,2024
+339930,"Doll, toy and game manufacturing","Fabrication de poupées, de jouets et de jeux",2024
+339940,Office supplies (except paper) manufacturing,Fabrication de fournitures de bureau (sauf la papeterie),2024
+339950,Sign manufacturing,Fabrication d'enseignes,2024
+339990,All other miscellaneous manufacturing,Toutes les autres activités diverses de fabrication,2024
+411110,Live animal merchant wholesalers,Grossistes-marchands d'animaux vivants,2024
+411120,Oilseed and grain merchant wholesalers,Grossistes-marchands de graines oléagineuses et de grains céréaliers,2024
+411130,Nursery stock and plant merchant wholesalers,Grossistes-marchands de produits et plantes de pépinières,2024
+411190,Other farm product merchant wholesalers,Grossistes-marchands d'autres produits agricoles,2024
+412110,"Petroleum, petroleum products, and other hydrocarbons merchant wholesalers","Grossistes-marchands de pétrole, de produits pétroliers, et d'autres hydrocarbures",2024
+413110,General-line food merchant wholesalers,Grossistes-marchands de gamme complète d'aliments,2024
+413120,Dairy and milk products merchant wholesalers,Grossistes-marchands de produits laitiers,2024
+413130,Poultry and egg merchant wholesalers,Grossistes-marchands de volailles et d'oeufs,2024
+413140,Fish and seafood product merchant wholesalers,Grossistes-marchands de poissons et de fruits de mer,2024
+413150,Fresh fruit and vegetable merchant wholesalers,Grossistes-marchands de fruits et légumes frais,2024
+413160,Red meat and meat product merchant wholesalers,Grossistes-marchands de viandes rouges et de produits de viande,2024
+413190,Other specialty-line food merchant wholesalers,Grossistes-marchands d'autres gammes spécialisées d'aliments,2024
+413210,Non-alcoholic beverage merchant wholesalers,Grossistes-marchands de boissons non alcoolisées,2024
+413220,Alcoholic beverage merchant wholesalers,Grossistes-marchands de boissons alcoolisées,2024
+413310,Cigarette and tobacco product merchant wholesalers,Grossistes-marchands de cigarettes et de produits du tabac,2024
+413410,Cannabis merchant wholesalers,Grossistes-marchands de cannabis,2024
+414110,Clothing and clothing accessories merchant wholesalers,Grossistes-marchands de vêtements et d'accessoires vestimentaires,2024
+414120,Footwear merchant wholesalers,Grossistes-marchands de chaussures,2024
+414130,"Piece goods, notions and other dry goods merchant wholesalers",Grossistes-marchands de tissus à la pièce et d'articles de mercerie,2024
+414210,Home entertainment equipment merchant wholesalers,Grossistes-marchands de matériel de divertissement au foyer,2024
+414220,Household appliance merchant wholesalers,Grossistes-marchands d'appareils ménagers,2024
+414310,"China, glassware, crockery and pottery merchant wholesalers","Grossistes-marchands de porcelaine, verrerie, faïence et poterie",2024
+414320,Floor covering merchant wholesalers,Grossistes-marchands de revêtements de sol,2024
+414330,"Linen, drapery and other textile furnishings merchant wholesalers","Grossistes-marchands de linge de maison, de tentures et d'autres textiles domestiques",2024
+414390,Other home furnishings merchant wholesalers,Grossistes-marchands d'autres accessoires de maison,2024
+414410,Jewellery and watch merchant wholesalers,Grossistes-marchands de bijoux et de montres,2024
+414420,"Book, periodical and newspaper merchant wholesalers","Grossistes-marchands de livres, de périodiques et de journaux",2024
+414430,Photographic equipment and supplies merchant wholesalers,Grossistes-marchands de matériel et fournitures photographiques,2024
+414440,Sound recording merchant wholesalers,Grossistes-marchands d'enregistrements sonores,2024
+414450,Video recording merchant wholesalers,Grossistes-marchands d'enregistrements vidéo,2024
+414460,Toy and hobby goods merchant wholesalers,Grossistes-marchands de jouets et d'articles de passe-temps,2024
+414470,Amusement and sporting goods merchant wholesalers,Grossistes-marchands d'articles de divertissement et de sport,2024
+414510,Pharmaceuticals and pharmacy supplies merchant wholesalers,Grossistes-marchands de produits et fournitures pharmaceutiques,2024
+414520,"Toiletries, cosmetics and sundries merchant wholesalers","Grossistes-marchands d'articles de toilette, de cosmétiques et d'articles divers",2024
+415110,New and used automobile and light-duty truck merchant wholesalers,Grossistes-marchands d'automobiles et de camions légers neufs et d'occasion,2024
+415120,"Truck, truck tractor and bus merchant wholesalers","Grossistes-marchands de camions, de tracteurs routiers et d'autobus",2024
+415190,Recreational and other motor vehicles merchant wholesalers,Grossistes-marchands de véhicules de plaisance et d'autres véhicules automobiles,2024
+415210,Tire merchant wholesalers,Grossistes-marchands de pneus,2024
+415290,Other new motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands d'autres pièces et d'accessoires neufs pour véhicules automobiles,2024
+415310,Used motor vehicle parts and accessories merchant wholesalers,Grossistes-marchands de pièces et d'accessoires d'occasion pour véhicules automobiles,2024
+416110,Electrical wiring and construction supplies merchant wholesalers,Grossistes-marchands de fils et de fournitures électriques de construction,2024
+416120,"Plumbing, heating and air-conditioning equipment and supplies merchant wholesalers","Grossistes-marchands de matériel et fournitures de plomberie, de chauffage et de climatisation",2024
+416210,Metal service centres,Grossistes-distributeurs de métaux et de produits métalliques,2024
+416310,General-line building supplies merchant wholesalers,Grossistes-marchands d'une gamme générale de fournitures de construction,2024
+416320,"Lumber, plywood and millwork merchant wholesalers","Grossistes-marchands de bois d'oeuvre, de contreplaqués et de menuiseries préfabriquées",2024
+416330,Hardware merchant wholesalers,Grossistes-marchands d'articles de quincaillerie,2024
+416340,"Paint, glass and wallpaper merchant wholesalers","Grossistes-marchands de peintures, de vitres et de papier peint",2024
+416390,Other specialty-line building supplies merchant wholesalers,Grossistes-marchands de gammes spécialisées de fournitures de construction,2024
+417110,"Farm, lawn and garden machinery and equipment merchant wholesalers","Grossistes-marchands de machines et matériel pour l'agriculture, l'entretien des pelouses et le jardinage",2024
+417210,"Construction and forestry machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures pour la construction et la foresterie",2024
+417220,"Mining and oil and gas well machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures pour l'extraction minière, pétrolière et gazière",2024
+417230,"Industrial machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures industriels",2024
+417310,"Computer, computer peripheral and pre-packaged software merchant wholesalers","Grossistes-marchands d'ordinateurs, de périphériques et de logiciels de série",2024
+417320,"Electronic components, navigational and communications equipment and supplies merchant wholesalers","Grossistes-marchands de composants électroniques, et de matériel et fournitures de navigation et de communication",2024
+417910,Office and store machinery and equipment merchant wholesalers,Grossistes-marchands de machines et matériel de bureau et de magasin,2024
+417920,"Service establishment machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures d'établissements de service",2024
+417930,"Professional machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de machines, matériel et fournitures d'usage professionnel",2024
+417990,"All other machinery, equipment and supplies merchant wholesalers","Grossistes-marchands de tous les autres machines, matériel et fournitures",2024
+418110,Recyclable metal merchant wholesalers,Grossistes-marchands de métaux recyclables,2024
+418120,Recyclable paper and paperboard merchant wholesalers,Grossistes-marchands de papier et carton recyclables,2024
+418190,Other recyclable material merchant wholesalers,Grossistes-marchands d'autres matières recyclables,2024
+418210,Stationery and office supplies merchant wholesalers,Grossistes-marchands de papeterie et de fournitures de bureau,2024
+418220,Other paper and disposable plastic product merchant wholesalers,Grossistes-marchands d'autres papiers et de produits en plastique jetables,2024
+418310,Agricultural feed merchant wholesalers,Grossistes-marchands d'aliments pour animaux d'élevage,2024
+418320,Seed merchant wholesalers,Grossistes-marchands de semences,2024
+418390,Agricultural chemical and other farm supplies merchant wholesalers,Grossistes-marchands de produits chimiques et autres fournitures agricoles,2024
+418410,Chemical (except agricultural) and allied product merchant wholesalers,Grossistes-marchands de produits chimiques et de produits analogues (sauf agricoles),2024
+418510,"Mineral, ore and precious metal merchant wholesalers","Grossistes-marchands de minéraux, de minerais et de métaux précieux",2024
+418610,"Log, wood chips, and other wood products merchant wholesalers","Grossistes-marchands de billes, copeaux et autres produits de bois",2024
+418930,Second-hand goods (except machinery and automotive) merchant wholesalers,Grossistes-marchands de marchandises d'occasion (sauf les machines et les produits automobiles),2024
+418990,All other merchant wholesalers,Tous les autres grossistes-marchands,2024
+419110,Business-to-business electronic markets,Commerce électronique de gros entre entreprises,2024
+419120,Wholesale trade agents and brokers,Agents et courtiers du commerce de gros,2024
+441110,New car dealers,Concessionnaires d'automobiles neuves,2024
+441120,Used car dealers,Concessionnaires d'automobiles d'occasion,2024
+441210,Recreational vehicle dealers,Concessionnaires de véhicules récréatifs,2024
+441220,"Motorcycle, boat and other motor vehicle dealers","Concessionnaires de motocyclettes, de bateaux et d'autres véhicules automobiles",2024
+441330,Automotive parts and accessories retailers,Détaillants de pièces et d'accessoires pour véhicules automobiles,2024
+441340,Tire dealers,Marchands de pneus,2024
+444110,Home centres,Centres de rénovation,2024
+444120,Paint and wallpaper retailers,Détaillants de peinture et de papier peint,2024
+444140,Hardware retailers,Quincailleries,2024
+444180,Other building material dealers,Autres marchands de matériaux de construction,2024
+444230,Outdoor power equipment retailers,Détaillants de matériel motorisé pour l'extérieur,2024
+444240,Nursery retailers and garden centres,Pépinières et centres de jardinage,2024
+445110,Supermarkets and other grocery retailers (except Convenience retailers),Supermarchés et autres épiceries (sauf les dépanneurs),2024
+445131,Convenience retailers,Dépanneurs,2024
+445132,Vending machine operators,Exploitants de distributeurs automatiques,2024
+445230,Fruit and vegetable markets,Marchés de fruits et de légumes,2024
+445240,Meat markets,Boucheries,2024
+445250,Fish and seafood markets,Poissonneries,2024
+445291,Baked goods retailers,Boulangeries-pâtisseries,2024
+445292,Confectionery and nut retailers,Confiseries et détaillants de noix,2024
+445298,All other specialty food retailers,Tous les autres détaillants d'alimentation spécialisés,2024
+445320,"Beer, wine and liquor retailers","Détaillants de bière, de vin et de spiritueux",2024
+449110,Furniture retailers,Détaillants de meubles,2024
+449121,Floor covering retailers,Détaillants de revêtements de sol,2024
+449122,Window treatment retailers,Détaillants de garnitures de fenêtres,2024
+449123,Print and picture frame retailers,Détaillants de matériel d'encadrement,2024
+449129,All other home furnishing retailers,Détaillants de tous les autres accessoires de maison,2024
+449211,"Appliance, television and other electronics retailers","Détaillants d'appareils ménagers, de téléviseurs et d'autres appareils électroniques",2024
+449212,Computer and software retailers,Détaillants d'ordinateurs et de logiciels,2024
+449213,Camera and photographic supplies retailers,Détaillants d'appareils et fournitures photographiques,2024
+449214,Audio and video recording retailers,Détaillants d'enregistrements vidéo et audio,2024
+455110,Department stores,Grands détaillants,2024
+455211,Warehouse clubs and Supercentres,"Clubs-entrepôts, supercentres",2024
+455212,Home and auto supplies retailers,Détaillants de fournitures pour la maison et l'auto,2024
+455219,All other miscellaneous general merchandise retailers,Tous les autres détaillants de marchandises diverses de tout genre,2024
+456110,Pharmacies and drug stores,Pharmacies,2024
+456120,"Cosmetics, beauty supplies and perfume retailers","Détaillants de cosmétiques, de produits de beauté et de parfums",2024
+456130,Optical goods retailers,Détaillants de produits optiques,2024
+456191,Food (health) supplement retailers,Détaillants de suppléments alimentaires (aliments de santé),2024
+456199,All other health and personal care retailers,Détaillants de tous les autres produits de santé et de soins personnels,2024
+457110,Gasoline stations with convenience stores,Stations-service avec dépanneurs,2024
+457120,Other gasoline stations,Autres stations-service,2024
+457211,Heating oil dealers,Marchands de mazout de chauffage,2024
+457212,Liquefied petroleum gas (bottled gas) dealers,Marchands de gaz de pétrole liquéfiés (gaz en bouteille),2024
+457219,Other fuel dealers,Autres marchands de combustibles,2024
+458111,Men's clothing retailers,Détaillants de vêtements pour hommes,2024
+458112,Women's clothing retailers,Détaillants de vêtements pour femmes,2024
+458113,Children's and infants' clothing retailers,Détaillants de vêtements pour enfants et bébés,2024
+458114,Family clothing retailers,Détaillants de vêtements pour la famille,2024
+458115,Clothing accessories retailers,Détaillants d'accessoires vestimentaires,2024
+458116,Fur retailers,Détaillants de fourrures,2024
+458119,All other clothing retailers,Détaillants de tous les autres types de vêtements,2024
+458210,Shoe retailers,Détaillants de chaussures,2024
+458310,Jewellery retailers,Bijouteries,2024
+458320,Luggage and leather goods retailers,Détaillants de bagages et de maroquinerie,2024
+459111,Golf equipment and supplies specialty retailers,Détaillants spécialisés en équipement et en fournitures de golf,2024
+459112,Ski equipment and supplies specialty retailers,Détaillants spécialisés en équipement et en fournitures de ski,2024
+459113,Cycling equipment and supplies specialty retailers,Détaillants spécialisés en équipement et en fournitures de cyclisme,2024
+459119,All other sporting goods retailers,Tous les autres détaillants d'articles de sport,2024
+459120,"Hobby, toy and game retailers","Détaillants d'articles de passe-temps, de jouets et de jeux",2024
+459130,"Sewing, needlework and piece goods retailers",Détaillants d'articles de couture et de travaux d'aiguille et de tissus à la pièce,2024
+459140,Musical instrument and supplies retailers,Détaillants d'instruments et de fournitures de musique,2024
+459210,Book retailers and news dealers,Librairies et marchands de journaux,2024
+459310,Florists,Fleuristes,2024
+459410,Office supplies and stationery retailers,Détaillants de fournitures de bureau et de papeterie,2024
+459420,"Gift, novelty and souvenir retailers","Détaillants de cadeaux, d'articles de fantaisie et de souvenirs",2024
+459510,Used merchandise retailers,Détaillants de marchandises d'occasion,2024
+459910,Pet and pet supplies retailers,Animaleries et détaillants de fournitures pour animaux,2024
+459920,Art dealers,Marchands d'oeuvres d'art,2024
+459930,Manufactured (mobile) home dealers,Marchands de maisons préfabriquées (mobiles),2024
+459992,Beer and wine-making supplies retailers,Détaillants de matériel pour la fabrication de la bière et du vin,2024
+459993,Cannabis retailers,Détaillants de cannabis,2024
+459999,All other miscellaneous retailers (except beer and wine-making supplies retailers),Tous les autres détaillants de détail divers (sauf les détaillants de matériel pour la fabrication de la bière et du vin),2024
+481110,Scheduled air transportation,Transport aérien régulier,2024
+481214,Non-scheduled chartered air transportation,Transport aérien d'affrètement non régulier,2024
+481215,Non-scheduled specialty flying services,Services de vols spécialisés non réguliers,2024
+482112,Short-haul freight rail transportation,Transport ferroviaire de marchandises sur de courtes distances,2024
+482113,Mainline freight rail transportation,Transport ferroviaire de marchandises sur ligne principale,2024
+482114,Passenger rail transportation,Transport ferroviaire de voyageurs,2024
+483115,"Deep sea, coastal and Great Lakes water transportation (except by ferries)","Transport hauturier, côtier et sur les Grands Lacs, sauf le transport par traversier",2024
+483116,"Deep sea, coastal and Great Lakes water transportation by ferries","Transport hauturier, côtier et sur les Grands Lacs par traversier",2024
+483213,Inland water transportation (except by ferries),Transport sur les eaux intérieures (sauf par traversier),2024
+483214,Inland water transportation by ferries,Transport sur les eaux intérieures par traversier,2024
+484110,"General freight trucking, local",Transport local par camion de marchandises diverses,2024
+484121,"General freight trucking, long distance, truck-load (single shipper)","Transport par camion de marchandises diverses sur de longues distances, charge complète (un seul expéditeur)",2024
+484122,"General freight trucking, long distance, less than truck-load (multiple shippers)","Transport par camion de marchandises diverses sur de longues distances, charge partielle (plus d'un expéditeur)",2024
+484210,Used household and office goods moving,Déménagement de biens usagés de maison et de bureau,2024
+484221,"Bulk liquids trucking, local",Transport local par camion de vrac liquide,2024
+484222,"Dry bulk materials trucking, local",Transport local par camion de vrac solide,2024
+484223,"Forest products trucking, local",Transport local par camion de produits forestiers,2024
+484229,"Other specialized freight (except used goods) trucking, local",Transport local par camion d'autres marchandises spéciales (sauf les biens usagés),2024
+484231,"Bulk liquids trucking, long distance",Transport par camion de vrac liquide sur de longues distances,2024
+484232,"Dry bulk materials trucking, long distance",Transport par camion de vrac solide sur de longues distances,2024
+484233,"Forest products trucking, long distance",Transport par camion de produits forestiers sur de longues distances,2024
+484239,"Other specialized freight (except used goods) trucking, long distance",Transport par camion d'autres marchandises spéciales sur de longues distances (sauf les biens usagés),2024
+485110,Urban transit systems,Services urbains de transport en commun,2024
+485210,Interurban and rural bus transportation,Transport interurbain et rural par autocar,2024
+485310,Taxi service,Services de taxi,2024
+485320,Limousine service,Services de limousine,2024
+485410,School and employee bus transportation,Transport scolaire et transport d'employés par autobus,2024
+485510,Charter bus industry,Services d'autobus nolisés,2024
+485990,Other transit and ground passenger transportation,Autres services de transport en commun et de transport terrestre de voyageurs,2024
+486110,Pipeline transportation of crude oil,Transport du pétrole brut par oléoduc,2024
+486210,Pipeline transportation of natural gas,Transport du gaz naturel par gazoduc,2024
+486910,Pipeline transportation of refined petroleum products,Transport par pipeline de produits pétroliers raffinés,2024
+486990,All other pipeline transportation,Tous les autres services de transport par pipeline,2024
+487110,"Scenic and sightseeing transportation, land",Transport terrestre de tourisme et d'agrément,2024
+487210,"Scenic and sightseeing transportation, water",Transport par eau de tourisme et d'agrément,2024
+487990,"Scenic and sightseeing transportation, other",Autres services de transport de tourisme et d'agrément,2024
+488111,Air traffic control,Contrôle de la circulation aérienne,2024
+488119,Other airport operations,Autres opérations aéroportuaires,2024
+488190,Other support activities for air transportation,Autres activités de soutien au transport aérien,2024
+488210,Support activities for rail transportation,Activités de soutien au transport ferroviaire,2024
+488310,Port and harbour operations,Opérations portuaires,2024
+488320,Marine cargo handling,Manutention du fret maritime,2024
+488331,Marine salvage services,Sauvetage maritime,2024
+488332,Ship piloting services,Pilotage de navire,2024
+488339,Other navigational services to shipping,Autres services de navigation pour le transport par eau,2024
+488390,Other support activities for water transportation,Autres activités de soutien au transport par eau,2024
+488410,Motor vehicle towing,Remorquage de véhicules automobiles,2024
+488490,Other support activities for road transportation,Autres activités de soutien au transport routier,2024
+488511,Marine shipping agencies,Agences de transport maritime,2024
+488519,Other freight transportation arrangement,Autres intermédiaires en transport de marchandises,2024
+488990,Other support activities for transportation,Autres activités de soutien au transport,2024
+491110,Postal service,Services postaux,2024
+492110,Couriers,Messageries,2024
+492210,Local messengers and local delivery,Services locaux de messagers et de livraison,2024
+493110,General warehousing and storage,Entreposage et emmagasinage général,2024
+493120,Refrigerated warehousing and storage,Entreposage frigorifique,2024
+493130,Farm product warehousing and storage,Entreposage de produits agricoles,2024
+493190,Other warehousing and storage,Autres activités d'entreposage,2024
+512110,Motion picture and video production,Production de films et de vidéos,2024
+512120,Motion picture and video distribution,Distribution de films et de vidéos,2024
+512130,Motion picture and video exhibition,Présentation de films et de vidéos,2024
+512190,Post-production and other motion picture and video industries,Postproduction et autres industries du film et de la vidéo,2024
+512230,Music publishers,Éditeurs de musique,2024
+512240,Sound recording studios,Studios d'enregistrement sonore,2024
+512250,Record production and distribution,Production et distribution d'enregistrements,2024
+512290,Other sound recording industries,Autres industries de l'enregistrement sonore,2024
+513110,Newspaper publishers,Éditeurs de journaux,2024
+513120,Periodical publishers,Éditeurs de périodiques,2024
+513130,Book publishers,Éditeurs de livres,2024
+513140,Directory and mailing list publishers,Éditeurs d'annuaires et de répertoires,2024
+513190,Other publishers,Autres éditeurs,2024
+513211,Software publishers (except video game publishers),Éditeurs de logiciels (sauf éditeurs de jeux vidéo),2024
+513212,Video game publishers,Éditeurs de jeux vidéo,2024
+516110,Radio broadcasting stations,Stations de radiodiffusion,2024
+516120,Television broadcasting stations,Stations de télédiffusion,2024
+516211,Pay and specialty television,Télévision payante et spécialisée,2024
+516212,Media streaming distribution services,Services de distribution de contenu médiatique diffusé en continu,2024
+516219,Other media content providers,Autres fournisseurs de contenu médiatique,2024
+517310,Wired and wireless telecommunications carriers (except satellite),Télécommunications par fil et sans fil (sauf par satellite),2024
+517410,Satellite telecommunications,Télécommunications par satellite,2024
+517911,Telecommunications resellers,Revendeurs de services de télécommunications,2024
+517919,All other telecommunications,Tous les autres services de télécommunications,2024
+518210,"Computing infrastructure providers, data processing, web hosting, and related services","Fournisseurs d'infrastructures informatiques, traitement de données, hébergement de données et services connexes",2024
+519211,Libraries,Bibliothèques,2024
+519212,Archives,Archives,2024
+519290,Web search portals and all other information services,Portails de recherche Web et tous les autres services d'information,2024
+521110,Monetary authorities - central bank,Autorités monétaires - banque centrale,2024
+522111,Personal and commercial banking industry,Activités bancaires aux particuliers et aux entreprises,2024
+522112,Corporate and institutional banking industry,Services bancaires aux grandes entreprises et aux institutions,2024
+522130,Credit unions,Coopératives de crédit et caisses populaires,2024
+522190,Other depository credit intermediation,Autres activités d'intermédiation financière par le biais de dépôts,2024
+522210,Credit card issuing,Émission de cartes de crédit,2024
+522220,Sales financing,Financement de ventes à crédit,2024
+522291,Consumer lending,Crédit à la consommation,2024
+522299,All other non-depository credit intermediation,Toutes les autres activités d'intermédiation financière non faite par le biais de dépôts,2024
+522310,Mortgage and non-mortgage loan brokers,Courtiers en prêts hypothécaires et non-hypothécaires,2024
+522321,Central credit unions,Caisses centrales d'épargne et de crédit,2024
+522329,Other financial transactions processing and clearing house activities,Autres traitements des transactions financières et activités liées à la chambre de compensation,2024
+522390,Other activities related to credit intermediation,Autres activités liées à l'intermédiation financière,2024
+523110,Investment banking and securities dealing,Services bancaires d'investissement et commerce des valeurs mobilières,2024
+523120,Securities brokerage,Courtage de valeurs mobilières,2024
+523130,Commodity contracts dealing,Négociation de contrats de marchandises,2024
+523140,Commodity contracts brokerage,Courtage de contrats de marchandises,2024
+523210,Securities and commodity exchanges,Bourses de valeurs mobilières et de marchandises,2024
+523910,Miscellaneous intermediation,Activités diverses d'intermédiation,2024
+523920,Portfolio management,Gestion de portefeuille,2024
+523930,Investment advice,Services de conseils en placement,2024
+523990,All other financial investment activities,Toutes les autres activités d'investissement financier,2024
+524111,"Direct individual life, health and medical insurance carriers","Sociétés d'assurance directe individuelle : vie, maladie et soins médicaux",2024
+524112,"Direct group life, health and medical insurance carriers","Sociétés d'assurance directe collective : vie, maladie et soins médicaux",2024
+524121,Direct general property and casualty insurance carriers,"Sociétés d'assurance directe : biens, incendie, accidents et risques divers (IARD)",2024
+524122,"Direct, private, automobile insurance carriers",Sociétés privées d'assurance directe : automobile,2024
+524123,"Direct, public, automobile insurance carriers",Sociétés publiques d'assurance directe : automobile,2024
+524124,Direct property insurance carriers,Sociétés d'assurance directe : biens,2024
+524125,Direct liability insurance carriers,Sociétés d'assurance directe : responsabilité,2024
+524129,"Other direct insurance (except life, health and medical) carriers","Autres sociétés d'assurance directe (sauf vie, maladie et soins médicaux)",2024
+524131,Life reinsurance carriers,Sociétés de réassurance - vie,2024
+524132,Accident and sickness reinsurance carriers,Sociétés de réassurance - accidents et maladie,2024
+524133,Automobile reinsurance carriers,Sociétés de réassurance - automobile,2024
+524134,Property reinsurance carriers,Sociétés de réassurance - biens,2024
+524135,Liability reinsurance carriers,Sociétés de réassurance - responsabilité,2024
+524139,General and other reinsurance carriers,Sociétés de réassurance IARD et autres sociétés de réassurance,2024
+524210,Insurance agencies and brokerages,Agences et courtiers d'assurance,2024
+524291,Claims adjusters,Experts en sinistres,2024
+524299,All other insurance related activities,Toutes les autres activités liées à l'assurance,2024
+526111,Trusteed pension funds,Caisses de retraite en fiducie,2024
+526112,Non-trusteed pension funds,Caisses de retraite non fiduciaires,2024
+526911,Equity funds - Canadian,Fonds d'actions canadiennes,2024
+526912,Equity funds - foreign,Fonds d'actions étrangères,2024
+526913,Mortgage funds,Fonds hypothécaires,2024
+526914,Money market funds,Fonds du marché monétaire,2024
+526915,Bond and income / dividend funds - Canadian,Fonds d'obligations et fonds à revenu / fonds de dividendes - canadiens,2024
+526916,Bond and income / dividend funds - foreign,Fonds d'obligations et fonds à revenu / fonds de dividendes - étrangers,2024
+526917,Balanced funds / asset allocation funds,Fonds équilibrés / fonds de répartition d'actifs,2024
+526919,Other open-ended funds,Autres fonds de placement à capital variable,2024
+526930,Segregated (except pension) funds,Fonds distincts (sauf les caisses de retraite),2024
+526981,Securitization vehicles,Instruments de titrisation,2024
+526989,All other miscellaneous funds and financial vehicles,Tous les autres fonds et instruments financiers divers,2024
+531111,Lessors of residential buildings and dwellings (except social housing projects),Bailleurs d'immeubles résidentiels et de logements (sauf les logements sociaux),2024
+531112,Lessors of social housing projects,Bailleurs de logements sociaux,2024
+531120,Lessors of non-residential buildings (except mini-warehouses),Bailleurs d'immeubles non résidentiels (sauf les mini-entrepôts),2024
+531130,Self-storage mini-warehouses,Mini-entrepôts libre-service,2024
+531190,Lessors of other real estate property,Bailleurs d'autres biens immobiliers,2024
+531211,Real estate agents,Agents immobiliers,2024
+531212,Offices of real estate brokers,Bureaux de courtiers en immeubles,2024
+531310,Real estate property managers,Gestionnaires de biens immobiliers,2024
+531320,Offices of real estate appraisers,Bureaux d'évaluateurs de biens immobiliers,2024
+531390,Other activities related to real estate,Autres activités liées à l'immobilier,2024
+532111,Passenger car rental,Location d'automobiles,2024
+532112,Passenger car leasing,Location à bail d'automobiles,2024
+532120,"Truck, utility trailer and recreational vehicle (RV) rental and leasing","Location et location à bail de camions, de remorques utilitaires et de véhicules de plaisance",2024
+532210,Consumer electronics and appliance rental,Location d'appareils électroniques domestiques et d'appareils ménagers,2024
+532280,All other consumer goods rental,Location de tous les autres biens de consommation,2024
+532310,General rental centres,Centres de location d'articles divers,2024
+532410,"Construction, transportation, mining, and forestry machinery and equipment rental and leasing","Location et location à bail de machines et matériel pour la construction, le transport, l'extraction minière et la foresterie",2024
+532420,Office machinery and equipment rental and leasing,Location et location à bail de machines et matériel de bureau,2024
+532490,Other commercial and industrial machinery and equipment rental and leasing,Location et location à bail d'autres machines et matériel d'usage commercial et industriel,2024
+533110,Lessors of non-financial intangible assets (except copyrighted works),Bailleurs de biens incorporels non financiers (sauf les oeuvres protégées par le droit d'auteur),2024
+541110,Offices of lawyers,Études d'avocats,2024
+541120,Offices of notaries,Études de notaires,2024
+541190,Other legal services,Autres services juridiques,2024
+541212,Offices of accountants,Cabinets de comptables,2024
+541213,Tax preparation services,Services de préparation des déclarations de revenus,2024
+541215,"Bookkeeping, payroll and related services",Services de tenue de livres et de paye et services connexes,2024
+541310,Architectural services,Services d'architecture,2024
+541320,Landscape architectural services,Services d'architecture paysagère,2024
+541330,Engineering services,Services de génie,2024
+541340,Drafting services,Services de dessin technique,2024
+541350,Building inspection services,Services d'inspection des bâtiments,2024
+541360,Geophysical surveying and mapping services,Services de prospection et de levé géophysiques,2024
+541370,Surveying and mapping (except geophysical) services,Services d'arpentage et de cartographie (sauf les levés géophysiques),2024
+541380,Testing laboratories,Laboratoires d'essai,2024
+541410,Interior design services,Services de design d'intérieur,2024
+541420,Industrial design services,Services de design industriel,2024
+541430,Graphic design services,Services de design graphique,2024
+541490,Other specialized design services,Autres services spécialisés de design,2024
+541514,Computer systems design and related services (except video game design and development),Conception de systèmes informatiques et services connexes (sauf la conception et le développement de jeux vidéo),2024
+541515,Video game design and development services,Services de conception et de développement de jeux vidéo,2024
+541611,Administrative management and general management consulting services,Services de conseils en gestion administrative et générale,2024
+541612,Human resources consulting services,Services de conseils en ressources humaines,2024
+541619,Other management consulting services,Autres services de conseils en gestion,2024
+541620,Environmental consulting services,Services de conseils en environnement,2024
+541690,Other scientific and technical consulting services,Autres services de conseils scientifiques et techniques,2024
+541710,"Research and development in the physical, engineering and life sciences","Recherche et développement en sciences physiques, en génie et en sciences de la vie",2024
+541720,Research and development in the social sciences and humanities,"Recherche et développement, en sciences humaines et en sciences sociales",2024
+541810,Advertising agencies,Agences de publicité,2024
+541820,Public relations services,Services de relations publiques,2024
+541830,Media buying agencies,Agences d'achat de médias,2024
+541840,Media representatives,Représentants de médias,2024
+541850,Display advertising,Publicité par affichage,2024
+541860,Direct mail advertising,Publipostage,2024
+541870,Advertising material distribution services,Services de distribution de matériel publicitaire,2024
+541891,Specialty advertising distributors,Distributeurs de publicité par l'objet,2024
+541899,All other services related to advertising,Tous les autres services liés à la publicité,2024
+541910,Marketing research and public opinion polling,Études de marché et sondages d'opinion,2024
+541920,Photographic services,Services photographiques,2024
+541930,Translation and interpretation services,Services de traduction et d'interprétation,2024
+541940,Veterinary services,Services vétérinaires,2024
+541990,"All other professional, scientific and technical services","Tous les autres services professionnels, scientifiques et techniques",2024
+551113,Holding companies,Sociétés de portefeuille,2024
+551114,"Corporate, regional and subsidiary management offices and companies","Directions générales, régionales et filiales et sociétés",2024
+561110,Office administrative services,Services administratifs de bureau,2024
+561210,Facilities support services,Services de soutien d'installations,2024
+561310,Employment placement agencies and executive search services,Agences de placement et services de recherche de cadres,2024
+561320,Temporary help services,Location de personnel suppléant,2024
+561330,Professional employer organizations,Location de personnel permanent,2024
+561410,Document preparation services,Services de préparation de documents,2024
+561420,Telephone call centres,Centres d'appels téléphoniques,2024
+561430,Business service centres,Centres de services aux entreprises,2024
+561440,Collection agencies,Agences de recouvrement,2024
+561450,Credit bureaus,Agences d'évaluation du crédit,2024
+561490,Other business support services,Autres services de soutien aux entreprises,2024
+561510,Travel agencies,Agences de voyage,2024
+561520,Tour operators,Voyagistes,2024
+561590,Other travel arrangement and reservation services,Autres services de préparation de voyages et de réservation,2024
+561611,Investigation services,Services d'enquêtes,2024
+561612,Security guard and patrol services,Services de garde et de patrouille,2024
+561613,Armoured car services,Services de voitures blindées,2024
+561621,Security systems services (except locksmiths),Services de systèmes de sécurité (sauf les serruriers),2024
+561622,Locksmiths,Serruriers,2024
+561710,Exterminating and pest control services,Services d'extermination et de lutte antiparasitaire,2024
+561721,Window cleaning services,Services de nettoyage de vitres,2024
+561722,Janitorial services (except window cleaning),"Services de conciergerie, nettoyage (sauf les vitres)",2024
+561730,Landscaping services,Services d'aménagement paysager,2024
+561740,Carpet and upholstery cleaning services,Services de nettoyage de tapis et de meubles rembourrés,2024
+561791,Duct and chimney cleaning services,Services de nettoyage de conduits et de cheminées,2024
+561799,All other services to buildings and dwellings,Tous les autres services relatifs aux bâtiments et aux logements,2024
+561910,Packaging and labelling services,Services d'emballage et d'étiquetage,2024
+561920,Convention and trade show organizers,"Organisateurs de congrès, de salons et de foires commerciales",2024
+561990,All other support services,Tous les autres services de soutien,2024
+562110,Waste collection,Collecte de déchets,2024
+562210,Waste treatment and disposal,Traitement et élimination des déchets,2024
+562910,Remediation services,Services d'assainissement,2024
+562920,Material recovery facilities,Installations de récupération de matériaux,2024
+562990,All other waste management services,Tous les autres services de gestion des déchets,2024
+611110,Elementary and secondary schools,Écoles primaires et secondaires,2024
+611210,Community colleges and C.E.G.E.P.s,Collèges communautaires et cégeps,2024
+611310,Universities,Universités,2024
+611410,Business and secretarial schools,Écoles de commerce et de secrétariat,2024
+611420,Computer training,Formation en informatique,2024
+611430,Professional and management development training,Formation professionnelle et perfectionnement en gestion,2024
+611510,Technical and trade schools,Écoles techniques et écoles de métiers,2024
+611610,Fine arts schools,Écoles des beaux-arts,2024
+611620,Athletic instruction,Formation athlétique,2024
+611630,Language schools,Écoles de langues,2024
+611690,All other schools and instruction,Tous les autres établissements d'enseignement et de formation,2024
+611710,Educational support services,Services de soutien à l'enseignement,2024
+621110,Offices of physicians,Cabinets de médecins,2024
+621210,Offices of dentists,Cabinets de dentistes,2024
+621310,Offices of chiropractors,Cabinets de chiropraticiens,2024
+621320,Offices of optometrists,Cabinets d'optométristes,2024
+621330,Offices of mental health practitioners (except physicians),Cabinets de praticiens en santé mentale (sauf les médecins),2024
+621340,"Offices of physical, occupational, and speech therapists and audiologists","Cabinets de physiothérapeutes, d'ergothérapeutes, d'orthophonistes et d'audiologistes",2024
+621390,Offices of all other health practitioners,Cabinets de tous les autres praticiens de la santé,2024
+621410,Family planning centres,Centres de planification familiale,2024
+621420,Out-patient mental health and substance use centres,Centres de soins ambulatoires pour personnes atteintes de problèmes de santé mentale ou troubles liés à la consommation d'alcool et de drogues,2024
+621494,Community health centres,Centres communautaires de soins de santé,2024
+621499,All other out-patient care centres,Tous les autres centres de soins ambulatoires,2024
+621510,Medical and diagnostic laboratories,Laboratoires médicaux et d'analyses diagnostiques,2024
+621610,Home health care services,Services de soins de santé à domicile,2024
+621911,Ambulance (except air ambulance) services,Services d'ambulance (sauf les services d'ambulance aérienne),2024
+621912,Air ambulance services,Services d'ambulance aérienne,2024
+621990,All other ambulatory health care services,Tous les autres services de soins de santé ambulatoires,2024
+622111,General (except paediatric) hospitals,Hôpitaux généraux (sauf pédiatriques),2024
+622112,Paediatric hospitals,Hôpitaux pédiatriques,2024
+622210,Psychiatric and substance use hospitals,Hôpitaux psychiatriques et hôpitaux pour les troubles liés à la consommation d'alcool ou de drogues,2024
+622310,Specialty (except psychiatric and substance use) hospitals,Hôpitaux spécialisés (sauf psychiatriques et pour les problèmes liés à la consommation d'alcool et de drogues),2024
+623110,Nursing care facilities,Établissements de soins infirmiers,2024
+623210,Residential facilities for persons with a developmental disability,Établissements résidentiels pour personnes ayant une incapacité liés au développement,2024
+623221,Residential facilities for persons with a mental health or substance use condition,Établissements résidentiels pour personnes ayant un problème de santé mentale ou un problème de consommation d'alcool et de drogues,2024
+623222,Homes for persons with a psychiatric disability,Foyers pour personnes ayant une déficience psychique,2024
+623310,Community care facilities for the elderly,Établissements communautaires de soins pour personnes âgées,2024
+623991,Transition homes for victims and survivors of abuse and domestic violence,Maisons de transition pour personnes ayant été victimes et survivants de violence,2024
+623992,Homes for children with a mental health condition or disability,Maisons pour enfants ayant un problème de santé mentale ou une incapacité,2024
+623993,Homes for persons with a physical disability,Foyers pour personnes ayant une incapacité physique,2024
+623999,All other residential care facilities,Tous les autres établissements de soins pour bénéficiaires internes,2024
+624110,Child and youth services,Services à l'enfance et à la jeunesse,2024
+624120,Services for the elderly and persons with a disability,Services aux personnes âgées et aux personnes ayant une incapacité,2024
+624190,Other individual and family services,Autres services individuels et familiaux,2024
+624210,Community food services,Services communautaires d'alimentation,2024
+624220,Community housing services,Services communautaires d'hébergement,2024
+624230,Emergency and other relief services,Services d'urgence et autres secours,2024
+624310,Vocational rehabilitation services,Services de réadaptation professionnelle,2024
+624410,Child day-care services,Services de garderie,2024
+711111,Theatre (except musical) companies,Compagnies de théâtre (sauf de comédie musicale),2024
+711112,Musical theatre and opera companies,Compagnies de comédie musicale et d'opéra,2024
+711120,Dance companies,Compagnies de danse,2024
+711130,Musical groups and artists,Formations musicales et musiciens,2024
+711190,Other performing arts companies,Autres compagnies d'arts d'interprétation,2024
+711213,Horse race tracks,Hippodromes,2024
+711214,Other racing facilities and related activities,Autres installations de course et activités connexes,2024
+711215,Independent athletes performing before a paying audience,Athlètes indépendants s'exécutant devant un public payant,2024
+711217,Sports teams and clubs performing before a paying audience,Équipes et clubs sportifs jouant devant un public payant,2024
+711311,Live theatres and other performing arts presenters with facilities,Exploitants de théâtres et autres diffuseurs d'événements artistiques avec installations,2024
+711319,Sports stadiums and other presenters with facilities,Exploitants de stades et autres diffuseurs avec installations,2024
+711321,Performing arts promoters (presenters) without facilities,"Promoteurs (diffuseurs) d'événements artistiques, sans installations",2024
+711322,Festivals without facilities,"Festivals, sans installations",2024
+711329,Sports presenters and other presenters without facilities,"Diffuseurs d'événements sportifs et autres présentateurs, sans installations",2024
+711411,"Agents and managers for artists, entertainers and other public figures","Agents et représentants d'artistes, de professionnels de la scène et d'autres personnalités publiques",2024
+711412,Sports agents and managers,Agents et gérants en sports,2024
+711511,Independent visual artists and artisans,Artistes visuels et artisans indépendants,2024
+711512,"Independent actors, comedians and performers","Acteurs, comédiens et interprètes indépendants",2024
+711513,Independent writers and authors,Écrivains et auteurs indépendants,2024
+712111,Non-commercial art museums and galleries,Musées d'art publics,2024
+712115,History and science museums,Musées d'histoire et de sciences,2024
+712119,Other museums,Autres musées,2024
+712120,Historic and heritage sites,Lieux historiques et d'intérêt patrimonial,2024
+712130,Zoos and botanical gardens,Jardins zoologiques et botaniques,2024
+712190,Nature parks and other similar institutions,Parcs naturels et autres institutions similaires,2024
+713110,Amusement and theme parks,Parcs d'attractions et jardins thématiques,2024
+713120,Amusement arcades,Salles de jeux électroniques,2024
+713210,Casinos (except casino hotels),Casinos (sauf hôtels-casinos),2024
+713291,Lotteries,Loteries,2024
+713299,All other gambling industries,Tous les autres jeux de hasard et loteries,2024
+713910,Golf courses and country clubs,Terrains de golf et country clubs,2024
+713920,Skiing facilities,Centres de ski,2024
+713930,Marinas,Marinas,2024
+713940,Fitness and recreational sports centres,Centres de sports récréatifs et de conditionnement physique,2024
+713950,Bowling centres,Salles de quilles,2024
+713991,"Sports clubs, teams and leagues performing before a non-paying audience","Équipes, ligues et clubs sportifs jouant devant un public non payant",2024
+713992,Other sport facilities,Autres installations sportives,2024
+713999,All other amusement and recreation industries,Toutes les autres industries du divertissement et du loisir,2024
+721111,Hotels,Hôtels,2024
+721112,Motor hotels,Auberges routières,2024
+721113,Resorts,Centres de villégiature,2024
+721114,Motels,Motels,2024
+721120,Casino hotels,Hôtels-casinos,2024
+721191,Bed and breakfast,Gîtes touristiques,2024
+721192,Housekeeping cottages and cabins,Chalets et cabines sans service,2024
+721198,All other traveller accommodation,Tous les autres services d'hébergement des voyageurs,2024
+721211,Recreational vehicle (RV) parks and campgrounds,Parcs pour véhicules récréatifs (VR) et campings,2024
+721212,Hunting and fishing camps,Camps de chasse et de pêche,2024
+721213,Recreational (except hunting and fishing) and vacation camps,Camps récréatifs et de vacances (sauf de chasse et de pêche),2024
+721310,Rooming and boarding houses,Maisons de chambres et pensions de famille,2024
+722310,Food service contractors,Services de restauration contractuels,2024
+722320,Caterers,Traiteurs,2024
+722330,Mobile food services,Cantines et comptoirs mobiles,2024
+722410,Drinking places (alcoholic beverages),Débits de boissons alcoolisées,2024
+722511,Full-service restaurants,Restaurants à service complet,2024
+722512,Limited-service eating places,Établissements de restauration à service restreint,2024
+811111,General automotive repair,Réparations générales de véhicules automobiles,2024
+811113,Specialized automotive repair,Réparation spécialisée d'automobile,2024
+811121,"Automotive body, paint and interior repair and maintenance","Réparation et entretien de la carrosserie, de la peinture et de l'intérieur de véhicules automobiles",2024
+811122,Automotive glass replacement shops,Ateliers de remplacement de vitres de véhicules automobiles,2024
+811192,Car washes,Lave-autos,2024
+811199,All other automotive repair and maintenance,Tous les autres services de réparation et d'entretien de véhicules automobiles,2024
+811210,Electronic and precision equipment repair and maintenance,Réparation et entretien de matériel électronique et de matériel de précision,2024
+811310,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,Réparation et entretien de machines et de matériel d'usage commercial et industriel (sauf les véhicules automobiles et le matériel électronique),2024
+811411,Home and garden equipment repair and maintenance,Réparation et entretien de matériel de maison et de jardin,2024
+811412,Appliance repair and maintenance,Réparation et entretien d'appareils ménagers,2024
+811420,Reupholstery and furniture repair,Rembourrage et réparation de meubles,2024
+811430,Footwear and leather goods repair,Réparation de chaussures et de maroquinerie,2024
+811490,Other personal and household goods repair and maintenance,Autres services de réparation et d'entretien d'articles personnels et ménagers,2024
+812114,Barber shops,Salons de coiffure pour hommes,2024
+812115,Beauty salons,Salons de beauté,2024
+812116,Unisex hair salons,Salons de coiffure unisexes,2024
+812190,Other personal care services,Autres services de soins personnels,2024
+812210,Funeral homes,Salons funéraires,2024
+812220,Cemeteries and crematoria,Cimetières et crématoriums,2024
+812310,Coin-operated laundries and dry cleaners,Blanchisseries et nettoyeurs à sec libre-service,2024
+812320,Dry cleaning and laundry services (except coin-operated),Services de nettoyage à sec et de blanchissage (sauf le libre-service),2024
+812330,Linen and uniform supply,Fourniture de linge et d'uniformes,2024
+812910,Pet care (except veterinary) services,Soins pour animaux de maison (sauf vétérinaires),2024
+812921,Photo finishing laboratories (except one-hour),Laboratoires de développement et de tirage de photos (sauf le service en une heure),2024
+812922,One-hour photo finishing,Développement et tirage de photos en une heure,2024
+812930,Parking lots and garages,Stationnements et garages,2024
+812990,All other personal services,Tous les autres services personnels,2024
+813110,Religious organizations,Organismes religieux,2024
+813210,Grant-making and giving services,Fondations et organismes de charité,2024
+813310,Social advocacy organizations,Organismes d'action sociale,2024
+813410,Civic and social organizations,Organisations civiques et sociales,2024
+813910,Business associations,Associations de gens d'affaires,2024
+813920,Professional organizations,Organisations professionnelles,2024
+813930,Labour organizations,Organisations syndicales,2024
+813940,Political organizations,Organisations politiques,2024
+813990,Other membership organizations,Autres associations,2024
+814110,Private households,Ménages privés,2024
+911110,Defence services,Services de défense,2024
+911210,Federal courts of law,Tribunaux fédéraux,2024
+911220,Federal correctional services,Services correctionnels fédéraux,2024
+911230,Federal police services,Services de police fédéraux,2024
+911240,Federal regulatory services,Services de réglementation fédéraux,2024
+911290,Other federal protective services,Autres services de protection fédéraux,2024
+911310,Federal labour and employment services,Services fédéraux relatifs à la main-d'oeuvre et à l'emploi,2024
+911320,Immigration services,Services d'immigration,2024
+911390,"Other federal labour, employment and immigration services","Autres services fédéraux relatifs à la main-d'oeuvre, à l'emploi et à l'immigration",2024
+911410,Foreign affairs,Affaires étrangères,2024
+911420,International assistance,Aide internationale,2024
+911910,Other federal government public administration,Autres services de l'administration publique fédérale,2024
+912110,Provincial courts of law,Tribunaux provinciaux,2024
+912120,Provincial correctional services,Services correctionnels provinciaux,2024
+912130,Provincial police services,Services de police provinciaux,2024
+912140,Provincial fire-fighting services,Services provinciaux de lutte contre les incendies,2024
+912150,Provincial regulatory services,Services de réglementation provinciaux,2024
+912190,Other provincial protective services,Autres services de protection provinciaux,2024
+912210,Provincial labour and employment services,Services provinciaux relatifs à la main-d'oeuvre et à l'emploi,2024
+912910,Other provincial and territorial public administration,Autres services des administrations publiques provinciales et territoriales,2024
+913110,Municipal courts of law,Cours municipales,2024
+913120,Municipal correctional services,Services correctionnels municipaux,2024
+913130,Municipal police services,Services de police municipaux,2024
+913140,Municipal fire-fighting services,Services municipaux de lutte contre les incendies,2024
+913150,Municipal regulatory services,Services de réglementation municipaux,2024
+913190,Other municipal protective services,Autres services de protection municipaux,2024
+913910,"Other local, municipal and regional public administration","Autres services des administrations publiques locales, municipales et régionales",2024
+914111,First Nations public administration,Administrations publiques Premières Nations,2024
+914112,Métis public administration,Administrations publiques Métis,2024
+914113,Inuit public administration,Administrations publiques Inuit,2024
+919110,International and other extra-territorial public administration,Organismes publics internationaux et autres organismes publics extra-territoriaux,2024

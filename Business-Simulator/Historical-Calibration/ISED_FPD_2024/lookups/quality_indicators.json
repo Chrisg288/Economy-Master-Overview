@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "code": "A",
+      "label": "Excellent"
+    },
+    {
+      "code": "B",
+      "label": "Very good"
+    },
+    {
+      "code": "C",
+      "label": "Good"
+    },
+    {
+      "code": "D",
+      "label": "Acceptable"
+    },
+    {
+      "code": "E",
+      "label": "Use with caution"
+    }
+  ]
+}

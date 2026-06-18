@@ -1,0 +1,3 @@
+from pathlib import Path
+import json,argparse
+p=argparse.ArgumentParser();p.add_argument('business_type_id');p.add_argument('--geography',default='48');p.add_argument('--status',default='3');p.add_argument('--band',default='30k_5m');p.add_argument('--distribution',default='total_revenue');a=p.parse_args();root=Path(__file__).resolve().parents[1];d=json.loads((root/'profiles'/'priority_businesses'/f'{a.business_type_id}.json').read_text());print(json.dumps(next(c for c in d['contexts'] if c['geography']['code']==a.geography and c['incorporation_status']['code']==a.status and c['revenue_band']==a.band and c['distribution']==a.distribution),indent=2))

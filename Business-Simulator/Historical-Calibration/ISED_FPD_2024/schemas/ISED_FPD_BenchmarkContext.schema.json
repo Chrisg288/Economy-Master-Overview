@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ISED FPD Benchmark Context",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "business_type_id",
+    "naics_code",
+    "geography",
+    "incorporation_status",
+    "revenue_band",
+    "distribution"
+  ]
+}

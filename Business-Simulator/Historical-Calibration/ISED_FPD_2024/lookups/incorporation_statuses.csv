@@ -1,0 +1,4 @@
+﻿code,label,tax_source
+1,Unincorporated businesses,T1
+2,Incorporated businesses,T2
+3,All businesses,T1 + T2

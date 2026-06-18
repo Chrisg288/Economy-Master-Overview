@@ -1,0 +1,72 @@
+{
+  "records": [
+    {
+      "code": "00",
+      "label": "Canada"
+    },
+    {
+      "code": "10",
+      "label": "Newfoundland and Labrador"
+    },
+    {
+      "code": "11",
+      "label": "Prince Edward Island"
+    },
+    {
+      "code": "12",
+      "label": "Nova Scotia"
+    },
+    {
+      "code": "13",
+      "label": "New Brunswick"
+    },
+    {
+      "code": "15",
+      "label": "Atlantic region"
+    },
+    {
+      "code": "24",
+      "label": "Quebec"
+    },
+    {
+      "code": "35",
+      "label": "Ontario"
+    },
+    {
+      "code": "46",
+      "label": "Manitoba"
+    },
+    {
+      "code": "47",
+      "label": "Saskatchewan"
+    },
+    {
+      "code": "48",
+      "label": "Alberta"
+    },
+    {
+      "code": "49",
+      "label": "Prairies region"
+    },
+    {
+      "code": "59",
+      "label": "British Columbia"
+    },
+    {
+      "code": "60",
+      "label": "Yukon"
+    },
+    {
+      "code": "61",
+      "label": "Northwest Territories"
+    },
+    {
+      "code": "62",
+      "label": "Nunavut"
+    },
+    {
+      "code": "63",
+      "label": "Territories region"
+    }
+  ]
+}

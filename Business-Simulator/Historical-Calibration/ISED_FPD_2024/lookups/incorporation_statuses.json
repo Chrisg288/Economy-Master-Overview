@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "code": "1",
+      "label": "Unincorporated businesses",
+      "tax_source": "T1"
+    },
+    {
+      "code": "2",
+      "label": "Incorporated businesses",
+      "tax_source": "T2"
+    },
+    {
+      "code": "3",
+      "label": "All businesses",
+      "tax_source": "T1 + T2"
+    }
+  ]
+}
