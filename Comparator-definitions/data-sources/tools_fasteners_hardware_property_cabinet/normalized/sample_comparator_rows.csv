@@ -1,0 +1,11 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+CANADIAN_TIRE_DEVELOPER,retailer_api_portal,Canadian Tire Developer Program,Property Maintenance Supplies,developer_access_required,linked,https://developer.cantire.com/
+GRAINGER_CATALOG_INDEX,industrial_catalog_index,Grainger catalog index,MRO / Industrial Supplies,public_catalog_index,linked,https://www.grainger.com/content/catalog-index
+FASTENAL_CATALOGS,fastener_industrial_catalog,Fastenal catalogs,Fasteners - Bolts / Nuts / Washers,public_catalogs,linked,https://www.fastenal.com/fast/catalogs
+RICHELIEU_CATALOG_LIBRARY_CA,cabinet_hardware_catalog_library,Richelieu Catalog Library,Cabinet Pulls / Knobs,public_catalog_library,linked,https://www.richelieu.com/ca/en/catalog
+ACCURIDE_DRAWER_SLIDE_CATALOG,drawer_slide_pdf_catalog,Accuride drawer slide wood catalog,Drawer Slides / Runners,public_pdf,linked,https://www.accuride.com/media/pdf/accuride-drawer-slide-wood-catalog-2018.pdf
+BLUM_CATALOGUE_2024_2025,cabinet_hardware_catalog,Blum Catalogue and Technical Manual 2024/2025,Cabinet Hinges / Lift Systems,public_online_catalog,linked,https://publications.blum.com/2024/catalogue/en/
+GREGG_DISTRIBUTORS,canadian_industrial_supplier,Gregg Distributors,MRO / Industrial Supplies,public_site_account_context_unclear,linked,https://greggdistributors.ca/
+RED_DEER_BOLT,local_fastener_supplier,Red Deer Bolt Ltd product pages,Local Red Deer Supply,public_product_pages_phone_email,linked,https://reddeerbolt.com/
+RED_DEER_FASTENERS,local_fastener_catalog,Red Deer Fasteners category catalog,Local Red Deer Supply,public_category_catalog,linked,https://www.rdfasteners.com/
+LEE_VALLEY,tools_hardware_retail_catalog,Lee Valley tools and hardware catalog,Hand Tools,public_catalog,linked,https://www.leevalley.com/

@@ -1,0 +1,181 @@
+{
+  "template_id": "ToolsFastenersHardwarePropertyCabinetComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Comparator datagrid fields for tools, fasteners, hardware, property maintenance, cabinet hardware and industrial/MRO supplies.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "sku_or_item_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gtin_upc_ean",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "size_or_thread",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "grade_or_strength",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "finish_or_coating",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "dimensions",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "load_rating_or_capacity",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "application",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "handedness_or_position",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "currency",
+      "type": "enum",
+      "values": [
+        "CAD",
+        "USD"
+      ],
+      "grid": false
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "special_order",
+        "account_only",
+        "local_supplier",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "unit_of_measure",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "package_quantity",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "price_per_unit",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "store_or_branch",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "catalog_page_or_web_code",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "datasheet_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "image_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}

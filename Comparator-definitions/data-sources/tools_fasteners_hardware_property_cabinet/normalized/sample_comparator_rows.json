@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "source_id": "CANADIAN_TIRE_DEVELOPER",
+      "record_type": "retailer_api_portal",
+      "title": "Canadian Tire Developer Program",
+      "category": "Property Maintenance Supplies",
+      "availability": "developer_access_required",
+      "evidence_status": "linked",
+      "source_url": "https://developer.cantire.com/"
+    },
+    {
+      "source_id": "GRAINGER_CATALOG_INDEX",
+      "record_type": "industrial_catalog_index",
+      "title": "Grainger catalog index",
+      "category": "MRO / Industrial Supplies",
+      "availability": "public_catalog_index",
+      "evidence_status": "linked",
+      "source_url": "https://www.grainger.com/content/catalog-index"
+    },
+    {
+      "source_id": "FASTENAL_CATALOGS",
+      "record_type": "fastener_industrial_catalog",
+      "title": "Fastenal catalogs",
+      "category": "Fasteners - Bolts / Nuts / Washers",
+      "availability": "public_catalogs",
+      "evidence_status": "linked",
+      "source_url": "https://www.fastenal.com/fast/catalogs"
+    },
+    {
+      "source_id": "RICHELIEU_CATALOG_LIBRARY_CA",
+      "record_type": "cabinet_hardware_catalog_library",
+      "title": "Richelieu Catalog Library",
+      "category": "Cabinet Pulls / Knobs",
+      "availability": "public_catalog_library",
+      "evidence_status": "linked",
+      "source_url": "https://www.richelieu.com/ca/en/catalog"
+    },
+    {
+      "source_id": "ACCURIDE_DRAWER_SLIDE_CATALOG",
+      "record_type": "drawer_slide_pdf_catalog",
+      "title": "Accuride drawer slide wood catalog",
+      "category": "Drawer Slides / Runners",
+      "availability": "public_pdf",
+      "evidence_status": "linked",
+      "source_url": "https://www.accuride.com/media/pdf/accuride-drawer-slide-wood-catalog-2018.pdf"
+    },
+    {
+      "source_id": "BLUM_CATALOGUE_2024_2025",
+      "record_type": "cabinet_hardware_catalog",
+      "title": "Blum Catalogue and Technical Manual 2024/2025",
+      "category": "Cabinet Hinges / Lift Systems",
+      "availability": "public_online_catalog",
+      "evidence_status": "linked",
+      "source_url": "https://publications.blum.com/2024/catalogue/en/"
+    },
+    {
+      "source_id": "GREGG_DISTRIBUTORS",
+      "record_type": "canadian_industrial_supplier",
+      "title": "Gregg Distributors",
+      "category": "MRO / Industrial Supplies",
+      "availability": "public_site_account_context_unclear",
+      "evidence_status": "linked",
+      "source_url": "https://greggdistributors.ca/"
+    },
+    {
+      "source_id": "RED_DEER_BOLT",
+      "record_type": "local_fastener_supplier",
+      "title": "Red Deer Bolt Ltd product pages",
+      "category": "Local Red Deer Supply",
+      "availability": "public_product_pages_phone_email",
+      "evidence_status": "linked",
+      "source_url": "https://reddeerbolt.com/"
+    },
+    {
+      "source_id": "RED_DEER_FASTENERS",
+      "record_type": "local_fastener_catalog",
+      "title": "Red Deer Fasteners category catalog",
+      "category": "Local Red Deer Supply",
+      "availability": "public_category_catalog",
+      "evidence_status": "linked",
+      "source_url": "https://www.rdfasteners.com/"
+    },
+    {
+      "source_id": "LEE_VALLEY",
+      "record_type": "tools_hardware_retail_catalog",
+      "title": "Lee Valley tools and hardware catalog",
+      "category": "Hand Tools",
+      "availability": "public_catalog",
+      "evidence_status": "linked",
+      "source_url": "https://www.leevalley.com/"
+    }
+  ]
+}

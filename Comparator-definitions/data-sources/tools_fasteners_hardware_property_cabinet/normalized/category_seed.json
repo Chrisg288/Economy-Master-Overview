@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "category": "Hand Tools",
+      "domain": "tools",
+      "notes": "wrenches, sockets, pliers, screwdrivers, hammers, measuring tools"
+    },
+    {
+      "category": "Power Tools",
+      "domain": "tools",
+      "notes": "drills, saws, grinders, sanders, impact drivers, batteries"
+    },
+    {
+      "category": "Cutting / Abrasives",
+      "domain": "tools_consumables",
+      "notes": "drill bits, saw blades, grinding wheels, sanding discs, files"
+    },
+    {
+      "category": "Fasteners - Bolts / Nuts / Washers",
+      "domain": "fasteners",
+      "notes": "imperial/metric, grade 5/8, stainless, structural, specialty"
+    },
+    {
+      "category": "Fasteners - Screws / Anchors",
+      "domain": "fasteners",
+      "notes": "wood screws, machine screws, concrete anchors, drywall anchors"
+    },
+    {
+      "category": "Rivets / Inserts / Threaded Fasteners",
+      "domain": "fasteners",
+      "notes": "rivets, rivet nuts, threaded inserts, pins, clips"
+    },
+    {
+      "category": "Cabinet Hinges / Lift Systems",
+      "domain": "cabinet_hardware",
+      "notes": "Blum/Richelieu/Hettich/H\u00e4fele hinges, lift systems, plates"
+    },
+    {
+      "category": "Drawer Slides / Runners",
+      "domain": "cabinet_hardware",
+      "notes": "Accuride/Blum/Hettich drawer slides, runners, capacities"
+    },
+    {
+      "category": "Cabinet Pulls / Knobs",
+      "domain": "cabinet_hardware",
+      "notes": "decorative hardware, pulls, knobs, finishes, hole spacing"
+    },
+    {
+      "category": "Kitchen Cabinet Systems",
+      "domain": "cabinet_hardware",
+      "notes": "organizers, pantry systems, corner units, trash/recycling pullouts"
+    },
+    {
+      "category": "Sliding / Door Hardware",
+      "domain": "property_hardware",
+      "notes": "tracks, rollers, barn door, pocket door, closet systems"
+    },
+    {
+      "category": "Locks / Latches / Security Hardware",
+      "domain": "property_hardware",
+      "notes": "padlocks, cam locks, cabinet locks, hasps, deadbolts"
+    },
+    {
+      "category": "Property Maintenance Supplies",
+      "domain": "property_supplies",
+      "notes": "snow, lawn, garden, cleaners, lubricants, janitorial, repair supplies"
+    },
+    {
+      "category": "Electrical / Datacom Hardware",
+      "domain": "property_supplies",
+      "notes": "strut, cable management, low voltage, connectors, boxes"
+    },
+    {
+      "category": "Plumbing / Hose / Fittings",
+      "domain": "property_supplies",
+      "notes": "valves, clamps, hose, fittings, pipe supports"
+    },
+    {
+      "category": "Material Handling / Storage",
+      "domain": "industrial_supplies",
+      "notes": "bins, storage, carts, shelving, lifting, shop organization"
+    },
+    {
+      "category": "Safety / PPE",
+      "domain": "industrial_supplies",
+      "notes": "gloves, eye/ear protection, fall protection, hi-vis"
+    },
+    {
+      "category": "MRO / Industrial Supplies",
+      "domain": "industrial_supplies",
+      "notes": "bearings, belts, lubricants, abrasives, shop supplies"
+    },
+    {
+      "category": "Local Red Deer Supply",
+      "domain": "local_supplier",
+      "notes": "Red Deer Bolt, Red Deer Fasteners, Bolt Supply Red Deer, Gregg Distributors"
+    },
+    {
+      "category": "Classification / Procurement Evidence",
+      "domain": "evidence",
+      "notes": "UNSPSC, GS1 GPC, NAPCS, supplier catalog index"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿step,label,details
+1,Prioritize true catalog libraries first,"Richelieu, Blum, Accuride, Fastenal and Grainger give strong catalog/index structures. Convert those before scraping ordinary retail pages."
+2,Use Canadian Tire API path if possible,"Canadian Tire has a developer program, so it is a higher-value target than brittle web scraping."
+3,Separate local suppliers from master products,"Gregg, Red Deer Bolt, Red Deer Fasteners and Bolt Supply Red Deer are local supplier/offer sources; product identity should still link to brand/part/spec records."
+4,Use cabinet hardware as its own serious domain,"Kitchen cabinets require hinges, slides, pulls, organizers, doors, panels, pulls, lift systems and application-specific specs such as overlay, bore, load and extension."
+5,Normalize four row types,"ProductIdentity, SupplierOffer, TechnicalSpecCatalog and ProcurementClassification should remain separate but linked."

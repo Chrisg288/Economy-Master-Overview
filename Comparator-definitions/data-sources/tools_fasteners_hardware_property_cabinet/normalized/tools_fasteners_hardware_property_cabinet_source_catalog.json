@@ -1,0 +1,301 @@
+{
+  "records": [
+    {
+      "source_id": "CANADIAN_TIRE_DEVELOPER",
+      "name": "Canadian Tire Developer Program",
+      "type": "retailer_api_developer_portal",
+      "region": "Canada",
+      "access": "Developer registration / access key required",
+      "url": "https://developer.cantire.com/",
+      "best_use": "Canadian Tire product/catalog/retail API path for tools, hardware, automotive, home/property goods.",
+      "data_fit": "retailer_api_access_path",
+      "priority": 1
+    },
+    {
+      "source_id": "CANADIAN_TIRE_PUBLIC_SITE",
+      "name": "Canadian Tire public catalogue",
+      "type": "retailer_public_catalog",
+      "region": "Canada",
+      "access": "Public site; pricing/stock store-dependent",
+      "url": "https://www.canadiantire.ca/",
+      "best_use": "Tools, hardware, automotive, home, seasonal, property maintenance and general merchandise offer reference.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "GRAINGER_CATALOG_INDEX",
+      "name": "Grainger Catalog Index",
+      "type": "industrial_supply_catalog_index",
+      "region": "US/Canada reference",
+      "access": "Public catalog index; account may affect pricing",
+      "url": "https://www.grainger.com/content/catalog-index",
+      "best_use": "Large MRO/industrial/tools/fasteners/hardware/safety/plumbing/electrical catalog structure.",
+      "data_fit": "industrial_catalog_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "GRAINGER_CANADA_PUBLIC",
+      "name": "Grainger Canada public catalogue",
+      "type": "industrial_supply_retail_catalog",
+      "region": "Canada",
+      "access": "Public site; account may affect pricing",
+      "url": "https://www.grainger.ca/",
+      "best_use": "Canadian MRO, tools, fasteners, property supplies, safety, electrical and industrial offer reference.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "FASTENAL_CATALOGS",
+      "name": "Fastenal catalogues",
+      "type": "fastener_industrial_catalog",
+      "region": "US/Canada/international",
+      "access": "Public catalog page; account affects pricing/procurement",
+      "url": "https://www.fastenal.com/fast/catalogs",
+      "best_use": "Fasteners, OEM/MRO/construction/industrial/safety products and technical catalog structure.",
+      "data_fit": "industrial_catalog_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "FASTENAL_PUBLIC_SITE",
+      "name": "Fastenal public catalogue",
+      "type": "fastener_industrial_public_catalog",
+      "region": "US/Canada/international",
+      "access": "Public website; account affects pricing/procurement",
+      "url": "https://www.fastenal.com/",
+      "best_use": "Fasteners, safety, tools, vending/inventory-management and industrial supplies.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "BOLT_SUPPLY_HOUSE",
+      "name": "Bolt Supply House",
+      "type": "canadian_fastener_industrial_catalog",
+      "region": "Canada/Western Canada",
+      "access": "Public catalogue/site; account/branch context may affect offer",
+      "url": "https://www.boltsupply.com/",
+      "best_use": "Fasteners, fittings, valves, clamps, hose, material handling, bins, storage and Red Deer branch context.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "BOLT_SUPPLY_RED_DEER",
+      "name": "Bolt Supply House Red Deer location",
+      "type": "local_supplier_branch",
+      "region": "Red Deer, Alberta",
+      "access": "Public location page",
+      "url": "https://www.boltsupply.com/locations/red-deer",
+      "best_use": "Local branch evidence for Red Deer property/industrial fastener sourcing.",
+      "data_fit": "local_supplier_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "GREGG_DISTRIBUTORS",
+      "name": "Gregg Distributors",
+      "type": "canadian_industrial_supply_catalog",
+      "region": "Western Canada",
+      "access": "Public website; catalogue/account context unclear",
+      "url": "https://greggdistributors.ca/",
+      "best_use": "Western Canadian industrial, agricultural, automotive, safety, heavy-duty truck, construction and property supplies.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "RED_DEER_BOLT",
+      "name": "Red Deer Bolt Ltd",
+      "type": "local_fastener_supplier",
+      "region": "Red Deer / Western Canada",
+      "access": "Public product pages, phone/email sales",
+      "url": "https://reddeerbolt.com/",
+      "best_use": "Local fastener solutions, abrasives, bolts, bolt bins, storage, anchors, drill bits, hand tools, nuts, washers, screws.",
+      "data_fit": "local_supplier_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "RED_DEER_FASTENERS",
+      "name": "Red Deer Fasteners",
+      "type": "local_fastener_supplier_catalog",
+      "region": "Red Deer / Alberta",
+      "access": "Public category catalogue",
+      "url": "https://www.rdfasteners.com/",
+      "best_use": "Collated fasteners, datacom/low voltage, direct fastening, anchors, hardware, nuts/bolts/washers, strut, rivets, structural attachments.",
+      "data_fit": "local_supplier_catalog_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "RICHELIEU_CATALOG_LIBRARY_CA",
+      "name": "Richelieu Canada Catalog Library",
+      "type": "cabinet_furniture_hardware_catalog_library",
+      "region": "Canada",
+      "access": "Public catalog library",
+      "url": "https://www.richelieu.com/ca/en/catalog",
+      "best_use": "Decorative hardware, cabinet hardware, shop supplies, kitchen/cabinet/furniture hardware catalogs.",
+      "data_fit": "manufacturer_distributor_catalog_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "RICHELIEU_PRODUCT_INDEX",
+      "name": "Richelieu Product Index",
+      "type": "cabinet_hardware_product_index",
+      "region": "Canada/US",
+      "access": "Public index",
+      "url": "https://www.richelieu.com/us/en/index",
+      "best_use": "Cabinet hardware, hinges, glass hardware, sliding systems, organizers and product index taxonomy.",
+      "data_fit": "product_index_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "ACCURIDE_DRAWER_SLIDE_CATALOG",
+      "name": "Accuride Drawer Slide Wood Catalog",
+      "type": "drawer_slide_pdf_catalog",
+      "region": "global",
+      "access": "Public PDF catalog",
+      "url": "https://www.accuride.com/media/pdf/accuride-drawer-slide-wood-catalog-2018.pdf",
+      "best_use": "Drawer slide models, capacity, extension, mounting, cabinet/furniture/industrial drawer-slide specs.",
+      "data_fit": "manufacturer_spec_catalog",
+      "priority": 1
+    },
+    {
+      "source_id": "ACCURIDE_DIRECTINDUSTRY_PDF",
+      "name": "Accuride technical PDF catalog pages",
+      "type": "drawer_slide_technical_catalog",
+      "region": "global",
+      "access": "Public PDF catalog aggregation",
+      "url": "https://pdf.directindustry.com/pdf/accuride/2601/26400-756277.html",
+      "best_use": "Accuride model-specific slide technical specifications and application notes.",
+      "data_fit": "manufacturer_spec_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "BLUM_CATALOGUE_2024_2025",
+      "name": "Blum Catalogue and Technical Manual 2024/2025",
+      "type": "cabinet_hardware_catalogue_manual",
+      "region": "Canada/global",
+      "access": "Public online catalogue",
+      "url": "https://publications.blum.com/2024/catalogue/en/",
+      "best_use": "Blum hinges, lift systems, box systems, runners, pocket systems, assembly devices, cabinet hardware technical data.",
+      "data_fit": "manufacturer_spec_catalog",
+      "priority": 1
+    },
+    {
+      "source_id": "BLUM_DOWNLOADS",
+      "name": "Blum downloads and videos",
+      "type": "cabinet_hardware_downloads",
+      "region": "Canada/global",
+      "access": "Public downloads/videos",
+      "url": "https://www.blum.com/ca/en/downloads-videos/",
+      "best_use": "Catalogues, technical manuals, product configurator and cabinet planning/download resources.",
+      "data_fit": "manufacturer_spec_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "BLUM_CANADA",
+      "name": "Blum Canada public site",
+      "type": "manufacturer_product_site",
+      "region": "Canada",
+      "access": "Public site",
+      "url": "https://www.blum.com/ca/en/",
+      "best_use": "Lift, hinge, pull-out and pocket systems for furniture/cabinet makers and hardware distributors.",
+      "data_fit": "manufacturer_product_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "HAFELE_CANADA",
+      "name": "H\u00e4fele Canada",
+      "type": "cabinet_architectural_hardware_catalog",
+      "region": "Canada/global",
+      "access": "Public online catalogue/account pricing may vary",
+      "url": "https://www.hafele.ca/",
+      "best_use": "Architectural hardware, furniture fittings, kitchen storage, sliding/door hardware, lighting and cabinet hardware.",
+      "data_fit": "manufacturer_distributor_catalog_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "HETTICH_CANADA",
+      "name": "Hettich Canada",
+      "type": "furniture_fittings_catalog",
+      "region": "Canada/global",
+      "access": "Public site/catalogs",
+      "url": "https://web.hettich.com/en-ca/home",
+      "best_use": "Drawer systems, hinges, sliding/folding doors, cabinet hardware, furniture fittings.",
+      "data_fit": "manufacturer_spec_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "LEE_VALLEY",
+      "name": "Lee Valley Tools",
+      "type": "tools_hardware_woodworking_catalog",
+      "region": "Canada",
+      "access": "Public retail catalog",
+      "url": "https://www.leevalley.com/",
+      "best_use": "Woodworking tools, hardware, gardening, cabinet hardware and property/home tools.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "MCMASTER_CARR",
+      "name": "McMaster-Carr catalog",
+      "type": "industrial_supply_catalog",
+      "region": "US/reference",
+      "access": "Public catalog, ordering restrictions vary",
+      "url": "https://www.mcmaster.com/",
+      "best_use": "Extremely broad industrial hardware/spec reference; useful for product classes and attributes.",
+      "data_fit": "industrial_catalog_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "ZORO",
+      "name": "Zoro industrial supplies",
+      "type": "industrial_supply_public_catalog",
+      "region": "US",
+      "access": "Public catalog",
+      "url": "https://www.zoro.com/",
+      "best_use": "MRO, tools, fasteners, safety and property maintenance current offer examples.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "MSC_DIRECT",
+      "name": "MSC Industrial Supply",
+      "type": "industrial_supply_public_catalog",
+      "region": "US",
+      "access": "Public catalog/account pricing may vary",
+      "url": "https://www.mscdirect.com/",
+      "best_use": "Metalworking, MRO, tooling, abrasives, fasteners and industrial supplies.",
+      "data_fit": "industrial_catalog_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "UNSPSC",
+      "name": "UNSPSC commodity classification",
+      "type": "global_commodity_classification",
+      "region": "global",
+      "access": "Public classification browser/download options vary",
+      "url": "https://www.unspsc.org/",
+      "best_use": "Procurement classification for tools, fasteners, hardware, building maintenance and property supplies.",
+      "data_fit": "procurement_classification",
+      "priority": 1
+    },
+    {
+      "source_id": "GS1_GPC",
+      "name": "GS1 Global Product Classification",
+      "type": "official_global_product_classification",
+      "region": "global",
+      "access": "Public browser and standard files",
+      "url": "https://www.gs1.org/standards/gpc/access-gpc-standards",
+      "best_use": "Retail product classification backbone for tools, hardware, home improvement and cabinet hardware.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "NAPCS_CANADA_2022",
+      "name": "NAPCS Canada 2022",
+      "type": "official_canadian_product_classification",
+      "region": "Canada",
+      "access": "Already packaged in project",
+      "url": "https://www.statcan.gc.ca/en/subjects/standard/napcs/2022/index",
+      "best_use": "Canadian product/service classification backbone.",
+      "data_fit": "classification",
+      "priority": 1
+    }
+  ]
+}
