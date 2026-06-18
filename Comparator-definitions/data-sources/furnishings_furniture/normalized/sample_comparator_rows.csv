@@ -1,0 +1,7 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+BIFMA_LEVEL,certification_registry,BIFMA LEVEL product search,Furniture Compliance Evidence,public_search,verified,https://level.bifma.org/
+BIFMA_COMPLIANT,compliance_registry,BIFMA Compliant furniture registry,Commercial / Institutional Furniture,public_registry,verified,https://www.bifma.org/page/bifma-compliant
+IKEA_PUBLIC_SITE,retailer_public_catalog,IKEA public product catalogue,Living Room Furniture,public_site_store_region_dependent,linked,https://www.ikea.com/ca/en/
+SKULYTICS_FURNITURE,commercial_product_api,Skulytics furniture/mattress product API,Mattresses / Bedding Foundation,commercial_api,linked,https://skulytics.io/
+KAGGLE_FURNITURE_ECOM_2024,sample_dataset,E-commerce Furniture Dataset 2024,Furniture,kaggle_terms_apply,linked,https://www.kaggle.com/datasets/kanchana1990/e-commerce-furniture-dataset-2024
+BIMOBJECT_FURNITURE,bim_product_reference,BIMobject furniture/interiors product objects,BIM / 3D Furniture Models,free_account_download,linked,https://www.bimobject.com/en-ca

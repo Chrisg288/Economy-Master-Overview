@@ -1,0 +1,202 @@
+{
+  "records": [
+    {
+      "source_id": "IKEA_PUBLIC_SITE",
+      "name": "IKEA public product catalogue",
+      "type": "retailer_public_catalog",
+      "region": "global/Canada",
+      "access": "Public website; no official bulk public API found",
+      "url": "https://www.ikea.com/ca/en/",
+      "best_use": "Current furniture, storage, kitchen, bedroom, office and home decor product reference.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 1
+    },
+    {
+      "source_id": "IKEA_API_CLIENT_GITHUB",
+      "name": "Community IKEA API client",
+      "type": "unofficial_api_client",
+      "region": "global",
+      "access": "Open-source client; depends on IKEA endpoints/terms",
+      "url": "https://github.com/vrslev/ikea-api-client",
+      "best_use": "Investigate IKEA search/product endpoints for controlled lookup experiments.",
+      "data_fit": "candidate_api_connector",
+      "priority": 2
+    },
+    {
+      "source_id": "IKEA_PRODUCT_DETAILS_API_ZYLA",
+      "name": "IKEA Product Details API via Zyla",
+      "type": "third_party_product_api",
+      "region": "global",
+      "access": "Paid/free API marketplace tiers",
+      "url": "https://zylalabs.com/api-marketplace/commerce%2B%26%2Becommerce/ikea%2Bproduct%2Bdetails%2Bapi/2226",
+      "best_use": "Structured IKEA product details including name, price, images, categories and variants where API terms allow.",
+      "data_fit": "paid_current_offer_source",
+      "priority": 3
+    },
+    {
+      "source_id": "WAYFAIR_DEVELOPER",
+      "name": "Wayfair Developer",
+      "type": "developer_portal",
+      "region": "US/global",
+      "access": "Developer/partner access",
+      "url": "https://developer.wayfair.io/posts/introduction",
+      "best_use": "Wayfair catalog/product/3D API research path.",
+      "data_fit": "access_path",
+      "priority": 2
+    },
+    {
+      "source_id": "WAYFAIR_3D_API",
+      "name": "Wayfair Realtime 3D Model API",
+      "type": "3d_model_product_api",
+      "region": "US/global",
+      "access": "Developer access / historical tech blog reference",
+      "url": "https://www.aboutwayfair.com/tag/api",
+      "best_use": "3D furniture model/product information where access is available.",
+      "data_fit": "3d_model_product_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "BIFMA_LEVEL",
+      "name": "BIFMA LEVEL product search",
+      "type": "furniture_sustainability_certification_registry",
+      "region": "North America/global",
+      "access": "Public product search",
+      "url": "https://level.bifma.org/",
+      "best_use": "Open/transparent sustainability certification evidence for furniture products.",
+      "data_fit": "certification_evidence",
+      "priority": 1
+    },
+    {
+      "source_id": "BIFMA_COMPLIANT",
+      "name": "BIFMA Compliant registry",
+      "type": "furniture_safety_durability_compliance_registry",
+      "region": "North America/global",
+      "access": "Public registry/product information",
+      "url": "https://www.bifma.org/page/bifma-compliant",
+      "best_use": "Furniture safety/durability standards evidence, especially office and institutional furniture.",
+      "data_fit": "compliance_evidence",
+      "priority": 1
+    },
+    {
+      "source_id": "BIFMA_HOME",
+      "name": "BIFMA standards and association",
+      "type": "furniture_standards_reference",
+      "region": "North America/global",
+      "access": "Public reference; standards may be paid",
+      "url": "https://www.bifma.org/",
+      "best_use": "Office/institutional furniture standards context, safety, durability and sustainability evidence.",
+      "data_fit": "standards_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "SKULYTICS_FURNITURE",
+      "name": "Skulytics furniture/mattress/appliance product data API",
+      "type": "commercial_product_data_api",
+      "region": "US/Canada likely",
+      "access": "Commercial API",
+      "url": "https://skulytics.io/",
+      "best_use": "Real-time authorization-aware furniture, mattress and appliance product data across many brands.",
+      "data_fit": "commercial_live_product_feed",
+      "priority": 2
+    },
+    {
+      "source_id": "KAGGLE_FURNITURE_ECOM_2024",
+      "name": "E-commerce Furniture Dataset 2024",
+      "type": "furniture_dataset",
+      "region": "global/reference",
+      "access": "Kaggle download terms apply",
+      "url": "https://www.kaggle.com/datasets/kanchana1990/e-commerce-furniture-dataset-2024",
+      "best_use": "2,000 furniture product rows with e-commerce fields for prototype/testing, not authoritative current offers.",
+      "data_fit": "training_sample_dataset",
+      "priority": 3
+    },
+    {
+      "source_id": "ARCAT_FURNITURE_CATALOGS",
+      "name": "ARCAT building/furnishings product catalogs",
+      "type": "manufacturer_catalog_directory",
+      "region": "US/Canada/international",
+      "access": "Public/free catalogs and downloads",
+      "url": "https://www.arcat.com/content-type/catalog",
+      "best_use": "Commercial furnishings, fixtures, cabinets, architectural interiors, furniture systems and specification catalogues.",
+      "data_fit": "catalog_spec_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "SWEETS_FURNISHINGS",
+      "name": "Sweets construction/furnishings product directory",
+      "type": "building_product_directory",
+      "region": "US/Canada/international",
+      "access": "Public directory",
+      "url": "https://sweets.construction.com/",
+      "best_use": "Commercial furniture, casework, interior specialties, fixtures and manufacturer specification pages.",
+      "data_fit": "catalog_spec_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "BIMOBJECT_FURNITURE",
+      "name": "BIMobject furniture/manufacturer objects",
+      "type": "BIM_product_directory",
+      "region": "global",
+      "access": "Free account/download; API/embed docs",
+      "url": "https://www.bimobject.com/en-ca",
+      "best_use": "Furniture and interior product BIM objects, 3D models and manufacturer metadata.",
+      "data_fit": "bim_spec_product_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "BIM_AND_CO_FURNITURE",
+      "name": "BIM&CO furniture/BIM object platform",
+      "type": "BIM_object_platform",
+      "region": "global",
+      "access": "Public/free account likely",
+      "url": "https://www.bimandco.com/bim/",
+      "best_use": "Generic and manufacturer BIM objects for interiors/furniture.",
+      "data_fit": "bim_spec_product_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "GS1_GPC",
+      "name": "GS1 Global Product Classification",
+      "type": "official_global_product_classification",
+      "region": "global",
+      "access": "Public browser and standard files",
+      "url": "https://www.gs1.org/standards/gpc/access-gpc-standards",
+      "best_use": "Classification backbone for furniture, home furnishings, textiles and decor.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "NAPCS_CANADA_2022",
+      "name": "NAPCS Canada 2022",
+      "type": "official_canadian_product_classification",
+      "region": "Canada",
+      "access": "Already packaged in project",
+      "url": "https://www.statcan.gc.ca/en/subjects/standard/napcs/2022/index",
+      "best_use": "Canadian product/service classification backbone for furniture, furnishings and household goods.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "OPEN_PRODUCTS_FACTS",
+      "name": "Open Products Facts",
+      "type": "open_non_food_product_database",
+      "region": "global",
+      "access": "Open data/API; coverage uneven",
+      "url": "https://world.openproductsfacts.org/",
+      "best_use": "Experimental barcode/product identity source for furnishings and household goods where records exist.",
+      "data_fit": "open_product_identity_records",
+      "priority": 4
+    },
+    {
+      "source_id": "GS1_CA_ECCNET",
+      "name": "GS1 Canada ECCnet Registry / Content API",
+      "type": "canadian_product_registry_api",
+      "region": "Canada",
+      "access": "GS1 Canada membership/API access required",
+      "url": "https://gs1ca.org/content-access/",
+      "best_use": "Canadian product identity, images and content for packaged/retail furnishings where available.",
+      "data_fit": "product_identity_content_api",
+      "priority": 3
+    }
+  ]
+}

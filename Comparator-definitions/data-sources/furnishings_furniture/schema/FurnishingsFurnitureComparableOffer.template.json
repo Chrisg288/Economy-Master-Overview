@@ -1,0 +1,170 @@
+{
+  "template_id": "FurnishingsFurnitureComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Comparator fields for furniture, furnishings, bedding, decor, commercial furniture and related spec/BIM records.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "sku_or_item_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gtin_upc_ean",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "model_or_collection",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "currency",
+      "type": "enum",
+      "values": [
+        "CAD",
+        "USD"
+      ],
+      "grid": false
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "special_order",
+        "made_to_order",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "dimensions",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "finish_or_colour",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "fabric_or_upholstery",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "assembly_required",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "weight_capacity",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "warranty",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "bifma_compliant",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "bifma_level",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "sustainability_certifications",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "bim_or_cad_available",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "datasheet_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "image_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}

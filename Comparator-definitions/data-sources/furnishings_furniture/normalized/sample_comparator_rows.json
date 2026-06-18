@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "source_id": "BIFMA_LEVEL",
+      "record_type": "certification_registry",
+      "title": "BIFMA LEVEL product search",
+      "category": "Furniture Compliance Evidence",
+      "availability": "public_search",
+      "evidence_status": "verified",
+      "source_url": "https://level.bifma.org/"
+    },
+    {
+      "source_id": "BIFMA_COMPLIANT",
+      "record_type": "compliance_registry",
+      "title": "BIFMA Compliant furniture registry",
+      "category": "Commercial / Institutional Furniture",
+      "availability": "public_registry",
+      "evidence_status": "verified",
+      "source_url": "https://www.bifma.org/page/bifma-compliant"
+    },
+    {
+      "source_id": "IKEA_PUBLIC_SITE",
+      "record_type": "retailer_public_catalog",
+      "title": "IKEA public product catalogue",
+      "category": "Living Room Furniture",
+      "availability": "public_site_store_region_dependent",
+      "evidence_status": "linked",
+      "source_url": "https://www.ikea.com/ca/en/"
+    },
+    {
+      "source_id": "SKULYTICS_FURNITURE",
+      "record_type": "commercial_product_api",
+      "title": "Skulytics furniture/mattress product API",
+      "category": "Mattresses / Bedding Foundation",
+      "availability": "commercial_api",
+      "evidence_status": "linked",
+      "source_url": "https://skulytics.io/"
+    },
+    {
+      "source_id": "KAGGLE_FURNITURE_ECOM_2024",
+      "record_type": "sample_dataset",
+      "title": "E-commerce Furniture Dataset 2024",
+      "category": "Furniture",
+      "availability": "kaggle_terms_apply",
+      "evidence_status": "linked",
+      "source_url": "https://www.kaggle.com/datasets/kanchana1990/e-commerce-furniture-dataset-2024"
+    },
+    {
+      "source_id": "BIMOBJECT_FURNITURE",
+      "record_type": "bim_product_reference",
+      "title": "BIMobject furniture/interiors product objects",
+      "category": "BIM / 3D Furniture Models",
+      "availability": "free_account_download",
+      "evidence_status": "linked",
+      "source_url": "https://www.bimobject.com/en-ca"
+    }
+  ]
+}

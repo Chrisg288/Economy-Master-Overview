@@ -1,0 +1,79 @@
+{
+  "records": [
+    {
+      "category": "Living Room Furniture",
+      "domain": "furniture",
+      "notes": "sofas, sectionals, recliners, coffee tables, TV stands"
+    },
+    {
+      "category": "Bedroom Furniture",
+      "domain": "furniture",
+      "notes": "beds, mattresses, nightstands, dressers, wardrobes"
+    },
+    {
+      "category": "Dining / Kitchen Furniture",
+      "domain": "furniture",
+      "notes": "tables, chairs, stools, islands, sideboards"
+    },
+    {
+      "category": "Office Furniture",
+      "domain": "furniture_office",
+      "notes": "desks, task chairs, filing cabinets, bookcases, office systems"
+    },
+    {
+      "category": "Storage / Organization",
+      "domain": "furnishings",
+      "notes": "shelving, cabinets, closet systems, bins, wardrobes"
+    },
+    {
+      "category": "Outdoor / Patio Furniture",
+      "domain": "furniture_outdoor",
+      "notes": "patio sets, loungers, benches, umbrellas"
+    },
+    {
+      "category": "Mattresses / Bedding Foundation",
+      "domain": "furniture_mattress",
+      "notes": "mattresses, bed frames, box springs, adjustable bases"
+    },
+    {
+      "category": "Home Textiles",
+      "domain": "soft_furnishings",
+      "notes": "rugs, curtains, cushions, throws, bedding, towels"
+    },
+    {
+      "category": "Lighting / Lamps",
+      "domain": "furnishings",
+      "notes": "floor lamps, table lamps, pendant lighting, task lighting"
+    },
+    {
+      "category": "Decor / Wall Art",
+      "domain": "furnishings",
+      "notes": "mirrors, wall art, clocks, vases, decor objects"
+    },
+    {
+      "category": "Casegoods / Cabinets",
+      "domain": "furniture_casework",
+      "notes": "cabinets, entertainment units, sideboards, commercial casework"
+    },
+    {
+      "category": "Commercial / Institutional Furniture",
+      "domain": "commercial_furniture",
+      "notes": "BIFMA-focused seating, desks, systems, tables, storage"
+    },
+    {
+      "category": "BIM / 3D Furniture Models",
+      "domain": "bim_reference",
+      "notes": "Revit, IFC, 3D model, CAD/BIM object references"
+    },
+    {
+      "category": "Furniture Compliance Evidence",
+      "domain": "evidence",
+      "notes": "BIFMA, LEVEL, safety, durability, sustainability"
+    },
+    {
+      "category": "Product Identity / Classification",
+      "domain": "identity",
+      "notes": "GS1 GPC, NAPCS, UPC/GTIN, manufacturer SKU"
+    }
+  ]
+}

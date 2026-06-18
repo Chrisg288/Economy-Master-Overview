@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "label": "Use classification and compliance first",
+      "details": "Use GS1/NAPCS for category backbone and BIFMA/LEVEL for commercial furniture compliance/evidence."
+    },
+    {
+      "step": 2,
+      "label": "Add retailer/product catalog references",
+      "details": "IKEA and Wayfair are useful public/current catalog references, but full structured bulk access is not straightforward without APIs or third-party services."
+    },
+    {
+      "step": 3,
+      "label": "Use BIM/spec directories for commercial furnishings",
+      "details": "ARCAT, Sweets, BIMobject and BIM&CO are better for manufacturer/spec/BIM records than retail pricing."
+    },
+    {
+      "step": 4,
+      "label": "Use commercial APIs where justified",
+      "details": "Skulytics and third-party IKEA APIs can provide structured feeds, but treat them as paid/current offer sources with licensing concerns."
+    },
+    {
+      "step": 5,
+      "label": "Separate offer rows from evidence rows",
+      "details": "Retailer price/stock rows, BIFMA compliance rows, BIM/spec rows and product identity rows should stay separate but link through product identity and category."
+    }
+  ]
+}
