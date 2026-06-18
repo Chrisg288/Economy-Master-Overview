@@ -1,0 +1,23 @@
+﻿record_id,catalog_name,catalog_year,index_type,manufacturer,represented_products,historical_printed_pages,catalog_record_status,manufacturer_current_status,current_newark_brand_url,extraction_confidence
+NWK112-MFR-0001,Newark Electronics Catalog 112,1992,Manufacturer Index,Advanced Micro Devices / AMD,"PALs, EPROMs, FLASH, microprocessors",120-123,Obsolete,Unverified,https://www.newark.com/b/advanced-micro-devices,Medium
+NWK112-MFR-0002,Newark Electronics Catalog 112,1992,Manufacturer Index,Altera,"EPLDs, hardware/software, microsequencers","128, 129",Obsolete,Unverified,https://www.newark.com/b/altera,Medium
+NWK112-MFR-0003,Newark Electronics Catalog 112,1992,Manufacturer Index,Analog Devices,"Amplifiers, converters, linear ICs, data acquisition",101-103,Obsolete,Unverified,https://www.newark.com/b/analog-devices,Medium
+NWK112-MFR-0004,Newark Electronics Catalog 112,1992,Manufacturer Index,Aromat,"Relays, switches, timers, PhotoMOS, automotive relays","385, 437-443",Obsolete,Unverified,https://www.newark.com/b/aromat,Medium
+NWK112-MFR-0005,Newark Electronics Catalog 112,1992,Manufacturer Index,Carol Cable,"Replacement cords, portable lights, extension cords","868, 869",Obsolete,Unverified,https://www.newark.com/b/carol-cable,Medium
+NWK112-MFR-0006,Newark Electronics Catalog 112,1992,Manufacturer Index,Chemtronics,"Electronic cleaners, flux removers, solder masks, desoldering braid",1008-1010,Obsolete,Unverified,https://www.newark.com/b/chemtronics,Medium
+NWK112-MFR-0007,Newark Electronics Catalog 112,1992,Manufacturer Index,Comcab,"Voice/data transmission products, LAN installation products",884-886,Obsolete,Unverified,https://www.newark.com/b/comcab,Medium
+NWK112-MFR-0008,Newark Electronics Catalog 112,1992,Manufacturer Index,Cooper Instruments,Thermometers and temperature measurement,1139,Obsolete,Unverified,https://www.newark.com/b/cooper-instruments,Medium
+NWK112-MFR-0009,Newark Electronics Catalog 112,1992,Manufacturer Index,Coto Wabash,"Reed relays, surface mount reed relays","454, 455",Obsolete,Unverified,https://www.newark.com/b/coto-wabash,Medium
+NWK112-MFR-0010,Newark Electronics Catalog 112,1992,Manufacturer Index,Dremel,Rotary tools and accessories,1102,Obsolete,Unverified,https://www.newark.com/b/dremel,Medium
+NWK112-MFR-0011,Newark Electronics Catalog 112,1992,Manufacturer Index,EAO Switch,"Pushbutton switches, key lock, lever, emergency stop","332, 333, C-22",Obsolete,Unverified,https://www.newark.com/b/eao-switch,Medium
+NWK112-MFR-0012,Newark Electronics Catalog 112,1992,Manufacturer Index,ITT Cannon,"D-sub, circular MS connectors, SCSI connectors",664-667,Obsolete,Unverified,https://www.newark.com/b/itt-cannon,Medium
+NWK112-MFR-0013,Newark Electronics Catalog 112,1992,Manufacturer Index,ITT Schadow,Key switches and pushbutton switches,384,Obsolete,Unverified,https://www.newark.com/b/itt-schadow,Medium
+NWK112-MFR-0014,Newark Electronics Catalog 112,1992,Manufacturer Index,Philips Discrete Components,"Small signal discrete products, RF/microwave, power semiconductors",147,Obsolete,Unverified,https://www.newark.com/b/philips-discrete-components,Medium
+NWK112-MFR-0015,Newark Electronics Catalog 112,1992,Manufacturer Index,Schurter,"Power entry modules, mains filters, appliance inlets/outlets","768, 769",Obsolete,Unverified,https://www.newark.com/b/schurter,Medium
+NWK112-MFR-0016,Newark Electronics Catalog 112,1992,Manufacturer Index,Square D,"IEC contactors, terminal blocks, voltage tester","326-330, 430, 431, 724, 725",Obsolete,Unverified,https://www.newark.com/b/square-d,Medium
+NWK112-MFR-0017,Newark Electronics Catalog 112,1992,Manufacturer Index,Telcor,Telephone connectors and installation products,918,Obsolete,Unverified,https://www.newark.com/b/telcor,Medium
+NWK112-MFR-0018,Newark Electronics Catalog 112,1992,Manufacturer Index,Unicom,Networking and interconnection products,887-889,Obsolete,Unverified,https://www.newark.com/b/unicom,Medium
+NWK112-MFR-0019,Newark Electronics Catalog 112,1992,Manufacturer Index,VCC,"Cliplite/Cubelite LED lenses, LED sockets, PC-Lite LED sockets",167,Obsolete,Unverified,https://www.newark.com/b/vcc,Medium
+NWK112-MFR-0020,Newark Electronics Catalog 112,1992,Manufacturer Index,Zilog,Microprocessors and microcontrollers,"124, 125",Obsolete,Unverified,https://www.newark.com/b/zilog,Medium
+NWK112-MFR-0021,Newark Electronics Catalog 112,1992,Manufacturer Index,AMP,"Connectors, contacts, kits, tools, fiber optics","618-646, 905, 948-950",Obsolete,Unverified,https://www.newark.com/b/amp,Medium
+NWK112-MFR-0022,Newark Electronics Catalog 112,1992,Manufacturer Index,Alpha,"Braid, audio/coax/data cable, LAN cable, shrink tubing, wire",848-867,Obsolete,Unverified,https://www.newark.com/b/alpha,Medium

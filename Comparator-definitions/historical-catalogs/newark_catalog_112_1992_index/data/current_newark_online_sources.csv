@@ -1,0 +1,7 @@
+﻿source_id,source_name,source_type,url,what_it_gives,access_status
+NEWARK_BROWSE,Newark Browse All Products,Current online category source,https://www.newark.com/browse-for-products,Current Newark product-category browsing and product families.,Public website
+NEWARK_PRODUCT_SEARCH_API,element14 / Newark Product Search API,Current product API,https://partner.element14.com/docs,"Keyword, product ID, and manufacturer part number search across element14/Farnell/Newark products.",Requires developer account/API key
+NEWARK_ORDER_API,Newark Order API,Current purchasing/API integration,https://www.newark.com/services/purchasing-procurement-support/order-api,"Real-time specifications, datasheets, availability, pricing, stock updates and order integration.",Requires sign-up
+NEWARK_STATUS_DEFS,Newark Pricing and Availability Status Definitions,Status vocabulary,https://www.newark.com/help-pricing-availability,"Availability/lifecycle labels such as in stock, no longer stocked, no longer manufactured.",Public help page
+OCTOPART_NEWARK,Octopart Newark distributor page,Current distributor aggregation,https://octopart.com/distributors/newark,"Newark-related distributor result counts, top categories, sample parts, pricing/stock listings.",Public page; API via Nexar
+TRUSTEDPARTS,TrustedParts Authorized Channel Search,Authorized inventory aggregation,https://www.trustedparts.com/en,Authorized distributor inventory categories and risk-reduction evidence.,Public search; terms apply

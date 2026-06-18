@@ -1,0 +1,11 @@
+﻿crosswalk_id,historical_index_term,current_online_category,relationship,confidence,current_lookup_status
+NWK112-XWALK-0001,Cable Assemblies,Cables and Wire,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0002,Connectors,Connectors,exact_or_broader,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0003,Zener Diodes,Semiconductors,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0004,LEDs,Optoelectronics,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0005,LCR Meters,Test & Measurement,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0006,Wire Strippers,Tools and Supplies,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0007,Cabinets,Enclosures,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0008,Latching Relays,Electromechanical,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0009,Linear Power Supplies,Power,broader_current_category,High,Category mapped; live product rows require API/search
+NWK112-XWALK-0010,"Logic, CMOS",Semiconductors,broader_current_category,High,Category mapped; live product rows require API/search

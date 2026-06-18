@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "section_no": 1,
+      "section_title": "Military Products Index, Semiconductors, Publications",
+      "printed_pages": "1-149",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 2,
+      "section_title": "LEDs, Displays, Optoelectronics, Static Control Products",
+      "printed_pages": "150-185",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 3,
+      "section_title": "Resistors, Potentiometers, Thermistors",
+      "printed_pages": "186-237",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 4,
+      "section_title": "Capacitors, Filters, Inductors",
+      "printed_pages": "238-307",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 5,
+      "section_title": "Switches, Sensors, Knobs, Timers, Counters",
+      "printed_pages": "308-406",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 6,
+      "section_title": "Relays, Contactors, Solenoids",
+      "printed_pages": "407-488",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 7,
+      "section_title": "Transformers, Power Conditioners, Surge Suppressors, Circuit Breakers, Fuses, Batteries",
+      "printed_pages": "489-573",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 8,
+      "section_title": "Connectors, Terminal Blocks, IC and Relay Sockets, Test Leads, Circuit Boards, PCB Hardware",
+      "printed_pages": "574-813",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 9,
+      "section_title": "Wire and Cable, Heat Shrink Tubing",
+      "printed_pages": "814-882",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 10,
+      "section_title": "Computer and Telephone Accessories, Fiber Optics Products, Wiring Hardware",
+      "printed_pages": "883-981",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 11,
+      "section_title": "Indicators, Lamps",
+      "printed_pages": "982-1006",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 12,
+      "section_title": "Chemicals, Hardware, Lighting, Fans, Cabinets",
+      "printed_pages": "1007-1063",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 13,
+      "section_title": "Tools, Solder Equipment",
+      "printed_pages": "1064-1122",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 14,
+      "section_title": "Test Instruments, Panel Meters, Audio Equipment",
+      "printed_pages": "1123-1179",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 15,
+      "section_title": "Product Index",
+      "printed_pages": "1180-1195",
+      "catalog_record_status": "Obsolete"
+    },
+    {
+      "section_no": 16,
+      "section_title": "Manufacturers Index",
+      "printed_pages": "1196-1200",
+      "catalog_record_status": "Obsolete"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿record_id,source,distributor,manufacturer,manufacturer_part_no,description,current_status,currency,sample_unit_price,sample_stock,source_url,historical_match_status
+CUR-NWK-OCTO-0001,Octopart sample,Newark,TE Connectivity,350766-1,"Rectangular Power Connector, 3 contacts, female, crimp terminal, plug",Current / online listing observed via aggregation,USD,0.567,5831,https://octopart.com/distributors/newark,Unmatched
+CUR-NWK-OCTO-0002,Octopart sample,Newark,TE Connectivity,1-480702-0,"Rectangular Power Connector, 4 contacts, female, crimp terminal, plug",Current / online listing observed via aggregation,USD,,,https://octopart.com/distributors/newark,Unmatched

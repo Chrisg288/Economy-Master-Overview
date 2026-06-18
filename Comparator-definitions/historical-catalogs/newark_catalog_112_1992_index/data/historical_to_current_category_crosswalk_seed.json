@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "crosswalk_id": "NWK112-XWALK-0001",
+      "historical_index_term": "Cable Assemblies",
+      "current_online_category": "Cables and Wire",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0002",
+      "historical_index_term": "Connectors",
+      "current_online_category": "Connectors",
+      "relationship": "exact_or_broader",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0003",
+      "historical_index_term": "Zener Diodes",
+      "current_online_category": "Semiconductors",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0004",
+      "historical_index_term": "LEDs",
+      "current_online_category": "Optoelectronics",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0005",
+      "historical_index_term": "LCR Meters",
+      "current_online_category": "Test & Measurement",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0006",
+      "historical_index_term": "Wire Strippers",
+      "current_online_category": "Tools and Supplies",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0007",
+      "historical_index_term": "Cabinets",
+      "current_online_category": "Enclosures",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0008",
+      "historical_index_term": "Latching Relays",
+      "current_online_category": "Electromechanical",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0009",
+      "historical_index_term": "Linear Power Supplies",
+      "current_online_category": "Power",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    },
+    {
+      "crosswalk_id": "NWK112-XWALK-0010",
+      "historical_index_term": "Logic, CMOS",
+      "current_online_category": "Semiconductors",
+      "relationship": "broader_current_category",
+      "confidence": "High",
+      "current_lookup_status": "Category mapped; live product rows require API/search"
+    }
+  ]
+}

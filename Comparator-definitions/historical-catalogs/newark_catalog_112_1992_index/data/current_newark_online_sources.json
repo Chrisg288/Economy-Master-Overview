@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "source_id": "NEWARK_BROWSE",
+      "source_name": "Newark Browse All Products",
+      "source_type": "Current online category source",
+      "url": "https://www.newark.com/browse-for-products",
+      "what_it_gives": "Current Newark product-category browsing and product families.",
+      "access_status": "Public website"
+    },
+    {
+      "source_id": "NEWARK_PRODUCT_SEARCH_API",
+      "source_name": "element14 / Newark Product Search API",
+      "source_type": "Current product API",
+      "url": "https://partner.element14.com/docs",
+      "what_it_gives": "Keyword, product ID, and manufacturer part number search across element14/Farnell/Newark products.",
+      "access_status": "Requires developer account/API key"
+    },
+    {
+      "source_id": "NEWARK_ORDER_API",
+      "source_name": "Newark Order API",
+      "source_type": "Current purchasing/API integration",
+      "url": "https://www.newark.com/services/purchasing-procurement-support/order-api",
+      "what_it_gives": "Real-time specifications, datasheets, availability, pricing, stock updates and order integration.",
+      "access_status": "Requires sign-up"
+    },
+    {
+      "source_id": "NEWARK_STATUS_DEFS",
+      "source_name": "Newark Pricing and Availability Status Definitions",
+      "source_type": "Status vocabulary",
+      "url": "https://www.newark.com/help-pricing-availability",
+      "what_it_gives": "Availability/lifecycle labels such as in stock, no longer stocked, no longer manufactured.",
+      "access_status": "Public help page"
+    },
+    {
+      "source_id": "OCTOPART_NEWARK",
+      "source_name": "Octopart Newark distributor page",
+      "source_type": "Current distributor aggregation",
+      "url": "https://octopart.com/distributors/newark",
+      "what_it_gives": "Newark-related distributor result counts, top categories, sample parts, pricing/stock listings.",
+      "access_status": "Public page; API via Nexar"
+    },
+    {
+      "source_id": "TRUSTEDPARTS",
+      "source_name": "TrustedParts Authorized Channel Search",
+      "source_type": "Authorized inventory aggregation",
+      "url": "https://www.trustedparts.com/en",
+      "what_it_gives": "Authorized distributor inventory categories and risk-reduction evidence.",
+      "access_status": "Public search; terms apply"
+    }
+  ]
+}

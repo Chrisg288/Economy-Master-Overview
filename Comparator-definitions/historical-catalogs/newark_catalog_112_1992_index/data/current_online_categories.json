@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "category": "Connectors",
+      "source": "Octopart",
+      "note": "2,310,848 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Passive Components",
+      "source": "Octopart",
+      "note": "820,060 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Circular Connectors",
+      "source": "Octopart",
+      "note": "804,475 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Resistors",
+      "source": "Octopart",
+      "note": "376,459 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Cables and Wire",
+      "source": "Octopart",
+      "note": "347,590 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Capacitors",
+      "source": "Octopart",
+      "note": "342,733 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Card Edge Connectors",
+      "source": "Octopart",
+      "note": "249,993 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Electromechanical",
+      "source": "Octopart",
+      "note": "234,221 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Tools and Supplies",
+      "source": "Octopart",
+      "note": "219,309 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Headers and Wire Housings",
+      "source": "Octopart",
+      "note": "208,492 Newark-related results",
+      "status": "Current"
+    },
+    {
+      "category": "Circuit Protection",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Embedded Solutions",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Optoelectronics",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Power",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Semiconductors",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Sensors",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Test & Measurement",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    },
+    {
+      "category": "Thermal Management",
+      "source": "TrustedParts",
+      "note": "Authorized-channel category",
+      "status": "Current"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HistoricalCatalogIndexComparatorRecord",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "catalog_name": {
+      "type": "string"
+    },
+    "catalog_year": {
+      "type": "integer"
+    },
+    "index_type": {
+      "type": "string"
+    },
+    "index_term": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "historical_printed_pages": {
+      "type": "string"
+    },
+    "catalog_record_status": {
+      "type": "string",
+      "enum": [
+        "Current",
+        "Obsolete"
+      ]
+    },
+    "product_lifecycle_status": {
+      "type": "string",
+      "enum": [
+        "Current",
+        "Discontinued",
+        "Obsolete",
+        "Replacement Available",
+        "Unverified"
+      ]
+    },
+    "current_newark_search_status": {
+      "type": "string"
+    },
+    "current_newark_search_url": {
+      "type": "string"
+    }
+  }
+}
