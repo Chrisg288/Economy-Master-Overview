@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "category": "Desktop Computers",
+      "domain": "computer_hardware",
+      "notes": "workstations, mini PCs, towers, all-in-ones"
+    },
+    {
+      "category": "Laptop / Notebook Computers",
+      "domain": "computer_hardware",
+      "notes": "notebooks, mobile workstations, Chromebooks"
+    },
+    {
+      "category": "Servers",
+      "domain": "computer_hardware",
+      "notes": "rack, tower, blade, edge servers"
+    },
+    {
+      "category": "Storage Systems",
+      "domain": "computer_hardware",
+      "notes": "NAS, SAN, DAS, backup appliances"
+    },
+    {
+      "category": "Monitors / Displays",
+      "domain": "computer_hardware",
+      "notes": "desktop displays, professional displays"
+    },
+    {
+      "category": "Printers / Imaging",
+      "domain": "computer_hardware",
+      "notes": "laser, inkjet, scanners, multifunction"
+    },
+    {
+      "category": "Networking Equipment",
+      "domain": "communications_networking",
+      "notes": "switches, routers, Wi-Fi, firewalls, access points"
+    },
+    {
+      "category": "Cell Phones / Smartphones",
+      "domain": "communications_devices",
+      "notes": "phones, smart devices, accessories, carrier-locked/unlocked"
+    },
+    {
+      "category": "Two-way Radios / CB / GMRS / FRS",
+      "domain": "communications_radio",
+      "notes": "CB radios, FRS/GMRS, business radios, handhelds, mobiles"
+    },
+    {
+      "category": "Amateur / Shortwave Radio",
+      "domain": "communications_radio",
+      "notes": "shortwave receivers, HF transceivers, antennas, tuners"
+    },
+    {
+      "category": "Microwave / RF Equipment",
+      "domain": "communications_rf",
+      "notes": "microwave links, RF modules, antennas, coax, waveguide, test equipment"
+    },
+    {
+      "category": "Satellite / GPS / Marine Communications",
+      "domain": "communications_navigation",
+      "notes": "satellite phones, GPS, AIS, marine radios"
+    },
+    {
+      "category": "Software / Licenses",
+      "domain": "software",
+      "notes": "operating systems, office apps, security, CAD, subscriptions"
+    },
+    {
+      "category": "Cloud Services",
+      "domain": "software_cloud",
+      "notes": "marketplace products, SaaS, IaaS, reservations"
+    },
+    {
+      "category": "Security / Endpoint",
+      "domain": "software_hardware",
+      "notes": "antivirus, EDR, firewalls, MFA tokens"
+    },
+    {
+      "category": "Components",
+      "domain": "components",
+      "notes": "processors, RAM, SSDs, GPUs, motherboards"
+    },
+    {
+      "category": "Peripherals",
+      "domain": "accessories",
+      "notes": "keyboards, mice, webcams, headsets, docks"
+    },
+    {
+      "category": "Cables / Adapters",
+      "domain": "accessories",
+      "notes": "USB, HDMI, DisplayPort, power, network, RF coax"
+    },
+    {
+      "category": "Power / UPS",
+      "domain": "power",
+      "notes": "UPS, power distribution, batteries, chargers"
+    },
+    {
+      "category": "Lifecycle / Compliance Evidence",
+      "domain": "evidence",
+      "notes": "CPE, CVE, EPEAT, ENERGY STAR, FCC, ISED REL, lifecycle status"
+    }
+  ]
+}

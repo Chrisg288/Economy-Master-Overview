@@ -1,0 +1,6 @@
+﻿step,label,details
+1,Load open identifier/certification data,"Use NVD CPE, ENERGY STAR Computers, EPEAT, FCC and ISED REL as open/reference layers before live pricing."
+2,Add communications/RF compliance evidence,"Use FCC Equipment Authorization and ISED REL for wireless transmitters, cell phones, radios, CB/FRS/GMRS, microwave and Wi-Fi equipment."
+3,Add manufacturer/distributor feeds,"Use Lenovo PSREF, Dell datasheets/Premier, Ingram Micro flat files/API and TD SYNNEX APIs where access is available."
+4,Add radio/frequency context,Use RadioReference for scanner/radio frequency context where terms allow; do not confuse frequency data with product-offer rows.
+5,Normalize to IT/communications offers,"Map SKU, MPN, price, stock, specs, certifications, lifecycle, FCC/ISED IDs, CPE and CVU score into ComputerITCommunicationsComparableOffer."

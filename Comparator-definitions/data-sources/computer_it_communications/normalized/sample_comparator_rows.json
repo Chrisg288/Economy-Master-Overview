@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "source_id": "ENERGY_STAR_COMPUTERS",
+      "record_type": "certified_product",
+      "title": "ENERGY STAR Certified Computers V9.0 dataset",
+      "category": "Laptop / Notebook Computers",
+      "availability": "public_dataset",
+      "evidence_status": "verified",
+      "source_url": "https://data.energystar.gov/Active-Specifications/ENERGY-STAR-Certified-Computers-V9-0/rxdj-2c88"
+    },
+    {
+      "source_id": "NVD_CPE_DICTIONARY",
+      "record_type": "official_identifier",
+      "title": "Official CPE Product Dictionary",
+      "category": "Software / Licenses",
+      "availability": "public_xml_download",
+      "evidence_status": "verified",
+      "source_url": "https://nvd.nist.gov/products/cpe"
+    },
+    {
+      "source_id": "EPEAT_REGISTRY",
+      "record_type": "certified_product_registry",
+      "title": "EPEAT Computers and Displays registry",
+      "category": "Desktop Computers",
+      "availability": "public_registry",
+      "evidence_status": "verified",
+      "source_url": "https://www.epeat.net/product-finder"
+    },
+    {
+      "source_id": "ISED_REL",
+      "record_type": "certified_radio_equipment_registry",
+      "title": "ISED Radio Equipment List",
+      "category": "Cell Phones / Smartphones",
+      "availability": "public_search",
+      "evidence_status": "verified",
+      "source_url": "https://ised-isde.canada.ca/site/certification-engineering-bureau/en/wireless-program/radio-equipment-list-rel"
+    },
+    {
+      "source_id": "FCC_EQUIPMENT_AUTHORIZATION",
+      "record_type": "rf_device_certification",
+      "title": "FCC Equipment Authorization Search",
+      "category": "Microwave / RF Equipment",
+      "availability": "public_search",
+      "evidence_status": "verified",
+      "source_url": "https://www.fcc.gov/oet/ea/fccid"
+    },
+    {
+      "source_id": "RADIOREFERENCE_DATABASE",
+      "record_type": "radio_reference_database",
+      "title": "RadioReference frequency and trunked systems database",
+      "category": "Two-way Radios / CB / GMRS / FRS",
+      "availability": "public_reference_api_terms_apply",
+      "evidence_status": "linked",
+      "source_url": "https://www.radioreference.com/db/"
+    },
+    {
+      "source_id": "INGRAM_MICRO_FLAT_FILES",
+      "record_type": "bulk_distributor_feed",
+      "title": "Ingram Micro price/catalog/inventory flat files",
+      "category": "IT Distributor Offers",
+      "availability": "reseller_access_required",
+      "evidence_status": "linked",
+      "source_url": "https://developer.ingrammicro.com/sites/default/files/apidoc_specs/catalog.v1_16.yaml"
+    },
+    {
+      "source_id": "LENOVO_PSREF",
+      "record_type": "manufacturer_specs",
+      "title": "Lenovo PSREF product specifications",
+      "category": "Laptop / Notebook Computers",
+      "availability": "public_reference",
+      "evidence_status": "linked",
+      "source_url": "https://psref.lenovo.com/"
+    },
+    {
+      "source_id": "GSMARENA_KAGGLE",
+      "record_type": "phone_specs_dataset",
+      "title": "GSMArena phone dataset",
+      "category": "Cell Phones / Smartphones",
+      "availability": "kaggle_download_terms_apply",
+      "evidence_status": "linked",
+      "source_url": "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    },
+    {
+      "source_id": "MICROSOFT_AZURE_MARKETPLACE_CATALOG",
+      "record_type": "software_cloud_catalog",
+      "title": "Azure Marketplace Catalog product list",
+      "category": "Cloud Services",
+      "availability": "public_api",
+      "evidence_status": "linked",
+      "source_url": "https://learn.microsoft.com/en-us/rest/api/marketplacecatalog/dataplane/list-products/list-products"
+    }
+  ]
+}

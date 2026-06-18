@@ -1,0 +1,11 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+ENERGY_STAR_COMPUTERS,certified_product,ENERGY STAR Certified Computers V9.0 dataset,Laptop / Notebook Computers,public_dataset,verified,https://data.energystar.gov/Active-Specifications/ENERGY-STAR-Certified-Computers-V9-0/rxdj-2c88
+NVD_CPE_DICTIONARY,official_identifier,Official CPE Product Dictionary,Software / Licenses,public_xml_download,verified,https://nvd.nist.gov/products/cpe
+EPEAT_REGISTRY,certified_product_registry,EPEAT Computers and Displays registry,Desktop Computers,public_registry,verified,https://www.epeat.net/product-finder
+ISED_REL,certified_radio_equipment_registry,ISED Radio Equipment List,Cell Phones / Smartphones,public_search,verified,https://ised-isde.canada.ca/site/certification-engineering-bureau/en/wireless-program/radio-equipment-list-rel
+FCC_EQUIPMENT_AUTHORIZATION,rf_device_certification,FCC Equipment Authorization Search,Microwave / RF Equipment,public_search,verified,https://www.fcc.gov/oet/ea/fccid
+RADIOREFERENCE_DATABASE,radio_reference_database,RadioReference frequency and trunked systems database,Two-way Radios / CB / GMRS / FRS,public_reference_api_terms_apply,linked,https://www.radioreference.com/db/
+INGRAM_MICRO_FLAT_FILES,bulk_distributor_feed,Ingram Micro price/catalog/inventory flat files,IT Distributor Offers,reseller_access_required,linked,https://developer.ingrammicro.com/sites/default/files/apidoc_specs/catalog.v1_16.yaml
+LENOVO_PSREF,manufacturer_specs,Lenovo PSREF product specifications,Laptop / Notebook Computers,public_reference,linked,https://psref.lenovo.com/
+GSMARENA_KAGGLE,phone_specs_dataset,GSMArena phone dataset,Cell Phones / Smartphones,kaggle_download_terms_apply,linked,https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset
+MICROSOFT_AZURE_MARKETPLACE_CATALOG,software_cloud_catalog,Azure Marketplace Catalog product list,Cloud Services,public_api,linked,https://learn.microsoft.com/en-us/rest/api/marketplacecatalog/dataplane/list-products/list-products

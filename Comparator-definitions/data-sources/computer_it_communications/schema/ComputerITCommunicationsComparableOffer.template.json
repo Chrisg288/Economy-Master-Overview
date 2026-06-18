@@ -1,0 +1,173 @@
+{
+  "template_id": "ComputerITCommunicationsComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Common Comparator datagrid fields for computers, IT hardware, software, communications and RF devices.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "sku_or_order_code",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "backorder",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "stock_quantity",
+      "type": "integer",
+      "grid": true
+    },
+    {
+      "name": "condition",
+      "type": "enum",
+      "values": [
+        "new",
+        "refurbished",
+        "used",
+        "subscription",
+        "service",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "processor",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "memory_gb",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "storage",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "operating_system",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "radio_service",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "frequency_bands",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "wireless_protocols",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "transmit_power",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "fcc_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "ised_certification_number",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "cpe_name",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "energy_star_certified",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "epeat_status",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "lifecycle_status",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}
