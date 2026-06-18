@@ -1,0 +1,33 @@
+﻿brick_code,brick_name,family,key_comparator_fields,primary_sources,system
+window_casement,Casement Windows,Windows,"U-factor, ER, SHGC, air leakage, frame material, glazing, size, egress",NFRC/NRCan/JELD-WEN,Openings
+window_awning,Awning Windows,Windows,"U-factor, ER, SHGC, frame, glazing, operator, size",NFRC/NRCan/JELD-WEN,Openings
+window_sliding,Sliding Windows,Windows,"U-factor, ER, sash count, frame material, size",NFRC/NRCan/JELD-WEN,Openings
+window_fixed_picture,Fixed / Picture Windows,Windows,"U-factor, ER, glazing, visible transmittance, size",NFRC/NRCan/JELD-WEN,Openings
+door_exterior_entry,Exterior Entry Doors,Doors,"material, slab size, glass, fire rating, impact rating, energy rating",JELD-WEN/Masonite/Therma-Tru/NRCan/NFRC,Openings
+door_interior,Interior Doors,Doors,"slab size, core, finish, style, fire/sound rating",Masonite/JELD-WEN,Openings
+door_sliding_patio,Sliding Patio Doors,Doors,"size, glazing, U-factor, ER, frame, hardware",JELD-WEN/Therma-Tru/NFRC/NRCan,Openings
+door_steel_fire_rated,Steel Fire-Rated Doors,Doors,"fire rating, temperature rise, frame, gauge, label, handing",Fleming/Steelcraft/Ceco/CSDMA/UL,Openings
+garage_door_residential_sectional,Residential Sectional Garage Doors,Garage Doors,"R-value, steel thickness, insulation, panel style, size, windows",Garaga,Openings
+skylight_tubular_standard,Skylights / Tubular Skylights,Skylights,"U-factor, SHGC, ER, curb/deck mount, glazing",NFRC/NRCan/ENERGY STAR,Openings
+railing_aluminum_panel,Aluminum Railing Panels,Railing Systems,"height, length, colour, baluster/glass, code approval",Regal/Fortress,Stairs & Railings
+railing_stair_kit,Stair Railing Kits,Railing Systems,"angle range, kit contents, height, length, brackets, UPC",Regal/Fortress,Stairs & Railings
+railing_components,Posts / Brackets / Balusters,Railing Components,"material, finish, dimensions, fasteners, code use",Regal/Fortress,Stairs & Railings
+hvac_air_source_heat_pump,Air Source Heat Pumps,HVAC,"capacity, SEER2, HSPF2, COP, indoor/outdoor match, AHRI ref",AHRI/NRCan/Carrier/Rheem,Mechanical
+hvac_cold_climate_heat_pump,Cold Climate Heat Pumps,HVAC,"low-temp capacity, COP, AHRI ref, ENERGY STAR",NRCan/AHRI/Carrier/Rheem,Mechanical
+hvac_gas_furnace,Gas Furnaces,HVAC,"AFUE, BTU input/output, stages, blower, venting",AHRI/Carrier/Rheem,Mechanical
+hvac_central_air_conditioner,Central Air Conditioners,HVAC,"SEER2, EER2, capacity, coil match, AHRI ref",AHRI/Carrier/Rheem,Mechanical
+water_heater_heat_pump,Heat Pump Water Heaters,Water Heating,"capacity, UEF, first hour rating, voltage, installation space",ENERGY STAR/NRCan/Rheem/AO Smith,Mechanical
+water_heater_gas_tank,Gas Tank Water Heaters,Water Heating,"capacity, UEF, recovery, venting, fuel, input BTU",NRCan/Rheem/AO Smith/Bradford White,Mechanical
+water_heater_tankless_gas,Tankless Gas Water Heaters,Water Heating,"GPM, UEF, fuel, venting, temperature rise",ENERGY STAR/NRCan/Rheem/AO Smith,Mechanical
+duct_stack_rectangular,Rectangular Stack Duct,Ductwork,"gauge, dimensions, length, connection type",Imperial,Mechanical
+duct_trunk_rectangular,Trunk Duct Sections,Ductwork,"gauge, dimensions, length, cleats included",Imperial,Mechanical
+duct_round_pipe_elbow,Round Pipe / Elbows,Ductwork,"diameter, gauge, angle, length, material",Imperial,Mechanical
+duct_fittings_reducers_takeoffs_boots,Reducers / Takeoffs / Boots,Ductwork,"diameters, offset, boot size, material",Imperial,Mechanical
+duct_flexible_dryer_vent,Flexible Duct / Dryer Venting,Ductwork,"diameter, insulation, length, rating",Imperial,Mechanical
+register_grille,Registers / Grilles,Air Distribution,"size, finish, damper, mounting, airflow application",Imperial,Mechanical
+electrical_load_center,Residential Load Centers,Load Centers,"amp rating, spaces/circuits, phase, indoor/outdoor, main lug/main breaker",Square D/Eaton,Electrical
+breaker_afci_gfci_dual,AFCI / GFCI / Dual-Function Breakers,Circuit Breakers,"amp rating, poles, interrupt rating, panel compatibility",Square D/Eaton,Electrical
+wiring_devices_receptacles_switches,Receptacles / GFCI / Switches,Wiring Devices,"amp/volt, NEMA config, grade, colour, tamper resistant",Eaton/Leviton/Square D,Electrical
+electrical_enclosures_junction_boxes,Electrical Enclosures / Junction Boxes,Boxes / Enclosures,"NEMA rating, material, size, UL/CSA rating",Eaton B-Line/ABB/NEMA/UL,Electrical
+lighting_led_lamps_fixtures,LED Lamps / Fixtures,Lighting,"lumens, watts, CCT, CRI, efficacy, DLC/ENERGY STAR",DLC/ENERGY STAR/Acuity,Electrical
+lighting_controls,Dimmers / Sensors / Controls,Lighting Controls,"load type, protocol, voltage, sensor type, networked controls",Leviton/DLC,Electrical

@@ -1,0 +1,162 @@
+{
+  "template_id": "BuildingModularComponentComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Comparator fields for modular housing/building components: windows, doors, railings, garage doors, HVAC, water heaters, ducting, electrical, wiring, lighting and related systems.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "seller_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brick_code",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "brick_name",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "model_or_series",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "sku_or_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gtin_upc_ean",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "special_order",
+        "made_to_order",
+        "configured",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "dimensions",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "finish_or_colour",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "configuration",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "performance_rating",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "energy_star_certified",
+      "type": "boolean",
+      "grid": true
+    },
+    {
+      "name": "nfrc_or_ahri_reference",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "ul_csa_etl_listing",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "fire_rating",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "code_or_evaluation_report",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "installation_reference",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "datasheet_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "records": [
+    {
+      "system": "Openings",
+      "family": "Windows",
+      "brick_name": "Casement Windows",
+      "brick_code": "window_casement",
+      "primary_sources": "NFRC/NRCan/JELD-WEN",
+      "key_comparator_fields": "U-factor, ER, SHGC, air leakage, frame material, glazing, size, egress"
+    },
+    {
+      "system": "Openings",
+      "family": "Windows",
+      "brick_name": "Awning Windows",
+      "brick_code": "window_awning",
+      "primary_sources": "NFRC/NRCan/JELD-WEN",
+      "key_comparator_fields": "U-factor, ER, SHGC, frame, glazing, operator, size"
+    },
+    {
+      "system": "Openings",
+      "family": "Windows",
+      "brick_name": "Sliding Windows",
+      "brick_code": "window_sliding",
+      "primary_sources": "NFRC/NRCan/JELD-WEN",
+      "key_comparator_fields": "U-factor, ER, sash count, frame material, size"
+    },
+    {
+      "system": "Openings",
+      "family": "Windows",
+      "brick_name": "Fixed / Picture Windows",
+      "brick_code": "window_fixed_picture",
+      "primary_sources": "NFRC/NRCan/JELD-WEN",
+      "key_comparator_fields": "U-factor, ER, glazing, visible transmittance, size"
+    },
+    {
+      "system": "Openings",
+      "family": "Doors",
+      "brick_name": "Exterior Entry Doors",
+      "brick_code": "door_exterior_entry",
+      "primary_sources": "JELD-WEN/Masonite/Therma-Tru/NRCan/NFRC",
+      "key_comparator_fields": "material, slab size, glass, fire rating, impact rating, energy rating"
+    },
+    {
+      "system": "Openings",
+      "family": "Doors",
+      "brick_name": "Interior Doors",
+      "brick_code": "door_interior",
+      "primary_sources": "Masonite/JELD-WEN",
+      "key_comparator_fields": "slab size, core, finish, style, fire/sound rating"
+    },
+    {
+      "system": "Openings",
+      "family": "Doors",
+      "brick_name": "Sliding Patio Doors",
+      "brick_code": "door_sliding_patio",
+      "primary_sources": "JELD-WEN/Therma-Tru/NFRC/NRCan",
+      "key_comparator_fields": "size, glazing, U-factor, ER, frame, hardware"
+    },
+    {
+      "system": "Openings",
+      "family": "Doors",
+      "brick_name": "Steel Fire-Rated Doors",
+      "brick_code": "door_steel_fire_rated",
+      "primary_sources": "Fleming/Steelcraft/Ceco/CSDMA/UL",
+      "key_comparator_fields": "fire rating, temperature rise, frame, gauge, label, handing"
+    },
+    {
+      "system": "Openings",
+      "family": "Garage Doors",
+      "brick_name": "Residential Sectional Garage Doors",
+      "brick_code": "garage_door_residential_sectional",
+      "primary_sources": "Garaga",
+      "key_comparator_fields": "R-value, steel thickness, insulation, panel style, size, windows"
+    },
+    {
+      "system": "Openings",
+      "family": "Skylights",
+      "brick_name": "Skylights / Tubular Skylights",
+      "brick_code": "skylight_tubular_standard",
+      "primary_sources": "NFRC/NRCan/ENERGY STAR",
+      "key_comparator_fields": "U-factor, SHGC, ER, curb/deck mount, glazing"
+    },
+    {
+      "system": "Stairs & Railings",
+      "family": "Railing Systems",
+      "brick_name": "Aluminum Railing Panels",
+      "brick_code": "railing_aluminum_panel",
+      "primary_sources": "Regal/Fortress",
+      "key_comparator_fields": "height, length, colour, baluster/glass, code approval"
+    },
+    {
+      "system": "Stairs & Railings",
+      "family": "Railing Systems",
+      "brick_name": "Stair Railing Kits",
+      "brick_code": "railing_stair_kit",
+      "primary_sources": "Regal/Fortress",
+      "key_comparator_fields": "angle range, kit contents, height, length, brackets, UPC"
+    },
+    {
+      "system": "Stairs & Railings",
+      "family": "Railing Components",
+      "brick_name": "Posts / Brackets / Balusters",
+      "brick_code": "railing_components",
+      "primary_sources": "Regal/Fortress",
+      "key_comparator_fields": "material, finish, dimensions, fasteners, code use"
+    },
+    {
+      "system": "Mechanical",
+      "family": "HVAC",
+      "brick_name": "Air Source Heat Pumps",
+      "brick_code": "hvac_air_source_heat_pump",
+      "primary_sources": "AHRI/NRCan/Carrier/Rheem",
+      "key_comparator_fields": "capacity, SEER2, HSPF2, COP, indoor/outdoor match, AHRI ref"
+    },
+    {
+      "system": "Mechanical",
+      "family": "HVAC",
+      "brick_name": "Cold Climate Heat Pumps",
+      "brick_code": "hvac_cold_climate_heat_pump",
+      "primary_sources": "NRCan/AHRI/Carrier/Rheem",
+      "key_comparator_fields": "low-temp capacity, COP, AHRI ref, ENERGY STAR"
+    },
+    {
+      "system": "Mechanical",
+      "family": "HVAC",
+      "brick_name": "Gas Furnaces",
+      "brick_code": "hvac_gas_furnace",
+      "primary_sources": "AHRI/Carrier/Rheem",
+      "key_comparator_fields": "AFUE, BTU input/output, stages, blower, venting"
+    },
+    {
+      "system": "Mechanical",
+      "family": "HVAC",
+      "brick_name": "Central Air Conditioners",
+      "brick_code": "hvac_central_air_conditioner",
+      "primary_sources": "AHRI/Carrier/Rheem",
+      "key_comparator_fields": "SEER2, EER2, capacity, coil match, AHRI ref"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Water Heating",
+      "brick_name": "Heat Pump Water Heaters",
+      "brick_code": "water_heater_heat_pump",
+      "primary_sources": "ENERGY STAR/NRCan/Rheem/AO Smith",
+      "key_comparator_fields": "capacity, UEF, first hour rating, voltage, installation space"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Water Heating",
+      "brick_name": "Gas Tank Water Heaters",
+      "brick_code": "water_heater_gas_tank",
+      "primary_sources": "NRCan/Rheem/AO Smith/Bradford White",
+      "key_comparator_fields": "capacity, UEF, recovery, venting, fuel, input BTU"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Water Heating",
+      "brick_name": "Tankless Gas Water Heaters",
+      "brick_code": "water_heater_tankless_gas",
+      "primary_sources": "ENERGY STAR/NRCan/Rheem/AO Smith",
+      "key_comparator_fields": "GPM, UEF, fuel, venting, temperature rise"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Ductwork",
+      "brick_name": "Rectangular Stack Duct",
+      "brick_code": "duct_stack_rectangular",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "gauge, dimensions, length, connection type"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Ductwork",
+      "brick_name": "Trunk Duct Sections",
+      "brick_code": "duct_trunk_rectangular",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "gauge, dimensions, length, cleats included"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Ductwork",
+      "brick_name": "Round Pipe / Elbows",
+      "brick_code": "duct_round_pipe_elbow",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "diameter, gauge, angle, length, material"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Ductwork",
+      "brick_name": "Reducers / Takeoffs / Boots",
+      "brick_code": "duct_fittings_reducers_takeoffs_boots",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "diameters, offset, boot size, material"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Ductwork",
+      "brick_name": "Flexible Duct / Dryer Venting",
+      "brick_code": "duct_flexible_dryer_vent",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "diameter, insulation, length, rating"
+    },
+    {
+      "system": "Mechanical",
+      "family": "Air Distribution",
+      "brick_name": "Registers / Grilles",
+      "brick_code": "register_grille",
+      "primary_sources": "Imperial",
+      "key_comparator_fields": "size, finish, damper, mounting, airflow application"
+    },
+    {
+      "system": "Electrical",
+      "family": "Load Centers",
+      "brick_name": "Residential Load Centers",
+      "brick_code": "electrical_load_center",
+      "primary_sources": "Square D/Eaton",
+      "key_comparator_fields": "amp rating, spaces/circuits, phase, indoor/outdoor, main lug/main breaker"
+    },
+    {
+      "system": "Electrical",
+      "family": "Circuit Breakers",
+      "brick_name": "AFCI / GFCI / Dual-Function Breakers",
+      "brick_code": "breaker_afci_gfci_dual",
+      "primary_sources": "Square D/Eaton",
+      "key_comparator_fields": "amp rating, poles, interrupt rating, panel compatibility"
+    },
+    {
+      "system": "Electrical",
+      "family": "Wiring Devices",
+      "brick_name": "Receptacles / GFCI / Switches",
+      "brick_code": "wiring_devices_receptacles_switches",
+      "primary_sources": "Eaton/Leviton/Square D",
+      "key_comparator_fields": "amp/volt, NEMA config, grade, colour, tamper resistant"
+    },
+    {
+      "system": "Electrical",
+      "family": "Boxes / Enclosures",
+      "brick_name": "Electrical Enclosures / Junction Boxes",
+      "brick_code": "electrical_enclosures_junction_boxes",
+      "primary_sources": "Eaton B-Line/ABB/NEMA/UL",
+      "key_comparator_fields": "NEMA rating, material, size, UL/CSA rating"
+    },
+    {
+      "system": "Electrical",
+      "family": "Lighting",
+      "brick_name": "LED Lamps / Fixtures",
+      "brick_code": "lighting_led_lamps_fixtures",
+      "primary_sources": "DLC/ENERGY STAR/Acuity",
+      "key_comparator_fields": "lumens, watts, CCT, CRI, efficacy, DLC/ENERGY STAR"
+    },
+    {
+      "system": "Electrical",
+      "family": "Lighting Controls",
+      "brick_name": "Dimmers / Sensors / Controls",
+      "brick_code": "lighting_controls",
+      "primary_sources": "Leviton/DLC",
+      "key_comparator_fields": "load type, protocol, voltage, sensor type, networked controls"
+    }
+  ]
+}
