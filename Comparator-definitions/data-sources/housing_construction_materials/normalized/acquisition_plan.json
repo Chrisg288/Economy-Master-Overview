@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "step": 1,
+      "label": "Use official classification and evidence first",
+      "details": "Use NAPCS as classification, CCMC/ICC-ES/UL/ENERGY STAR/NRCan as evidence layers before live retail pricing."
+    },
+    {
+      "step": 2,
+      "label": "Create product class templates",
+      "details": "Create class templates for lumber, insulation, windows, doors, roofing, fasteners, plumbing, electrical, tools and HVAC."
+    },
+    {
+      "step": 3,
+      "label": "Use retailer APIs/portals where available",
+      "details": "Lowe's has a Product Catalog API; Home Depot public catalog access appears supplier/third-party only; RONA/Home Hardware are mostly supplier docs/public browsing."
+    },
+    {
+      "step": 4,
+      "label": "Use paid scraping APIs carefully",
+      "details": "SerpApi and Unwrangle can pull Home Depot/Lowe's product pages when official APIs are unavailable."
+    },
+    {
+      "step": 5,
+      "label": "Convert manufacturer catalog/spec pages",
+      "details": "ARCAT, Sweets and BIM platforms can supply catalogs, BIM/CAD and specification pages; convert by manufacturer/category."
+    }
+  ]
+}

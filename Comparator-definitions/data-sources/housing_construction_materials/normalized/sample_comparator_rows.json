@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "source_id": "NRCAN_SPL",
+      "retailer_or_source": "Natural Resources Canada",
+      "product_title": "Windows - ENERGY STAR searchable product category",
+      "category": "Windows / doors / skylights",
+      "availability": "reference_list",
+      "certifications": "ENERGY STAR / NRCan",
+      "evidence_status": "verified",
+      "product_url": "https://spl-lpi.nrcan-rncan.gc.ca/en-US/product/?product=Windows"
+    },
+    {
+      "source_id": "CCMC_REGISTRY",
+      "retailer_or_source": "NRC Canada CCMC",
+      "product_title": "CCMC product assessment registry",
+      "category": "Building code assessment",
+      "availability": "reference_list",
+      "certifications": "CCMC assessment",
+      "evidence_status": "verified",
+      "product_url": "https://nrc.canada.ca/en/certifications-evaluations-standards/canadian-construction-materials-centre/ccmc-publications/registry.html"
+    },
+    {
+      "source_id": "LOWES_PRODUCT_CATALOG_API",
+      "retailer_or_source": "Lowe's",
+      "product_title": "Lowe's Product Catalog API source",
+      "category": "Retail product feed",
+      "availability": "api_key_required",
+      "certifications": "",
+      "evidence_status": "linked",
+      "product_url": "https://developer.lowes.com/portal/business-components/Product%20Catalog/"
+    },
+    {
+      "source_id": "RONA_SUPPLIER_DOCUMENTATION",
+      "retailer_or_source": "RONA",
+      "product_title": "Online Product Content Guideline / Dropship vendor source",
+      "category": "Supplier data template",
+      "availability": "public_docs",
+      "certifications": "",
+      "evidence_status": "linked",
+      "product_url": "https://vendors.rona.ca/product-supplier/documentation"
+    },
+    {
+      "source_id": "ARCAT_CATALOGS",
+      "retailer_or_source": "ARCAT",
+      "product_title": "Building product catalogs and brochures",
+      "category": "Manufacturer catalog directory",
+      "availability": "public_catalogs",
+      "certifications": "varies by manufacturer",
+      "evidence_status": "linked",
+      "product_url": "https://www.arcat.com/content-type/catalog"
+    }
+  ]
+}

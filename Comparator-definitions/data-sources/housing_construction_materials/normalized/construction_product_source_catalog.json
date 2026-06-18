@@ -1,0 +1,213 @@
+{
+  "records": [
+    {
+      "source_id": "ISED_NAPCS_CANADA_2022",
+      "name": "NAPCS Canada 2022",
+      "type": "official_classification",
+      "region": "Canada",
+      "access": "Already packaged",
+      "url": "https://www.statcan.gc.ca/en/subjects/standard/napcs/2022/index",
+      "best_use": "Official goods/services classification for construction materials, tools and services.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "CCMC_REGISTRY",
+      "name": "Canadian Construction Materials Centre Registry",
+      "type": "code_compliance_registry",
+      "region": "Canada",
+      "access": "Public searchable registry",
+      "url": "https://nrc.canada.ca/en/certifications-evaluations-standards/canadian-construction-materials-centre/ccmc-publications/registry.html",
+      "best_use": "Canadian code-compliance/evaluation evidence for building products and systems.",
+      "data_fit": "evidence",
+      "priority": 1
+    },
+    {
+      "source_id": "NRCAN_SPL",
+      "name": "Natural Resources Canada Searchable Product List",
+      "type": "energy_efficiency_product_list",
+      "region": "Canada",
+      "access": "Public searchable list",
+      "url": "https://spl-lpi.nrcan-rncan.gc.ca/",
+      "best_use": "Energy-performance comparisons for windows, doors, skylights and other products.",
+      "data_fit": "verified_product_list",
+      "priority": 1
+    },
+    {
+      "source_id": "ENERGY_STAR_CANADA",
+      "name": "ENERGY STAR Canada Certified Products",
+      "type": "certified_product_lists",
+      "region": "Canada",
+      "access": "Public product list",
+      "url": "https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products",
+      "best_use": "Product efficiency certification and category validation.",
+      "data_fit": "certification",
+      "priority": 1
+    },
+    {
+      "source_id": "LOWES_PRODUCT_CATALOG_API",
+      "name": "Lowe's Product Catalog API",
+      "type": "retailer_product_api",
+      "region": "US",
+      "access": "Developer portal/API key likely required",
+      "url": "https://developer.lowes.com/portal/business-components/Product%20Catalog/",
+      "best_use": "Current products, prices, promotions, inventory and localized product info.",
+      "data_fit": "live_offer_source",
+      "priority": 2
+    },
+    {
+      "source_id": "LOWES_API_PORTAL",
+      "name": "Lowe's API Portal",
+      "type": "developer_portal",
+      "region": "US",
+      "access": "Sign up for API key",
+      "url": "https://portal.apim.lowes.com/",
+      "best_use": "Developer/API access for Lowe's product and operations APIs.",
+      "data_fit": "access_path",
+      "priority": 2
+    },
+    {
+      "source_id": "HOME_DEPOT_SUPPLIER_HUB",
+      "name": "The Home Depot Supplier Hub",
+      "type": "supplier_portal",
+      "region": "US/Canada",
+      "access": "Supplier access; not a public product API",
+      "url": "https://supplierhub.homedepot.com/",
+      "best_use": "Official supplier-side path; not a public product catalogue feed.",
+      "data_fit": "supplier_access_path",
+      "priority": 3
+    },
+    {
+      "source_id": "HOME_DEPOT_SERPAPI",
+      "name": "SerpApi Home Depot Search/Product APIs",
+      "type": "third_party_retail_api",
+      "region": "US/Canada",
+      "access": "Paid API",
+      "url": "https://serpapi.com/home-depot-search-api",
+      "best_use": "Structured Home Depot US/Canada product search data when official access unavailable.",
+      "data_fit": "paid_live_offer_source",
+      "priority": 3
+    },
+    {
+      "source_id": "RONA_SUPPLIER_DOCUMENTATION",
+      "name": "RONA Product Supplier Documentation",
+      "type": "supplier_guidelines",
+      "region": "Canada",
+      "access": "Public docs + supplier login",
+      "url": "https://vendors.rona.ca/product-supplier/documentation",
+      "best_use": "RONA product-content fields, photo rules, dropship vendor expectations and onboarding data requirements.",
+      "data_fit": "template_design",
+      "priority": 2
+    },
+    {
+      "source_id": "RONA_DROPSHIP_GUIDE",
+      "name": "RONA Dropship Operational Guide",
+      "type": "supplier_catalog_onboarding_guide",
+      "region": "Canada",
+      "access": "Public PDF",
+      "url": "https://vendors.rona.ca/media/unnlaaso/rona-dropship-operational-guide.pdf",
+      "best_use": "RONA product onboarding workflow and advanced catalog expectations.",
+      "data_fit": "template_process",
+      "priority": 2
+    },
+    {
+      "source_id": "HOME_HARDWARE_SUPPLIER_GUIDE",
+      "name": "Home Hardware Supplier Guide",
+      "type": "supplier_policy_catalog_guidelines",
+      "region": "Canada",
+      "access": "Public PDF",
+      "url": "https://homehardware.sirv.com/supplier-guide/HHSL%20Supplier%20Guide%20Version%203.1.pdf",
+      "best_use": "Canadian supplier/product program rules, made-in-Canada fields and quality expectations.",
+      "data_fit": "template_process",
+      "priority": 2
+    },
+    {
+      "source_id": "HOME_HARDWARE_PUBLIC_SITE",
+      "name": "Home Hardware public catalogue",
+      "type": "retailer_public_site",
+      "region": "Canada",
+      "access": "Public website; no obvious public API",
+      "url": "https://www.homehardware.ca/en/",
+      "best_use": "Manual/searchable current public retail product reference; API/manual extraction path TBD.",
+      "data_fit": "current_public_offer_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "ICC_ES_REPORTS",
+      "name": "ICC-ES Reports Directory",
+      "type": "code_compliance_reports",
+      "region": "US/international",
+      "access": "Public searchable reports",
+      "url": "https://icc-es.org/reports-directory/",
+      "best_use": "Evaluation evidence for code officials and approved building products.",
+      "data_fit": "evidence",
+      "priority": 2
+    },
+    {
+      "source_id": "UL_PRODUCT_IQ",
+      "name": "UL Product iQ",
+      "type": "certification_database",
+      "region": "US/Canada/international",
+      "access": "Free account/login usually required",
+      "url": "https://productiq.ulprospector.com/",
+      "best_use": "UL-certified product evidence and safety/compliance lookups.",
+      "data_fit": "certification",
+      "priority": 2
+    },
+    {
+      "source_id": "ARCAT_CATALOGS",
+      "name": "ARCAT Building Product Catalogs",
+      "type": "manufacturer_catalog_directory",
+      "region": "US/Canada/international",
+      "access": "Public/free catalog and BIM downloads",
+      "url": "https://www.arcat.com/content-type/catalog",
+      "best_use": "Manufacturer catalogs, specs, CAD/BIM details and construction product categories.",
+      "data_fit": "catalog_spec_conversion",
+      "priority": 2
+    },
+    {
+      "source_id": "SWEETS",
+      "name": "Sweets Construction Product Directory",
+      "type": "building_product_directory",
+      "region": "US/Canada/international",
+      "access": "Public directory",
+      "url": "https://sweets.construction.com/",
+      "best_use": "Manufacturer product pages, CAD details, BIM objects, specs and green product info.",
+      "data_fit": "catalog_spec_reference",
+      "priority": 2
+    },
+    {
+      "source_id": "BIMOBJECT",
+      "name": "BIMobject",
+      "type": "BIM_manufacturer_object_directory",
+      "region": "Global",
+      "access": "Free account/download; API/embed docs",
+      "url": "https://www.bimobject.com/en-ca",
+      "best_use": "Manufacturer BIM objects and structured product info for building products.",
+      "data_fit": "bim_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "BIMOBJECT_API_DOCS",
+      "name": "BIMobject API documentation",
+      "type": "BIM_download_embed_API",
+      "region": "Global",
+      "access": "Public GitHub docs",
+      "url": "https://github.com/bimobject/api-documentation",
+      "best_use": "Embed previews/downloads; possible integration reference.",
+      "data_fit": "api_documentation",
+      "priority": 3
+    },
+    {
+      "source_id": "BIM_AND_CO",
+      "name": "BIM&CO",
+      "type": "BIM_object_platform",
+      "region": "Global",
+      "access": "Public/free account likely",
+      "url": "https://www.bimandco.com/bim/",
+      "best_use": "Manufacturer or generic 2D/3D BIM objects in RFA/SKP/IFC etc.",
+      "data_fit": "bim_reference",
+      "priority": 3
+    }
+  ]
+}

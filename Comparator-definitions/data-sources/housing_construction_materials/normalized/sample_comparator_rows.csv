@@ -1,0 +1,6 @@
+﻿source_id,retailer_or_source,product_title,category,availability,certifications,evidence_status,product_url
+NRCAN_SPL,Natural Resources Canada,Windows - ENERGY STAR searchable product category,Windows / doors / skylights,reference_list,ENERGY STAR / NRCan,verified,https://spl-lpi.nrcan-rncan.gc.ca/en-US/product/?product=Windows
+CCMC_REGISTRY,NRC Canada CCMC,CCMC product assessment registry,Building code assessment,reference_list,CCMC assessment,verified,https://nrc.canada.ca/en/certifications-evaluations-standards/canadian-construction-materials-centre/ccmc-publications/registry.html
+LOWES_PRODUCT_CATALOG_API,Lowe's,Lowe's Product Catalog API source,Retail product feed,api_key_required,,linked,https://developer.lowes.com/portal/business-components/Product%20Catalog/
+RONA_SUPPLIER_DOCUMENTATION,RONA,Online Product Content Guideline / Dropship vendor source,Supplier data template,public_docs,,linked,https://vendors.rona.ca/product-supplier/documentation
+ARCAT_CATALOGS,ARCAT,Building product catalogs and brochures,Manufacturer catalog directory,public_catalogs,varies by manufacturer,linked,https://www.arcat.com/content-type/catalog

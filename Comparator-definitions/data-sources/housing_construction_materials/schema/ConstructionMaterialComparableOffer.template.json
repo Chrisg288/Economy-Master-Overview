@@ -1,0 +1,145 @@
+{
+  "template_id": "ConstructionMaterialComparableOffer_v0_1",
+  "inherits_from": "BaseComparableOffer",
+  "purpose": "Common Comparator datagrid fields for housing/construction/hardware products and materials.",
+  "standard_fields": [
+    {
+      "name": "offer_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "retailer_or_source",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_title",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer_part_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "sku_or_item_no",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "category",
+      "type": "classification",
+      "grid": true
+    },
+    {
+      "name": "price",
+      "type": "currency",
+      "grid": true
+    },
+    {
+      "name": "unit_of_measure",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "package_quantity",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "availability",
+      "type": "enum",
+      "values": [
+        "in_stock",
+        "limited",
+        "special_order",
+        "unavailable",
+        "unknown"
+      ],
+      "grid": true
+    },
+    {
+      "name": "store_or_region",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "rating",
+      "type": "number",
+      "grid": true
+    },
+    {
+      "name": "review_count",
+      "type": "integer",
+      "grid": true
+    },
+    {
+      "name": "dimensions",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "weight",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "material",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "certifications",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "code_evidence",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "energy_performance",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "datasheet_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "product_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "cvu_score",
+      "type": "number",
+      "grid": true
+    }
+  ]
+}

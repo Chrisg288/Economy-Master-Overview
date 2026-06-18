@@ -1,0 +1,104 @@
+{
+  "records": [
+    {
+      "category": "Lumber & structural wood",
+      "domain": "building_materials",
+      "notes": "dimensional lumber, engineered wood, plywood, OSB"
+    },
+    {
+      "category": "Insulation",
+      "domain": "building_envelope",
+      "notes": "batts, rigid insulation, spray foam, mineral wool"
+    },
+    {
+      "category": "Windows / doors / skylights",
+      "domain": "openings",
+      "notes": "NRCan/ENERGY STAR evidence, U-factor, ER, SHGC"
+    },
+    {
+      "category": "Roofing",
+      "domain": "building_envelope",
+      "notes": "shingles, metal roofing, membranes, underlayment"
+    },
+    {
+      "category": "Siding / cladding",
+      "domain": "building_envelope",
+      "notes": "vinyl, fibre cement, metal, wood, composite"
+    },
+    {
+      "category": "Drywall & plaster",
+      "domain": "interior_finishes",
+      "notes": "gypsum board, compounds, corner bead"
+    },
+    {
+      "category": "Paint & coatings",
+      "domain": "interior_exterior_finishes",
+      "notes": "paint, primer, stains, sealers"
+    },
+    {
+      "category": "Fasteners",
+      "domain": "hardware",
+      "notes": "nails, screws, anchors, bolts, structural connectors"
+    },
+    {
+      "category": "Adhesives / sealants / caulking",
+      "domain": "chemicals",
+      "notes": "construction adhesive, silicone, polyurethane, firestop"
+    },
+    {
+      "category": "Electrical",
+      "domain": "building_systems",
+      "notes": "wire, boxes, breakers, lighting, devices"
+    },
+    {
+      "category": "Plumbing",
+      "domain": "building_systems",
+      "notes": "pipe, fittings, valves, pumps, fixtures"
+    },
+    {
+      "category": "HVAC",
+      "domain": "building_systems",
+      "notes": "furnaces, ventilation, ducting, filters, thermostats"
+    },
+    {
+      "category": "Flooring",
+      "domain": "interior_finishes",
+      "notes": "tile, laminate, vinyl plank, carpet, hardwood"
+    },
+    {
+      "category": "Concrete / masonry",
+      "domain": "site_structure",
+      "notes": "cement, rebar, block, mortar, pavers"
+    },
+    {
+      "category": "Tools",
+      "domain": "hardware_tools",
+      "notes": "hand tools, power tools, ladders, PPE"
+    },
+    {
+      "category": "Cabinetry / millwork",
+      "domain": "interior_fitout",
+      "notes": "cabinets, counters, trim, mouldings"
+    },
+    {
+      "category": "Decking / outdoor structures",
+      "domain": "exterior",
+      "notes": "deck boards, railings, fencing, landscape materials"
+    },
+    {
+      "category": "Appliances",
+      "domain": "household_equipment",
+      "notes": "Energy Star products where applicable"
+    },
+    {
+      "category": "Safety / fire protection",
+      "domain": "safety",
+      "notes": "smoke alarms, firestop, extinguishers, PPE"
+    },
+    {
+      "category": "Building code assessment",
+      "domain": "evidence",
+      "notes": "CCMC, ICC-ES, UL, CSA, ENERGY STAR evidence"
+    }
+  ]
+}

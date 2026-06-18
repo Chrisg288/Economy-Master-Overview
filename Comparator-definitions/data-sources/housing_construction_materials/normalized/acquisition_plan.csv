@@ -1,0 +1,6 @@
+﻿step,label,details
+1,Use official classification and evidence first,"Use NAPCS as classification, CCMC/ICC-ES/UL/ENERGY STAR/NRCan as evidence layers before live retail pricing."
+2,Create product class templates,"Create class templates for lumber, insulation, windows, doors, roofing, fasteners, plumbing, electrical, tools and HVAC."
+3,Use retailer APIs/portals where available,Lowe's has a Product Catalog API; Home Depot public catalog access appears supplier/third-party only; RONA/Home Hardware are mostly supplier docs/public browsing.
+4,Use paid scraping APIs carefully,SerpApi and Unwrangle can pull Home Depot/Lowe's product pages when official APIs are unavailable.
+5,Convert manufacturer catalog/spec pages,"ARCAT, Sweets and BIM platforms can supply catalogs, BIM/CAD and specification pages; convert by manufacturer/category."
