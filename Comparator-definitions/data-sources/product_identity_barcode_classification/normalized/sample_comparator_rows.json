@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "source_id": "GS1_GPC",
+      "record_type": "classification",
+      "title": "GS1 Global Product Classification standard",
+      "category": "Classification Crosswalk",
+      "availability": "public_standard_files",
+      "evidence_status": "verified",
+      "source_url": "https://www.gs1.org/standards/gpc/access-gpc-standards"
+    },
+    {
+      "source_id": "GS1_CA_ECCNET_CONTENT_API",
+      "record_type": "product_content_api",
+      "title": "GS1 Canada ECCnet Content API",
+      "category": "Product Image Evidence",
+      "availability": "membership_or_data_recipient_access_required",
+      "evidence_status": "linked",
+      "source_url": "https://gs1ca.org/content-access/"
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS",
+      "record_type": "open_product_database",
+      "title": "Open Food Facts product data",
+      "category": "Food / Grocery",
+      "availability": "open_data",
+      "evidence_status": "verified",
+      "source_url": "https://world.openfoodfacts.org/data"
+    },
+    {
+      "source_id": "OPEN_PRODUCTS_FACTS",
+      "record_type": "open_product_database",
+      "title": "Open Products Facts",
+      "category": "General Merchandise",
+      "availability": "open_data_coverage_uneven",
+      "evidence_status": "linked",
+      "source_url": "https://world.openproductsfacts.org/"
+    },
+    {
+      "source_id": "OPEN_BEAUTY_FACTS",
+      "record_type": "open_product_database",
+      "title": "Open Beauty Facts",
+      "category": "Cosmetics / Personal Care",
+      "availability": "open_data",
+      "evidence_status": "linked",
+      "source_url": "https://world.openbeautyfacts.org/"
+    },
+    {
+      "source_id": "UPCITEMDB",
+      "record_type": "barcode_lookup_api",
+      "title": "UPCitemdb barcode product lookup",
+      "category": "General Merchandise",
+      "availability": "api_tiers",
+      "evidence_status": "linked",
+      "source_url": "https://www.upcitemdb.com/"
+    },
+    {
+      "source_id": "UNSPSC",
+      "record_type": "classification",
+      "title": "UNSPSC commodity classification",
+      "category": "Procurement Goods",
+      "availability": "classification_access_varies",
+      "evidence_status": "linked",
+      "source_url": "https://www.unspsc.org/"
+    }
+  ]
+}

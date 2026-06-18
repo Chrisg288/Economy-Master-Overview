@@ -1,0 +1,202 @@
+{
+  "records": [
+    {
+      "source_id": "GS1_GPC",
+      "name": "GS1 Global Product Classification",
+      "type": "official_global_product_classification",
+      "region": "global",
+      "access": "Public browser and standard files",
+      "url": "https://www.gs1.org/standards/gpc/access-gpc-standards",
+      "best_use": "Common product-category language across food, clothing, housewares, appliances, office supplies, hardware and general merchandise.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "GS1_GPC_BROWSER",
+      "name": "GS1 GPC Browser",
+      "type": "official_classification_browser",
+      "region": "global",
+      "access": "Public browser",
+      "url": "https://gpc-browser.gs1.org/",
+      "best_use": "Browse GPC segments, families, classes, bricks and attributes.",
+      "data_fit": "classification_browser",
+      "priority": 1
+    },
+    {
+      "source_id": "GS1_CA_ECCNET_CONTENT_API",
+      "name": "GS1 Canada ECCnet Content API",
+      "type": "canadian_product_registry_api",
+      "region": "Canada",
+      "access": "GS1 Canada membership/data-recipient access likely required",
+      "url": "https://gs1ca.org/content-access/",
+      "best_use": "Canadian standardized listing data, product data and product images from ECCnet Registry.",
+      "data_fit": "product_identity_content_api",
+      "priority": 1
+    },
+    {
+      "source_id": "GS1_CA_MARKETING_CONTENT",
+      "name": "GS1 Canada ECCnet Marketing Content",
+      "type": "canadian_product_image_content",
+      "region": "Canada",
+      "access": "GS1 Canada access required",
+      "url": "https://gs1ca.org/marketing-content/",
+      "best_use": "High-quality bilingual standardized product images for retail and online use.",
+      "data_fit": "product_image_evidence",
+      "priority": 2
+    },
+    {
+      "source_id": "GS1_CA_CONTENT_CAPTURE",
+      "name": "GS1 Canada Content Capture",
+      "type": "product_data_image_capture_service",
+      "region": "Canada",
+      "access": "Service/access required",
+      "url": "https://gs1ca.org/content-capture/",
+      "best_use": "Standardized Canadian product image/data capture process and data quality model.",
+      "data_fit": "content_quality_reference",
+      "priority": 3
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS",
+      "name": "Open Food Facts",
+      "type": "open_barcode_food_database",
+      "region": "global",
+      "access": "Open data/API/bulk downloads",
+      "url": "https://world.openfoodfacts.org/data",
+      "best_use": "Large open barcode database for food, snacks, beverages, ingredients, nutrition, allergens, packaging and images.",
+      "data_fit": "open_product_identity_records",
+      "priority": 1
+    },
+    {
+      "source_id": "OPEN_FOOD_FACTS_API",
+      "name": "Open Food Facts API",
+      "type": "open_product_api",
+      "region": "global",
+      "access": "Open API",
+      "url": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/",
+      "best_use": "Barcode/product lookup and contribution API for food product facts.",
+      "data_fit": "open_product_api",
+      "priority": 1
+    },
+    {
+      "source_id": "OPEN_PRODUCTS_FACTS",
+      "name": "Open Products Facts",
+      "type": "open_non_food_product_database",
+      "region": "global",
+      "access": "Open data/API; coverage uneven",
+      "url": "https://world.openproductsfacts.org/",
+      "best_use": "Experimental open barcode/product source for non-food general merchandise.",
+      "data_fit": "open_product_identity_records",
+      "priority": 2
+    },
+    {
+      "source_id": "OPEN_BEAUTY_FACTS",
+      "name": "Open Beauty Facts",
+      "type": "open_cosmetics_personal_care_database",
+      "region": "global",
+      "access": "Open data/API",
+      "url": "https://world.openbeautyfacts.org/",
+      "best_use": "Cosmetics and personal-care product identity and ingredient data.",
+      "data_fit": "open_product_identity_records",
+      "priority": 2
+    },
+    {
+      "source_id": "OPEN_PET_FOOD_FACTS",
+      "name": "Open Pet Food Facts",
+      "type": "open_pet_product_database",
+      "region": "global",
+      "access": "Open data/API",
+      "url": "https://world.openpetfoodfacts.org/",
+      "best_use": "Pet food and pet product facts where available.",
+      "data_fit": "open_product_identity_records",
+      "priority": 3
+    },
+    {
+      "source_id": "UPCITEMDB",
+      "name": "UPCitemdb",
+      "type": "barcode_product_database_api",
+      "region": "global",
+      "access": "Public search/API tiers",
+      "url": "https://www.upcitemdb.com/",
+      "best_use": "UPC/EAN product lookup for general merchandise, office supplies, housewares and consumer goods.",
+      "data_fit": "barcode_lookup",
+      "priority": 3
+    },
+    {
+      "source_id": "GO_UPC",
+      "name": "Go-UPC",
+      "type": "barcode_product_api",
+      "region": "global",
+      "access": "Free/paid API tiers",
+      "url": "https://go-upc.com/",
+      "best_use": "Barcode product lookup by UPC/EAN/ISBN for consumer goods.",
+      "data_fit": "barcode_lookup",
+      "priority": 3
+    },
+    {
+      "source_id": "BARCODE_LOOKUP",
+      "name": "Barcode Lookup",
+      "type": "barcode_product_api",
+      "region": "global",
+      "access": "Paid API/free lookup tiers",
+      "url": "https://www.barcodelookup.com/api",
+      "best_use": "Barcode/product lookup API for many consumer product categories.",
+      "data_fit": "barcode_lookup",
+      "priority": 4
+    },
+    {
+      "source_id": "BIG_PRODUCT_DATA",
+      "name": "Big Product Data API",
+      "type": "large_barcode_product_database_api",
+      "region": "global",
+      "access": "RapidAPI / paid API",
+      "url": "https://rapidapi.com/bigproductdata/api/big-product-data",
+      "best_use": "Large UPC/GTIN/EAN/ISBN lookup source for product identity enrichment.",
+      "data_fit": "barcode_lookup",
+      "priority": 4
+    },
+    {
+      "source_id": "FOODREPO",
+      "name": "FoodRepo",
+      "type": "open_barcoded_food_repository",
+      "region": "Switzerland / reference",
+      "access": "API / open-source license described in paper",
+      "url": "https://www.foodrepo.org/",
+      "best_use": "Open food repository model and API reference for barcoded product datasets.",
+      "data_fit": "open_product_identity_reference",
+      "priority": 4
+    },
+    {
+      "source_id": "UNSPSC",
+      "name": "UNSPSC commodity classification",
+      "type": "global_commodity_classification",
+      "region": "global",
+      "access": "Public classification browser/download options vary",
+      "url": "https://www.unspsc.org/",
+      "best_use": "Procurement classification for office supplies, general goods, services and business products.",
+      "data_fit": "procurement_classification",
+      "priority": 2
+    },
+    {
+      "source_id": "NAPCS_CANADA_2022",
+      "name": "NAPCS Canada 2022",
+      "type": "official_canadian_product_classification",
+      "region": "Canada",
+      "access": "Already packaged in project",
+      "url": "https://www.statcan.gc.ca/en/subjects/standard/napcs/2022/index",
+      "best_use": "Canadian product and service classification backbone.",
+      "data_fit": "classification",
+      "priority": 1
+    },
+    {
+      "source_id": "ENERGY_STAR_PRODUCT_FINDER",
+      "name": "ENERGY STAR Product Finder datasets",
+      "type": "certified_product_datasets",
+      "region": "US/Canada reference",
+      "access": "Public datasets/API/CSV exports",
+      "url": "https://www.energystar.gov/productfinder/advanced",
+      "best_use": "Certified appliances, electronics and household equipment performance evidence.",
+      "data_fit": "certification_evidence",
+      "priority": 2
+    }
+  ]
+}

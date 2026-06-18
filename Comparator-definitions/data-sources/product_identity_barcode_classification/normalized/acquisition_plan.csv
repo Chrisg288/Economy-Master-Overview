@@ -1,0 +1,6 @@
+﻿step,label,details
+1,Use classification as backbone,"Use NAPCS for Canadian/economic classification, GS1 GPC for retail/product categories, and UNSPSC for procurement categories."
+2,Use open barcode databases first,Open Food Facts is the strongest open barcode source. Open Products/Beauty/Pet Food Facts add non-food categories but coverage varies.
+3,Use GS1 Canada where access is possible,"ECCnet is likely the most valuable Canadian product-content source, but it requires proper access. Treat it as a high-value target."
+4,Use paid barcode APIs only as enrichment,"UPCitemdb, Go-UPC, Barcode Lookup and Big Product Data can fill product identity gaps, but should not replace official/open sources."
+5,Create identity-to-offer linkage,"Separate ProductIdentity records from RetailOffer rows. The same barcode/GTIN can map to many sellers, stores, prices and availability snapshots."

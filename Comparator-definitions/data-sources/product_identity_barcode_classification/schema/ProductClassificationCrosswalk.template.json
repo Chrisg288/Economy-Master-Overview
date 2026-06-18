@@ -1,0 +1,62 @@
+{
+  "template_id": "ProductClassificationCrosswalk_v0_1",
+  "purpose": "Crosswalk between NAPCS, GS1 GPC, UNSPSC and Comparator user-facing categories.",
+  "fields": [
+    {
+      "name": "crosswalk_id",
+      "type": "text"
+    },
+    {
+      "name": "comparator_category",
+      "type": "text"
+    },
+    {
+      "name": "napcs_code",
+      "type": "text"
+    },
+    {
+      "name": "gpc_segment",
+      "type": "text"
+    },
+    {
+      "name": "gpc_family",
+      "type": "text"
+    },
+    {
+      "name": "gpc_class",
+      "type": "text"
+    },
+    {
+      "name": "gpc_brick",
+      "type": "text"
+    },
+    {
+      "name": "unspsc_segment",
+      "type": "text"
+    },
+    {
+      "name": "unspsc_family",
+      "type": "text"
+    },
+    {
+      "name": "relationship",
+      "type": "enum",
+      "values": [
+        "exact",
+        "broader",
+        "narrower",
+        "related",
+        "manual_review"
+      ]
+    },
+    {
+      "name": "confidence",
+      "type": "enum",
+      "values": [
+        "high",
+        "medium",
+        "low"
+      ]
+    }
+  ]
+}

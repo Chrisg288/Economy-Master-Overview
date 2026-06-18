@@ -1,0 +1,117 @@
+{
+  "template_id": "ProductIdentityRecord_v0_1",
+  "purpose": "Shared product identity layer for Comparator records across food, general merchandise, office supplies, housewares, clothing, hardware and appliances.",
+  "fields": [
+    {
+      "name": "identity_id",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "source_id",
+      "type": "source_ref",
+      "grid": true
+    },
+    {
+      "name": "gtin_upc_ean",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "brand",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "manufacturer_or_owner",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "product_name",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "variant",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "net_content",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "package_quantity",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gpc_code",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "gpc_brick",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "napcs_code",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "unspsc_code",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "category_path",
+      "type": "text",
+      "grid": true
+    },
+    {
+      "name": "ingredients_or_materials",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "attributes_json",
+      "type": "json",
+      "grid": false
+    },
+    {
+      "name": "image_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "source_url",
+      "type": "url",
+      "grid": false
+    },
+    {
+      "name": "license_or_access_notes",
+      "type": "text",
+      "grid": false
+    },
+    {
+      "name": "evidence_status",
+      "type": "enum",
+      "values": [
+        "none",
+        "claimed",
+        "linked",
+        "verified"
+      ],
+      "grid": true
+    },
+    {
+      "name": "last_checked",
+      "type": "date",
+      "grid": true
+    }
+  ]
+}

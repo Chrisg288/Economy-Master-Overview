@@ -1,0 +1,8 @@
+﻿source_id,record_type,title,category,availability,evidence_status,source_url
+GS1_GPC,classification,GS1 Global Product Classification standard,Classification Crosswalk,public_standard_files,verified,https://www.gs1.org/standards/gpc/access-gpc-standards
+GS1_CA_ECCNET_CONTENT_API,product_content_api,GS1 Canada ECCnet Content API,Product Image Evidence,membership_or_data_recipient_access_required,linked,https://gs1ca.org/content-access/
+OPEN_FOOD_FACTS,open_product_database,Open Food Facts product data,Food / Grocery,open_data,verified,https://world.openfoodfacts.org/data
+OPEN_PRODUCTS_FACTS,open_product_database,Open Products Facts,General Merchandise,open_data_coverage_uneven,linked,https://world.openproductsfacts.org/
+OPEN_BEAUTY_FACTS,open_product_database,Open Beauty Facts,Cosmetics / Personal Care,open_data,linked,https://world.openbeautyfacts.org/
+UPCITEMDB,barcode_lookup_api,UPCitemdb barcode product lookup,General Merchandise,api_tiers,linked,https://www.upcitemdb.com/
+UNSPSC,classification,UNSPSC commodity classification,Procurement Goods,classification_access_varies,linked,https://www.unspsc.org/

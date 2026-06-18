@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "category": "Food / Grocery",
+      "source_family": "open_food_facts",
+      "notes": "barcode, brand, ingredients, nutrition, allergens, packaging"
+    },
+    {
+      "category": "Beverages",
+      "source_family": "open_food_facts",
+      "notes": "barcode, brand, nutrition, packaging, container size"
+    },
+    {
+      "category": "Cosmetics / Personal Care",
+      "source_family": "open_beauty_facts",
+      "notes": "ingredients, product claims, barcode, brand"
+    },
+    {
+      "category": "Pet Food / Pet Consumables",
+      "source_family": "open_pet_food_facts",
+      "notes": "barcode, species, ingredients, brand"
+    },
+    {
+      "category": "Housewares / Kitchenwares",
+      "source_family": "barcode_general",
+      "notes": "GTIN/UPC, brand, material, size, package quantity"
+    },
+    {
+      "category": "Office Supplies",
+      "source_family": "barcode_general_unspsc",
+      "notes": "SKU, UPC, brand, package quantity, procurement category"
+    },
+    {
+      "category": "Clothing / Accessories",
+      "source_family": "gs1_gpc_barcode",
+      "notes": "GTIN, brand, size, colour, material, gender/age group"
+    },
+    {
+      "category": "Appliances",
+      "source_family": "energy_star_gs1",
+      "notes": "model, brand, energy data, GTIN/UPC where available"
+    },
+    {
+      "category": "Hardware / Tools",
+      "source_family": "gs1_gpc_barcode",
+      "notes": "UPC, brand, dimensions, material, pack size"
+    },
+    {
+      "category": "General Merchandise",
+      "source_family": "open_products_facts_barcode",
+      "notes": "experimental open product records plus barcode APIs"
+    },
+    {
+      "category": "Procurement Goods",
+      "source_family": "unspsc_gpc",
+      "notes": "UNSPSC + GPC + supplier catalog rows"
+    },
+    {
+      "category": "Product Image Evidence",
+      "source_family": "gs1_ca_eccnet",
+      "notes": "standardized product images, image URLs, packaging images"
+    },
+    {
+      "category": "Classification Crosswalk",
+      "source_family": "napcs_gpc_unspsc",
+      "notes": "NAPCS x GPC x UNSPSC mapping"
+    },
+    {
+      "category": "Retail Offer Linkage",
+      "source_family": "retailer_api_or_manual",
+      "notes": "links product identity record to retailer offer rows"
+    }
+  ]
+}

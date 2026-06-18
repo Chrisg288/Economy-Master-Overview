@@ -1,0 +1,5 @@
+{
+  "note": "Open Food Facts has very large bulk exports. Do not commit full raw bulk downloads to GitHub. Use GitHub Releases, external storage, or processed summaries.",
+  "api_docs": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/",
+  "data_page": "https://world.openfoodfacts.org/data"
+}

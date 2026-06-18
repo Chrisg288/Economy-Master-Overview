@@ -1,0 +1,15 @@
+﻿category,source_family,notes
+Food / Grocery,open_food_facts,"barcode, brand, ingredients, nutrition, allergens, packaging"
+Beverages,open_food_facts,"barcode, brand, nutrition, packaging, container size"
+Cosmetics / Personal Care,open_beauty_facts,"ingredients, product claims, barcode, brand"
+Pet Food / Pet Consumables,open_pet_food_facts,"barcode, species, ingredients, brand"
+Housewares / Kitchenwares,barcode_general,"GTIN/UPC, brand, material, size, package quantity"
+Office Supplies,barcode_general_unspsc,"SKU, UPC, brand, package quantity, procurement category"
+Clothing / Accessories,gs1_gpc_barcode,"GTIN, brand, size, colour, material, gender/age group"
+Appliances,energy_star_gs1,"model, brand, energy data, GTIN/UPC where available"
+Hardware / Tools,gs1_gpc_barcode,"UPC, brand, dimensions, material, pack size"
+General Merchandise,open_products_facts_barcode,experimental open product records plus barcode APIs
+Procurement Goods,unspsc_gpc,UNSPSC + GPC + supplier catalog rows
+Product Image Evidence,gs1_ca_eccnet,"standardized product images, image URLs, packaging images"
+Classification Crosswalk,napcs_gpc_unspsc,NAPCS x GPC x UNSPSC mapping
+Retail Offer Linkage,retailer_api_or_manual,links product identity record to retailer offer rows
