@@ -1,0 +1,17 @@
+{
+  "package_id": "Newark_Catalog_112_1992_Comparator_v0_1",
+  "source_catalog": "Newark Electronics Catalog 112",
+  "source_year": 1992,
+  "source_pdf_filename": "NEWARK electronics all prodcts in this catalog are stocked -- Unknown -- 1992 -- fe0e36e42a031a574572b7e610dac67f -- Anna\u2019s Archive.pdf",
+  "source_page_count": 1248,
+  "sample_record_count": 158,
+  "sample_source_pages": [
+    24,
+    25,
+    26,
+    187
+  ],
+  "catalog_record_status_default": "Obsolete",
+  "product_lifecycle_status_default": "Unverified",
+  "note": "Representative hand-validated conversion pilot."
+}

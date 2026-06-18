@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HistoricalCatalogComparatorRecord",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "catalog_name": {
+      "type": "string"
+    },
+    "catalog_year": {
+      "type": "integer"
+    },
+    "catalog_record_status": {
+      "type": "string",
+      "enum": [
+        "Current",
+        "Obsolete"
+      ]
+    },
+    "catalog_status_reason": {
+      "type": "string"
+    },
+    "product_lifecycle_status": {
+      "type": "string",
+      "enum": [
+        "Current",
+        "Discontinued",
+        "Obsolete",
+        "Replacement Available",
+        "Unverified"
+      ]
+    },
+    "price_status": {
+      "type": "string",
+      "enum": [
+        "Current",
+        "Historical",
+        "Unknown"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "newark_stock_no": {
+      "type": "string"
+    },
+    "manufacturer_part_no_or_type": {
+      "type": "string"
+    },
+    "historical_price_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "source_pdf_page": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "source_printed_page": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "extraction_confidence": {
+      "type": "string",
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    }
+  },
+  "required": [
+    "record_id",
+    "catalog_name",
+    "catalog_year",
+    "catalog_record_status",
+    "product_lifecycle_status",
+    "product_name",
+    "newark_stock_no"
+  ]
+}

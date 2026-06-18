@@ -1,0 +1,86 @@
+{
+  "catalog": "Newark Electronics Catalog 112",
+  "year": 1992,
+  "sections": [
+    {
+      "section": 1,
+      "label": "Military Products Index, Semiconductors, Publications",
+      "printed_pages": "1-149"
+    },
+    {
+      "section": 2,
+      "label": "LEDs, Displays, Optoelectronics, Static Control Products",
+      "printed_pages": "150-185"
+    },
+    {
+      "section": 3,
+      "label": "Resistors, Potentiometers, Thermistors",
+      "printed_pages": "186-237"
+    },
+    {
+      "section": 4,
+      "label": "Capacitors, Filters, Inductors",
+      "printed_pages": "238-307"
+    },
+    {
+      "section": 5,
+      "label": "Switches, Sensors, Knobs, Timers, Counters",
+      "printed_pages": "308-406"
+    },
+    {
+      "section": 6,
+      "label": "Relays, Contactors, Solenoids",
+      "printed_pages": "407-488"
+    },
+    {
+      "section": 7,
+      "label": "Transformers, Power Conditioners, Surge Suppressors, Circuit Breakers, Fuses, Batteries",
+      "printed_pages": "489-573"
+    },
+    {
+      "section": 8,
+      "label": "Connectors, Terminal Blocks, Sockets, Test Leads, Circuit Boards, PCB Hardware",
+      "printed_pages": "574-813"
+    },
+    {
+      "section": 9,
+      "label": "Wire and Cable, Heat Shrink Tubing",
+      "printed_pages": "814-882"
+    },
+    {
+      "section": 10,
+      "label": "Computer and Telephone Accessories, Fiber Optics, Wiring Hardware",
+      "printed_pages": "883-981"
+    },
+    {
+      "section": 11,
+      "label": "Indicators, Lamps",
+      "printed_pages": "982-1006"
+    },
+    {
+      "section": 12,
+      "label": "Chemicals, Hardware, Lighting, Fans, Cabinets",
+      "printed_pages": "1007-1063"
+    },
+    {
+      "section": 13,
+      "label": "Tools, Solder Equipment",
+      "printed_pages": "1064-1122"
+    },
+    {
+      "section": 14,
+      "label": "Test Instruments, Panel Meters, Audio Equipment",
+      "printed_pages": "1123-1179"
+    },
+    {
+      "section": 15,
+      "label": "Product Index",
+      "printed_pages": "1180-1195"
+    },
+    {
+      "section": 16,
+      "label": "Manufacturers Index",
+      "printed_pages": "1196-1200"
+    }
+  ]
+}
