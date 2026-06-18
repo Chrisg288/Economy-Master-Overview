@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "source_id": "BEST_BUY_PRODUCTS_API",
+      "required_key": "BESTBUY_API_KEY",
+      "url": "https://developer.bestbuy.com/apis",
+      "notes": "Full products API for over one million current/historical products; pricing/specs/images."
+    },
+    {
+      "source_id": "CANADIAN_TIRE_DEVELOPER",
+      "required_key": "CANADIAN_TIRE_API_KEY",
+      "url": "https://developer.cantire.com/",
+      "notes": "Canadian Tire API portal; requires developer registration/access key."
+    },
+    {
+      "source_id": "NEWARK_PRODUCT_SEARCH_API",
+      "required_key": "E14_API_KEY",
+      "url": "https://partner.element14.com/docs",
+      "notes": "Newark/element14 product search API."
+    },
+    {
+      "source_id": "LOWES_PRODUCT_CATALOG_API",
+      "required_key": "LOWES_API_KEY",
+      "url": "https://developer.lowes.com/portal/business-components/Product%20Catalog/",
+      "notes": "Lowe's product catalog API; access path."
+    },
+    {
+      "source_id": "STAPLES_EPROCUREMENT",
+      "required_key": "BUSINESS_ACCOUNT_OR_PUNCHOUT",
+      "url": "https://www.staplesadvantage.com/learn/eprocurement-integrations",
+      "notes": "Staples PunchOut/eProcurement/catalog integration."
+    },
+    {
+      "source_id": "GS1_CANADA_ECCNET",
+      "required_key": "GS1_CANADA_ACCESS",
+      "url": "https://gs1ca.org/content-access/",
+      "notes": "Canadian product identity/content/image registry access."
+    },
+    {
+      "source_id": "INGRAM_MICRO_FEEDS",
+      "required_key": "INGRAM_RESELLER_ACCESS",
+      "url": "https://developer.ingrammicro.com/reseller/api-documentation/United_States",
+      "notes": "IT distributor APIs and flat files."
+    },
+    {
+      "source_id": "TD_SYNNEX_APIS",
+      "required_key": "TD_SYNNEX_ACCESS",
+      "url": "https://www.tdsynnex.com/ion/v3api/",
+      "notes": "IT distributor product APIs."
+    }
+  ]
+}

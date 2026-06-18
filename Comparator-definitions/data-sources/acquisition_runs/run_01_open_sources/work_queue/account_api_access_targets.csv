@@ -1,0 +1,9 @@
+﻿notes,required_key,source_id,url
+Full products API for over one million current/historical products; pricing/specs/images.,BESTBUY_API_KEY,BEST_BUY_PRODUCTS_API,https://developer.bestbuy.com/apis
+Canadian Tire API portal; requires developer registration/access key.,CANADIAN_TIRE_API_KEY,CANADIAN_TIRE_DEVELOPER,https://developer.cantire.com/
+Newark/element14 product search API.,E14_API_KEY,NEWARK_PRODUCT_SEARCH_API,https://partner.element14.com/docs
+Lowe's product catalog API; access path.,LOWES_API_KEY,LOWES_PRODUCT_CATALOG_API,https://developer.lowes.com/portal/business-components/Product%20Catalog/
+Staples PunchOut/eProcurement/catalog integration.,BUSINESS_ACCOUNT_OR_PUNCHOUT,STAPLES_EPROCUREMENT,https://www.staplesadvantage.com/learn/eprocurement-integrations
+Canadian product identity/content/image registry access.,GS1_CANADA_ACCESS,GS1_CANADA_ECCNET,https://gs1ca.org/content-access/
+IT distributor APIs and flat files.,INGRAM_RESELLER_ACCESS,INGRAM_MICRO_FEEDS,https://developer.ingrammicro.com/reseller/api-documentation/United_States
+IT distributor product APIs.,TD_SYNNEX_ACCESS,TD_SYNNEX_APIS,https://www.tdsynnex.com/ion/v3api/

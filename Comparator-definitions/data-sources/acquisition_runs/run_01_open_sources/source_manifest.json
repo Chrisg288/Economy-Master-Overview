@@ -1,0 +1,8 @@
+{
+  "package_id": "Comparator_Catalog_Acquisition_Run_01_Open_Sources_v0_1",
+  "source_count": 8,
+  "private_or_account_source_count": 8,
+  "pdf_parse_queue_count": 4,
+  "has_github_action": true,
+  "default_downloads_are_keyless": true
+}

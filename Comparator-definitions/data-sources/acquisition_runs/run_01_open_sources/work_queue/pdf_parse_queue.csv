@@ -1,0 +1,5 @@
+﻿normalized_target,notes,parse_priority,source_id
+fastenal_fastener_reference_tables.csv,"Extract mechanical properties, grade tables, fastener specs.",1,FASTENAL_FASTENER_REFERENCE_GUIDE
+accuride_drawer_slide_models.csv,"Extract model, extension, load rating, mounting, length and application.",1,ACCURIDE_DRAWER_SLIDE_CATALOG
+blum_hinges_lift_systems_runners.csv,"Extract product line, hardware type, application, dimensions, technical attributes.",1,BLUM_CATALOGUE_2024_2025
+richelieu_cabinet_hardware_categories.csv,Extract catalog/category metadata and product families.,1,RICHELIEU_CATALOG_LIBRARY

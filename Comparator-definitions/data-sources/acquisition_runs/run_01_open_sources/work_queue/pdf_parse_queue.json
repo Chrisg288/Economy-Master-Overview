@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "source_id": "FASTENAL_FASTENER_REFERENCE_GUIDE",
+      "normalized_target": "fastenal_fastener_reference_tables.csv",
+      "parse_priority": 1,
+      "notes": "Extract mechanical properties, grade tables, fastener specs."
+    },
+    {
+      "source_id": "ACCURIDE_DRAWER_SLIDE_CATALOG",
+      "normalized_target": "accuride_drawer_slide_models.csv",
+      "parse_priority": 1,
+      "notes": "Extract model, extension, load rating, mounting, length and application."
+    },
+    {
+      "source_id": "BLUM_CATALOGUE_2024_2025",
+      "normalized_target": "blum_hinges_lift_systems_runners.csv",
+      "parse_priority": 1,
+      "notes": "Extract product line, hardware type, application, dimensions, technical attributes."
+    },
+    {
+      "source_id": "RICHELIEU_CATALOG_LIBRARY",
+      "normalized_target": "richelieu_cabinet_hardware_categories.csv",
+      "parse_priority": 1,
+      "notes": "Extract catalog/category metadata and product families."
+    }
+  ]
+}
