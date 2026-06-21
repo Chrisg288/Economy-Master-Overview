@@ -1,23 +1,51 @@
-# Economy Master Overview v2.10.3 Workspace
+# Economy Master Overview v1.9.1 — Context Ribbon + Preserved Tree
 
-Focused repair over v2.10.2.
+This repair keeps the unified ribbon but restores the correct tree behavior.
 
-## Changes
+## Main correction
 
-- TreeView Delete now opens a confirmation popup instead of only showing a protected-node alert.
-- For local/browser-created TreeView nodes, popup offers:
-  - Delete Local — This Tree
-  - Delete Local — Every Tree
-  - Cancel
-- Base/external sector taxonomy nodes remain protected from deletion.
-- TreeView data, center-panel layout, datagrid behavior, workspace editor, import/export, and v2.10.2 layout repair are preserved.
-
-## GitHub Pages
-
-Upload the contents so `index.html` is at the repository root.
-
-Forced reload URL:
+The context buttons now act as **lenses**, not TreeView replacements.
 
 ```text
-https://chrisg288.github.io/Economy-Master-Overview/?v=2_10_3_delete_local_choices
+Sector × Scope × Overlay × Tool
+```
+
+does **not** delete or replace the tree.
+
+The Context Tree View now uses a single preserved root:
+
+```text
+Economy Master Context Tree
+```
+
+and includes:
+
+```text
+Economy Overview / Whole System Map
+Human / Consumer / Household
+Market / Exchange
+Business / Commercial
+Finance / Capital
+Government / Public
+Cross-Sector Overlays / Layers
+Activity Tools / Workspaces
+    Comparator
+    Simulation
+    Credits / Value Assessment
+    Objects
+```
+
+## Preservation rule
+
+Do not remove TreeView nodes unless explicitly requested.
+
+Future interface changes should patch the current working file rather than rebuilding from an older prototype base.
+
+## Upload
+
+Upload/replace these files at the repo root:
+
+```text
+index.html
+README.md
 ```

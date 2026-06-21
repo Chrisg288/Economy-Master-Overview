@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Economy Master Overview Prototype v1.9 — Context Ribbon</title>
+<title>Economy Master Overview Prototype v1.9.1 — Context Ribbon + Preserved Tree</title>
 <style>
   :root {
     --bg: #edf3f8;
@@ -1469,7 +1469,7 @@
       <div class="logo"></div>
       <div>
         <div class="brand-title">Economy Master Overview</div>
-        <div class="brand-subtitle">Prototype v1.9 — unified context ribbon, deep tree, compact inspector, Comparator-ready data context</div>
+        <div class="brand-subtitle">Prototype v1.9.1 — unified context ribbon, preserved full tree, compact inspector, Comparator-ready data context</div>
       </div>
     </div>
     <div class="header-tools">
@@ -1699,8 +1699,8 @@ const trees = {
 
 let currentMode = 'human';
 let selectedNode = trees.human.children[1];
-let selectedPath = ['Human / Consumer / Household','Life Domains'];
-let expandedPaths = new Set(['Human / Consumer / Household','Human / Consumer / Household / Life Domains']);
+let selectedPath = ['Economy Master Context Tree','Human / Consumer / Household','Life Domains'];
+let expandedPaths = new Set(['Economy Master Context Tree','Economy Master Context Tree / Human / Consumer / Household','Economy Master Context Tree / Human / Consumer / Household / Life Domains']);
 let activeDomainIndex = 3;
 let currentScope = 'Personal';
 let currentOverlay = 'Law / Rights / Regulation';
@@ -1906,6 +1906,7 @@ function saveActiveBid(){
 
 function init(){
   setActiveComparatorTree();
+  setSelectedToPreservedDefault();
   renderTopbar();
   renderTree();
   syncDomainToTreeSelection(selectedPath, selectedNode);
@@ -1921,6 +1922,65 @@ function init(){
     });
   });
 }
+
+
+function cloneTreeNode(node){
+  return JSON.parse(JSON.stringify(node));
+}
+
+function contextTreeRoot(){
+  /*
+    v1.9.1 preservation rule:
+    Context buttons must NOT replace or shrink the TreeView.
+    The tree shown here is a single full-depth context tree composed from all existing sector and tool trees.
+    Sector / Scope / Overlay / Tool are context lenses only.
+  */
+  const children = [];
+
+  // Keep the original sector roots with their full children.
+  ['human','market','business','finance','government'].forEach(k => {
+    if(trees[k]) children.push(cloneTreeNode(trees[k]));
+  });
+
+  // Preserve cross-sector overlays/layers as real visible branches, not top-sector replacements.
+  const overlayChildren = ['law','security','infrastructure','resources','information']
+    .filter(k => trees[k])
+    .map(k => cloneTreeNode(trees[k]));
+  if(overlayChildren.length){
+    children.push({text:'Cross-Sector Overlays / Layers', icon:'☷', type:'OverlaySet', children: overlayChildren});
+  }
+
+  // Preserve all tool trees, including the large Comparator tree.
+  const toolChildren = ['comparator','simulation','credits','objects']
+    .filter(k => trees[k])
+    .map(k => cloneTreeNode(trees[k]));
+  if(toolChildren.length){
+    children.push({text:'Activity Tools / Workspaces', icon:'✦', type:'ToolSet', children: toolChildren});
+  }
+
+  // Keep the previous economy overview available, but do not let it replace the full tree.
+  if(trees.economy){
+    children.unshift({text:'Economy Overview / Whole System Map', icon:'◎', type:'WholeSystemMap', children: cloneTreeNode(trees.economy).children || []});
+  }
+
+  return {text:'Economy Master Context Tree', icon:'◎', type:'PreservedRoot', children};
+}
+
+function setSelectedToPreservedDefault(){
+  const root = contextTreeRoot();
+  const preferredPath = ['Economy Master Context Tree','Human / Consumer / Household','Life Domains'];
+  const preferred = findNodeByPathArray(root, preferredPath);
+  selectedNode = preferred || root;
+  selectedPath = preferred ? preferredPath : [root.text];
+  expandedPaths = new Set([
+    'Economy Master Context Tree',
+    'Economy Master Context Tree / Human / Consumer / Household',
+    'Economy Master Context Tree / Human / Consumer / Household / Life Domains',
+    'Economy Master Context Tree / Activity Tools / Workspaces',
+    'Economy Master Context Tree / Activity Tools / Workspaces / Comparator'
+  ]);
+}
+
 
 function renderTopbar(){
   const bar = document.getElementById('topbar');
@@ -1989,14 +2049,14 @@ function modeButton(m, contextKind){
   const wide = m.label.length > 22 ? ' wide' : ' compact';
   b.className='modeBtn '+m.kind+(m.id===currentMode?' active':'')+wide;
   b.innerHTML=`<span>${m.icon}</span><span>${m.label}</span>`;
-  b.onclick=()=>{ currentMode=m.id; selectedNode=trees[currentMode]; selectedPath=[trees[currentMode].text]; expandedPaths=new Set([selectedPath.join('/')]); renderTopbar(); renderTree(); renderWorkspace(); renderInspector(); };
+  b.onclick=()=>{ currentMode=m.id; renderTopbar(); renderTree(); renderWorkspace(); renderInspector(); };
   return b;
 }
 
 function renderTree(){
 
-  const root = trees[currentMode];
-  document.getElementById('treeModeLabel').textContent = '— ' + modeLabel(currentMode);
+  const root = contextTreeRoot();
+  document.getElementById('treeModeLabel').textContent = '— full preserved tree; context = ' + modeLabel(currentMode);
   const q = document.getElementById('treeSearch').value.trim().toLowerCase();
   const wrap=document.getElementById('tree');
   wrap.innerHTML='';
@@ -2032,8 +2092,8 @@ function iconForType(t){
   return map[t] || '□';
 }
 function modeLabel(id){ return modes.find(m=>m.id===id).label; }
-function expandAll(){ collectPaths(trees[currentMode], [trees[currentMode].text]).forEach(p=>expandedPaths.add(p)); renderTree(); }
-function collapseAll(){ expandedPaths = new Set([trees[currentMode].text]); renderTree(); }
+function expandAll(){ const root=contextTreeRoot(); collectPaths(root, [root.text]).forEach(p=>expandedPaths.add(p)); renderTree(); }
+function collapseAll(){ const root=contextTreeRoot(); expandedPaths = new Set([root.text]); renderTree(); }
 function collectPaths(node,path){ let arr=[path.join('/')]; (node.children||[]).forEach(ch=>arr=arr.concat(collectPaths(ch,[...path,ch.text]))); return arr; }
 
 function renderWorkspace(){
@@ -2041,13 +2101,13 @@ function renderWorkspace(){
   document.getElementById('contextTitle').textContent = selectedNode.text;
   document.getElementById('contextPath').textContent = path;
   document.getElementById('matrixBadge').textContent = modeLabel(currentMode).toUpperCase() + ' × ' + currentScope.toUpperCase() + ' × ' + selectedNode.type;
-  document.getElementById('statusPath').textContent = 'Context: ' + modeLabel(currentMode) + ' × ' + currentScope + ' × ' + currentOverlay + ' | Tree path: ' + path;
+  document.getElementById('statusPath').textContent = 'Context lens: ' + modeLabel(currentMode) + ' × ' + currentScope + ' × ' + currentOverlay + ' | Preserved tree path: ' + path;
   document.getElementById('statusSelected').textContent = selectedNode.text;
   const c=document.getElementById('canvas');
   const dataCtx=currentDataContext();
   if(dataCtx){ c.innerHTML=liveComparatorGrid(dataCtx); return; }
   if(currentMode==='human' && (selectedNode.text==='Human / Consumer / Household' || selectedNode.text==='Personal Value Dashboard' || selectedNode.type==='LifeDomain' || selectedPath.join('/').endsWith('Life Domains'))){ c.innerHTML=humanDashboard(); placeDots(); return; }
-  if(currentMode==='economy' && selectedNode.text==='Economy'){ c.innerHTML=economyOverview(); return; }
+  if(selectedNode.text==='Economy Master Context Tree' || (currentMode==='economy' && selectedNode.text==='Economy')){ c.innerHTML=economyOverview(); return; }
   if(currentMode==='business' && (selectedPath.includes('Department Swimlanes') || selectedNode.type==='Department')){ c.innerHTML=departmentDiagram(); return; }
   if(currentMode==='comparator'){ c.innerHTML=activeComparatorGrid(); return; }
   if(currentMode==='simulation'){ c.innerHTML=simulationDiagram(); return; }
@@ -2071,7 +2131,7 @@ function economyOverview(){
     return `<div class="sectorCard" onclick="switchMode('${id}')"><div class="kicker">Economy Sector</div><h3>${m.icon} ${m.label}</h3><p>${desc[id]}</p><div class="minirow"><span class="chip">Tree</span><span class="chip">Objects</span><span class="chip">Simulation-ready</span></div></div>`
   }).join('')}</div>`;
 }
-window.switchMode=(id)=>{ currentMode=id; selectedNode=trees[id]; selectedPath=[trees[id].text]; expandedPaths=new Set([selectedPath.join('/')]); syncDomainToTreeSelection(selectedPath, selectedNode); renderTopbar(); renderTree(); renderWorkspace(); renderInspector(); };
+window.switchMode=(id)=>{ currentMode=id; syncDomainToTreeSelection(selectedPath, selectedNode); renderTopbar(); renderTree(); renderWorkspace(); renderInspector(); };
 
 const lifeDomains = [
   { short:'Air', full:'Air', pressure:'low', need:['Clean air','Ventilation','Indoor quality','Smoke / dust exposure'], compare:['Filters','Ventilation choices','Location exposure','Air-quality data'], risk:['Pollution','Mold','Smoke','Respiratory stress'], act:['Monitor conditions','Improve ventilation','Compare filters','Update profile'] },
@@ -2507,7 +2567,7 @@ function creditsHeatmap(){
 }
 function objectWorkbench(){ return `<div class="priorityCard"><h2>Object Workbench</h2><p>Objects are created, edited, connected, launched into custom editors, exposed through ports, and reused across sectors/tools.</p></div><br><table class="gridTable"><thead><tr><th>Class</th><th>Purpose</th><th>Editor</th><th>Ports</th></tr></thead><tbody><tr><td>Business</td><td>Commercial model root</td><td>Business Editor</td><td>Inputs / Outputs</td></tr><tr><td>Customer Segment</td><td>Demand and behaviour profile</td><td>Segment Editor</td><td>Needs / Offers</td></tr><tr><td>Offer</td><td>Comparable product/service claim</td><td>Offer Editor</td><td>Price / Quality / Risk</td></tr><tr><td>Simulation Agent</td><td>Scenario behaviour object</td><td>Agent Editor</td><td>Events / Decisions</td></tr></tbody></table>`; }
 function genericSectorWorkspace(){
- return `<div class="overviewGrid"><div class="valueCard sectorCard"><div class="kicker">Selected Node</div><h3>${selectedNode.text}</h3><p>This center panel is the visual working surface for the selected sector/tool and tree node.</p><div class="minirow"><span class="chip">${selectedNode.type}</span><span class="chip">Visual layout</span><span class="chip">Object aware</span></div></div><div class="valueCard sectorCard"><div class="kicker">Matrix Rule</div><h3>${modeLabel(currentMode)} × ${selectedNode.text}</h3><p>The context ribbon sets Sector, Scope, Overlay, and Tool. The TreeView selects the classification node. The center panel changes to the appropriate view for that matrix context.</p></div><div class="valueCard sectorCard"><div class="kicker">Next Interfaces</div><h3>Graph / Grid / Swimlane</h3><p>This node can later open a dashboard, typed datagrid, simulation graph, object editor, or custom popup.</p></div></div>`;
+ return `<div class="overviewGrid"><div class="valueCard sectorCard"><div class="kicker">Selected Node</div><h3>${selectedNode.text}</h3><p>This center panel is the visual working surface for the selected sector/tool and tree node.</p><div class="minirow"><span class="chip">${selectedNode.type}</span><span class="chip">Visual layout</span><span class="chip">Object aware</span></div></div><div class="valueCard sectorCard"><div class="kicker">Matrix Rule</div><h3>${modeLabel(currentMode)} × ${selectedNode.text}</h3><p>The context ribbon sets Sector, Scope, Overlay, and Tool as lenses. It does not replace, shrink, or delete the Context Tree View. The TreeView remains full-depth and selects the classification node.</p></div><div class="valueCard sectorCard"><div class="kicker">Next Interfaces</div><h3>Graph / Grid / Swimlane</h3><p>This node can later open a dashboard, typed datagrid, simulation graph, object editor, or custom popup.</p></div></div>`;
 }
 
 function renderInspector(){
