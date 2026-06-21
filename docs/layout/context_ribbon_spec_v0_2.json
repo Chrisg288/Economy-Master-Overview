@@ -1,0 +1,73 @@
+{
+  "version": "0.2",
+  "principle": "One compact context ribbon groups Sector, Scope, Overlay, and Tool controls into one visual band while preserving their separate logical dimensions.",
+  "button_groups": [
+    {
+      "group_id": "sectors",
+      "label": "Sector",
+      "buttons": [
+        "Human / Consumer",
+        "Market / Exchange",
+        "Business / Commercial",
+        "Finance / Capital",
+        "Government / Public"
+      ],
+      "selection": "single"
+    },
+    {
+      "group_id": "scope",
+      "label": "Scope",
+      "buttons": [
+        "International",
+        "National",
+        "Provincial / State",
+        "Municipal",
+        "Organizational",
+        "Personal"
+      ],
+      "selection": "single"
+    },
+    {
+      "group_id": "overlays",
+      "label": "Overlay",
+      "buttons": [
+        "Law / Rights / Regulation",
+        "Security / Defense / Intelligence",
+        "Infrastructure / Logistics",
+        "Resources / Environment",
+        "Information / Records"
+      ],
+      "selection": "toggle or single primary overlay"
+    },
+    {
+      "group_id": "tools",
+      "label": "Tool",
+      "buttons": [
+        "Model",
+        "Simulate",
+        "Assess",
+        "Compare / Transact",
+        "Objects / Definitions"
+      ],
+      "selection": "single"
+    }
+  ],
+  "layout": {
+    "visual": "One ribbon container under the title bar; groups are separated by small labels and vertical dividers, not by separate horizontal strips.",
+    "height_target_px": 82,
+    "button_height_px": 22,
+    "label_width_px": 56,
+    "corner_radius": 4,
+    "active_state": "Filled blue for primary active context; pale fill for available context; disabled grey for unavailable context.",
+    "breadcrumb": "Maintain compact breadcrumb: Sector × Scope × Overlay × Tool × Classification × Object."
+  },
+  "data_binding": {
+    "selected_sector": "context.sector",
+    "selected_scope": "context.scope",
+    "selected_overlay": "context.overlay",
+    "selected_tool": "context.tool",
+    "tree_filter": "Tree remains full-depth by default; context filters what center panel and inspector show.",
+    "center_panel": "Selected node rendered through selected tool and context.",
+    "inspector": "Compact class-aware property panel."
+  }
+}
