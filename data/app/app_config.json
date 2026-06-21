@@ -1,0 +1,12 @@
+{
+  "app_title": "Economy Master Interface v2.10.6 Workspace",
+  "version": "2.10.6",
+  "layout_line": "v2.10 body + compact context ribbon + modular JSON data",
+  "preservation_rule": "Do not remove TreeView nodes unless explicitly requested. Patch this v2.10 line directly.",
+  "data_files": {
+    "tree": "data/app/tree_nodes.json",
+    "ribbon": "data/app/context_ribbon.json",
+    "sources": "data/app/source_inventory.json",
+    "records": "data/app/sample_records.json"
+  }
+}

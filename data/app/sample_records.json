@@ -1,0 +1,34 @@
+[
+  {
+    "uid": "REC-SAMPLE-0001",
+    "source_uid": "SRC-0101",
+    "vendor": "Faucher",
+    "category_path": "Truck Body Hardware / Handles",
+    "product_name": "Locking L handle",
+    "record_status": "Unknown current status"
+  },
+  {
+    "uid": "REC-SAMPLE-0002",
+    "source_uid": "SRC-0104",
+    "vendor": "80/20 Inc.",
+    "category_path": "Modular Framing / Profiles",
+    "product_name": "T-slot aluminum profile",
+    "record_status": "Unknown current status"
+  },
+  {
+    "uid": "REC-SAMPLE-0003",
+    "source_uid": "SRC-0105",
+    "vendor": "Grote",
+    "category_path": "Vehicle Electrical / Circuit Protection",
+    "product_name": "Blade fuse category",
+    "record_status": "Reference category"
+  },
+  {
+    "uid": "REC-SAMPLE-0004",
+    "source_uid": "SRC-0004",
+    "vendor": "Statistics Canada",
+    "category_path": "Official Statistics / Labour / Education",
+    "product_name": "StatCan cube metadata record",
+    "record_status": "Imported sample"
+  }
+]

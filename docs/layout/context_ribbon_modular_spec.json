@@ -1,0 +1,36 @@
+{
+  "sectors": [
+    "Home",
+    "Human / Consumer",
+    "Market / Exchange",
+    "Business / Commercial",
+    "Finance / Capital",
+    "Public / Government"
+  ],
+  "scopes": [
+    "International",
+    "National",
+    "Provincial / State",
+    "Municipal",
+    "Organizational",
+    "Personal"
+  ],
+  "overlays": [
+    "Law / Rights / Regulation",
+    "Security / Defense / Intelligence",
+    "Infrastructure / Logistics",
+    "Resources / Environment",
+    "Information / Communication / Records",
+    "Risk / Safety / Emergency"
+  ],
+  "tools": [
+    "Swimlane",
+    "Datagrid",
+    "User Profile",
+    "Model",
+    "Simulate",
+    "Assess",
+    "Compare / Transact",
+    "Objects / Definitions"
+  ]
+}

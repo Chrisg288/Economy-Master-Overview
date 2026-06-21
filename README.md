@@ -1,14 +1,52 @@
-# Economy Master Interface v2.10 Workspace
+# Economy Master Interface v2.10.6 — Modular JSON Workspace
 
-Working layout refinement based on v2.9.
+This package fixes the problem of only shipping `index.html`.
 
-Changes in v2.10:
-- Sector / Viewpoint buttons moved into the top title row.
-- Activity Tool row is now labeled Mode Select.
-- Removed the center-panel context strip that showed Sector / Tool / Scope / Overlay / Tree Node.
-- Center swimlane/datagrid/model workspace gets more vertical space.
-- Scope and Overlay controls remain in the left context panel only.
-- Scope and Overlay buttons are visually normalized to the same size/font treatment.
-- Existing TreeView content and existing v2.9 functionality are preserved as much as possible.
+It keeps the v2.10-style layout and center graphic, keeps the compact ribbon, keeps **User Profile** as a mode, and moves tree/source data into modular JSON files.
 
-Upload the contents of this folder to the root of the GitHub Pages repository.
+## Upload to GitHub root
+
+Upload the contents of this ZIP to the repository root.
+
+It contains:
+
+```text
+index.html
+README.md
+data/app/app_config.json
+data/app/context_ribbon.json
+data/app/tree_nodes.json
+data/app/source_inventory.json
+data/app/sample_records.json
+data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.json
+data-sources/comparator_compiled/samples/comparator_sample_records_modular.json
+docs/layout/context_ribbon_modular_spec.json
+```
+
+## Key rule
+
+The ribbon is a context lens:
+
+```text
+Sector × Scope × Overlay × Tool
+```
+
+The TreeView is populated from:
+
+```text
+data/app/tree_nodes.json
+```
+
+Source/catalog/library records are populated from:
+
+```text
+data/app/source_inventory.json
+```
+
+Do not remove TreeView nodes unless explicitly requested.
+Do not rebuild from old v1.x files.
+Patch this v2.10 modular line directly.
+
+## What this does not do yet
+
+This package does not fully extract every product row from every uploaded catalog. It carries the compiled source inventory and modular loading framework so the catalog conversion can proceed in controlled runs.

@@ -1,0 +1,1452 @@
+[
+  {
+    "node_id": "home",
+    "parent_id": "",
+    "label": "Economy Home",
+    "type": "orientation",
+    "sector": "Home",
+    "meta": "orientation",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "human",
+    "parent_id": "home",
+    "label": "Human / Consumer",
+    "type": "sector-link",
+    "sector": "Human / Consumer",
+    "meta": "sector link",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "market",
+    "parent_id": "home",
+    "label": "Market / Exchange",
+    "type": "sector-link",
+    "sector": "Market / Exchange",
+    "meta": "sector link",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "business",
+    "parent_id": "home",
+    "label": "Business / Commercial",
+    "type": "sector-link",
+    "sector": "Business / Commercial",
+    "meta": "sector link",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "finance",
+    "parent_id": "home",
+    "label": "Finance / Capital",
+    "type": "sector-link",
+    "sector": "Finance / Capital",
+    "meta": "sector link",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "government",
+    "parent_id": "home",
+    "label": "Public / Government",
+    "type": "sector-link",
+    "sector": "Public / Government",
+    "meta": "sector link",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "human_profile",
+    "parent_id": "human",
+    "label": "User Profile",
+    "type": "profile",
+    "sector": "Human / Consumer",
+    "meta": "new mode target",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "profile_identity",
+    "parent_id": "human_profile",
+    "label": "Profile Identity",
+    "type": "profile-object",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "profile_needs",
+    "parent_id": "human_profile",
+    "label": "Needs / Value Priorities",
+    "type": "profile-object",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "profile_constraints",
+    "parent_id": "human_profile",
+    "label": "Constraints / Risks / Preferences",
+    "type": "profile-object",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "profile_records",
+    "parent_id": "human_profile",
+    "label": "Profile Records / Evidence",
+    "type": "profile-object",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "human_life",
+    "parent_id": "human",
+    "label": "Life Domains",
+    "type": "classification",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 6
+  },
+  {
+    "node_id": "need_air",
+    "parent_id": "human_life",
+    "label": "Air",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "need_water",
+    "parent_id": "human_life",
+    "label": "Water",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "need_food",
+    "parent_id": "human_life",
+    "label": "Food",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "need_shelter",
+    "parent_id": "human_life",
+    "label": "Shelter",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "need_clothing",
+    "parent_id": "human_life",
+    "label": "Clothing",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "need_safety",
+    "parent_id": "human_life",
+    "label": "Safety",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 6
+  },
+  {
+    "node_id": "need_health",
+    "parent_id": "human_life",
+    "label": "Health",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 7
+  },
+  {
+    "node_id": "need_transportation",
+    "parent_id": "human_life",
+    "label": "Transportation",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 8
+  },
+  {
+    "node_id": "need_communication",
+    "parent_id": "human_life",
+    "label": "Communication",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 9
+  },
+  {
+    "node_id": "need_energy",
+    "parent_id": "human_life",
+    "label": "Energy",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 10
+  },
+  {
+    "node_id": "need_income_work",
+    "parent_id": "human_life",
+    "label": "Income / Work",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 11
+  },
+  {
+    "node_id": "need_knowledge_education",
+    "parent_id": "human_life",
+    "label": "Knowledge / Education",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 12
+  },
+  {
+    "node_id": "need_recreation_entertainment",
+    "parent_id": "human_life",
+    "label": "Recreation / Entertainment",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 13
+  },
+  {
+    "node_id": "need_legal_rights",
+    "parent_id": "human_life",
+    "label": "Legal / Rights",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 14
+  },
+  {
+    "node_id": "food_nutrition",
+    "parent_id": "need_food",
+    "label": "Nutrition / Survival Food",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "food_grocery",
+    "parent_id": "need_food",
+    "label": "Grocery Products",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "food_prepared",
+    "parent_id": "need_food",
+    "label": "Prepared Food / Restaurants",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "food_storage",
+    "parent_id": "need_food",
+    "label": "Food Storage / Preservation",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "shelter_rent",
+    "parent_id": "need_shelter",
+    "label": "Rent",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "shelter_ownership",
+    "parent_id": "need_shelter",
+    "label": "Ownership",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "shelter_utilities",
+    "parent_id": "need_shelter",
+    "label": "Utilities",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "shelter_furnishings",
+    "parent_id": "need_shelter",
+    "label": "Furnishings / Housewares",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "shelter_property",
+    "parent_id": "need_shelter",
+    "label": "Property Maintenance",
+    "type": "brick",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "human_compare",
+    "parent_id": "human",
+    "label": "Comparison Sessions",
+    "type": "records",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "human_ownership",
+    "parent_id": "human",
+    "label": "Ownership / Outcome Records",
+    "type": "records",
+    "sector": "Human / Consumer",
+    "meta": "",
+    "source_uid": "",
+    "sort": 0
+  },
+  {
+    "node_id": "market_offers",
+    "parent_id": "market",
+    "label": "Offers / Listings",
+    "type": "market-object",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "market_bids",
+    "parent_id": "market",
+    "label": "Bids / Quotes / Negotiations",
+    "type": "market-object",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "market_transactions",
+    "parent_id": "market",
+    "label": "Transactions / Receipts / Contracts",
+    "type": "market-object",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "market_prices",
+    "parent_id": "market",
+    "label": "Prices / Availability / Delivery",
+    "type": "market-object",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "market_identity",
+    "parent_id": "market",
+    "label": "Product Identity / Classification",
+    "type": "market-object",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "id_napcs",
+    "parent_id": "market_identity",
+    "label": "NAPCS Canada",
+    "type": "classification",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "id_gpc",
+    "parent_id": "market_identity",
+    "label": "GS1 GPC Bricks",
+    "type": "classification",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "id_barcode",
+    "parent_id": "market_identity",
+    "label": "UPC / GTIN / Barcode Identity",
+    "type": "classification",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "id_cpe",
+    "parent_id": "market_identity",
+    "label": "NVD CPE IT Product Identity",
+    "type": "classification",
+    "sector": "Market / Exchange",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "business_type_library",
+    "parent_id": "business",
+    "label": "Business Type Library",
+    "type": "classification",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "business_model",
+    "parent_id": "business",
+    "label": "Business Model",
+    "type": "model",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "business_catalog_sources",
+    "parent_id": "business",
+    "label": "Catalog Conversion Sources",
+    "type": "data-source",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "business_historical_calibration",
+    "parent_id": "business",
+    "label": "Historical Calibration",
+    "type": "data-source",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "bt_food_businesses",
+    "parent_id": "business_type_library",
+    "label": "Food Businesses",
+    "type": "business-class",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "bt_trades_services",
+    "parent_id": "business_type_library",
+    "label": "Trades / Services",
+    "type": "business-class",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "bt_manufacturing",
+    "parent_id": "business_type_library",
+    "label": "Manufacturing",
+    "type": "business-class",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "bt_retail_distribution",
+    "parent_id": "business_type_library",
+    "label": "Retail / Distribution",
+    "type": "business-class",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "bt_professional_services",
+    "parent_id": "business_type_library",
+    "label": "Professional Services",
+    "type": "business-class",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "bm_customer_segments",
+    "parent_id": "business_model",
+    "label": "Customer Segments",
+    "type": "model-object",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "bm_offers_products_services",
+    "parent_id": "business_model",
+    "label": "Offers / Products / Services",
+    "type": "model-object",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "bm_revenue_mechanisms",
+    "parent_id": "business_model",
+    "label": "Revenue Mechanisms",
+    "type": "model-object",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "bm_department_swimlanes",
+    "parent_id": "business_model",
+    "label": "Department Swimlanes",
+    "type": "model-object",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "bm_evidence_credits",
+    "parent_id": "business_model",
+    "label": "Evidence / Credits",
+    "type": "model-object",
+    "sector": "Business / Commercial",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "catalog_priority",
+    "parent_id": "business_catalog_sources",
+    "label": "Priority Catalog Conversions",
+    "type": "source-group",
+    "sector": "Business / Commercial",
+    "meta": "Very High",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "catalog_industrial",
+    "parent_id": "business_catalog_sources",
+    "label": "Industrial / Hardware / MRO",
+    "type": "source-group",
+    "sector": "Business / Commercial",
+    "meta": "High",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "catalog_statistics",
+    "parent_id": "business_catalog_sources",
+    "label": "Statistics / Environment Data",
+    "type": "source-group",
+    "sector": "Business / Commercial",
+    "meta": "Stats",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "catalog_reference",
+    "parent_id": "business_catalog_sources",
+    "label": "Reference / Theory / Restricted",
+    "type": "source-group",
+    "sector": "Business / Commercial",
+    "meta": "Reference",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "src_src_0001",
+    "parent_id": "catalog_industrial",
+    "label": "Open Food Facts bulk database",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Open Data Bulk",
+    "source_uid": "SRC-0001",
+    "sort": 1
+  },
+  {
+    "node_id": "src_src_0002",
+    "parent_id": "catalog_industrial",
+    "label": "NAPCS Canada 2022 product classification",
+    "type": "source",
+    "sector": "Market / Exchange; Business / Commercial; Public / Government",
+    "meta": "Official Classification",
+    "source_uid": "SRC-0002",
+    "sort": 2
+  },
+  {
+    "node_id": "src_src_0003",
+    "parent_id": "catalog_industrial",
+    "label": "ISED Financial Performance Data 2024",
+    "type": "source",
+    "sector": "Business / Commercial; Finance / Capital",
+    "meta": "Official Business Financial Benchmark",
+    "source_uid": "SRC-0003",
+    "sort": 3
+  },
+  {
+    "node_id": "src_src_0004",
+    "parent_id": "catalog_statistics",
+    "label": "Statistics Canada cube downloads",
+    "type": "source",
+    "sector": "Public / Government; Human / Consumer; Market / Exchange",
+    "meta": "Official Statistical Cubes",
+    "source_uid": "SRC-0004",
+    "sort": 4
+  },
+  {
+    "node_id": "src_src_0005",
+    "parent_id": "catalog_reference",
+    "label": "GS1 GPC Browser and barcode/product identity references",
+    "type": "source",
+    "sector": "Market / Exchange; Business / Commercial",
+    "meta": "Product Identity / Classification Reference",
+    "source_uid": "SRC-0005",
+    "sort": 5
+  },
+  {
+    "node_id": "src_src_0006",
+    "parent_id": "catalog_reference",
+    "label": "NVD CPE",
+    "type": "source",
+    "sector": "Information / Records; Market / Exchange",
+    "meta": "Open Technical Classification",
+    "source_uid": "SRC-0006",
+    "sort": 6
+  },
+  {
+    "node_id": "src_src_0007",
+    "parent_id": "catalog_industrial",
+    "label": "ENERGY STAR product datasets",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange; Resources / Environment",
+    "meta": "Open Product/Efficiency Dataset",
+    "source_uid": "SRC-0007",
+    "sort": 7
+  },
+  {
+    "node_id": "src_src_0008",
+    "parent_id": "catalog_industrial",
+    "label": "NHTSA vehicle datasets",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government; Market / Exchange",
+    "meta": "Open Vehicle Dataset",
+    "source_uid": "SRC-0008",
+    "sort": 8
+  },
+  {
+    "node_id": "src_src_0100",
+    "parent_id": "catalog_priority",
+    "label": "Essentra Components Catalog Volume 14",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Industrial Component Catalog",
+    "source_uid": "SRC-0100",
+    "sort": 9
+  },
+  {
+    "node_id": "src_src_0101",
+    "parent_id": "catalog_priority",
+    "label": "Faucher complete truck-body hardware set",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Truck Body Hardware Catalog Set",
+    "source_uid": "SRC-0101",
+    "sort": 10
+  },
+  {
+    "node_id": "src_src_0102",
+    "parent_id": "catalog_priority",
+    "label": "Parker Hose, Fittings and Equipment Catalog 4400",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Fluid Power / Hose Catalog",
+    "source_uid": "SRC-0102",
+    "sort": 11
+  },
+  {
+    "node_id": "src_src_0103",
+    "parent_id": "catalog_priority",
+    "label": "Gregg Distributors Product Catalogue",
+    "type": "source",
+    "sector": "Business / Commercial; Human / Consumer; Market / Exchange",
+    "meta": "Canadian Industrial Supply Catalog",
+    "source_uid": "SRC-0103",
+    "sort": 12
+  },
+  {
+    "node_id": "src_src_0104",
+    "parent_id": "catalog_priority",
+    "label": "80/20 Catalog 20",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Modular Framing System Catalog",
+    "source_uid": "SRC-0104",
+    "sort": 13
+  },
+  {
+    "node_id": "src_src_0105",
+    "parent_id": "catalog_priority",
+    "label": "Grote Lighting Systems and Electrical Catalogs",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Vehicle Electrical / Lighting Catalog Set",
+    "source_uid": "SRC-0105",
+    "sort": 14
+  },
+  {
+    "node_id": "src_src_0106",
+    "parent_id": "catalog_industrial",
+    "label": "GPH / Nexans mechanical connectors, cable lugs and clamps",
+    "type": "source",
+    "sector": "Business / Commercial; Infrastructure / Logistics; Public / Government",
+    "meta": "Electrical Power Hardware Catalog Set",
+    "source_uid": "SRC-0106",
+    "sort": 15
+  },
+  {
+    "node_id": "src_src_0107",
+    "parent_id": "catalog_industrial",
+    "label": "Aluminum Fastener Supply Product Catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Fastener Catalog",
+    "source_uid": "SRC-0107",
+    "sort": 16
+  },
+  {
+    "node_id": "src_src_0108",
+    "parent_id": "catalog_industrial",
+    "label": "Tyrolit Specialised Precision Product Catalogue",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Abrasives / Grinding Technical Catalog",
+    "source_uid": "SRC-0108",
+    "sort": 17
+  },
+  {
+    "node_id": "src_src_0109",
+    "parent_id": "catalog_industrial",
+    "label": "Ortlieb Clamping Systems Catalogue",
+    "type": "source",
+    "sector": "Business / Commercial",
+    "meta": "Workholding / Clamping Catalog",
+    "source_uid": "SRC-0109",
+    "sort": 18
+  },
+  {
+    "node_id": "src_src_0110",
+    "parent_id": "catalog_reference",
+    "label": "KNA Fluid Power hose/fitting cross-reference",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Hydraulic Hose/Fitting Cross Reference",
+    "source_uid": "SRC-0110",
+    "sort": 19
+  },
+  {
+    "node_id": "src_src_0111",
+    "parent_id": "catalog_industrial",
+    "label": "LM Industries Product Catalogue & Technical Reference",
+    "type": "source",
+    "sector": "Business / Commercial; Infrastructure / Logistics",
+    "meta": "Vacuum / Water Truck Parts Catalog",
+    "source_uid": "SRC-0111",
+    "sort": 20
+  },
+  {
+    "node_id": "src_src_0112",
+    "parent_id": "catalog_industrial",
+    "label": "GapVax PartsExpress parts catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Infrastructure / Logistics",
+    "meta": "Vacuum Truck Parts Catalog",
+    "source_uid": "SRC-0112",
+    "sort": 21
+  },
+  {
+    "node_id": "src_src_0113",
+    "parent_id": "catalog_reference",
+    "label": "Kingfisher Welded Boat Guide",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Marine Vehicle Product Catalog",
+    "source_uid": "SRC-0113",
+    "sort": 22
+  },
+  {
+    "node_id": "src_src_0114",
+    "parent_id": "catalog_reference",
+    "label": "Harkness Rose Catalogue",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Horticulture Product Catalog",
+    "source_uid": "SRC-0114",
+    "sort": 23
+  },
+  {
+    "node_id": "src_src_0115",
+    "parent_id": "catalog_industrial",
+    "label": "Respiratory Protection Catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Human / Consumer; Public / Government",
+    "meta": "Safety PPE Catalog",
+    "source_uid": "SRC-0115",
+    "sort": 24
+  },
+  {
+    "node_id": "src_src_0116",
+    "parent_id": "catalog_reference",
+    "label": "CRC Custom Rollforming profile catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Manufacturing",
+    "meta": "Roll-formed Profile Catalog",
+    "source_uid": "SRC-0116",
+    "sort": 25
+  },
+  {
+    "node_id": "src_src_0117",
+    "parent_id": "catalog_reference",
+    "label": "J.B. Shannon & Sons Illustrated Catalogue of Building Hardware No. 24",
+    "type": "source",
+    "sector": "Market / Exchange; Historical Reference",
+    "meta": "Historical Building Hardware Catalog",
+    "source_uid": "SRC-0117",
+    "sort": 26
+  },
+  {
+    "node_id": "src_src_0118",
+    "parent_id": "catalog_industrial",
+    "label": "MCM Electronics 2014 Catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Electronics / Tools Catalog",
+    "source_uid": "SRC-0118",
+    "sort": 27
+  },
+  {
+    "node_id": "src_src_0119",
+    "parent_id": "catalog_industrial",
+    "label": "Starrett Precision Tools Catalog No. 28",
+    "type": "source",
+    "sector": "Business / Commercial",
+    "meta": "Precision Tool Catalog",
+    "source_uid": "SRC-0119",
+    "sort": 28
+  },
+  {
+    "node_id": "src_src_0120",
+    "parent_id": "catalog_industrial",
+    "label": "Scientific Products General Catalog 1991-92",
+    "type": "source",
+    "sector": "Business / Commercial; Public / Government",
+    "meta": "Lab / Scientific Product Catalog",
+    "source_uid": "SRC-0120",
+    "sort": 29
+  },
+  {
+    "node_id": "src_src_0121",
+    "parent_id": "catalog_industrial",
+    "label": "IVES Architectural Hardware Catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Shelter / Housing",
+    "meta": "Architectural Hardware Catalog",
+    "source_uid": "SRC-0121",
+    "sort": 30
+  },
+  {
+    "node_id": "src_src_0122",
+    "parent_id": "catalog_industrial",
+    "label": "K2 Door Hardware Catalog",
+    "type": "source",
+    "sector": "Business / Commercial; Shelter / Housing",
+    "meta": "Door Hardware Catalog",
+    "source_uid": "SRC-0122",
+    "sort": 31
+  },
+  {
+    "node_id": "src_src_0123",
+    "parent_id": "catalog_reference",
+    "label": "Aquascape Water Features Catalog",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Outdoor Property Catalog",
+    "source_uid": "SRC-0123",
+    "sort": 32
+  },
+  {
+    "node_id": "src_src_0124",
+    "parent_id": "catalog_industrial",
+    "label": "Waytek Automotive Electrical Supplies",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Automotive Electrical Catalog",
+    "source_uid": "SRC-0124",
+    "sort": 33
+  },
+  {
+    "node_id": "src_src_0125",
+    "parent_id": "catalog_reference",
+    "label": "Gardall Safe Catalog",
+    "type": "source",
+    "sector": "Human / Consumer; Business / Commercial",
+    "meta": "Safe / Security Storage Catalog",
+    "source_uid": "SRC-0125",
+    "sort": 34
+  },
+  {
+    "node_id": "src_src_0126",
+    "parent_id": "catalog_reference",
+    "label": "Master Lock keyed-alike / lock reference",
+    "type": "source",
+    "sector": "Business / Commercial; Human / Consumer",
+    "meta": "Lock Reference",
+    "source_uid": "SRC-0126",
+    "sort": 35
+  },
+  {
+    "node_id": "src_src_0127",
+    "parent_id": "catalog_reference",
+    "label": "Chamela Lingerie Catalog",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Apparel Catalog",
+    "source_uid": "SRC-0127",
+    "sort": 36
+  },
+  {
+    "node_id": "src_src_0128",
+    "parent_id": "catalog_reference",
+    "label": "Shoe and Leather Encyclopedia",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Footwear / Leather Taxonomy Reference",
+    "source_uid": "SRC-0128",
+    "sort": 37
+  },
+  {
+    "node_id": "src_src_0200",
+    "parent_id": "catalog_statistics",
+    "label": "Business Statistics of the United States 2022",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange; Finance / Capital",
+    "meta": "Statistical Reference Book",
+    "source_uid": "SRC-0200",
+    "sort": 38
+  },
+  {
+    "node_id": "src_src_0201",
+    "parent_id": "catalog_statistics",
+    "label": "ProQuest Statistical Abstract of the United States 2021",
+    "type": "source",
+    "sector": "Public / Government; Human / Consumer; Business / Commercial; Market / Exchange",
+    "meta": "Statistical Abstract",
+    "source_uid": "SRC-0201",
+    "sort": 39
+  },
+  {
+    "node_id": "src_src_0202",
+    "parent_id": "catalog_statistics",
+    "label": "Handbook of U.S. Labor Statistics",
+    "type": "source",
+    "sector": "Human / Consumer; Business / Commercial; Market / Exchange",
+    "meta": "Labor Statistical Reference",
+    "source_uid": "SRC-0202",
+    "sort": 40
+  },
+  {
+    "node_id": "src_src_0203",
+    "parent_id": "catalog_statistics",
+    "label": "The Almanac of American Education 2022",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government",
+    "meta": "Education Statistical Reference",
+    "source_uid": "SRC-0203",
+    "sort": 41
+  },
+  {
+    "node_id": "src_src_0204",
+    "parent_id": "catalog_statistics",
+    "label": "State Profiles 2018",
+    "type": "source",
+    "sector": "Public / Government; Market / Exchange",
+    "meta": "State Statistical Profile",
+    "source_uid": "SRC-0204",
+    "sort": 42
+  },
+  {
+    "node_id": "src_src_0205",
+    "parent_id": "catalog_reference",
+    "label": "American Buyers: Demographics of Shopping",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange; Business / Commercial",
+    "meta": "Buyer Demand Reference",
+    "source_uid": "SRC-0205",
+    "sort": 43
+  },
+  {
+    "node_id": "src_src_0206",
+    "parent_id": "catalog_industrial",
+    "label": "Applied Demography",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government",
+    "meta": "Method/Theory Book",
+    "source_uid": "SRC-0206",
+    "sort": 44
+  },
+  {
+    "node_id": "src_src_0207",
+    "parent_id": "catalog_industrial",
+    "label": "Demography: The Study of Human Population",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government",
+    "meta": "Method/Theory Book",
+    "source_uid": "SRC-0207",
+    "sort": 45
+  },
+  {
+    "node_id": "src_src_0208",
+    "parent_id": "catalog_industrial",
+    "label": "Corporate Demography / Demography of Corporations and Industries",
+    "type": "source",
+    "sector": "Business / Commercial",
+    "meta": "Business Simulation Theory",
+    "source_uid": "SRC-0208",
+    "sort": 46
+  },
+  {
+    "node_id": "src_src_0209",
+    "parent_id": "catalog_industrial",
+    "label": "Agent-Mediated Electronic Commerce AMEC/TADA series",
+    "type": "source",
+    "sector": "Market / Exchange; Business / Commercial",
+    "meta": "Agent Market Theory",
+    "source_uid": "SRC-0209",
+    "sort": 47
+  },
+  {
+    "node_id": "src_src_0210",
+    "parent_id": "catalog_reference",
+    "label": "Enterprise logistics and supply chain structure: the role of fit",
+    "type": "source",
+    "sector": "Business / Commercial; Infrastructure / Logistics",
+    "meta": "Supply Chain Theory Paper",
+    "source_uid": "SRC-0210",
+    "sort": 48
+  },
+  {
+    "node_id": "src_src_0211",
+    "parent_id": "catalog_statistics",
+    "label": "Women's Equality, Demography and Public Policies",
+    "type": "source",
+    "sector": "Public / Government; Human / Consumer",
+    "meta": "Policy/Demography Reference",
+    "source_uid": "SRC-0211",
+    "sort": 49
+  },
+  {
+    "node_id": "src_src_0212",
+    "parent_id": "catalog_statistics",
+    "label": "Ethnic Demography: Canadian Immigrant, Racial and Cultural Variations",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government",
+    "meta": "Canadian Demography Reference",
+    "source_uid": "SRC-0212",
+    "sort": 50
+  },
+  {
+    "node_id": "src_src_0213",
+    "parent_id": "catalog_reference",
+    "label": "America’s Diverse Population",
+    "type": "source",
+    "sector": "Human / Consumer; Public / Government",
+    "meta": "Demographic Profile Reference",
+    "source_uid": "SRC-0213",
+    "sort": 51
+  },
+  {
+    "node_id": "src_src_0214",
+    "parent_id": "catalog_reference",
+    "label": "Giant Book of Games",
+    "type": "source",
+    "sector": "Human / Consumer",
+    "meta": "Recreation Activity Reference",
+    "source_uid": "SRC-0214",
+    "sort": 52
+  },
+  {
+    "node_id": "src_src_0300",
+    "parent_id": "catalog_reference",
+    "label": "Ruger firearms collector catalog",
+    "type": "source",
+    "sector": "Reference Sensitive",
+    "meta": "Firearms Collector Reference",
+    "source_uid": "SRC-0300",
+    "sort": 53
+  },
+  {
+    "node_id": "src_src_0301",
+    "parent_id": "catalog_reference",
+    "label": "U.S. Military Vehicles standard catalog",
+    "type": "source",
+    "sector": "Transportation Reference; Public / Government",
+    "meta": "Historical Military Vehicle Reference",
+    "source_uid": "SRC-0301",
+    "sort": 54
+  },
+  {
+    "node_id": "src_src_0302",
+    "parent_id": "catalog_reference",
+    "label": "Kershaw / Shun Knife Catalog",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Kitchen Cutlery Catalog",
+    "source_uid": "SRC-0302",
+    "sort": 55
+  },
+  {
+    "node_id": "src_src_0303",
+    "parent_id": "catalog_reference",
+    "label": "CRKT Knife Catalog",
+    "type": "source",
+    "sector": "Reference Sensitive",
+    "meta": "Knife/Tool Catalog",
+    "source_uid": "SRC-0303",
+    "sort": 56
+  },
+  {
+    "node_id": "src_src_0304",
+    "parent_id": "catalog_reference",
+    "label": "Byrd / Spyderco Knife Catalog",
+    "type": "source",
+    "sector": "Reference Sensitive",
+    "meta": "Knife Catalog",
+    "source_uid": "SRC-0304",
+    "sort": 57
+  },
+  {
+    "node_id": "src_src_0305",
+    "parent_id": "catalog_reference",
+    "label": "Victorinox New Products catalog",
+    "type": "source",
+    "sector": "Reference Sensitive",
+    "meta": "Knife/Multitool Catalog",
+    "source_uid": "SRC-0305",
+    "sort": 58
+  },
+  {
+    "node_id": "src_src_0306",
+    "parent_id": "catalog_reference",
+    "label": "Great Wines of Europe",
+    "type": "source",
+    "sector": "Reference Regulated",
+    "meta": "Wine Region Reference",
+    "source_uid": "SRC-0306",
+    "sort": 59
+  },
+  {
+    "node_id": "src_src_0400",
+    "parent_id": "catalog_industrial",
+    "label": "Home Depot / Lowe's / RONA / Home Hardware catalog access paths",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0400",
+    "sort": 60
+  },
+  {
+    "node_id": "src_src_0401",
+    "parent_id": "catalog_priority",
+    "label": "Grainger / Fastenal / Gregg / Red Deer Bolt / Richelieu / Accuride / Blum",
+    "type": "source",
+    "sector": "Business / Commercial; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0401",
+    "sort": 61
+  },
+  {
+    "node_id": "src_src_0402",
+    "parent_id": "catalog_industrial",
+    "label": "NAPA / RockAuto / auto parts fitment sources",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0402",
+    "sort": 62
+  },
+  {
+    "node_id": "src_src_0403",
+    "parent_id": "catalog_reference",
+    "label": "Best Buy / Canadian Tire / Staples / Dollarama",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0403",
+    "sort": 63
+  },
+  {
+    "node_id": "src_src_0404",
+    "parent_id": "catalog_industrial",
+    "label": "Windows, doors, stairs, railings, garage doors, fire doors, HVAC, water heaters, electrical, ducting, lighting",
+    "type": "source",
+    "sector": "Shelter / Housing; Business / Commercial",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0404",
+    "sort": 64
+  },
+  {
+    "node_id": "src_src_0405",
+    "parent_id": "catalog_reference",
+    "label": "Computer, IT and communications product catalogs",
+    "type": "source",
+    "sector": "Information / Records; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0405",
+    "sort": 65
+  },
+  {
+    "node_id": "src_src_0406",
+    "parent_id": "catalog_reference",
+    "label": "Furniture and furnishings catalogs including La-Z-Boy",
+    "type": "source",
+    "sector": "Human / Consumer; Market / Exchange",
+    "meta": "Online Acquisition Target",
+    "source_uid": "SRC-0406",
+    "sort": 66
+  },
+  {
+    "node_id": "fin_accounts_cash_flow",
+    "parent_id": "finance",
+    "label": "Accounts / Cash Flow",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "fin_credit_loans_leases",
+    "parent_id": "finance",
+    "label": "Credit / Loans / Leases",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "fin_investment_capital_assets",
+    "parent_id": "finance",
+    "label": "Investment / Capital Assets",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "fin_insurance_risk_transfer",
+    "parent_id": "finance",
+    "label": "Insurance / Risk Transfer",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "fin_value_credit_assessment",
+    "parent_id": "finance",
+    "label": "Value / Credit Assessment",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "gov_public_services",
+    "parent_id": "government",
+    "label": "Public Services",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "gov_public_records_registries",
+    "parent_id": "government",
+    "label": "Public Records / Registries",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "gov_permits_licences_authorizations",
+    "parent_id": "government",
+    "label": "Permits / Licences / Authorizations",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  },
+  {
+    "node_id": "gov_taxes_fees_transfers",
+    "parent_id": "government",
+    "label": "Taxes / Fees / Transfers",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 4
+  },
+  {
+    "node_id": "gov_rights_remedies_appeals",
+    "parent_id": "government",
+    "label": "Rights / Remedies / Appeals",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 5
+  },
+  {
+    "node_id": "gov_procurement_public_contracts",
+    "parent_id": "government",
+    "label": "Procurement / Public Contracts",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 6
+  },
+  {
+    "node_id": "gov_official_statistics_data_cubes",
+    "parent_id": "government",
+    "label": "Official Statistics / Data Cubes",
+    "type": "public-data",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 7
+  },
+  {
+    "node_id": "statcan",
+    "parent_id": "gov_official_statistics_data_cubes",
+    "label": "StatCan Cubes",
+    "type": "data-source",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 1
+  },
+  {
+    "node_id": "ised",
+    "parent_id": "gov_official_statistics_data_cubes",
+    "label": "ISED FPD Small Business Benchmarks",
+    "type": "data-source",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 2
+  },
+  {
+    "node_id": "us_stats",
+    "parent_id": "gov_official_statistics_data_cubes",
+    "label": "U.S. Statistical References",
+    "type": "data-source",
+    "sector": "Public / Government",
+    "meta": "",
+    "source_uid": "",
+    "sort": 3
+  }
+]
