@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Comparator Source Inventory Record",
+  "type": "object",
+  "required": [
+    "uid",
+    "title",
+    "source_type",
+    "domain",
+    "sector",
+    "status",
+    "priority",
+    "recommended_path"
+  ],
+  "properties": {
+    "uid": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "vendor": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "sensitivity": {
+      "type": "string"
+    },
+    "conversion_mode": {
+      "type": "string"
+    },
+    "recommended_path": {
+      "type": "string"
+    },
+    "expected_tables": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

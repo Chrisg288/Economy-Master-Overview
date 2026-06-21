@@ -1,0 +1,38 @@
+﻿node_id,parent_id,label,sector,overlay,scope_default,source_support,notes
+ROOT,,Economy Master,All,,Any,,
+SEC_HUM,ROOT,Human / Consumer,Human / Consumer,,Any,,
+SEC_MKT,ROOT,Market / Exchange,Market / Exchange,,Any,,
+SEC_BUS,ROOT,Business / Commercial,Business / Commercial,,Any,,
+SEC_FIN,ROOT,Finance / Capital,Finance / Capital,,Any,,
+SEC_GOV,ROOT,Government / Public,Government / Public,,Any,,
+HUM_FOOD,SEC_HUM,Food / Nutrition / Survival,Human / Consumer,,Any,SRC-0001,
+HUM_SHELTER,SEC_HUM,Shelter / Housing / Property,Human / Consumer,,Any,SRC-0400;SRC-0404;SRC-0123;SRC-0114,
+HUM_TRANSPORT,SEC_HUM,Transportation / Vehicles,Human / Consumer,,Any,SRC-0008;SRC-0113;SRC-0301,
+HUM_HEALTH_SAFETY,SEC_HUM,Health / Safety / PPE,Human / Consumer,,Any,SRC-0115;SRC-0201,
+HUM_EDUCATION,SEC_HUM,Education / Training / Skills,Human / Consumer,,Any,SRC-0203;SRC-0206;SRC-0207,
+HUM_WORK_INCOME,SEC_HUM,Work / Labour / Income,Human / Consumer,,Any,SRC-0004;SRC-0202;SRC-0205,
+HUM_HOUSEWARES,SEC_HUM,Housewares / Kitchenwares / Appliances,Human / Consumer,,Any,SRC-0302;SRC-0007,
+HUM_GARDEN,SEC_HUM,Garden / Horticulture / Outdoor Property,Human / Consumer,,Any,SRC-0114;SRC-0123,
+HUM_RECREATION,SEC_HUM,Recreation / Games / Activities,Human / Consumer,,Any,SRC-0214,
+BUS_INDUSTRIAL_MRO,SEC_BUS,Industrial MRO / Tools / Shop Supplies,Business / Commercial,,Any,SRC-0103;SRC-0100;SRC-0118,
+BUS_HARDWARE_FASTENERS,SEC_BUS,Hardware / Fasteners / Access Components,Business / Commercial,,Any,SRC-0101;SRC-0107;SRC-0121;SRC-0122,
+BUS_TRUCK_BODY,SEC_BUS,Truck Body / Camper / Emergency Vehicle Components,Business / Commercial,,Any,SRC-0101;SRC-0111;SRC-0112,
+BUS_FLUID_POWER,SEC_BUS,Fluid Power / Hose / Fittings / Hydraulics,Business / Commercial,,Any,SRC-0102;SRC-0110;SRC-0111;SRC-0112,
+BUS_VEH_ELECTRICAL,SEC_BUS,Vehicle Electrical / Lighting / Wiring,Business / Commercial,,Any,SRC-0105;SRC-0124,
+BUS_MODULAR_FRAMING,SEC_BUS,Modular Framing / Machine Frames / Guarding,Business / Commercial,,Any,SRC-0104;SRC-0116,
+BUS_ELECTRICAL_POWER,SEC_BUS,Electrical Power / Cable Connectors / Clamps,Business / Commercial,,Any,SRC-0106,
+BUS_ABRASIVES_GRINDING,SEC_BUS,Abrasives / Grinding / Cutting,Business / Commercial,,Any,SRC-0108,
+BUS_WORKHOLDING,SEC_BUS,Workholding / Clamping / Tooling,Business / Commercial,,Any,SRC-0109,
+BUS_LAB_SCI,SEC_BUS,Laboratory / Scientific Products,Business / Commercial,,Any,SRC-0120,
+MKT_PRODUCT_ID,SEC_MKT,Product Identity / Barcode / Official Classification,Market / Exchange,,Any,SRC-0002;SRC-0005,
+MKT_RETAILER_FEEDS,SEC_MKT,Retailer Feeds / Availability / Current Pricing,Market / Exchange,,Any,SRC-0400;SRC-0401;SRC-0402;SRC-0403,
+MKT_HISTORICAL_CATALOGS,SEC_MKT,Historical Catalogs / Obsolete Products,Market / Exchange,,Any,SRC-0117;SRC-0128;SRC-0306,
+MKT_DEMAND,SEC_MKT,Demand / Buyer Segments / Spending,Market / Exchange,,Any,SRC-0205;SRC-0201,
+GOV_STATCAN,SEC_GOV,Canadian Official Statistics / StatCan Cubes,Government / Public,,Any,SRC-0004,
+GOV_US_STATS,SEC_GOV,U.S. Statistical Reference / State Profiles,Government / Public,,Any,SRC-0200;SRC-0201;SRC-0204,
+GOV_DEMOGRAPHY,SEC_GOV,Demography / Population / Policy,Government / Public,,Any,SRC-0206;SRC-0207;SRC-0211;SRC-0212;SRC-0213,
+OVR_LAW,ROOT,Law / Rights / Regulation,Overlay,Law / Rights / Regulation,Any,SRC-0211;SRC-0212;SRC-0300,"Displayed as overlay/context button, not main sector."
+OVR_SECURITY,ROOT,Security / Defense / Sensitive References,Overlay,Security / Defense / Sensitive References,Any,SRC-0125;SRC-0126;SRC-0300;SRC-0301;SRC-0303;SRC-0304,"Displayed as overlay/context button, not main sector."
+OVR_INFRA,ROOT,Infrastructure / Logistics,Overlay,Infrastructure / Logistics,Any,SRC-0210;SRC-0111;SRC-0112;SRC-0106,"Displayed as overlay/context button, not main sector."
+OVR_RESOURCES,ROOT,Resources / Environment / Energy,Overlay,Resources / Environment / Energy,Any,SRC-0007;SRC-0201,"Displayed as overlay/context button, not main sector."
+OVR_INFO,ROOT,Information / Records / Data Governance,Overlay,Information / Records / Data Governance,Any,SRC-0006;SRC-0004;SRC-0002,"Displayed as overlay/context button, not main sector."

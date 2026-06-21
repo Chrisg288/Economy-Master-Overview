@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Comparator Normalized Catalog Record",
+  "type": "object",
+  "required": [
+    "uid",
+    "source_uid",
+    "vendor_name",
+    "category_path",
+    "product_name",
+    "record_status"
+  ],
+  "properties": {
+    "uid": {
+      "type": "string"
+    },
+    "source_uid": {
+      "type": "string"
+    },
+    "vendor_name": {
+      "type": "string"
+    },
+    "source_title": {
+      "type": "string"
+    },
+    "source_year": {
+      "type": "string"
+    },
+    "source_status": {
+      "type": "string"
+    },
+    "record_status": {
+      "type": "string"
+    },
+    "regulated_sensitive_flag": {
+      "type": "string"
+    },
+    "sector": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "overlay": {
+      "type": "string"
+    },
+    "category_path": {
+      "type": "string"
+    },
+    "brick_path": {
+      "type": "string"
+    },
+    "part_number": {
+      "type": "string"
+    },
+    "manufacturer_part_number": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "description_short": {
+      "type": "string"
+    },
+    "material": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "capacity_rating": {
+      "type": "string"
+    },
+    "safety_rating_or_standard": {
+      "type": "string"
+    },
+    "application": {
+      "type": "string"
+    },
+    "compatibility": {
+      "type": "string"
+    },
+    "unit_of_measure": {
+      "type": "string"
+    },
+    "pack_quantity": {
+      "type": "string"
+    },
+    "price_original": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "page_reference": {
+      "type": "string"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "extraction_confidence": {
+      "type": "string"
+    },
+    "copyright_handling": {
+      "type": "string"
+    }
+  }
+}

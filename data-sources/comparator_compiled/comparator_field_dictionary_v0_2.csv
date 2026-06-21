@@ -1,0 +1,33 @@
+﻿field,definition,applies_to
+uid,Stable record UID. Do not encode type/order in UID.,all
+source_uid,Foreign key to source_inventory.,all
+vendor_name,"Vendor, manufacturer, publisher, or source owner.",catalog
+source_title,Catalog/dataset/book title.,all
+source_year,Publication or dataset year.,all
+source_status,"Current, obsolete, historical, reference, stale local copy, current open-data source.",all
+record_status,"Current, obsolete, historical, reference-only, restricted-reference, discontinued, unknown.",all
+regulated_sensitive_flag,"None, safety-critical, security-sensitive, weapons-regulated, alcohol-regulated, aggregate-sensitive.",all
+sector,"Human/Consumer, Business/Commercial, Market/Exchange, Finance/Capital, Government/Public.",all
+scope,"International, National, Provincial/State, Municipal, Organizational, Personal.",all
+overlay,"Law/Rights, Security/Defense, Infrastructure/Logistics, Resources/Environment, Information/Records.",all
+category_path,Comparator category path using slash-separated human-readable labels.,catalog
+brick_path,"Brick-level product/service class path, if known.",catalog
+official_classification_code,"NAPCS, GPC, NAICS, CPE, UNSPSC, or source-specific class code.",catalog
+part_number,SKU/model/catalog item number.,catalog
+manufacturer_part_number,OEM/manufacturer part number.,catalog
+product_name,Short product name.,catalog
+description_short,Brief non-verbatim normalized description.,catalog
+material,"Material or composition, if relevant.",product
+dimensions,Normalized dimensions text or separate numeric dimension fields.,product
+capacity_rating,"Capacity such as load, pressure, BTU, CFM, horsepower, voltage, etc.",product
+safety_rating_or_standard,UL/CSA/SAE/ISO/VDE/IEC/NIOSH or other standard/rating.,product
+application,Use case or compatible application.,product
+compatibility,"Compatible models, systems, conductors, hoses, tracks, vehicles, etc.",product
+unit_of_measure,"Each, roll, box, pack, foot, meter, etc.",catalog
+pack_quantity,Pack/bulk quantity.,catalog
+price_original,"Price shown in historical/current source, if present.",catalog
+currency,Currency for price_original.,catalog
+page_reference,Source page number(s).,all
+source_file,Original source filename or online source path.,all
+extraction_confidence,"High, medium, low; based on table quality/OCR/visual extraction.",all
+copyright_handling,"Metadata/extraction, normalized facts, reference index only, restricted output, no verbatim long descriptions.",all
