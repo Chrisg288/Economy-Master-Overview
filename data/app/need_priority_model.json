@@ -1,0 +1,116 @@
+[
+  {
+    "node_id": "need_air",
+    "rank": "01",
+    "label": "Air / Breathable Environment",
+    "description": "Immediate survival; atmosphere, ventilation, smoke/gas avoidance."
+  },
+  {
+    "node_id": "need_water",
+    "rank": "02",
+    "label": "Water / Hydration",
+    "description": "Drinkable water, storage, filtration, access, sanitation water."
+  },
+  {
+    "node_id": "need_food",
+    "rank": "03",
+    "label": "Food / Nutrition / Survival",
+    "description": "Calories, nutrition, shelf-stable food, cooking, preservation."
+  },
+  {
+    "node_id": "need_shelter",
+    "rank": "04",
+    "label": "Shelter / Housing / Weather Protection",
+    "description": "Protection from exposure, housing, rent, ownership, emergency shelter."
+  },
+  {
+    "node_id": "need_thermal",
+    "rank": "05",
+    "label": "Heat / Thermal Protection / Clothing",
+    "description": "Body temperature, clothing, insulation, blankets, winterization."
+  },
+  {
+    "node_id": "need_safety",
+    "rank": "06",
+    "label": "Safety / Security / Emergency",
+    "description": "Personal safety, fire, detection, PPE, emergency response, security."
+  },
+  {
+    "node_id": "need_health",
+    "rank": "07",
+    "label": "Health / Medical / Hygiene",
+    "description": "Medical care, first aid, hygiene, medication management, prevention."
+  },
+  {
+    "node_id": "need_sanitation",
+    "rank": "08",
+    "label": "Sanitation / Waste / Cleaning",
+    "description": "Waste handling, toilets, cleaning, pests, contamination control."
+  },
+  {
+    "node_id": "need_energy",
+    "rank": "09",
+    "label": "Energy / Power / Fuel",
+    "description": "Heat, electricity, fuel, batteries, cooking energy, backup power."
+  },
+  {
+    "node_id": "need_transport",
+    "rank": "10",
+    "label": "Transportation / Mobility",
+    "description": "Vehicle, transit, fuel, maintenance, parts, mobility access."
+  },
+  {
+    "node_id": "need_communication",
+    "rank": "11",
+    "label": "Communication / Information / Records",
+    "description": "Phone, internet, radio, identity records, documentation, alerts."
+  },
+  {
+    "node_id": "need_income",
+    "rank": "12",
+    "label": "Income / Work / Economic Activity",
+    "description": "Employment, business, tools, productive assets, cash flow."
+  },
+  {
+    "node_id": "need_community",
+    "rank": "13",
+    "label": "Family / Community / Care",
+    "description": "Dependents, care networks, social support, household coordination."
+  },
+  {
+    "node_id": "need_legal",
+    "rank": "14",
+    "label": "Legal / Rights / Public Services",
+    "description": "Rights, permits, licenses, benefits, remedies, obligations."
+  },
+  {
+    "node_id": "need_education",
+    "rank": "15",
+    "label": "Education / Skills / Knowledge",
+    "description": "Learning, credentials, skill-building, training, research."
+  },
+  {
+    "node_id": "need_tools",
+    "rank": "16",
+    "label": "Tools / Property Maintenance / Repair",
+    "description": "Tools, hardware, fasteners, maintenance, building components."
+  },
+  {
+    "node_id": "need_finance",
+    "rank": "17",
+    "label": "Finance / Insurance / Long-Term Resilience",
+    "description": "Savings, insurance, credit, debt, capital, retirement."
+  },
+  {
+    "node_id": "need_recreation",
+    "rank": "18",
+    "label": "Recreation / Culture / Meaning",
+    "description": "Recreation, social activities, spiritual/cultural value."
+  },
+  {
+    "node_id": "need_lifestyle",
+    "rank": "19",
+    "label": "Lifestyle Wants / Comfort / Nice-to-Have",
+    "description": "Preference, comfort, status, convenience after core needs are met."
+  }
+]

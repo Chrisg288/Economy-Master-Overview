@@ -1,13 +1,13 @@
 [
   {
     "path": "README.md",
-    "size_bytes": 1406,
-    "sha256": "d25b26f7746809dcfbfc58dd1813c3ad3c500a046ec2bc5ed041f4be2fe4a5d8"
+    "size_bytes": 1417,
+    "sha256": "90a374e8938cc3c140561a8fdb36fda80e7232fb2cc53530fedc1072b9140d44"
   },
   {
     "path": "data/app/app_config.json",
-    "size_bytes": 482,
-    "sha256": "45a1739ec17f0f160adcc2b06587cc7d0ea8b2a70a245a0325dd3b6b515802e0"
+    "size_bytes": 667,
+    "sha256": "cc00e34d5cbe918c50d241632cc50dde36b5c34d89a3c83d87eecd7c0909f749"
   },
   {
     "path": "data/app/context_ribbon.json",
@@ -15,9 +15,24 @@
     "sha256": "3339617d6f34e96fd72b380c789e60f2057ffa2ab3001a56354b56876c6708e9"
   },
   {
+    "path": "data/app/datagrid_columns.json",
+    "size_bytes": 754,
+    "sha256": "3cccfc154b73cf6ed5535a88cec9519ce943c5530facb06fd895805b8020c249"
+  },
+  {
+    "path": "data/app/need_priority_model.json",
+    "size_bytes": 3621,
+    "sha256": "60bab6a986230d0a73f0c6306558b966c8e7e44db5a29d858d8f22e6e558509d"
+  },
+  {
+    "path": "data/app/sample_records.csv",
+    "size_bytes": 1151,
+    "sha256": "1bbe19f20cafe71c232d92878e1a31374238c7fccdccc70a117941b92ea49e87"
+  },
+  {
     "path": "data/app/sample_records.json",
-    "size_bytes": 978,
-    "sha256": "c58069996c1b007599586d34aba913be0a905b29553da94ef725a67f8557448c"
+    "size_bytes": 2619,
+    "sha256": "53f341e48075ec91eba7ac5e0efb1340ab4ee452114aa29466317621a765c9bb"
   },
   {
     "path": "data/app/source_inventory.json",
@@ -25,9 +40,14 @@
     "sha256": "a0bccee55c897aa54353f415133663b2437821ae8a9e18c984a13763d024b6eb"
   },
   {
+    "path": "data/app/tree_nodes.csv",
+    "size_bytes": 35639,
+    "sha256": "3e8743341779c3b6ae328d99ad9812fa5837842d4a2a06e149ef62f6f0cc22cf"
+  },
+  {
     "path": "data/app/tree_nodes.json",
-    "size_bytes": 38164,
-    "sha256": "1cea39b94bec60904a31d9dd1a3a15c2abd2330c401731f95afb730d3161d763"
+    "size_bytes": 80414,
+    "sha256": "475ccb06a12ccc589f5736da349d390fc6f9fa554807783cc6950b1a7e407235"
   },
   {
     "path": "data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.csv",
@@ -41,8 +61,8 @@
   },
   {
     "path": "data-sources/comparator_compiled/samples/comparator_sample_records_modular.json",
-    "size_bytes": 978,
-    "sha256": "c58069996c1b007599586d34aba913be0a905b29553da94ef725a67f8557448c"
+    "size_bytes": 2619,
+    "sha256": "53f341e48075ec91eba7ac5e0efb1340ab4ee452114aa29466317621a765c9bb"
   },
   {
     "path": "docs/layout/context_ribbon_modular_spec.json",
@@ -50,8 +70,13 @@
     "sha256": "3339617d6f34e96fd72b380c789e60f2057ffa2ab3001a56354b56876c6708e9"
   },
   {
+    "path": "docs/principles/human_consumer_needs_tree_principle.md",
+    "size_bytes": 709,
+    "sha256": "cdd3f459fcebb0c546548b35727bc58c3c7a4106672c1f9154bdc31e7bb4b0f7"
+  },
+  {
     "path": "index.html",
-    "size_bytes": 23532,
-    "sha256": "c77acb2ac87767c42bcf58964e12d769b0508a33870a2b2b2dbae4c536636d65"
+    "size_bytes": 16132,
+    "sha256": "d9556bae0c59271aa4aff6df1fa01c3dfddc90a19797cd826430b3451efddda6"
   }
 ]

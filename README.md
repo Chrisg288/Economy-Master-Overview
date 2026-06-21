@@ -1,14 +1,27 @@
-# Economy Master Interface v2.10.6 — Modular JSON Workspace
+# Economy Master Interface v2.10.8 — Human Needs Priority Tree
 
-This package fixes the problem of only shipping `index.html`.
+This version restores the core Comparator design principle:
 
-It keeps the v2.10-style layout and center graphic, keeps the compact ribbon, keeps **User Profile** as a mode, and moves tree/source data into modular JSON files.
+```text
+LIST USER WANTS / NEEDS
+MOST IMPORTANT
+↓
+HIERARCHICAL TREEVIEW
+↓
+LEAST IMPORTANT
+```
 
-## Upload to GitHub root
+## Fundamental rule
 
-Upload the contents of this ZIP to the repository root.
+For **Human / Consumer**, the TreeView is the fastest way for a user to identify wants and needs.
 
-It contains:
+It is ordered by priority from immediate survival needs to lower-priority wants.
+
+## Second fundamental rule
+
+The Comparator uses sortable datagrids so the user can compare relative items and determine greatest value/fulfillment.
+
+## Modular files
 
 ```text
 index.html
@@ -18,35 +31,17 @@ data/app/context_ribbon.json
 data/app/tree_nodes.json
 data/app/source_inventory.json
 data/app/sample_records.json
+data/app/datagrid_columns.json
+data/app/need_priority_model.json
+data/app/tree_nodes.csv
+data/app/sample_records.csv
 data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.json
+data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.csv
 data-sources/comparator_compiled/samples/comparator_sample_records_modular.json
 docs/layout/context_ribbon_modular_spec.json
+docs/principles/human_consumer_needs_tree_principle.md
 ```
 
-## Key rule
+## Preservation rule
 
-The ribbon is a context lens:
-
-```text
-Sector × Scope × Overlay × Tool
-```
-
-The TreeView is populated from:
-
-```text
-data/app/tree_nodes.json
-```
-
-Source/catalog/library records are populated from:
-
-```text
-data/app/source_inventory.json
-```
-
-Do not remove TreeView nodes unless explicitly requested.
-Do not rebuild from old v1.x files.
-Patch this v2.10 modular line directly.
-
-## What this does not do yet
-
-This package does not fully extract every product row from every uploaded catalog. It carries the compiled source inventory and modular loading framework so the catalog conversion can proceed in controlled runs.
+Do not remove or replace this priority-tree principle unless explicitly instructed. Product catalog trees support the need tree; they do not replace the need tree.

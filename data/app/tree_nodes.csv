@@ -1,0 +1,240 @@
+﻿node_id,parent_id,label,type,sector,sort,priority_rank,description,meta,source_uid
+home,,Economy Home,orientation,Home,0,,,,
+human,home,Human / Consumer,sector-link,Human / Consumer,1,,,,
+market,home,Market / Exchange,sector-link,Market / Exchange,2,,,,
+business,home,Business / Commercial,sector-link,Business / Commercial,3,,,,
+finance_sector,home,Finance / Capital,sector-link,Finance / Capital,4,,,,
+government,home,Public / Government,sector-link,Public / Government,5,,,,
+human_needs,human,LIST USER WANTS / NEEDS — SURVIVAL PRIORITY TREE,priority-root,Human / Consumer,1,,Most important survival needs at top; least important wants at bottom.,,
+need_air,human_needs,01. Air / Breathable Environment,need-domain,Human / Consumer,1,01,"Immediate survival; atmosphere, ventilation, smoke/gas avoidance.",priority need,
+need_air_smoke_fire_air_risk,need_air,Smoke / Fire Air Risk,need-fulfillment-class,Human / Consumer,1,01,,fulfillment path,
+need_air_ventilation,need_air,Ventilation,need-fulfillment-class,Human / Consumer,2,01,,fulfillment path,
+need_air_respiratory_protection,need_air,Respiratory Protection,need-fulfillment-class,Human / Consumer,3,01,,fulfillment path,
+need_air_gas_detection,need_air,Gas Detection,need-fulfillment-class,Human / Consumer,4,01,,fulfillment path,
+need_air_air_filtration,need_air,Air Filtration,need-fulfillment-class,Human / Consumer,5,01,,fulfillment path,
+need_water,human_needs,02. Water / Hydration,need-domain,Human / Consumer,2,02,"Drinkable water, storage, filtration, access, sanitation water.",priority need,
+need_water_drinking_water,need_water,Drinking Water,need-fulfillment-class,Human / Consumer,1,02,,fulfillment path,
+need_water_water_storage,need_water,Water Storage,need-fulfillment-class,Human / Consumer,2,02,,fulfillment path,
+need_water_water_filtration,need_water,Water Filtration,need-fulfillment-class,Human / Consumer,3,02,,fulfillment path,
+need_water_pumps_hoses_fittings,need_water,Pumps / Hoses / Fittings,need-fulfillment-class,Human / Consumer,4,02,,fulfillment path,
+need_water_hot_water,need_water,Hot Water,need-fulfillment-class,Human / Consumer,5,02,,fulfillment path,
+need_food,human_needs,03. Food / Nutrition / Survival,need-domain,Human / Consumer,3,03,"Calories, nutrition, shelf-stable food, cooking, preservation.",priority need,
+need_food_survival_food,need_food,Survival Food,need-fulfillment-class,Human / Consumer,1,03,,fulfillment path,
+need_food_grocery_products,need_food,Grocery Products,need-fulfillment-class,Human / Consumer,2,03,,fulfillment path,
+need_food_prepared_food,need_food,Prepared Food,need-fulfillment-class,Human / Consumer,3,03,,fulfillment path,
+need_food_food_storage_preservation,need_food,Food Storage / Preservation,need-fulfillment-class,Human / Consumer,4,03,,fulfillment path,
+need_food_cooking_equipment,need_food,Cooking Equipment,need-fulfillment-class,Human / Consumer,5,03,,fulfillment path,
+need_food_nutrition_requirements,need_food,Nutrition Requirements,need-fulfillment-class,Human / Consumer,6,03,,fulfillment path,
+need_shelter,human_needs,04. Shelter / Housing / Weather Protection,need-domain,Human / Consumer,4,04,"Protection from exposure, housing, rent, ownership, emergency shelter.",priority need,
+need_shelter_emergency_shelter,need_shelter,Emergency Shelter,need-fulfillment-class,Human / Consumer,1,04,,fulfillment path,
+need_shelter_rent,need_shelter,Rent,need-fulfillment-class,Human / Consumer,2,04,,fulfillment path,
+need_shelter_ownership,need_shelter,Ownership,need-fulfillment-class,Human / Consumer,3,04,,fulfillment path,
+need_shelter_utilities,need_shelter,Utilities,need-fulfillment-class,Human / Consumer,4,04,,fulfillment path,
+need_shelter_building_envelope,need_shelter,Building Envelope,need-fulfillment-class,Human / Consumer,5,04,,fulfillment path,
+need_shelter_windows_doors,need_shelter,Windows / Doors,need-fulfillment-class,Human / Consumer,6,04,,fulfillment path,
+need_shelter_hvac,need_shelter,HVAC,need-fulfillment-class,Human / Consumer,7,04,,fulfillment path,
+need_shelter_furnishings,need_shelter,Furnishings,need-fulfillment-class,Human / Consumer,8,04,,fulfillment path,
+need_thermal,human_needs,05. Heat / Thermal Protection / Clothing,need-domain,Human / Consumer,5,05,"Body temperature, clothing, insulation, blankets, winterization.",priority need,
+need_thermal_clothing,need_thermal,Clothing,need-fulfillment-class,Human / Consumer,1,05,,fulfillment path,
+need_thermal_work_wear,need_thermal,Work Wear,need-fulfillment-class,Human / Consumer,2,05,,fulfillment path,
+need_thermal_blankets_bedding,need_thermal,Blankets / Bedding,need-fulfillment-class,Human / Consumer,3,05,,fulfillment path,
+need_thermal_insulation,need_thermal,Insulation,need-fulfillment-class,Human / Consumer,4,05,,fulfillment path,
+need_thermal_heating_systems,need_thermal,Heating Systems,need-fulfillment-class,Human / Consumer,5,05,,fulfillment path,
+need_thermal_cold_weather_gear,need_thermal,Cold Weather Gear,need-fulfillment-class,Human / Consumer,6,05,,fulfillment path,
+need_safety,human_needs,06. Safety / Security / Emergency,need-domain,Human / Consumer,6,06,"Personal safety, fire, detection, PPE, emergency response, security.",priority need,
+need_safety_personal_safety,need_safety,Personal Safety,need-fulfillment-class,Human / Consumer,1,06,,fulfillment path,
+need_safety_fire_protection,need_safety,Fire Protection,need-fulfillment-class,Human / Consumer,2,06,,fulfillment path,
+need_safety_first_aid,need_safety,First Aid,need-fulfillment-class,Human / Consumer,3,06,,fulfillment path,
+need_safety_ppe,need_safety,PPE,need-fulfillment-class,Human / Consumer,4,06,,fulfillment path,
+need_safety_security_storage,need_safety,Security Storage,need-fulfillment-class,Human / Consumer,5,06,,fulfillment path,
+need_safety_vehicle_safety,need_safety,Vehicle Safety,need-fulfillment-class,Human / Consumer,6,06,,fulfillment path,
+need_safety_emergency_planning,need_safety,Emergency Planning,need-fulfillment-class,Human / Consumer,7,06,,fulfillment path,
+need_health,human_needs,07. Health / Medical / Hygiene,need-domain,Human / Consumer,7,07,"Medical care, first aid, hygiene, medication management, prevention.",priority need,
+need_health_medical_care,need_health,Medical Care,need-fulfillment-class,Human / Consumer,1,07,,fulfillment path,
+need_health_first_aid_products,need_health,First Aid Products,need-fulfillment-class,Human / Consumer,2,07,,fulfillment path,
+need_health_hygiene,need_health,Hygiene,need-fulfillment-class,Human / Consumer,3,07,,fulfillment path,
+need_health_fitness_mobility,need_health,Fitness / Mobility,need-fulfillment-class,Human / Consumer,4,07,,fulfillment path,
+need_health_health_insurance,need_health,Health Insurance,need-fulfillment-class,Human / Consumer,5,07,,fulfillment path,
+need_health_medication_supplies,need_health,Medication / Supplies,need-fulfillment-class,Human / Consumer,6,07,,fulfillment path,
+need_sanitation,human_needs,08. Sanitation / Waste / Cleaning,need-domain,Human / Consumer,8,08,"Waste handling, toilets, cleaning, pests, contamination control.",priority need,
+need_sanitation_toilets_waste,need_sanitation,Toilets / Waste,need-fulfillment-class,Human / Consumer,1,08,,fulfillment path,
+need_sanitation_cleaning_supplies,need_sanitation,Cleaning Supplies,need-fulfillment-class,Human / Consumer,2,08,,fulfillment path,
+need_sanitation_janitorial,need_sanitation,Janitorial,need-fulfillment-class,Human / Consumer,3,08,,fulfillment path,
+need_sanitation_pest_control,need_sanitation,Pest Control,need-fulfillment-class,Human / Consumer,4,08,,fulfillment path,
+need_sanitation_laundry,need_sanitation,Laundry,need-fulfillment-class,Human / Consumer,5,08,,fulfillment path,
+need_sanitation_sewage_septic,need_sanitation,Sewage / Septic,need-fulfillment-class,Human / Consumer,6,08,,fulfillment path,
+need_energy,human_needs,09. Energy / Power / Fuel,need-domain,Human / Consumer,9,09,"Heat, electricity, fuel, batteries, cooking energy, backup power.",priority need,
+need_energy_electricity,need_energy,Electricity,need-fulfillment-class,Human / Consumer,1,09,,fulfillment path,
+need_energy_batteries,need_energy,Batteries,need-fulfillment-class,Human / Consumer,2,09,,fulfillment path,
+need_energy_generators,need_energy,Generators,need-fulfillment-class,Human / Consumer,3,09,,fulfillment path,
+need_energy_fuel,need_energy,Fuel,need-fulfillment-class,Human / Consumer,4,09,,fulfillment path,
+need_energy_solar_backup_power,need_energy,Solar / Backup Power,need-fulfillment-class,Human / Consumer,5,09,,fulfillment path,
+need_energy_energy_efficient_appliances,need_energy,Energy-Efficient Appliances,need-fulfillment-class,Human / Consumer,6,09,,fulfillment path,
+need_transport,human_needs,10. Transportation / Mobility,need-domain,Human / Consumer,10,10,"Vehicle, transit, fuel, maintenance, parts, mobility access.",priority need,
+need_transport_passenger_vehicles,need_transport,Passenger Vehicles,need-fulfillment-class,Human / Consumer,1,10,,fulfillment path,
+need_transport_auto_parts_fitment,need_transport,Auto Parts / Fitment,need-fulfillment-class,Human / Consumer,2,10,,fulfillment path,
+need_transport_tires_tracks,need_transport,Tires / Tracks,need-fulfillment-class,Human / Consumer,3,10,,fulfillment path,
+need_transport_vehicle_electrical,need_transport,Vehicle Electrical,need-fulfillment-class,Human / Consumer,4,10,,fulfillment path,
+need_transport_marine_vehicles,need_transport,Marine Vehicles,need-fulfillment-class,Human / Consumer,5,10,,fulfillment path,
+need_transport_transit_mobility,need_transport,Transit / Mobility,need-fulfillment-class,Human / Consumer,6,10,,fulfillment path,
+need_communication,human_needs,11. Communication / Information / Records,need-domain,Human / Consumer,11,11,"Phone, internet, radio, identity records, documentation, alerts.",priority need,
+need_communication_cell_phones,need_communication,Cell Phones,need-fulfillment-class,Human / Consumer,1,11,,fulfillment path,
+need_communication_internet,need_communication,Internet,need-fulfillment-class,Human / Consumer,2,11,,fulfillment path,
+need_communication_radio_shortwave_cb,need_communication,Radio / Shortwave / CB,need-fulfillment-class,Human / Consumer,3,11,,fulfillment path,
+need_communication_documents_identity,need_communication,Documents / Identity,need-fulfillment-class,Human / Consumer,4,11,,fulfillment path,
+need_communication_data_storage,need_communication,Data Storage,need-fulfillment-class,Human / Consumer,5,11,,fulfillment path,
+need_communication_alerts_news,need_communication,Alerts / News,need-fulfillment-class,Human / Consumer,6,11,,fulfillment path,
+need_income,human_needs,12. Income / Work / Economic Activity,need-domain,Human / Consumer,12,12,"Employment, business, tools, productive assets, cash flow.",priority need,
+need_income_employment,need_income,Employment,need-fulfillment-class,Human / Consumer,1,12,,fulfillment path,
+need_income_business_model,need_income,Business Model,need-fulfillment-class,Human / Consumer,2,12,,fulfillment path,
+need_income_tools_for_work,need_income,Tools for Work,need-fulfillment-class,Human / Consumer,3,12,,fulfillment path,
+need_income_training_for_work,need_income,Training for Work,need-fulfillment-class,Human / Consumer,4,12,,fulfillment path,
+need_income_business_benchmarks,need_income,Business Benchmarks,need-fulfillment-class,Human / Consumer,5,12,,fulfillment path,
+need_income_customer_segments,need_income,Customer Segments,need-fulfillment-class,Human / Consumer,6,12,,fulfillment path,
+need_community,human_needs,13. Family / Community / Care,need-domain,Human / Consumer,13,13,"Dependents, care networks, social support, household coordination.",priority need,
+need_community_household_members,need_community,Household Members,need-fulfillment-class,Human / Consumer,1,13,,fulfillment path,
+need_community_caregiving,need_community,Caregiving,need-fulfillment-class,Human / Consumer,2,13,,fulfillment path,
+need_community_community_services,need_community,Community Services,need-fulfillment-class,Human / Consumer,3,13,,fulfillment path,
+need_community_childcare,need_community,Childcare,need-fulfillment-class,Human / Consumer,4,13,,fulfillment path,
+need_community_eldercare,need_community,Eldercare,need-fulfillment-class,Human / Consumer,5,13,,fulfillment path,
+need_community_social_support,need_community,Social Support,need-fulfillment-class,Human / Consumer,6,13,,fulfillment path,
+need_legal,human_needs,14. Legal / Rights / Public Services,need-domain,Human / Consumer,14,14,"Rights, permits, licenses, benefits, remedies, obligations.",priority need,
+need_legal_rights_remedies,need_legal,Rights / Remedies,need-fulfillment-class,Human / Consumer,1,14,,fulfillment path,
+need_legal_licenses_permits,need_legal,Licenses / Permits,need-fulfillment-class,Human / Consumer,2,14,,fulfillment path,
+need_legal_taxes_benefits,need_legal,Taxes / Benefits,need-fulfillment-class,Human / Consumer,3,14,,fulfillment path,
+need_legal_consumer_protection,need_legal,Consumer Protection,need-fulfillment-class,Human / Consumer,4,14,,fulfillment path,
+need_legal_public_records,need_legal,Public Records,need-fulfillment-class,Human / Consumer,5,14,,fulfillment path,
+need_legal_regulatory_compliance,need_legal,Regulatory Compliance,need-fulfillment-class,Human / Consumer,6,14,,fulfillment path,
+need_education,human_needs,15. Education / Skills / Knowledge,need-domain,Human / Consumer,15,15,"Learning, credentials, skill-building, training, research.",priority need,
+need_education_basic_education,need_education,Basic Education,need-fulfillment-class,Human / Consumer,1,15,,fulfillment path,
+need_education_postsecondary,need_education,Postsecondary,need-fulfillment-class,Human / Consumer,2,15,,fulfillment path,
+need_education_skills_training,need_education,Skills Training,need-fulfillment-class,Human / Consumer,3,15,,fulfillment path,
+need_education_reference_books,need_education,Reference Books,need-fulfillment-class,Human / Consumer,4,15,,fulfillment path,
+need_education_credentials,need_education,Credentials,need-fulfillment-class,Human / Consumer,5,15,,fulfillment path,
+need_education_learning_materials,need_education,Learning Materials,need-fulfillment-class,Human / Consumer,6,15,,fulfillment path,
+need_tools,human_needs,16. Tools / Property Maintenance / Repair,need-domain,Human / Consumer,16,16,"Tools, hardware, fasteners, maintenance, building components.",priority need,
+need_tools_hand_tools,need_tools,Hand Tools,need-fulfillment-class,Human / Consumer,1,16,,fulfillment path,
+need_tools_power_tools,need_tools,Power Tools,need-fulfillment-class,Human / Consumer,2,16,,fulfillment path,
+need_tools_fasteners,need_tools,Fasteners,need-fulfillment-class,Human / Consumer,3,16,,fulfillment path,
+need_tools_hardware,need_tools,Hardware,need-fulfillment-class,Human / Consumer,4,16,,fulfillment path,
+need_tools_modular_framing,need_tools,Modular Framing,need-fulfillment-class,Human / Consumer,5,16,,fulfillment path,
+need_tools_hose_fittings,need_tools,Hose / Fittings,need-fulfillment-class,Human / Consumer,6,16,,fulfillment path,
+need_tools_building_materials,need_tools,Building Materials,need-fulfillment-class,Human / Consumer,7,16,,fulfillment path,
+need_tools_cabinets_slides,need_tools,Cabinets / Slides,need-fulfillment-class,Human / Consumer,8,16,,fulfillment path,
+need_finance,human_needs,17. Finance / Insurance / Long-Term Resilience,need-domain,Human / Consumer,17,17,"Savings, insurance, credit, debt, capital, retirement.",priority need,
+need_finance_cash_flow,need_finance,Cash Flow,need-fulfillment-class,Human / Consumer,1,17,,fulfillment path,
+need_finance_credit,need_finance,Credit,need-fulfillment-class,Human / Consumer,2,17,,fulfillment path,
+need_finance_insurance,need_finance,Insurance,need-fulfillment-class,Human / Consumer,3,17,,fulfillment path,
+need_finance_savings,need_finance,Savings,need-fulfillment-class,Human / Consumer,4,17,,fulfillment path,
+need_finance_capital_assets,need_finance,Capital Assets,need-fulfillment-class,Human / Consumer,5,17,,fulfillment path,
+need_finance_retirement,need_finance,Retirement,need-fulfillment-class,Human / Consumer,6,17,,fulfillment path,
+need_recreation,human_needs,18. Recreation / Culture / Meaning,need-domain,Human / Consumer,18,18,"Recreation, social activities, spiritual/cultural value.",priority need,
+need_recreation_games_activities,need_recreation,Games / Activities,need-fulfillment-class,Human / Consumer,1,18,,fulfillment path,
+need_recreation_outdoor_recreation,need_recreation,Outdoor Recreation,need-fulfillment-class,Human / Consumer,2,18,,fulfillment path,
+need_recreation_culture_arts,need_recreation,Culture / Arts,need-fulfillment-class,Human / Consumer,3,18,,fulfillment path,
+need_recreation_spiritual_meaning,need_recreation,Spiritual / Meaning,need-fulfillment-class,Human / Consumer,4,18,,fulfillment path,
+need_recreation_gardening,need_recreation,Gardening,need-fulfillment-class,Human / Consumer,5,18,,fulfillment path,
+need_lifestyle,human_needs,19. Lifestyle Wants / Comfort / Nice-to-Have,need-domain,Human / Consumer,19,19,"Preference, comfort, status, convenience after core needs are met.",priority need,
+need_lifestyle_comfort_upgrades,need_lifestyle,Comfort Upgrades,need-fulfillment-class,Human / Consumer,1,19,,fulfillment path,
+need_lifestyle_luxury_goods,need_lifestyle,Luxury Goods,need-fulfillment-class,Human / Consumer,2,19,,fulfillment path,
+need_lifestyle_collectibles_historical_reference,need_lifestyle,Collectibles / Historical Reference,need-fulfillment-class,Human / Consumer,3,19,,fulfillment path,
+need_lifestyle_hobby_items,need_lifestyle,Hobby Items,need-fulfillment-class,Human / Consumer,4,19,,fulfillment path,
+need_lifestyle_aesthetic_preference,need_lifestyle,Aesthetic Preference,need-fulfillment-class,Human / Consumer,5,19,,fulfillment path,
+human_profile,human,"User Profile — Inputs, Constraints, Preferences",profile,Human / Consumer,2,,,,
+profile_identity_household_context,human_profile,Identity / Household Context,profile-object,Human / Consumer,1,,,,
+profile_need_priority_weights,human_profile,Need Priority Weights,profile-object,Human / Consumer,2,,,,
+profile_constraints_budget_time_location,human_profile,Constraints / Budget / Time / Location,profile-object,Human / Consumer,3,,,,
+profile_preferences_deal_breakers,human_profile,Preferences / Deal-Breakers,profile-object,Human / Consumer,4,,,,
+profile_records_evidence_ownership_outcomes,human_profile,Records / Evidence / Ownership Outcomes,profile-object,Human / Consumer,5,,,,
+market_offers_listings,market,Offers / Listings,market-object,Market / Exchange,1,,,,
+market_bids_quotes_negotiations,market,Bids / Quotes / Negotiations,market-object,Market / Exchange,2,,,,
+market_transactions_receipts_contracts,market,Transactions / Receipts / Contracts,market-object,Market / Exchange,3,,,,
+market_prices_availability_delivery,market,Prices / Availability / Delivery,market-object,Market / Exchange,4,,,,
+market_product_identity_classification,market,Product Identity / Classification,market-object,Market / Exchange,5,,,,
+business_business_type_library,business,Business Type Library,business-object,Business / Commercial,1,,,,
+business_business_model,business,Business Model,business-object,Business / Commercial,2,,,,
+business_department_swimlanes,business,Department Swimlanes,business-object,Business / Commercial,3,,,,
+business_simulation_calibration,business,Simulation / Calibration,business-object,Business / Commercial,4,,,,
+business_catalog_conversion_sources,business,Catalog Conversion Sources,business-object,Business / Commercial,5,,,,
+catalog_priority,business_catalog_conversion_sources,Priority Product Catalogs,source-group,Business / Commercial,1,,,,
+catalog_industrial,business_catalog_conversion_sources,Industrial / Hardware / MRO Catalogs,source-group,Business / Commercial,2,,,,
+catalog_stats,business_catalog_conversion_sources,Statistics / Environment / Calibration Data,source-group,Business / Commercial,3,,,,
+catalog_reference,business_catalog_conversion_sources,Reference / Theory / Restricted Sources,source-group,Business / Commercial,4,,,,
+finance_accounts_cash_flow,finance_sector,Accounts / Cash Flow,finance-object,Finance / Capital,1,,,,
+finance_credit_loans_leases,finance_sector,Credit / Loans / Leases,finance-object,Finance / Capital,2,,,,
+finance_insurance_risk_transfer,finance_sector,Insurance / Risk Transfer,finance-object,Finance / Capital,3,,,,
+finance_savings_capital_assets,finance_sector,Savings / Capital Assets,finance-object,Finance / Capital,4,,,,
+finance_value_credit_assessment,finance_sector,Value / Credit Assessment,finance-object,Finance / Capital,5,,,,
+government_public_services,government,Public Services,public-object,Public / Government,1,,,,
+government_public_records_registries,government,Public Records / Registries,public-object,Public / Government,2,,,,
+government_permits_licences_authorizations,government,Permits / Licences / Authorizations,public-object,Public / Government,3,,,,
+government_taxes_fees_transfers,government,Taxes / Fees / Transfers,public-object,Public / Government,4,,,,
+government_rights_remedies_appeals,government,Rights / Remedies / Appeals,public-object,Public / Government,5,,,,
+government_procurement_public_contracts,government,Procurement / Public Contracts,public-object,Public / Government,6,,,,
+government_official_statistics_data_cubes,government,Official Statistics / Data Cubes,public-object,Public / Government,7,,,,
+src_src_0001,catalog_stats,Open Food Facts bulk database,source,Human / Consumer; Market / Exchange,1,,Already locally processed in first Canada run; raw JSONL stays local.,Open Data Bulk,SRC-0001
+src_src_0002,catalog_stats,NAPCS Canada 2022 product classification,source,Market / Exchange; Business / Commercial; Public / Government,2,,"Use as official classification crosswalk, not as user-facing need tree replacement.",Official Classification,SRC-0002
+src_src_0003,catalog_stats,ISED Financial Performance Data 2024,source,Business / Commercial; Finance / Capital,3,,Already packaged as GitHub-safe v0.2; raw ZIP should stay as Release asset.,Official Business Financial Benchmark,SRC-0003
+src_src_0004,catalog_stats,Statistics Canada cube downloads,source,Public / Government; Human / Consumer; Market / Exchange,4,,Initial sample import succeeded; latest-PID refresh is next.,Official Statistical Cubes,SRC-0004
+src_src_0005,catalog_reference,GS1 GPC Browser and barcode/product identity references,source,Market / Exchange; Business / Commercial,5,,Use brick terminology for product-level datagrid refinement.,Product Identity / Classification Reference,SRC-0005
+src_src_0006,catalog_reference,NVD CPE,source,Information / Records; Market / Exchange,6,,"Useful for IT/software product identity, not retail SKU pricing.",Open Technical Classification,SRC-0006
+src_src_0007,catalog_stats,ENERGY STAR product datasets,source,Human / Consumer; Market / Exchange; Resources / Environment,7,,High value for appliance and building-system comparison.,Open Product/Efficiency Dataset,SRC-0007
+src_src_0008,catalog_stats,NHTSA vehicle datasets,source,Human / Consumer; Public / Government; Market / Exchange,8,,Use to refresh vehicle taxonomy and current safety info.,Open Vehicle Dataset,SRC-0008
+src_src_0100,catalog_priority,Essentra Components Catalog Volume 14,source,Business / Commercial; Market / Exchange,9,,"Over 1,000 pages; structured contents and repeated item/spec tables.",Industrial Component Catalog,SRC-0100
+src_src_0101,catalog_priority,Faucher complete truck-body hardware set,source,Business / Commercial; Market / Exchange,10,,"Handles, locks/latches, gas springs, hinges, adhesives, rubber, fasteners, cargo control, heaters, lights.",Truck Body Hardware Catalog Set,SRC-0101
+src_src_0102,catalog_priority,"Parker Hose, Fittings and Equipment Catalog 4400",source,Business / Commercial; Market / Exchange,11,,Keep safety warnings and do-not-mix rules attached to records.,Fluid Power / Hose Catalog,SRC-0102
+src_src_0103,catalog_priority,Gregg Distributors Product Catalogue,source,Business / Commercial; Human / Consumer; Market / Exchange,12,,"2,600+ pages; convert by section rather than whole catalog at once.",Canadian Industrial Supply Catalog,SRC-0103
+src_src_0104,catalog_priority,80/20 Catalog 20,source,Business / Commercial; Market / Exchange,13,,Duplicate uploaded as Catalog_20_20 and Catalog_80_20; keep one master source.,Modular Framing System Catalog,SRC-0104
+src_src_0105,catalog_priority,Grote Lighting Systems and Electrical Catalogs,source,Business / Commercial; Market / Exchange,14,,"Includes lighting, electrical connection, fuse/circuit protection.",Vehicle Electrical / Lighting Catalog Set,SRC-0105
+src_src_0106,catalog_industrial,"GPH / Nexans mechanical connectors, cable lugs and clamps",source,Business / Commercial; Infrastructure / Logistics; Public / Government,15,,Flag voltage ranges and VDE/IEC references; not consumer DIY guidance.,Electrical Power Hardware Catalog Set,SRC-0106
+src_src_0107,catalog_stats,Aluminum Fastener Supply Product Catalog,source,Business / Commercial; Market / Exchange,16,,Good for aluminum-compatible fastener comparison.,Fastener Catalog,SRC-0107
+src_src_0108,catalog_industrial,Tyrolit Specialised Precision Product Catalogue,source,Business / Commercial; Market / Exchange,17,,Useful for material/tooling application matrix.,Abrasives / Grinding Technical Catalog,SRC-0108
+src_src_0109,catalog_industrial,Ortlieb Clamping Systems Catalogue,source,Business / Commercial,18,,Useful for tooling/workholding classification.,Workholding / Clamping Catalog,SRC-0109
+src_src_0110,catalog_reference,KNA Fluid Power hose/fitting cross-reference,source,Business / Commercial; Market / Exchange,19,,"Maps KNA to Dayco, Parker, Aeroquip, Gates.",Hydraulic Hose/Fitting Cross Reference,SRC-0110
+src_src_0111,catalog_industrial,LM Industries Product Catalogue & Technical Reference,source,Business / Commercial; Infrastructure / Logistics,20,,"Over 5,200 parts claimed in inventory; good system-component source.",Vacuum / Water Truck Parts Catalog,SRC-0111
+src_src_0112,catalog_industrial,GapVax PartsExpress parts catalog,source,Business / Commercial; Infrastructure / Logistics,21,,Duplicate uploaded twice; keep one master.,Vacuum Truck Parts Catalog,SRC-0112
+src_src_0113,catalog_reference,Kingfisher Welded Boat Guide,source,Human / Consumer; Market / Exchange,22,,Finished-product comparison source.,Marine Vehicle Product Catalog,SRC-0113
+src_src_0114,catalog_reference,Harkness Rose Catalogue,source,Human / Consumer; Market / Exchange,23,,Good for house/garden/property domain.,Horticulture Product Catalog,SRC-0114
+src_src_0115,catalog_industrial,Respiratory Protection Catalog,source,Business / Commercial; Human / Consumer; Public / Government,24,,Do not turn into medical/safety advice without current standards verification.,Safety PPE Catalog,SRC-0115
+src_src_0116,catalog_reference,CRC Custom Rollforming profile catalog,source,Business / Commercial; Manufacturing,25,,Image-based; no text parsed.,Roll-formed Profile Catalog,SRC-0116
+src_src_0117,catalog_reference,J.B. Shannon & Sons Illustrated Catalogue of Building Hardware No. 24,source,Market / Exchange; Historical Reference,26,,Not current product source; useful taxonomy/reference.,Historical Building Hardware Catalog,SRC-0117
+src_src_0118,catalog_industrial,MCM Electronics 2014 Catalog,source,Business / Commercial; Market / Exchange,27,,Previously identified as direct catalog source with many products.,Electronics / Tools Catalog,SRC-0118
+src_src_0119,catalog_industrial,Starrett Precision Tools Catalog No. 28,source,Business / Commercial,28,,Good source for measuring and quality inspection categories.,Precision Tool Catalog,SRC-0119
+src_src_0120,catalog_industrial,Scientific Products General Catalog 1991-92,source,Business / Commercial; Public / Government,29,,Large lab/industrial source.,Lab / Scientific Product Catalog,SRC-0120
+src_src_0121,catalog_industrial,IVES Architectural Hardware Catalog,source,Business / Commercial; Shelter / Housing,30,,Good brick source for doors and construction hardware.,Architectural Hardware Catalog,SRC-0121
+src_src_0122,catalog_industrial,K2 Door Hardware Catalog,source,Business / Commercial; Shelter / Housing,31,,Keep as product/spec reference; no security-bypass workflows.,Door Hardware Catalog,SRC-0122
+src_src_0123,catalog_reference,Aquascape Water Features Catalog,source,Human / Consumer; Market / Exchange,32,,Property/garden system category.,Outdoor Property Catalog,SRC-0123
+src_src_0124,catalog_industrial,Waytek Automotive Electrical Supplies,source,Business / Commercial; Market / Exchange,33,,Excellent wiring/electrical brick source.,Automotive Electrical Catalog,SRC-0124
+src_src_0125,catalog_reference,Gardall Safe Catalog,source,Human / Consumer; Business / Commercial,34,,Avoid advice on defeating security.,Safe / Security Storage Catalog,SRC-0125
+src_src_0126,catalog_reference,Master Lock keyed-alike / lock reference,source,Business / Commercial; Human / Consumer,35,,Do not publish detailed keyed-alike code lists.,Lock Reference,SRC-0126
+src_src_0127,catalog_reference,Chamela Lingerie Catalog,source,Human / Consumer; Market / Exchange,36,,Usable as apparel SKU structure source.,Apparel Catalog,SRC-0127
+src_src_0128,catalog_reference,Shoe and Leather Encyclopedia,source,Human / Consumer; Market / Exchange,37,,Taxonomy more than product rows.,Footwear / Leather Taxonomy Reference,SRC-0128
+src_src_0200,catalog_stats,Business Statistics of the United States 2022,source,Business / Commercial; Market / Exchange; Finance / Capital,38,,Use to identify public source tables and model variables.,Statistical Reference Book,SRC-0200
+src_src_0201,catalog_stats,ProQuest Statistical Abstract of the United States 2021,source,Public / Government; Human / Consumer; Business / Commercial; Market / Exchange,39,,Treat as guide to source datasets.,Statistical Abstract,SRC-0201
+src_src_0202,catalog_stats,Handbook of U.S. Labor Statistics,source,Human / Consumer; Business / Commercial; Market / Exchange,40,,Use public BLS originals where possible for current data.,Labor Statistical Reference,SRC-0202
+src_src_0203,catalog_stats,The Almanac of American Education 2022,source,Human / Consumer; Public / Government,41,,Useful for education/labour connection.,Education Statistical Reference,SRC-0203
+src_src_0204,catalog_stats,State Profiles 2018,source,Public / Government; Market / Exchange,42,,Good repeatable geography profile template.,State Statistical Profile,SRC-0204
+src_src_0205,catalog_reference,American Buyers: Demographics of Shopping,source,Human / Consumer; Market / Exchange; Business / Commercial,43,,"Use for demand-model seed, not current forecasting alone.",Buyer Demand Reference,SRC-0205
+src_src_0206,catalog_stats,Applied Demography,source,Human / Consumer; Public / Government,44,,Use for population segment modelling.,Method/Theory Book,SRC-0206
+src_src_0207,catalog_stats,Demography: The Study of Human Population,source,Human / Consumer; Public / Government,45,,Core theory source.,Method/Theory Book,SRC-0207
+src_src_0208,catalog_industrial,Corporate Demography / Demography of Corporations and Industries,source,Business / Commercial,46,,Supports business simulator.,Business Simulation Theory,SRC-0208
+src_src_0209,catalog_industrial,Agent-Mediated Electronic Commerce AMEC/TADA series,source,Market / Exchange; Business / Commercial,47,,Important for future buyer/seller agents.,Agent Market Theory,SRC-0209
+src_src_0210,catalog_reference,Enterprise logistics and supply chain structure: the role of fit,source,Business / Commercial; Infrastructure / Logistics,48,,Use for business simulator architecture.,Supply Chain Theory Paper,SRC-0210
+src_src_0211,catalog_stats,"Women's Equality, Demography and Public Policies",source,Public / Government; Human / Consumer,49,,Aggregate/policy modelling only.,Policy/Demography Reference,SRC-0211
+src_src_0212,catalog_stats,"Ethnic Demography: Canadian Immigrant, Racial and Cultural Variations",source,Human / Consumer; Public / Government,50,,No individual profiling/decisioning.,Canadian Demography Reference,SRC-0212
+src_src_0213,catalog_reference,America’s Diverse Population,source,Human / Consumer; Public / Government,51,,Aggregate-only demographic modelling.,Demographic Profile Reference,SRC-0213
+src_src_0214,catalog_reference,Giant Book of Games,source,Human / Consumer,52,,Useful for recreation/program design.,Recreation Activity Reference,SRC-0214
+src_src_0300,catalog_reference,Ruger firearms collector catalog,source,Reference Sensitive,53,,"Do not build acquisition, sourcing, pricing, or recommendation flows.",Firearms Collector Reference,SRC-0300
+src_src_0301,catalog_reference,U.S. Military Vehicles standard catalog,source,Transportation Reference; Public / Government,54,,EPUB not fully indexed in current file results.,Historical Military Vehicle Reference,SRC-0301
+src_src_0302,catalog_reference,Kershaw / Shun Knife Catalog,source,Human / Consumer; Market / Exchange,55,,Housewares cutlery okay; avoid weapon-use workflows.,Kitchen Cutlery Catalog,SRC-0302
+src_src_0303,catalog_reference,CRKT Knife Catalog,source,Reference Sensitive,56,,No acquisition/deal-finding/carry guidance.,Knife/Tool Catalog,SRC-0303
+src_src_0304,catalog_reference,Byrd / Spyderco Knife Catalog,source,Reference Sensitive,57,,No acquisition/deal-finding/carry guidance.,Knife Catalog,SRC-0304
+src_src_0305,catalog_reference,Victorinox New Products catalog,source,Reference Sensitive,58,,Image-based; lower priority.,Knife/Multitool Catalog,SRC-0305
+src_src_0306,catalog_reference,Great Wines of Europe,source,Reference Regulated,59,,No alcohol retail recommendation workflow.,Wine Region Reference,SRC-0306
+src_src_0400,catalog_industrial,Home Depot / Lowe's / RONA / Home Hardware catalog access paths,source,Human / Consumer; Market / Exchange,60,,Acquire via feeds/APIs/public downloadable data where available.,Online Acquisition Target,SRC-0400
+src_src_0401,catalog_priority,Grainger / Fastenal / Gregg / Red Deer Bolt / Richelieu / Accuride / Blum,source,Business / Commercial; Market / Exchange,61,,High value for property and hardware bricks.,Online Acquisition Target,SRC-0401
+src_src_0402,catalog_industrial,NAPA / RockAuto / auto parts fitment sources,source,Human / Consumer; Market / Exchange,62,,Full fitment may require license/commercial access.,Online Acquisition Target,SRC-0402
+src_src_0403,catalog_reference,Best Buy / Canadian Tire / Staples / Dollarama,source,Human / Consumer; Market / Exchange,63,,Good broad consumer coverage.,Online Acquisition Target,SRC-0403
+src_src_0404,catalog_industrial,"Windows, doors, stairs, railings, garage doors, fire doors, HVAC, water heaters, electrical, ducting, lighting",source,Shelter / Housing; Business / Commercial,64,,Important modular construction/component layer.,Online Acquisition Target,SRC-0404
+src_src_0405,catalog_reference,"Computer, IT and communications product catalogs",source,Information / Records; Market / Exchange,65,,Combine product identity with regulatory/frequency notes.,Online Acquisition Target,SRC-0405
+src_src_0406,catalog_reference,Furniture and furnishings catalogs including La-Z-Boy,source,Human / Consumer; Market / Exchange,66,,Useful for shelter/household domain.,Online Acquisition Target,SRC-0406

@@ -1,0 +1,7 @@
+﻿uid,need_rank,need_path,item_name,source_vendor,fulfillment_score,survival_value,total_cost,availability,durability,risk,evidence,record_status
+DG-001,1,Air / Respiratory Protection,Half-mask respirator family,North by Honeywell,72,95,0,historical catalog; verify current,70,35,Respiratory catalog,safety-critical reference
+DG-002,2,Water / Pumps / Hoses / Fittings,Industrial hose / fluid connector category,Parker / KNA / Gregg,74,92,0,catalog/reference,82,45,Parker/KNA/Gregg,technical reference
+DG-003,3,Food / Grocery Products,Open Food Facts Canadian product records,Open Food Facts,68,90,0,current open data,60,20,bulk open database,current source
+DG-004,4,Shelter / Building Envelope,Building hardware and door hardware category,IVES / K2,62,86,0,mixed current/historical,80,25,door hardware catalogs,catalog source
+DG-005,10,Transportation / Vehicle Electrical,Vehicle lighting and electrical connectors,Grote / Waytek,78,76,0,historical/current mixed,84,28,Grote/Waytek catalogs,catalog source
+DG-006,16,Tools / Modular Framing,T-slot aluminum modular framing,80/20,70,55,0,current online likely,90,18,80/20 catalog,catalog source

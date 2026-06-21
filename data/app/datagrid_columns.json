@@ -1,0 +1,50 @@
+[
+  {
+    "field": "need_rank",
+    "label": "Need Rank"
+  },
+  {
+    "field": "need_path",
+    "label": "Need Path"
+  },
+  {
+    "field": "item_name",
+    "label": "Item / Offer"
+  },
+  {
+    "field": "source_vendor",
+    "label": "Source / Vendor"
+  },
+  {
+    "field": "fulfillment_score",
+    "label": "Fulfillment"
+  },
+  {
+    "field": "survival_value",
+    "label": "Survival Value"
+  },
+  {
+    "field": "total_cost",
+    "label": "Total Cost"
+  },
+  {
+    "field": "availability",
+    "label": "Availability"
+  },
+  {
+    "field": "durability",
+    "label": "Durability"
+  },
+  {
+    "field": "risk",
+    "label": "Risk"
+  },
+  {
+    "field": "evidence",
+    "label": "Evidence"
+  },
+  {
+    "field": "record_status",
+    "label": "Status"
+  }
+]

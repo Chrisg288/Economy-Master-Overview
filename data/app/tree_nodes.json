@@ -5,9 +5,11 @@
     "label": "Economy Home",
     "type": "orientation",
     "sector": "Home",
-    "meta": "orientation",
-    "source_uid": "",
-    "sort": 0
+    "sort": 0,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "human",
@@ -15,9 +17,11 @@
     "label": "Human / Consumer",
     "type": "sector-link",
     "sector": "Human / Consumer",
-    "meta": "sector link",
-    "source_uid": "",
-    "sort": 1
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "market",
@@ -25,9 +29,11 @@
     "label": "Market / Exchange",
     "type": "sector-link",
     "sector": "Market / Exchange",
-    "meta": "sector link",
-    "source_uid": "",
-    "sort": 2
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "business",
@@ -35,19 +41,23 @@
     "label": "Business / Commercial",
     "type": "sector-link",
     "sector": "Business / Commercial",
-    "meta": "sector link",
-    "source_uid": "",
-    "sort": 3
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
-    "node_id": "finance",
+    "node_id": "finance_sector",
     "parent_id": "home",
     "label": "Finance / Capital",
     "type": "sector-link",
     "sector": "Finance / Capital",
-    "meta": "sector link",
-    "source_uid": "",
-    "sort": 4
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "government",
@@ -55,629 +65,2063 @@
     "label": "Public / Government",
     "type": "sector-link",
     "sector": "Public / Government",
-    "meta": "sector link",
-    "source_uid": "",
-    "sort": 5
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "human_needs",
+    "parent_id": "human",
+    "label": "LIST USER WANTS / NEEDS — SURVIVAL PRIORITY TREE",
+    "type": "priority-root",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "Most important survival needs at top; least important wants at bottom.",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air",
+    "parent_id": "human_needs",
+    "label": "01. Air / Breathable Environment",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "01",
+    "description": "Immediate survival; atmosphere, ventilation, smoke/gas avoidance.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air_smoke_fire_air_risk",
+    "parent_id": "need_air",
+    "label": "Smoke / Fire Air Risk",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "01",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air_ventilation",
+    "parent_id": "need_air",
+    "label": "Ventilation",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "01",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air_respiratory_protection",
+    "parent_id": "need_air",
+    "label": "Respiratory Protection",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "01",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air_gas_detection",
+    "parent_id": "need_air",
+    "label": "Gas Detection",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "01",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_air_air_filtration",
+    "parent_id": "need_air",
+    "label": "Air Filtration",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "01",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water",
+    "parent_id": "human_needs",
+    "label": "02. Water / Hydration",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "02",
+    "description": "Drinkable water, storage, filtration, access, sanitation water.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water_drinking_water",
+    "parent_id": "need_water",
+    "label": "Drinking Water",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "02",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water_water_storage",
+    "parent_id": "need_water",
+    "label": "Water Storage",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "02",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water_water_filtration",
+    "parent_id": "need_water",
+    "label": "Water Filtration",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "02",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water_pumps_hoses_fittings",
+    "parent_id": "need_water",
+    "label": "Pumps / Hoses / Fittings",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "02",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_water_hot_water",
+    "parent_id": "need_water",
+    "label": "Hot Water",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "02",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food",
+    "parent_id": "human_needs",
+    "label": "03. Food / Nutrition / Survival",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "03",
+    "description": "Calories, nutrition, shelf-stable food, cooking, preservation.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_survival_food",
+    "parent_id": "need_food",
+    "label": "Survival Food",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_grocery_products",
+    "parent_id": "need_food",
+    "label": "Grocery Products",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_prepared_food",
+    "parent_id": "need_food",
+    "label": "Prepared Food",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_food_storage_preservation",
+    "parent_id": "need_food",
+    "label": "Food Storage / Preservation",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_cooking_equipment",
+    "parent_id": "need_food",
+    "label": "Cooking Equipment",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_food_nutrition_requirements",
+    "parent_id": "need_food",
+    "label": "Nutrition Requirements",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "03",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter",
+    "parent_id": "human_needs",
+    "label": "04. Shelter / Housing / Weather Protection",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "04",
+    "description": "Protection from exposure, housing, rent, ownership, emergency shelter.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_emergency_shelter",
+    "parent_id": "need_shelter",
+    "label": "Emergency Shelter",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_rent",
+    "parent_id": "need_shelter",
+    "label": "Rent",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_ownership",
+    "parent_id": "need_shelter",
+    "label": "Ownership",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_utilities",
+    "parent_id": "need_shelter",
+    "label": "Utilities",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_building_envelope",
+    "parent_id": "need_shelter",
+    "label": "Building Envelope",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_windows_doors",
+    "parent_id": "need_shelter",
+    "label": "Windows / Doors",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_hvac",
+    "parent_id": "need_shelter",
+    "label": "HVAC",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 7,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_shelter_furnishings",
+    "parent_id": "need_shelter",
+    "label": "Furnishings",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 8,
+    "priority_rank": "04",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal",
+    "parent_id": "human_needs",
+    "label": "05. Heat / Thermal Protection / Clothing",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "05",
+    "description": "Body temperature, clothing, insulation, blankets, winterization.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_clothing",
+    "parent_id": "need_thermal",
+    "label": "Clothing",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_work_wear",
+    "parent_id": "need_thermal",
+    "label": "Work Wear",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_blankets_bedding",
+    "parent_id": "need_thermal",
+    "label": "Blankets / Bedding",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_insulation",
+    "parent_id": "need_thermal",
+    "label": "Insulation",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_heating_systems",
+    "parent_id": "need_thermal",
+    "label": "Heating Systems",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_thermal_cold_weather_gear",
+    "parent_id": "need_thermal",
+    "label": "Cold Weather Gear",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "05",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety",
+    "parent_id": "human_needs",
+    "label": "06. Safety / Security / Emergency",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "06",
+    "description": "Personal safety, fire, detection, PPE, emergency response, security.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_personal_safety",
+    "parent_id": "need_safety",
+    "label": "Personal Safety",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_fire_protection",
+    "parent_id": "need_safety",
+    "label": "Fire Protection",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_first_aid",
+    "parent_id": "need_safety",
+    "label": "First Aid",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_ppe",
+    "parent_id": "need_safety",
+    "label": "PPE",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_security_storage",
+    "parent_id": "need_safety",
+    "label": "Security Storage",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_vehicle_safety",
+    "parent_id": "need_safety",
+    "label": "Vehicle Safety",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_safety_emergency_planning",
+    "parent_id": "need_safety",
+    "label": "Emergency Planning",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 7,
+    "priority_rank": "06",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health",
+    "parent_id": "human_needs",
+    "label": "07. Health / Medical / Hygiene",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 7,
+    "priority_rank": "07",
+    "description": "Medical care, first aid, hygiene, medication management, prevention.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_medical_care",
+    "parent_id": "need_health",
+    "label": "Medical Care",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_first_aid_products",
+    "parent_id": "need_health",
+    "label": "First Aid Products",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_hygiene",
+    "parent_id": "need_health",
+    "label": "Hygiene",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_fitness_mobility",
+    "parent_id": "need_health",
+    "label": "Fitness / Mobility",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_health_insurance",
+    "parent_id": "need_health",
+    "label": "Health Insurance",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_health_medication_supplies",
+    "parent_id": "need_health",
+    "label": "Medication / Supplies",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "07",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation",
+    "parent_id": "human_needs",
+    "label": "08. Sanitation / Waste / Cleaning",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 8,
+    "priority_rank": "08",
+    "description": "Waste handling, toilets, cleaning, pests, contamination control.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_toilets_waste",
+    "parent_id": "need_sanitation",
+    "label": "Toilets / Waste",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_cleaning_supplies",
+    "parent_id": "need_sanitation",
+    "label": "Cleaning Supplies",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_janitorial",
+    "parent_id": "need_sanitation",
+    "label": "Janitorial",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_pest_control",
+    "parent_id": "need_sanitation",
+    "label": "Pest Control",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_laundry",
+    "parent_id": "need_sanitation",
+    "label": "Laundry",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_sanitation_sewage_septic",
+    "parent_id": "need_sanitation",
+    "label": "Sewage / Septic",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "08",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy",
+    "parent_id": "human_needs",
+    "label": "09. Energy / Power / Fuel",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 9,
+    "priority_rank": "09",
+    "description": "Heat, electricity, fuel, batteries, cooking energy, backup power.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_electricity",
+    "parent_id": "need_energy",
+    "label": "Electricity",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_batteries",
+    "parent_id": "need_energy",
+    "label": "Batteries",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_generators",
+    "parent_id": "need_energy",
+    "label": "Generators",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_fuel",
+    "parent_id": "need_energy",
+    "label": "Fuel",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_solar_backup_power",
+    "parent_id": "need_energy",
+    "label": "Solar / Backup Power",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_energy_energy_efficient_appliances",
+    "parent_id": "need_energy",
+    "label": "Energy-Efficient Appliances",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "09",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport",
+    "parent_id": "human_needs",
+    "label": "10. Transportation / Mobility",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 10,
+    "priority_rank": "10",
+    "description": "Vehicle, transit, fuel, maintenance, parts, mobility access.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_passenger_vehicles",
+    "parent_id": "need_transport",
+    "label": "Passenger Vehicles",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_auto_parts_fitment",
+    "parent_id": "need_transport",
+    "label": "Auto Parts / Fitment",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_tires_tracks",
+    "parent_id": "need_transport",
+    "label": "Tires / Tracks",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_vehicle_electrical",
+    "parent_id": "need_transport",
+    "label": "Vehicle Electrical",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_marine_vehicles",
+    "parent_id": "need_transport",
+    "label": "Marine Vehicles",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_transport_transit_mobility",
+    "parent_id": "need_transport",
+    "label": "Transit / Mobility",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "10",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication",
+    "parent_id": "human_needs",
+    "label": "11. Communication / Information / Records",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 11,
+    "priority_rank": "11",
+    "description": "Phone, internet, radio, identity records, documentation, alerts.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_cell_phones",
+    "parent_id": "need_communication",
+    "label": "Cell Phones",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_internet",
+    "parent_id": "need_communication",
+    "label": "Internet",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_radio_shortwave_cb",
+    "parent_id": "need_communication",
+    "label": "Radio / Shortwave / CB",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_documents_identity",
+    "parent_id": "need_communication",
+    "label": "Documents / Identity",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_data_storage",
+    "parent_id": "need_communication",
+    "label": "Data Storage",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_communication_alerts_news",
+    "parent_id": "need_communication",
+    "label": "Alerts / News",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "11",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income",
+    "parent_id": "human_needs",
+    "label": "12. Income / Work / Economic Activity",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 12,
+    "priority_rank": "12",
+    "description": "Employment, business, tools, productive assets, cash flow.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_employment",
+    "parent_id": "need_income",
+    "label": "Employment",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_business_model",
+    "parent_id": "need_income",
+    "label": "Business Model",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_tools_for_work",
+    "parent_id": "need_income",
+    "label": "Tools for Work",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_training_for_work",
+    "parent_id": "need_income",
+    "label": "Training for Work",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_business_benchmarks",
+    "parent_id": "need_income",
+    "label": "Business Benchmarks",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_income_customer_segments",
+    "parent_id": "need_income",
+    "label": "Customer Segments",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "12",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community",
+    "parent_id": "human_needs",
+    "label": "13. Family / Community / Care",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 13,
+    "priority_rank": "13",
+    "description": "Dependents, care networks, social support, household coordination.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_household_members",
+    "parent_id": "need_community",
+    "label": "Household Members",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_caregiving",
+    "parent_id": "need_community",
+    "label": "Caregiving",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_community_services",
+    "parent_id": "need_community",
+    "label": "Community Services",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_childcare",
+    "parent_id": "need_community",
+    "label": "Childcare",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_eldercare",
+    "parent_id": "need_community",
+    "label": "Eldercare",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_community_social_support",
+    "parent_id": "need_community",
+    "label": "Social Support",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "13",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal",
+    "parent_id": "human_needs",
+    "label": "14. Legal / Rights / Public Services",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 14,
+    "priority_rank": "14",
+    "description": "Rights, permits, licenses, benefits, remedies, obligations.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_rights_remedies",
+    "parent_id": "need_legal",
+    "label": "Rights / Remedies",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_licenses_permits",
+    "parent_id": "need_legal",
+    "label": "Licenses / Permits",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_taxes_benefits",
+    "parent_id": "need_legal",
+    "label": "Taxes / Benefits",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_consumer_protection",
+    "parent_id": "need_legal",
+    "label": "Consumer Protection",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_public_records",
+    "parent_id": "need_legal",
+    "label": "Public Records",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_legal_regulatory_compliance",
+    "parent_id": "need_legal",
+    "label": "Regulatory Compliance",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "14",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education",
+    "parent_id": "human_needs",
+    "label": "15. Education / Skills / Knowledge",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 15,
+    "priority_rank": "15",
+    "description": "Learning, credentials, skill-building, training, research.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_basic_education",
+    "parent_id": "need_education",
+    "label": "Basic Education",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_postsecondary",
+    "parent_id": "need_education",
+    "label": "Postsecondary",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_skills_training",
+    "parent_id": "need_education",
+    "label": "Skills Training",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_reference_books",
+    "parent_id": "need_education",
+    "label": "Reference Books",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_credentials",
+    "parent_id": "need_education",
+    "label": "Credentials",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_education_learning_materials",
+    "parent_id": "need_education",
+    "label": "Learning Materials",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "15",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools",
+    "parent_id": "human_needs",
+    "label": "16. Tools / Property Maintenance / Repair",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 16,
+    "priority_rank": "16",
+    "description": "Tools, hardware, fasteners, maintenance, building components.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_hand_tools",
+    "parent_id": "need_tools",
+    "label": "Hand Tools",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_power_tools",
+    "parent_id": "need_tools",
+    "label": "Power Tools",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_fasteners",
+    "parent_id": "need_tools",
+    "label": "Fasteners",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_hardware",
+    "parent_id": "need_tools",
+    "label": "Hardware",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_modular_framing",
+    "parent_id": "need_tools",
+    "label": "Modular Framing",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_hose_fittings",
+    "parent_id": "need_tools",
+    "label": "Hose / Fittings",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_building_materials",
+    "parent_id": "need_tools",
+    "label": "Building Materials",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 7,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_tools_cabinets_slides",
+    "parent_id": "need_tools",
+    "label": "Cabinets / Slides",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 8,
+    "priority_rank": "16",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance",
+    "parent_id": "human_needs",
+    "label": "17. Finance / Insurance / Long-Term Resilience",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 17,
+    "priority_rank": "17",
+    "description": "Savings, insurance, credit, debt, capital, retirement.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_cash_flow",
+    "parent_id": "need_finance",
+    "label": "Cash Flow",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_credit",
+    "parent_id": "need_finance",
+    "label": "Credit",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_insurance",
+    "parent_id": "need_finance",
+    "label": "Insurance",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_savings",
+    "parent_id": "need_finance",
+    "label": "Savings",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_capital_assets",
+    "parent_id": "need_finance",
+    "label": "Capital Assets",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_finance_retirement",
+    "parent_id": "need_finance",
+    "label": "Retirement",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 6,
+    "priority_rank": "17",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation",
+    "parent_id": "human_needs",
+    "label": "18. Recreation / Culture / Meaning",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 18,
+    "priority_rank": "18",
+    "description": "Recreation, social activities, spiritual/cultural value.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation_games_activities",
+    "parent_id": "need_recreation",
+    "label": "Games / Activities",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "18",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation_outdoor_recreation",
+    "parent_id": "need_recreation",
+    "label": "Outdoor Recreation",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "18",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation_culture_arts",
+    "parent_id": "need_recreation",
+    "label": "Culture / Arts",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "18",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation_spiritual_meaning",
+    "parent_id": "need_recreation",
+    "label": "Spiritual / Meaning",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "18",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_recreation_gardening",
+    "parent_id": "need_recreation",
+    "label": "Gardening",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "18",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle",
+    "parent_id": "human_needs",
+    "label": "19. Lifestyle Wants / Comfort / Nice-to-Have",
+    "type": "need-domain",
+    "sector": "Human / Consumer",
+    "sort": 19,
+    "priority_rank": "19",
+    "description": "Preference, comfort, status, convenience after core needs are met.",
+    "meta": "priority need",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle_comfort_upgrades",
+    "parent_id": "need_lifestyle",
+    "label": "Comfort Upgrades",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "19",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle_luxury_goods",
+    "parent_id": "need_lifestyle",
+    "label": "Luxury Goods",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "19",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle_collectibles_historical_reference",
+    "parent_id": "need_lifestyle",
+    "label": "Collectibles / Historical Reference",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "19",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle_hobby_items",
+    "parent_id": "need_lifestyle",
+    "label": "Hobby Items",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "19",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
+  },
+  {
+    "node_id": "need_lifestyle_aesthetic_preference",
+    "parent_id": "need_lifestyle",
+    "label": "Aesthetic Preference",
+    "type": "need-fulfillment-class",
+    "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "19",
+    "description": "",
+    "meta": "fulfillment path",
+    "source_uid": ""
   },
   {
     "node_id": "human_profile",
     "parent_id": "human",
-    "label": "User Profile",
+    "label": "User Profile — Inputs, Constraints, Preferences",
     "type": "profile",
     "sector": "Human / Consumer",
-    "meta": "new mode target",
-    "source_uid": "",
-    "sort": 1
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
-    "node_id": "profile_identity",
+    "node_id": "profile_identity_household_context",
     "parent_id": "human_profile",
-    "label": "Profile Identity",
+    "label": "Identity / Household Context",
     "type": "profile-object",
     "sector": "Human / Consumer",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 2
+    "source_uid": ""
   },
   {
-    "node_id": "profile_needs",
+    "node_id": "profile_need_priority_weights",
     "parent_id": "human_profile",
-    "label": "Needs / Value Priorities",
+    "label": "Need Priority Weights",
     "type": "profile-object",
     "sector": "Human / Consumer",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 3
+    "source_uid": ""
   },
   {
-    "node_id": "profile_constraints",
+    "node_id": "profile_constraints_budget_time_location",
     "parent_id": "human_profile",
-    "label": "Constraints / Risks / Preferences",
+    "label": "Constraints / Budget / Time / Location",
     "type": "profile-object",
     "sector": "Human / Consumer",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 4
+    "source_uid": ""
   },
   {
-    "node_id": "profile_records",
+    "node_id": "profile_preferences_deal_breakers",
     "parent_id": "human_profile",
-    "label": "Profile Records / Evidence",
+    "label": "Preferences / Deal-Breakers",
     "type": "profile-object",
     "sector": "Human / Consumer",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 5
+    "source_uid": ""
   },
   {
-    "node_id": "human_life",
-    "parent_id": "human",
-    "label": "Life Domains",
-    "type": "classification",
+    "node_id": "profile_records_evidence_ownership_outcomes",
+    "parent_id": "human_profile",
+    "label": "Records / Evidence / Ownership Outcomes",
+    "type": "profile-object",
     "sector": "Human / Consumer",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 6
+    "source_uid": ""
   },
   {
-    "node_id": "need_air",
-    "parent_id": "human_life",
-    "label": "Air",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "need_water",
-    "parent_id": "human_life",
-    "label": "Water",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "need_food",
-    "parent_id": "human_life",
-    "label": "Food",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "need_shelter",
-    "parent_id": "human_life",
-    "label": "Shelter",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "need_clothing",
-    "parent_id": "human_life",
-    "label": "Clothing",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 5
-  },
-  {
-    "node_id": "need_safety",
-    "parent_id": "human_life",
-    "label": "Safety",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 6
-  },
-  {
-    "node_id": "need_health",
-    "parent_id": "human_life",
-    "label": "Health",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 7
-  },
-  {
-    "node_id": "need_transportation",
-    "parent_id": "human_life",
-    "label": "Transportation",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 8
-  },
-  {
-    "node_id": "need_communication",
-    "parent_id": "human_life",
-    "label": "Communication",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 9
-  },
-  {
-    "node_id": "need_energy",
-    "parent_id": "human_life",
-    "label": "Energy",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 10
-  },
-  {
-    "node_id": "need_income_work",
-    "parent_id": "human_life",
-    "label": "Income / Work",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 11
-  },
-  {
-    "node_id": "need_knowledge_education",
-    "parent_id": "human_life",
-    "label": "Knowledge / Education",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 12
-  },
-  {
-    "node_id": "need_recreation_entertainment",
-    "parent_id": "human_life",
-    "label": "Recreation / Entertainment",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 13
-  },
-  {
-    "node_id": "need_legal_rights",
-    "parent_id": "human_life",
-    "label": "Legal / Rights",
-    "type": "need-domain",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 14
-  },
-  {
-    "node_id": "food_nutrition",
-    "parent_id": "need_food",
-    "label": "Nutrition / Survival Food",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "food_grocery",
-    "parent_id": "need_food",
-    "label": "Grocery Products",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "food_prepared",
-    "parent_id": "need_food",
-    "label": "Prepared Food / Restaurants",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "food_storage",
-    "parent_id": "need_food",
-    "label": "Food Storage / Preservation",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "shelter_rent",
-    "parent_id": "need_shelter",
-    "label": "Rent",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "shelter_ownership",
-    "parent_id": "need_shelter",
-    "label": "Ownership",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "shelter_utilities",
-    "parent_id": "need_shelter",
-    "label": "Utilities",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "shelter_furnishings",
-    "parent_id": "need_shelter",
-    "label": "Furnishings / Housewares",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "shelter_property",
-    "parent_id": "need_shelter",
-    "label": "Property Maintenance",
-    "type": "brick",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "human_compare",
-    "parent_id": "human",
-    "label": "Comparison Sessions",
-    "type": "records",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "human_ownership",
-    "parent_id": "human",
-    "label": "Ownership / Outcome Records",
-    "type": "records",
-    "sector": "Human / Consumer",
-    "meta": "",
-    "source_uid": "",
-    "sort": 0
-  },
-  {
-    "node_id": "market_offers",
+    "node_id": "market_offers_listings",
     "parent_id": "market",
     "label": "Offers / Listings",
     "type": "market-object",
     "sector": "Market / Exchange",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 1
+    "source_uid": ""
   },
   {
-    "node_id": "market_bids",
+    "node_id": "market_bids_quotes_negotiations",
     "parent_id": "market",
     "label": "Bids / Quotes / Negotiations",
     "type": "market-object",
     "sector": "Market / Exchange",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 2
+    "source_uid": ""
   },
   {
-    "node_id": "market_transactions",
+    "node_id": "market_transactions_receipts_contracts",
     "parent_id": "market",
     "label": "Transactions / Receipts / Contracts",
     "type": "market-object",
     "sector": "Market / Exchange",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 3
+    "source_uid": ""
   },
   {
-    "node_id": "market_prices",
+    "node_id": "market_prices_availability_delivery",
     "parent_id": "market",
     "label": "Prices / Availability / Delivery",
     "type": "market-object",
     "sector": "Market / Exchange",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 4
+    "source_uid": ""
   },
   {
-    "node_id": "market_identity",
+    "node_id": "market_product_identity_classification",
     "parent_id": "market",
     "label": "Product Identity / Classification",
     "type": "market-object",
     "sector": "Market / Exchange",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 5
+    "source_uid": ""
   },
   {
-    "node_id": "id_napcs",
-    "parent_id": "market_identity",
-    "label": "NAPCS Canada",
-    "type": "classification",
-    "sector": "Market / Exchange",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "id_gpc",
-    "parent_id": "market_identity",
-    "label": "GS1 GPC Bricks",
-    "type": "classification",
-    "sector": "Market / Exchange",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "id_barcode",
-    "parent_id": "market_identity",
-    "label": "UPC / GTIN / Barcode Identity",
-    "type": "classification",
-    "sector": "Market / Exchange",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "id_cpe",
-    "parent_id": "market_identity",
-    "label": "NVD CPE IT Product Identity",
-    "type": "classification",
-    "sector": "Market / Exchange",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "business_type_library",
+    "node_id": "business_business_type_library",
     "parent_id": "business",
     "label": "Business Type Library",
-    "type": "classification",
+    "type": "business-object",
     "sector": "Business / Commercial",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 1
+    "source_uid": ""
   },
   {
-    "node_id": "business_model",
+    "node_id": "business_business_model",
     "parent_id": "business",
     "label": "Business Model",
-    "type": "model",
+    "type": "business-object",
     "sector": "Business / Commercial",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 2
+    "source_uid": ""
   },
   {
-    "node_id": "business_catalog_sources",
+    "node_id": "business_department_swimlanes",
+    "parent_id": "business",
+    "label": "Department Swimlanes",
+    "type": "business-object",
+    "sector": "Business / Commercial",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "business_simulation_calibration",
+    "parent_id": "business",
+    "label": "Simulation / Calibration",
+    "type": "business-object",
+    "sector": "Business / Commercial",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "business_catalog_conversion_sources",
     "parent_id": "business",
     "label": "Catalog Conversion Sources",
-    "type": "data-source",
+    "type": "business-object",
     "sector": "Business / Commercial",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
     "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "business_historical_calibration",
-    "parent_id": "business",
-    "label": "Historical Calibration",
-    "type": "data-source",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "bt_food_businesses",
-    "parent_id": "business_type_library",
-    "label": "Food Businesses",
-    "type": "business-class",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "bt_trades_services",
-    "parent_id": "business_type_library",
-    "label": "Trades / Services",
-    "type": "business-class",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "bt_manufacturing",
-    "parent_id": "business_type_library",
-    "label": "Manufacturing",
-    "type": "business-class",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "bt_retail_distribution",
-    "parent_id": "business_type_library",
-    "label": "Retail / Distribution",
-    "type": "business-class",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "bt_professional_services",
-    "parent_id": "business_type_library",
-    "label": "Professional Services",
-    "type": "business-class",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 5
-  },
-  {
-    "node_id": "bm_customer_segments",
-    "parent_id": "business_model",
-    "label": "Customer Segments",
-    "type": "model-object",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "bm_offers_products_services",
-    "parent_id": "business_model",
-    "label": "Offers / Products / Services",
-    "type": "model-object",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "bm_revenue_mechanisms",
-    "parent_id": "business_model",
-    "label": "Revenue Mechanisms",
-    "type": "model-object",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "bm_department_swimlanes",
-    "parent_id": "business_model",
-    "label": "Department Swimlanes",
-    "type": "model-object",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "bm_evidence_credits",
-    "parent_id": "business_model",
-    "label": "Evidence / Credits",
-    "type": "model-object",
-    "sector": "Business / Commercial",
-    "meta": "",
-    "source_uid": "",
-    "sort": 5
+    "source_uid": ""
   },
   {
     "node_id": "catalog_priority",
-    "parent_id": "business_catalog_sources",
-    "label": "Priority Catalog Conversions",
+    "parent_id": "business_catalog_conversion_sources",
+    "label": "Priority Product Catalogs",
     "type": "source-group",
     "sector": "Business / Commercial",
-    "meta": "Very High",
-    "source_uid": "",
-    "sort": 1
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "catalog_industrial",
-    "parent_id": "business_catalog_sources",
-    "label": "Industrial / Hardware / MRO",
+    "parent_id": "business_catalog_conversion_sources",
+    "label": "Industrial / Hardware / MRO Catalogs",
     "type": "source-group",
     "sector": "Business / Commercial",
-    "meta": "High",
-    "source_uid": "",
-    "sort": 2
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
-    "node_id": "catalog_statistics",
-    "parent_id": "business_catalog_sources",
-    "label": "Statistics / Environment Data",
+    "node_id": "catalog_stats",
+    "parent_id": "business_catalog_conversion_sources",
+    "label": "Statistics / Environment / Calibration Data",
     "type": "source-group",
     "sector": "Business / Commercial",
-    "meta": "Stats",
-    "source_uid": "",
-    "sort": 3
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "catalog_reference",
-    "parent_id": "business_catalog_sources",
-    "label": "Reference / Theory / Restricted",
+    "parent_id": "business_catalog_conversion_sources",
+    "label": "Reference / Theory / Restricted Sources",
     "type": "source-group",
     "sector": "Business / Commercial",
-    "meta": "Reference",
-    "source_uid": "",
-    "sort": 4
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "finance_accounts_cash_flow",
+    "parent_id": "finance_sector",
+    "label": "Accounts / Cash Flow",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "finance_credit_loans_leases",
+    "parent_id": "finance_sector",
+    "label": "Credit / Loans / Leases",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "finance_insurance_risk_transfer",
+    "parent_id": "finance_sector",
+    "label": "Insurance / Risk Transfer",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "finance_savings_capital_assets",
+    "parent_id": "finance_sector",
+    "label": "Savings / Capital Assets",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "finance_value_credit_assessment",
+    "parent_id": "finance_sector",
+    "label": "Value / Credit Assessment",
+    "type": "finance-object",
+    "sector": "Finance / Capital",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_public_services",
+    "parent_id": "government",
+    "label": "Public Services",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_public_records_registries",
+    "parent_id": "government",
+    "label": "Public Records / Registries",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_permits_licences_authorizations",
+    "parent_id": "government",
+    "label": "Permits / Licences / Authorizations",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_taxes_fees_transfers",
+    "parent_id": "government",
+    "label": "Taxes / Fees / Transfers",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_rights_remedies_appeals",
+    "parent_id": "government",
+    "label": "Rights / Remedies / Appeals",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_procurement_public_contracts",
+    "parent_id": "government",
+    "label": "Procurement / Public Contracts",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 6,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
+  },
+  {
+    "node_id": "government_official_statistics_data_cubes",
+    "parent_id": "government",
+    "label": "Official Statistics / Data Cubes",
+    "type": "public-object",
+    "sector": "Public / Government",
+    "sort": 7,
+    "priority_rank": "",
+    "description": "",
+    "meta": "",
+    "source_uid": ""
   },
   {
     "node_id": "src_src_0001",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "Open Food Facts bulk database",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 1,
+    "priority_rank": "",
+    "description": "Already locally processed in first Canada run; raw JSONL stays local.",
     "meta": "Open Data Bulk",
-    "source_uid": "SRC-0001",
-    "sort": 1
+    "source_uid": "SRC-0001"
   },
   {
     "node_id": "src_src_0002",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "NAPCS Canada 2022 product classification",
     "type": "source",
     "sector": "Market / Exchange; Business / Commercial; Public / Government",
+    "sort": 2,
+    "priority_rank": "",
+    "description": "Use as official classification crosswalk, not as user-facing need tree replacement.",
     "meta": "Official Classification",
-    "source_uid": "SRC-0002",
-    "sort": 2
+    "source_uid": "SRC-0002"
   },
   {
     "node_id": "src_src_0003",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "ISED Financial Performance Data 2024",
     "type": "source",
     "sector": "Business / Commercial; Finance / Capital",
+    "sort": 3,
+    "priority_rank": "",
+    "description": "Already packaged as GitHub-safe v0.2; raw ZIP should stay as Release asset.",
     "meta": "Official Business Financial Benchmark",
-    "source_uid": "SRC-0003",
-    "sort": 3
+    "source_uid": "SRC-0003"
   },
   {
     "node_id": "src_src_0004",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "Statistics Canada cube downloads",
     "type": "source",
     "sector": "Public / Government; Human / Consumer; Market / Exchange",
+    "sort": 4,
+    "priority_rank": "",
+    "description": "Initial sample import succeeded; latest-PID refresh is next.",
     "meta": "Official Statistical Cubes",
-    "source_uid": "SRC-0004",
-    "sort": 4
+    "source_uid": "SRC-0004"
   },
   {
     "node_id": "src_src_0005",
@@ -685,9 +2129,11 @@
     "label": "GS1 GPC Browser and barcode/product identity references",
     "type": "source",
     "sector": "Market / Exchange; Business / Commercial",
+    "sort": 5,
+    "priority_rank": "",
+    "description": "Use brick terminology for product-level datagrid refinement.",
     "meta": "Product Identity / Classification Reference",
-    "source_uid": "SRC-0005",
-    "sort": 5
+    "source_uid": "SRC-0005"
   },
   {
     "node_id": "src_src_0006",
@@ -695,29 +2141,35 @@
     "label": "NVD CPE",
     "type": "source",
     "sector": "Information / Records; Market / Exchange",
+    "sort": 6,
+    "priority_rank": "",
+    "description": "Useful for IT/software product identity, not retail SKU pricing.",
     "meta": "Open Technical Classification",
-    "source_uid": "SRC-0006",
-    "sort": 6
+    "source_uid": "SRC-0006"
   },
   {
     "node_id": "src_src_0007",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "ENERGY STAR product datasets",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange; Resources / Environment",
+    "sort": 7,
+    "priority_rank": "",
+    "description": "High value for appliance and building-system comparison.",
     "meta": "Open Product/Efficiency Dataset",
-    "source_uid": "SRC-0007",
-    "sort": 7
+    "source_uid": "SRC-0007"
   },
   {
     "node_id": "src_src_0008",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "NHTSA vehicle datasets",
     "type": "source",
     "sector": "Human / Consumer; Public / Government; Market / Exchange",
+    "sort": 8,
+    "priority_rank": "",
+    "description": "Use to refresh vehicle taxonomy and current safety info.",
     "meta": "Open Vehicle Dataset",
-    "source_uid": "SRC-0008",
-    "sort": 8
+    "source_uid": "SRC-0008"
   },
   {
     "node_id": "src_src_0100",
@@ -725,9 +2177,11 @@
     "label": "Essentra Components Catalog Volume 14",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 9,
+    "priority_rank": "",
+    "description": "Over 1,000 pages; structured contents and repeated item/spec tables.",
     "meta": "Industrial Component Catalog",
-    "source_uid": "SRC-0100",
-    "sort": 9
+    "source_uid": "SRC-0100"
   },
   {
     "node_id": "src_src_0101",
@@ -735,9 +2189,11 @@
     "label": "Faucher complete truck-body hardware set",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 10,
+    "priority_rank": "",
+    "description": "Handles, locks/latches, gas springs, hinges, adhesives, rubber, fasteners, cargo control, heaters, lights.",
     "meta": "Truck Body Hardware Catalog Set",
-    "source_uid": "SRC-0101",
-    "sort": 10
+    "source_uid": "SRC-0101"
   },
   {
     "node_id": "src_src_0102",
@@ -745,9 +2201,11 @@
     "label": "Parker Hose, Fittings and Equipment Catalog 4400",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 11,
+    "priority_rank": "",
+    "description": "Keep safety warnings and do-not-mix rules attached to records.",
     "meta": "Fluid Power / Hose Catalog",
-    "source_uid": "SRC-0102",
-    "sort": 11
+    "source_uid": "SRC-0102"
   },
   {
     "node_id": "src_src_0103",
@@ -755,9 +2213,11 @@
     "label": "Gregg Distributors Product Catalogue",
     "type": "source",
     "sector": "Business / Commercial; Human / Consumer; Market / Exchange",
+    "sort": 12,
+    "priority_rank": "",
+    "description": "2,600+ pages; convert by section rather than whole catalog at once.",
     "meta": "Canadian Industrial Supply Catalog",
-    "source_uid": "SRC-0103",
-    "sort": 12
+    "source_uid": "SRC-0103"
   },
   {
     "node_id": "src_src_0104",
@@ -765,9 +2225,11 @@
     "label": "80/20 Catalog 20",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 13,
+    "priority_rank": "",
+    "description": "Duplicate uploaded as Catalog_20_20 and Catalog_80_20; keep one master source.",
     "meta": "Modular Framing System Catalog",
-    "source_uid": "SRC-0104",
-    "sort": 13
+    "source_uid": "SRC-0104"
   },
   {
     "node_id": "src_src_0105",
@@ -775,9 +2237,11 @@
     "label": "Grote Lighting Systems and Electrical Catalogs",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 14,
+    "priority_rank": "",
+    "description": "Includes lighting, electrical connection, fuse/circuit protection.",
     "meta": "Vehicle Electrical / Lighting Catalog Set",
-    "source_uid": "SRC-0105",
-    "sort": 14
+    "source_uid": "SRC-0105"
   },
   {
     "node_id": "src_src_0106",
@@ -785,19 +2249,23 @@
     "label": "GPH / Nexans mechanical connectors, cable lugs and clamps",
     "type": "source",
     "sector": "Business / Commercial; Infrastructure / Logistics; Public / Government",
+    "sort": 15,
+    "priority_rank": "",
+    "description": "Flag voltage ranges and VDE/IEC references; not consumer DIY guidance.",
     "meta": "Electrical Power Hardware Catalog Set",
-    "source_uid": "SRC-0106",
-    "sort": 15
+    "source_uid": "SRC-0106"
   },
   {
     "node_id": "src_src_0107",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "Aluminum Fastener Supply Product Catalog",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 16,
+    "priority_rank": "",
+    "description": "Good for aluminum-compatible fastener comparison.",
     "meta": "Fastener Catalog",
-    "source_uid": "SRC-0107",
-    "sort": 16
+    "source_uid": "SRC-0107"
   },
   {
     "node_id": "src_src_0108",
@@ -805,9 +2273,11 @@
     "label": "Tyrolit Specialised Precision Product Catalogue",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 17,
+    "priority_rank": "",
+    "description": "Useful for material/tooling application matrix.",
     "meta": "Abrasives / Grinding Technical Catalog",
-    "source_uid": "SRC-0108",
-    "sort": 17
+    "source_uid": "SRC-0108"
   },
   {
     "node_id": "src_src_0109",
@@ -815,9 +2285,11 @@
     "label": "Ortlieb Clamping Systems Catalogue",
     "type": "source",
     "sector": "Business / Commercial",
+    "sort": 18,
+    "priority_rank": "",
+    "description": "Useful for tooling/workholding classification.",
     "meta": "Workholding / Clamping Catalog",
-    "source_uid": "SRC-0109",
-    "sort": 18
+    "source_uid": "SRC-0109"
   },
   {
     "node_id": "src_src_0110",
@@ -825,9 +2297,11 @@
     "label": "KNA Fluid Power hose/fitting cross-reference",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 19,
+    "priority_rank": "",
+    "description": "Maps KNA to Dayco, Parker, Aeroquip, Gates.",
     "meta": "Hydraulic Hose/Fitting Cross Reference",
-    "source_uid": "SRC-0110",
-    "sort": 19
+    "source_uid": "SRC-0110"
   },
   {
     "node_id": "src_src_0111",
@@ -835,9 +2309,11 @@
     "label": "LM Industries Product Catalogue & Technical Reference",
     "type": "source",
     "sector": "Business / Commercial; Infrastructure / Logistics",
+    "sort": 20,
+    "priority_rank": "",
+    "description": "Over 5,200 parts claimed in inventory; good system-component source.",
     "meta": "Vacuum / Water Truck Parts Catalog",
-    "source_uid": "SRC-0111",
-    "sort": 20
+    "source_uid": "SRC-0111"
   },
   {
     "node_id": "src_src_0112",
@@ -845,9 +2321,11 @@
     "label": "GapVax PartsExpress parts catalog",
     "type": "source",
     "sector": "Business / Commercial; Infrastructure / Logistics",
+    "sort": 21,
+    "priority_rank": "",
+    "description": "Duplicate uploaded twice; keep one master.",
     "meta": "Vacuum Truck Parts Catalog",
-    "source_uid": "SRC-0112",
-    "sort": 21
+    "source_uid": "SRC-0112"
   },
   {
     "node_id": "src_src_0113",
@@ -855,9 +2333,11 @@
     "label": "Kingfisher Welded Boat Guide",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 22,
+    "priority_rank": "",
+    "description": "Finished-product comparison source.",
     "meta": "Marine Vehicle Product Catalog",
-    "source_uid": "SRC-0113",
-    "sort": 22
+    "source_uid": "SRC-0113"
   },
   {
     "node_id": "src_src_0114",
@@ -865,9 +2345,11 @@
     "label": "Harkness Rose Catalogue",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 23,
+    "priority_rank": "",
+    "description": "Good for house/garden/property domain.",
     "meta": "Horticulture Product Catalog",
-    "source_uid": "SRC-0114",
-    "sort": 23
+    "source_uid": "SRC-0114"
   },
   {
     "node_id": "src_src_0115",
@@ -875,9 +2357,11 @@
     "label": "Respiratory Protection Catalog",
     "type": "source",
     "sector": "Business / Commercial; Human / Consumer; Public / Government",
+    "sort": 24,
+    "priority_rank": "",
+    "description": "Do not turn into medical/safety advice without current standards verification.",
     "meta": "Safety PPE Catalog",
-    "source_uid": "SRC-0115",
-    "sort": 24
+    "source_uid": "SRC-0115"
   },
   {
     "node_id": "src_src_0116",
@@ -885,9 +2369,11 @@
     "label": "CRC Custom Rollforming profile catalog",
     "type": "source",
     "sector": "Business / Commercial; Manufacturing",
+    "sort": 25,
+    "priority_rank": "",
+    "description": "Image-based; no text parsed.",
     "meta": "Roll-formed Profile Catalog",
-    "source_uid": "SRC-0116",
-    "sort": 25
+    "source_uid": "SRC-0116"
   },
   {
     "node_id": "src_src_0117",
@@ -895,9 +2381,11 @@
     "label": "J.B. Shannon & Sons Illustrated Catalogue of Building Hardware No. 24",
     "type": "source",
     "sector": "Market / Exchange; Historical Reference",
+    "sort": 26,
+    "priority_rank": "",
+    "description": "Not current product source; useful taxonomy/reference.",
     "meta": "Historical Building Hardware Catalog",
-    "source_uid": "SRC-0117",
-    "sort": 26
+    "source_uid": "SRC-0117"
   },
   {
     "node_id": "src_src_0118",
@@ -905,9 +2393,11 @@
     "label": "MCM Electronics 2014 Catalog",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 27,
+    "priority_rank": "",
+    "description": "Previously identified as direct catalog source with many products.",
     "meta": "Electronics / Tools Catalog",
-    "source_uid": "SRC-0118",
-    "sort": 27
+    "source_uid": "SRC-0118"
   },
   {
     "node_id": "src_src_0119",
@@ -915,9 +2405,11 @@
     "label": "Starrett Precision Tools Catalog No. 28",
     "type": "source",
     "sector": "Business / Commercial",
+    "sort": 28,
+    "priority_rank": "",
+    "description": "Good source for measuring and quality inspection categories.",
     "meta": "Precision Tool Catalog",
-    "source_uid": "SRC-0119",
-    "sort": 28
+    "source_uid": "SRC-0119"
   },
   {
     "node_id": "src_src_0120",
@@ -925,9 +2417,11 @@
     "label": "Scientific Products General Catalog 1991-92",
     "type": "source",
     "sector": "Business / Commercial; Public / Government",
+    "sort": 29,
+    "priority_rank": "",
+    "description": "Large lab/industrial source.",
     "meta": "Lab / Scientific Product Catalog",
-    "source_uid": "SRC-0120",
-    "sort": 29
+    "source_uid": "SRC-0120"
   },
   {
     "node_id": "src_src_0121",
@@ -935,9 +2429,11 @@
     "label": "IVES Architectural Hardware Catalog",
     "type": "source",
     "sector": "Business / Commercial; Shelter / Housing",
+    "sort": 30,
+    "priority_rank": "",
+    "description": "Good brick source for doors and construction hardware.",
     "meta": "Architectural Hardware Catalog",
-    "source_uid": "SRC-0121",
-    "sort": 30
+    "source_uid": "SRC-0121"
   },
   {
     "node_id": "src_src_0122",
@@ -945,9 +2441,11 @@
     "label": "K2 Door Hardware Catalog",
     "type": "source",
     "sector": "Business / Commercial; Shelter / Housing",
+    "sort": 31,
+    "priority_rank": "",
+    "description": "Keep as product/spec reference; no security-bypass workflows.",
     "meta": "Door Hardware Catalog",
-    "source_uid": "SRC-0122",
-    "sort": 31
+    "source_uid": "SRC-0122"
   },
   {
     "node_id": "src_src_0123",
@@ -955,9 +2453,11 @@
     "label": "Aquascape Water Features Catalog",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 32,
+    "priority_rank": "",
+    "description": "Property/garden system category.",
     "meta": "Outdoor Property Catalog",
-    "source_uid": "SRC-0123",
-    "sort": 32
+    "source_uid": "SRC-0123"
   },
   {
     "node_id": "src_src_0124",
@@ -965,9 +2465,11 @@
     "label": "Waytek Automotive Electrical Supplies",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 33,
+    "priority_rank": "",
+    "description": "Excellent wiring/electrical brick source.",
     "meta": "Automotive Electrical Catalog",
-    "source_uid": "SRC-0124",
-    "sort": 33
+    "source_uid": "SRC-0124"
   },
   {
     "node_id": "src_src_0125",
@@ -975,9 +2477,11 @@
     "label": "Gardall Safe Catalog",
     "type": "source",
     "sector": "Human / Consumer; Business / Commercial",
+    "sort": 34,
+    "priority_rank": "",
+    "description": "Avoid advice on defeating security.",
     "meta": "Safe / Security Storage Catalog",
-    "source_uid": "SRC-0125",
-    "sort": 34
+    "source_uid": "SRC-0125"
   },
   {
     "node_id": "src_src_0126",
@@ -985,9 +2489,11 @@
     "label": "Master Lock keyed-alike / lock reference",
     "type": "source",
     "sector": "Business / Commercial; Human / Consumer",
+    "sort": 35,
+    "priority_rank": "",
+    "description": "Do not publish detailed keyed-alike code lists.",
     "meta": "Lock Reference",
-    "source_uid": "SRC-0126",
-    "sort": 35
+    "source_uid": "SRC-0126"
   },
   {
     "node_id": "src_src_0127",
@@ -995,9 +2501,11 @@
     "label": "Chamela Lingerie Catalog",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 36,
+    "priority_rank": "",
+    "description": "Usable as apparel SKU structure source.",
     "meta": "Apparel Catalog",
-    "source_uid": "SRC-0127",
-    "sort": 36
+    "source_uid": "SRC-0127"
   },
   {
     "node_id": "src_src_0128",
@@ -1005,59 +2513,71 @@
     "label": "Shoe and Leather Encyclopedia",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 37,
+    "priority_rank": "",
+    "description": "Taxonomy more than product rows.",
     "meta": "Footwear / Leather Taxonomy Reference",
-    "source_uid": "SRC-0128",
-    "sort": 37
+    "source_uid": "SRC-0128"
   },
   {
     "node_id": "src_src_0200",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "Business Statistics of the United States 2022",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange; Finance / Capital",
+    "sort": 38,
+    "priority_rank": "",
+    "description": "Use to identify public source tables and model variables.",
     "meta": "Statistical Reference Book",
-    "source_uid": "SRC-0200",
-    "sort": 38
+    "source_uid": "SRC-0200"
   },
   {
     "node_id": "src_src_0201",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "ProQuest Statistical Abstract of the United States 2021",
     "type": "source",
     "sector": "Public / Government; Human / Consumer; Business / Commercial; Market / Exchange",
+    "sort": 39,
+    "priority_rank": "",
+    "description": "Treat as guide to source datasets.",
     "meta": "Statistical Abstract",
-    "source_uid": "SRC-0201",
-    "sort": 39
+    "source_uid": "SRC-0201"
   },
   {
     "node_id": "src_src_0202",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "Handbook of U.S. Labor Statistics",
     "type": "source",
     "sector": "Human / Consumer; Business / Commercial; Market / Exchange",
+    "sort": 40,
+    "priority_rank": "",
+    "description": "Use public BLS originals where possible for current data.",
     "meta": "Labor Statistical Reference",
-    "source_uid": "SRC-0202",
-    "sort": 40
+    "source_uid": "SRC-0202"
   },
   {
     "node_id": "src_src_0203",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "The Almanac of American Education 2022",
     "type": "source",
     "sector": "Human / Consumer; Public / Government",
+    "sort": 41,
+    "priority_rank": "",
+    "description": "Useful for education/labour connection.",
     "meta": "Education Statistical Reference",
-    "source_uid": "SRC-0203",
-    "sort": 41
+    "source_uid": "SRC-0203"
   },
   {
     "node_id": "src_src_0204",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "State Profiles 2018",
     "type": "source",
     "sector": "Public / Government; Market / Exchange",
+    "sort": 42,
+    "priority_rank": "",
+    "description": "Good repeatable geography profile template.",
     "meta": "State Statistical Profile",
-    "source_uid": "SRC-0204",
-    "sort": 42
+    "source_uid": "SRC-0204"
   },
   {
     "node_id": "src_src_0205",
@@ -1065,29 +2585,35 @@
     "label": "American Buyers: Demographics of Shopping",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange; Business / Commercial",
+    "sort": 43,
+    "priority_rank": "",
+    "description": "Use for demand-model seed, not current forecasting alone.",
     "meta": "Buyer Demand Reference",
-    "source_uid": "SRC-0205",
-    "sort": 43
+    "source_uid": "SRC-0205"
   },
   {
     "node_id": "src_src_0206",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "Applied Demography",
     "type": "source",
     "sector": "Human / Consumer; Public / Government",
+    "sort": 44,
+    "priority_rank": "",
+    "description": "Use for population segment modelling.",
     "meta": "Method/Theory Book",
-    "source_uid": "SRC-0206",
-    "sort": 44
+    "source_uid": "SRC-0206"
   },
   {
     "node_id": "src_src_0207",
-    "parent_id": "catalog_industrial",
+    "parent_id": "catalog_stats",
     "label": "Demography: The Study of Human Population",
     "type": "source",
     "sector": "Human / Consumer; Public / Government",
+    "sort": 45,
+    "priority_rank": "",
+    "description": "Core theory source.",
     "meta": "Method/Theory Book",
-    "source_uid": "SRC-0207",
-    "sort": 45
+    "source_uid": "SRC-0207"
   },
   {
     "node_id": "src_src_0208",
@@ -1095,9 +2621,11 @@
     "label": "Corporate Demography / Demography of Corporations and Industries",
     "type": "source",
     "sector": "Business / Commercial",
+    "sort": 46,
+    "priority_rank": "",
+    "description": "Supports business simulator.",
     "meta": "Business Simulation Theory",
-    "source_uid": "SRC-0208",
-    "sort": 46
+    "source_uid": "SRC-0208"
   },
   {
     "node_id": "src_src_0209",
@@ -1105,9 +2633,11 @@
     "label": "Agent-Mediated Electronic Commerce AMEC/TADA series",
     "type": "source",
     "sector": "Market / Exchange; Business / Commercial",
+    "sort": 47,
+    "priority_rank": "",
+    "description": "Important for future buyer/seller agents.",
     "meta": "Agent Market Theory",
-    "source_uid": "SRC-0209",
-    "sort": 47
+    "source_uid": "SRC-0209"
   },
   {
     "node_id": "src_src_0210",
@@ -1115,29 +2645,35 @@
     "label": "Enterprise logistics and supply chain structure: the role of fit",
     "type": "source",
     "sector": "Business / Commercial; Infrastructure / Logistics",
+    "sort": 48,
+    "priority_rank": "",
+    "description": "Use for business simulator architecture.",
     "meta": "Supply Chain Theory Paper",
-    "source_uid": "SRC-0210",
-    "sort": 48
+    "source_uid": "SRC-0210"
   },
   {
     "node_id": "src_src_0211",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "Women's Equality, Demography and Public Policies",
     "type": "source",
     "sector": "Public / Government; Human / Consumer",
+    "sort": 49,
+    "priority_rank": "",
+    "description": "Aggregate/policy modelling only.",
     "meta": "Policy/Demography Reference",
-    "source_uid": "SRC-0211",
-    "sort": 49
+    "source_uid": "SRC-0211"
   },
   {
     "node_id": "src_src_0212",
-    "parent_id": "catalog_statistics",
+    "parent_id": "catalog_stats",
     "label": "Ethnic Demography: Canadian Immigrant, Racial and Cultural Variations",
     "type": "source",
     "sector": "Human / Consumer; Public / Government",
+    "sort": 50,
+    "priority_rank": "",
+    "description": "No individual profiling/decisioning.",
     "meta": "Canadian Demography Reference",
-    "source_uid": "SRC-0212",
-    "sort": 50
+    "source_uid": "SRC-0212"
   },
   {
     "node_id": "src_src_0213",
@@ -1145,9 +2681,11 @@
     "label": "America’s Diverse Population",
     "type": "source",
     "sector": "Human / Consumer; Public / Government",
+    "sort": 51,
+    "priority_rank": "",
+    "description": "Aggregate-only demographic modelling.",
     "meta": "Demographic Profile Reference",
-    "source_uid": "SRC-0213",
-    "sort": 51
+    "source_uid": "SRC-0213"
   },
   {
     "node_id": "src_src_0214",
@@ -1155,9 +2693,11 @@
     "label": "Giant Book of Games",
     "type": "source",
     "sector": "Human / Consumer",
+    "sort": 52,
+    "priority_rank": "",
+    "description": "Useful for recreation/program design.",
     "meta": "Recreation Activity Reference",
-    "source_uid": "SRC-0214",
-    "sort": 52
+    "source_uid": "SRC-0214"
   },
   {
     "node_id": "src_src_0300",
@@ -1165,9 +2705,11 @@
     "label": "Ruger firearms collector catalog",
     "type": "source",
     "sector": "Reference Sensitive",
+    "sort": 53,
+    "priority_rank": "",
+    "description": "Do not build acquisition, sourcing, pricing, or recommendation flows.",
     "meta": "Firearms Collector Reference",
-    "source_uid": "SRC-0300",
-    "sort": 53
+    "source_uid": "SRC-0300"
   },
   {
     "node_id": "src_src_0301",
@@ -1175,9 +2717,11 @@
     "label": "U.S. Military Vehicles standard catalog",
     "type": "source",
     "sector": "Transportation Reference; Public / Government",
+    "sort": 54,
+    "priority_rank": "",
+    "description": "EPUB not fully indexed in current file results.",
     "meta": "Historical Military Vehicle Reference",
-    "source_uid": "SRC-0301",
-    "sort": 54
+    "source_uid": "SRC-0301"
   },
   {
     "node_id": "src_src_0302",
@@ -1185,9 +2729,11 @@
     "label": "Kershaw / Shun Knife Catalog",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 55,
+    "priority_rank": "",
+    "description": "Housewares cutlery okay; avoid weapon-use workflows.",
     "meta": "Kitchen Cutlery Catalog",
-    "source_uid": "SRC-0302",
-    "sort": 55
+    "source_uid": "SRC-0302"
   },
   {
     "node_id": "src_src_0303",
@@ -1195,9 +2741,11 @@
     "label": "CRKT Knife Catalog",
     "type": "source",
     "sector": "Reference Sensitive",
+    "sort": 56,
+    "priority_rank": "",
+    "description": "No acquisition/deal-finding/carry guidance.",
     "meta": "Knife/Tool Catalog",
-    "source_uid": "SRC-0303",
-    "sort": 56
+    "source_uid": "SRC-0303"
   },
   {
     "node_id": "src_src_0304",
@@ -1205,9 +2753,11 @@
     "label": "Byrd / Spyderco Knife Catalog",
     "type": "source",
     "sector": "Reference Sensitive",
+    "sort": 57,
+    "priority_rank": "",
+    "description": "No acquisition/deal-finding/carry guidance.",
     "meta": "Knife Catalog",
-    "source_uid": "SRC-0304",
-    "sort": 57
+    "source_uid": "SRC-0304"
   },
   {
     "node_id": "src_src_0305",
@@ -1215,9 +2765,11 @@
     "label": "Victorinox New Products catalog",
     "type": "source",
     "sector": "Reference Sensitive",
+    "sort": 58,
+    "priority_rank": "",
+    "description": "Image-based; lower priority.",
     "meta": "Knife/Multitool Catalog",
-    "source_uid": "SRC-0305",
-    "sort": 58
+    "source_uid": "SRC-0305"
   },
   {
     "node_id": "src_src_0306",
@@ -1225,9 +2777,11 @@
     "label": "Great Wines of Europe",
     "type": "source",
     "sector": "Reference Regulated",
+    "sort": 59,
+    "priority_rank": "",
+    "description": "No alcohol retail recommendation workflow.",
     "meta": "Wine Region Reference",
-    "source_uid": "SRC-0306",
-    "sort": 59
+    "source_uid": "SRC-0306"
   },
   {
     "node_id": "src_src_0400",
@@ -1235,9 +2789,11 @@
     "label": "Home Depot / Lowe's / RONA / Home Hardware catalog access paths",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 60,
+    "priority_rank": "",
+    "description": "Acquire via feeds/APIs/public downloadable data where available.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0400",
-    "sort": 60
+    "source_uid": "SRC-0400"
   },
   {
     "node_id": "src_src_0401",
@@ -1245,9 +2801,11 @@
     "label": "Grainger / Fastenal / Gregg / Red Deer Bolt / Richelieu / Accuride / Blum",
     "type": "source",
     "sector": "Business / Commercial; Market / Exchange",
+    "sort": 61,
+    "priority_rank": "",
+    "description": "High value for property and hardware bricks.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0401",
-    "sort": 61
+    "source_uid": "SRC-0401"
   },
   {
     "node_id": "src_src_0402",
@@ -1255,9 +2813,11 @@
     "label": "NAPA / RockAuto / auto parts fitment sources",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 62,
+    "priority_rank": "",
+    "description": "Full fitment may require license/commercial access.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0402",
-    "sort": 62
+    "source_uid": "SRC-0402"
   },
   {
     "node_id": "src_src_0403",
@@ -1265,9 +2825,11 @@
     "label": "Best Buy / Canadian Tire / Staples / Dollarama",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 63,
+    "priority_rank": "",
+    "description": "Good broad consumer coverage.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0403",
-    "sort": 63
+    "source_uid": "SRC-0403"
   },
   {
     "node_id": "src_src_0404",
@@ -1275,9 +2837,11 @@
     "label": "Windows, doors, stairs, railings, garage doors, fire doors, HVAC, water heaters, electrical, ducting, lighting",
     "type": "source",
     "sector": "Shelter / Housing; Business / Commercial",
+    "sort": 64,
+    "priority_rank": "",
+    "description": "Important modular construction/component layer.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0404",
-    "sort": 64
+    "source_uid": "SRC-0404"
   },
   {
     "node_id": "src_src_0405",
@@ -1285,9 +2849,11 @@
     "label": "Computer, IT and communications product catalogs",
     "type": "source",
     "sector": "Information / Records; Market / Exchange",
+    "sort": 65,
+    "priority_rank": "",
+    "description": "Combine product identity with regulatory/frequency notes.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0405",
-    "sort": 65
+    "source_uid": "SRC-0405"
   },
   {
     "node_id": "src_src_0406",
@@ -1295,158 +2861,10 @@
     "label": "Furniture and furnishings catalogs including La-Z-Boy",
     "type": "source",
     "sector": "Human / Consumer; Market / Exchange",
+    "sort": 66,
+    "priority_rank": "",
+    "description": "Useful for shelter/household domain.",
     "meta": "Online Acquisition Target",
-    "source_uid": "SRC-0406",
-    "sort": 66
-  },
-  {
-    "node_id": "fin_accounts_cash_flow",
-    "parent_id": "finance",
-    "label": "Accounts / Cash Flow",
-    "type": "finance-object",
-    "sector": "Finance / Capital",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "fin_credit_loans_leases",
-    "parent_id": "finance",
-    "label": "Credit / Loans / Leases",
-    "type": "finance-object",
-    "sector": "Finance / Capital",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "fin_investment_capital_assets",
-    "parent_id": "finance",
-    "label": "Investment / Capital Assets",
-    "type": "finance-object",
-    "sector": "Finance / Capital",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "fin_insurance_risk_transfer",
-    "parent_id": "finance",
-    "label": "Insurance / Risk Transfer",
-    "type": "finance-object",
-    "sector": "Finance / Capital",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "fin_value_credit_assessment",
-    "parent_id": "finance",
-    "label": "Value / Credit Assessment",
-    "type": "finance-object",
-    "sector": "Finance / Capital",
-    "meta": "",
-    "source_uid": "",
-    "sort": 5
-  },
-  {
-    "node_id": "gov_public_services",
-    "parent_id": "government",
-    "label": "Public Services",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "gov_public_records_registries",
-    "parent_id": "government",
-    "label": "Public Records / Registries",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "gov_permits_licences_authorizations",
-    "parent_id": "government",
-    "label": "Permits / Licences / Authorizations",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
-  },
-  {
-    "node_id": "gov_taxes_fees_transfers",
-    "parent_id": "government",
-    "label": "Taxes / Fees / Transfers",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 4
-  },
-  {
-    "node_id": "gov_rights_remedies_appeals",
-    "parent_id": "government",
-    "label": "Rights / Remedies / Appeals",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 5
-  },
-  {
-    "node_id": "gov_procurement_public_contracts",
-    "parent_id": "government",
-    "label": "Procurement / Public Contracts",
-    "type": "public-object",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 6
-  },
-  {
-    "node_id": "gov_official_statistics_data_cubes",
-    "parent_id": "government",
-    "label": "Official Statistics / Data Cubes",
-    "type": "public-data",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 7
-  },
-  {
-    "node_id": "statcan",
-    "parent_id": "gov_official_statistics_data_cubes",
-    "label": "StatCan Cubes",
-    "type": "data-source",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 1
-  },
-  {
-    "node_id": "ised",
-    "parent_id": "gov_official_statistics_data_cubes",
-    "label": "ISED FPD Small Business Benchmarks",
-    "type": "data-source",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 2
-  },
-  {
-    "node_id": "us_stats",
-    "parent_id": "gov_official_statistics_data_cubes",
-    "label": "U.S. Statistical References",
-    "type": "data-source",
-    "sector": "Public / Government",
-    "meta": "",
-    "source_uid": "",
-    "sort": 3
+    "source_uid": "SRC-0406"
   }
 ]
