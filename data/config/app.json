@@ -1,8 +1,8 @@
 {
   "app_id": "economy-master-modular-rebuild",
-  "title": "Economy Master Interface — Modular Rebuild v0.2",
-  "subtitle": "v2.10.1 layout · 10,000 linked product records",
-  "version": "0.2.0-review",
+  "title": "Economy Master Interface — English Massive Corpus v0.3",
+  "subtitle": "v2.10.1 layout · four-level ribbon · draggable 30%-wider TreeView · modular English products/services",
+  "version": "0.3",
   "layout_baseline": "2.10.1",
   "default_context": {
     "sector": "home",
@@ -24,9 +24,13 @@
     "source_inventory": "data/sources/source_inventory.json",
     "processed_assets": "data/sources/processed_assets.json",
     "need_source_map": "data/mappings/need_source_map.json",
-    "product_index": "data/products/index.json"
+    "product_index": "data/products/index.json",
+    "language_config": "data/config/languages.json",
+    "acquisition_registry": "data/acquisition/source_registry.json"
   },
   "product_record_count": 10000,
   "human_tree_node_count": 11362,
-  "loading_strategy": "Human tree loads at startup; product records load lazily by selected need."
+  "loading_strategy": "Human tree loads at startup; product records load lazily by selected need.",
+  "record_count": 19009,
+  "classification_node_count": 5199
 }

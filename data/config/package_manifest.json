@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "size_bytes": 1571,
-    "sha256": "c00e8ec790aaee4e9ac52a1ed2b73792d63e31ed19ff493da1a2a089242912b3"
+    "size_bytes": 2789,
+    "sha256": "00833ddea6584c6345bed65465a814bbbb2240f85052eefa54682f6e094a7e5f"
   },
   {
     "path": "assets/css/base.css",
@@ -16,8 +16,8 @@
   },
   {
     "path": "assets/css/layout.css",
-    "size_bytes": 3442,
-    "sha256": "d25143cf8286434bf6b6338b59e01a26c5dd9881225301d65b456212f2a80e4c"
+    "size_bytes": 3975,
+    "sha256": "9e46b73d2d5628eac8d75b8850899b50dc208f36b356b6cadf057c8b2c206506"
   },
   {
     "path": "assets/css/ribbon.css",
@@ -26,8 +26,8 @@
   },
   {
     "path": "assets/js/app.js",
-    "size_bytes": 2298,
-    "sha256": "88632bca72d9e8c086e658fd3226b80276fc8bd88da2bea76cd26791ae19e1ac"
+    "size_bytes": 2621,
+    "sha256": "e8b99d2f87d1cf669a853ba45957ff847479a6e117ab3c29d9d7514ebdc05aab"
   },
   {
     "path": "assets/js/data-loader.js",
@@ -36,23 +36,28 @@
   },
   {
     "path": "assets/js/datagrid.js",
-    "size_bytes": 6259,
-    "sha256": "249e8732da1002947bbcfb5aaaa0454a8afc76ecbc5d222b28e7f55489fedd74"
+    "size_bytes": 6270,
+    "sha256": "e3205f4a770c1d092c3f1d766854287dd00059fe8d2be35e70ac1658a61beea5"
   },
   {
     "path": "assets/js/event-bus.js",
-    "size_bytes": 941,
-    "sha256": "205e1d995c06ee1d75c3089e4fc66ea65d6f0de7b16dcd68fd6785330d82a4a1"
+    "size_bytes": 1046,
+    "sha256": "bb8067c6b8971efb52edbd35596ade5dbabdd87f4c6418128d3cd75731bebaa8"
   },
   {
     "path": "assets/js/inspector.js",
-    "size_bytes": 2868,
-    "sha256": "9faa9ce29656bfc67a561bf3d8718ddde925335c6a55ff1c24d8dbb5b87e9c03"
+    "size_bytes": 2923,
+    "sha256": "11cc38e35046a287de69960b8334f9374502ad567118adff6175151e408d45ca"
+  },
+  {
+    "path": "assets/js/pane-resizer.js",
+    "size_bytes": 1928,
+    "sha256": "6f559445ca905a22c850e75e1326a88c9f667d68987b16201f76304b6d4f42d1"
   },
   {
     "path": "assets/js/persistence.js",
     "size_bytes": 308,
-    "sha256": "6bf1db9c316b85ce6900deeae6dab977e77cdc06d6ccc0412212957effcab3c2"
+    "sha256": "f8dfe2a1a4bec52477156ea3f20bc38231c547507d34271684d19af338f3a4b1"
   },
   {
     "path": "assets/js/product-repository.js",
@@ -66,13 +71,13 @@
   },
   {
     "path": "assets/js/state.js",
-    "size_bytes": 1467,
-    "sha256": "4631a2fd6a26a3b94273a3b1162f2f78cf6f392ed76db6479f50788bbc26c328"
+    "size_bytes": 1498,
+    "sha256": "68467b3162f4d8ed68e5463d87a4a83eaea8cc1d1147da9b2fcdd8d87be042c8"
   },
   {
     "path": "assets/js/treeview.js",
-    "size_bytes": 4156,
-    "sha256": "9292f619ef900e655c378e7d501876e62d0d8c2f021087bcf12aef57dc145b68"
+    "size_bytes": 4256,
+    "sha256": "d9ad81d594d038927eaf1b6ab2478c927e4a499f2bc669498920fe24e9625026"
   },
   {
     "path": "assets/js/user-profile.js",
@@ -86,13 +91,23 @@
   },
   {
     "path": "assets/js/workspace.js",
-    "size_bytes": 10601,
-    "sha256": "c404d09257bd8d45f11fd329f932b5448e882a6e227073025330e4d8b53dafbc"
+    "size_bytes": 10794,
+    "sha256": "5cba45e3641a825ebed516337927717e1e73922f5461541fe6d83c6290a8f55c"
+  },
+  {
+    "path": "data/acquisition/source_registry.json",
+    "size_bytes": 4017,
+    "sha256": "7f04bb89ccdb40574848ed5e0c801896d50792bb37ec7db0469f2d27b050b13d"
+  },
+  {
+    "path": "data/classifications/napcs_2022_nodes_flat.json",
+    "size_bytes": 6221106,
+    "sha256": "a27aeda298de694fd84be376067d4bd2ae36c6d2795dcc40e16e5202efe1989d"
   },
   {
     "path": "data/comparator/columns.json",
-    "size_bytes": 3149,
-    "sha256": "2bb35d8ee0c2d9edc7e4e7a5fb2b518e7079941916d5a0ee05b718eba1d62dff"
+    "size_bytes": 3740,
+    "sha256": "c38c1ba13866c3643c40eea5242860460da3062036d0b99c9f87b3da2ac6b410"
   },
   {
     "path": "data/comparator/sample_records.csv",
@@ -106,8 +121,13 @@
   },
   {
     "path": "data/config/app.json",
-    "size_bytes": 1435,
-    "sha256": "f4e9f7598765cb2fd92b7581ad66178c9f75f093a450736bf71d258ce3ef0d9e"
+    "size_bytes": 1674,
+    "sha256": "69cc1c598f6b28e38f0321cfd8084442869b3fade1d0aadebcc804574ea67d2a"
+  },
+  {
+    "path": "data/config/languages.json",
+    "size_bytes": 636,
+    "sha256": "a911d8d4065b82339f3d3f2a40ef7f177e03404e37896e2488a10c549b272e68"
   },
   {
     "path": "data/config/ribbon.json",
@@ -116,8 +136,8 @@
   },
   {
     "path": "data/mappings/need_source_map.json",
-    "size_bytes": 19890,
-    "sha256": "ab829f521dfa87d8f017180e409bd33ce32662cf49824c66c21d047a2899a562"
+    "size_bytes": 2225,
+    "sha256": "c475a981eb5a61ee619c41f6e599acc1f9f51b55a9af064a3943661bdc904556"
   },
   {
     "path": "data/mappings/product_need_assignment_rules.json",
@@ -131,98 +151,88 @@
   },
   {
     "path": "data/products/README.md",
-    "size_bytes": 657,
-    "sha256": "96fa42de09978f9fa3e663e4bc7e0acb449116521af79ecd7ba4216e655fa7ab"
+    "size_bytes": 275,
+    "sha256": "5b76a3a002a79216e4f13ad07af55fe037ec29dc8f50e6d450f2d393272c1817"
   },
   {
     "path": "data/products/index.json",
-    "size_bytes": 3517,
-    "sha256": "80ddf325a741e1275ff5ac4280ed03aebaa0517ce5f2c3f8917e05eff1d7305a"
+    "size_bytes": 4628,
+    "sha256": "87354f5bf958317245ddb97082a7bd46b41908ef04b141a7602d3039c005bbe6"
   },
   {
     "path": "data/products/need-air.json",
-    "size_bytes": 863727,
-    "sha256": "c98cd818062d9efe3721d0b864d92595f68784c4f7c98dd073e87b4e40af4b20"
+    "size_bytes": 5308,
+    "sha256": "4b12a6fd0fc6c9db50449d135fd7bde119eb0ed6c0f8fa322db68ca5dfb4f2ee"
   },
   {
     "path": "data/products/need-communication.json",
-    "size_bytes": 240572,
-    "sha256": "b48746dc42642440f1d2a3a9279ece15df97503630c1b0090c7c6206de069529"
+    "size_bytes": 4206453,
+    "sha256": "102f47a9d36f78a7559026073097ac710a5df1300e12fe9d87cb0b8dcc70d42d"
   },
   {
     "path": "data/products/need-education.json",
-    "size_bytes": 139865,
-    "sha256": "4098296148084f38fafa5cab7d477004de89395ebd0f28eb9fef66a58237da3d"
+    "size_bytes": 17243010,
+    "sha256": "46e96ee631daf05088fefe9ce16cfa0b265df58c6e6551dd6883e45b7200a4d6"
   },
   {
     "path": "data/products/need-energy.json",
-    "size_bytes": 195949,
-    "sha256": "c70806eb7594a0f18303d2ac6e6ee42dbdbc46aaa989cca4483fdc5113f7fc88"
-  },
-  {
-    "path": "data/products/need-family-community.json",
-    "size_bytes": 86119,
-    "sha256": "36f885ee121a051161925e24f632687752e957ef03444b7e82f923a8f6bebc32"
+    "size_bytes": 1794737,
+    "sha256": "2d5c3b13a45b01ce05f538e08febff4b77f00418b1e397996822dfc063c782a3"
   },
   {
     "path": "data/products/need-food.json",
-    "size_bytes": 3923181,
-    "sha256": "df935cbc6ad4875f728a1ce396789b9e608f98590ecceb880031f3c7fd040f58"
+    "size_bytes": 58805,
+    "sha256": "a1bd6c55c51e2b0a7bbc839e814ab2dc7703d7612cd89136f0eb986bbc6aa461"
   },
   {
     "path": "data/products/need-health.json",
-    "size_bytes": 6388401,
-    "sha256": "d647ace1e5ebb62a3cbb02cc31ac7b118b4e4dd829511f52815ee276220540b2"
-  },
-  {
-    "path": "data/products/need-lifestyle.json",
-    "size_bytes": 104870,
-    "sha256": "e35e5bedf80e10eaa0a43844f9966fe7db5c5bb721fce710edd399aef9047745"
+    "size_bytes": 4576713,
+    "sha256": "ec517892a0b7cd7530b1718c2292bfe244a3189b1412c8fe6da68a5072fc7908"
   },
   {
     "path": "data/products/need-recreation-meaning.json",
-    "size_bytes": 1435697,
-    "sha256": "911897f2f97ba08b8f76cebf0ee59581e2bff58daeaeab2266e60824965cc4cc"
+    "size_bytes": 79294,
+    "sha256": "5147afcd62cc4c4112f6e34c88dc7299333eecdab1ece783044dabd440438a5f"
   },
   {
     "path": "data/products/need-safety.json",
-    "size_bytes": 1393681,
-    "sha256": "921ca1a62d48b4cd2208683c089d58f44681fcfd825fe8da8face2fcb37bcd70"
+    "size_bytes": 1247263,
+    "sha256": "68913d5039a283fc55dfdac1fea578e3846ee82b6800a0625c82254b75ca8025"
   },
   {
     "path": "data/products/need-sanitation.json",
-    "size_bytes": 440795,
-    "sha256": "f08b9a5068b2a2f555d4ab5fe9a3f4761127c3421de944da7a2eb29099468790"
+    "size_bytes": 2322192,
+    "sha256": "ea2154e8d652aa867e8cfd6a8da48afc4f37814ebec4ac13a225e8c700d56689"
   },
   {
     "path": "data/products/need-shelter.json",
-    "size_bytes": 1112465,
-    "sha256": "aeef7ad126fbde2e1d762ba9e386521947278fa39ddc75571fdcb0524256e7c2"
+    "size_bytes": 3268148,
+    "sha256": "62f135b39b09c2acc050ead0b0fdf576c3987c6d8fc70fb4ce9c0105b95608b9"
   },
   {
     "path": "data/products/need-thermal.json",
-    "size_bytes": 437553,
-    "sha256": "77ca4f9d5c380a0f845fb9b243b2ae0824a7329c4bd9fda698d974255cd2ae49"
+    "size_bytes": 62108,
+    "sha256": "1f80de1776518aa28ab5d7f844301c0bdec27421e79e19daf44b8b5cfa267eec"
   },
   {
     "path": "data/products/need-tools-repair.json",
-    "size_bytes": 416206,
-    "sha256": "a2d4190ef2fc931931d790ae79c254257b802bf6d3d3334c08696802d48c2ef9"
+    "size_bytes": 12813008,
+    "sha256": "fa2b230aba3865114767dc506b97e7f474032dbb319ed0781773860ed245e30e"
   },
   {
     "path": "data/products/need-transportation.json",
-    "size_bytes": 4264026,
-    "sha256": "c3b3b7ef2caf5fcee10e9e2718839230a425636441d90445941b58b8a18914cd"
+    "size_bytes": 4957440,
+    "sha256": "e4a39468be64283d1b62e52b9e8342d0a00835c5b1e4e4366c396b7f8d21c810"
   },
   {
     "path": "data/products/need-water.json",
-    "size_bytes": 54352,
-    "sha256": "729da1dc409e4e00ab19617fa319b0ba819619b71d5e8da3d3a16766b2fa988c"
+    "size_bytes": 951638,
+    "sha256": "7538a986ee27b615bb63c775e50731c7ead40bd7f959f1b029407b9f2b4dc6fa"
   },
   {
     "path": "data/products/product_counts.json",
-    "size_bytes": 5146,
-    "sha256": "cdd328ce8cc33a2caeb6932468137719e47d15ada0cf6cc8c943c7b020bb598b"
+    "size_bytes": 5251,
+    "sha256": "a4e461428b00b3ca97ef69ca720df27e0f78867eb7e1461cba42a172f609bb00"
   },
   {
     "path": "data/products/product_records_10000.csv",
@@ -230,24 +240,64 @@
     "sha256": "be576a51b7c7b570ecc1d423b58a6b054df96a7d96893edebf096144191d4aed"
   },
   {
+    "path": "data/products/product_service_records_19009_part_001.csv",
+    "size_bytes": 6030438,
+    "sha256": "3e0568ea042906fb797c44e85ef323f5e0b30d8fae66be111fff488c38f5af1b"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002.csv",
+    "size_bytes": 5856275,
+    "sha256": "68646822a2d02c52bfda27fb5a14bf777cf1a37a40aa33b3638be8fc51ac6bd2"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003.csv",
+    "size_bytes": 6457789,
+    "sha256": "f97dfd50c4d41963ac7eaf420489285e1cbbfc21ea81376dd82fb64e2c96d9f5"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004.csv",
+    "size_bytes": 7347723,
+    "sha256": "c731c3a8a8b80754530efdc7db70ed3560e884321c8d07a288899c16869470b4"
+  },
+  {
+    "path": "data/products/product_service_records_19009_parts_index.json",
+    "size_bytes": 2588,
+    "sha256": "4426bbbf71e01de011d304c2ec3f8225f582b4e5e60a87cc2f7eba721219a66f"
+  },
+  {
     "path": "data/products/source_composition.json",
-    "size_bytes": 141,
-    "sha256": "a72e131cf44118140b37ef27f7e63bea27733534ecfd66c94dc2e6333c8db52d"
+    "size_bytes": 1395,
+    "sha256": "4ecc2c247b8a93ffd3ecfd5e5d57e0957d8687e468089c4de850f9d4c0584876"
+  },
+  {
+    "path": "data/review/catalog_candidates_low_confidence.json",
+    "size_bytes": 2306007,
+    "sha256": "874acb8e0d58494ec7960258e2d97a092c5aad07c47adb38331776e1798ee448"
+  },
+  {
+    "path": "data/services/independent_study_courses_1995.csv",
+    "size_bytes": 506729,
+    "sha256": "f884a15b025f432074e140eb9fa5e47c66c8d20139701d400fdc9756c483a569"
+  },
+  {
+    "path": "data/services/independent_study_courses_1995.json",
+    "size_bytes": 1353433,
+    "sha256": "f099932b41f5d4b4d86a0d5a65af6c9410ff1b65138d30e57807d9cf503e5539"
   },
   {
     "path": "data/sources/processed_assets.json",
-    "size_bytes": 4839,
-    "sha256": "e9c06808fd080a3088b8b056a28d03633aa2ac12400afd5775350caaba4f7c48"
+    "size_bytes": 5290,
+    "sha256": "79e8864567384e378468c89c359c6a208a07fd50a5dddb0ec0d53448b064f13e"
   },
   {
     "path": "data/sources/source_inventory.csv",
-    "size_bytes": 33429,
-    "sha256": "28e1631b54a05fc27a7bc892a42390731b38b350bfac04aabf3bb4039239480a"
+    "size_bytes": 34558,
+    "sha256": "242bddbc476808049792e189cccc570097fbdc0c1cdf87803155aa202ee146a4"
   },
   {
     "path": "data/sources/source_inventory.json",
-    "size_bytes": 54793,
-    "sha256": "2903378e70c1f0c88908c3daa3269fd84a6406da366fd3b96887e5f90ea9cc1b"
+    "size_bytes": 56061,
+    "sha256": "4cfa43bc221bab1050943ea119d1eda6a14f2eec2abee81f308010f997cd0a44"
   },
   {
     "path": "data/trees/business.json",
@@ -266,8 +316,8 @@
   },
   {
     "path": "data/trees/human.json",
-    "size_bytes": 4379699,
-    "sha256": "40557477b5090cf91fd2a8dd03ff3e76891a20edacb9d01cf1aad29e0a627c90"
+    "size_bytes": 15985371,
+    "sha256": "96f88b23b154053b1f496f5cf8d7f75dd83557cb6fb2a14a43af9ea6e8643a71"
   },
   {
     "path": "data/trees/index.json",
@@ -276,8 +326,8 @@
   },
   {
     "path": "data/trees/market.json",
-    "size_bytes": 1593,
-    "sha256": "3e2463c677f244db785eca135b38803a34ee5172fd4a234a6e5290ebbe69413c"
+    "size_bytes": 2781644,
+    "sha256": "0839e05e64e1ad0d57d2c265c996f201d2631cd2ac93d9559867bf76861d129f"
   },
   {
     "path": "data/trees/public.json",
@@ -288,6 +338,26 @@
     "path": "docs/ARCHITECTURE.md",
     "size_bytes": 898,
     "sha256": "4f7cc62aefcbfa3e2dc3312d5c31485bbbefe86b6e7650938cbaac4cc313ffef"
+  },
+  {
+    "path": "docs/ENGLISH_CORPUS_PROVENANCE.md",
+    "size_bytes": 918,
+    "sha256": "f75e5f5952aa38837e47209ebd18ec9b2f20331f2eb89a9d43a683a35dd78ef2"
+  },
+  {
+    "path": "docs/GITHUB_WEB_UPLOAD_INSTRUCTIONS.md",
+    "size_bytes": 1249,
+    "sha256": "7357121629bef964f5a4322d89fa56456cd27cd395a98917bff042f9f77f6876"
+  },
+  {
+    "path": "docs/LANGUAGE_DISPLAY_DESIGN.md",
+    "size_bytes": 621,
+    "sha256": "0720ccb4c9e347e416c98891874823f3e5ad38b1f9eb97bb9e176d8a3ec782d4"
+  },
+  {
+    "path": "docs/MASSIVE_ACQUISITION_PLAN.md",
+    "size_bytes": 628,
+    "sha256": "02fec0ef0c1fb9384f077df641ea33a23a4ef6990887c6c056fb21ac663ab0d2"
   },
   {
     "path": "docs/PRINCIPLES.md",
@@ -306,13 +376,48 @@
   },
   {
     "path": "docs/REVIEW_CHECKLIST.md",
-    "size_bytes": 858,
-    "sha256": "31646b48a2df4308cd3469e2ab4f3fe864dc624fb1fbbd054e5de7eb9c037e5f"
+    "size_bytes": 868,
+    "sha256": "fef51b3981ac650bec2e474d37ab1a75ad6a673ed35c537329babe80b86fd216"
   },
   {
     "path": "index.html",
-    "size_bytes": 3398,
-    "sha256": "d2c46f840c0ba48ddca50a70fa776d8c1a8b4721d6c625ced1849bc5a8ef9d5f"
+    "size_bytes": 3696,
+    "sha256": "db40e75f067ad39d912eceaf6b15dfadd9be481869fb4931b903c484b6356498"
+  },
+  {
+    "path": "scripts/acquire_direct_sources.py",
+    "size_bytes": 1811,
+    "sha256": "e27c2d233e3d869ce249f75be692817af959931e87b7886603371f5cd7856bae"
+  },
+  {
+    "path": "scripts/acquire_energy_star.py",
+    "size_bytes": 827,
+    "sha256": "03a603b55a6d6ab4e0dac2efd5f5afa50474ae3daf7ef5371d6e7b5ccdeafef5"
+  },
+  {
+    "path": "scripts/acquire_fda_ndc.py",
+    "size_bytes": 752,
+    "sha256": "6aff49efa38d72849b16e78377bcc2bf67f0b07bfb27efbd8fac4f58476625b2"
+  },
+  {
+    "path": "scripts/acquire_fooddata_central.py",
+    "size_bytes": 1146,
+    "sha256": "1a8511de01404153eb67c867c58783b7236003e5c0db511f04f67cc8ac351437"
+  },
+  {
+    "path": "scripts/acquire_nhtsa_vpic.py",
+    "size_bytes": 1384,
+    "sha256": "411b7b91bfab6cbdf39b20dbe9a28a47d6c5f39dfb2b40e9aa4e6a06936df273"
+  },
+  {
+    "path": "scripts/acquire_overture_places.py",
+    "size_bytes": 710,
+    "sha256": "8d0c111d68a440cd0fa9a4436388db2d4d6dd752efdb3deec1f27bd330823b12"
+  },
+  {
+    "path": "scripts/requirements-acquisition.txt",
+    "size_bytes": 81,
+    "sha256": "803779bead9fae60a8e67b44a2a2b37e3a0bdda8976110687f16ba7a03cb9dc9"
   },
   {
     "path": "serve_local.bat",

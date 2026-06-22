@@ -159,5 +159,33 @@
     "type": "text",
     "default_visible": false,
     "sortable": false
+  },
+  {
+    "field": "record_kind",
+    "label": "Product / Service",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "source_language",
+    "label": "Source Language",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "extraction_confidence",
+    "label": "Extraction Confidence",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "mapping_confidence",
+    "label": "Mapping Confidence",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
   }
 ]

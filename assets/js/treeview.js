@@ -1,12 +1,12 @@
 import {escapeHtml,countTreeNodes,findTreeNode,walkTree} from './utils.js';
-const icons={orientation:'⌂','sector-link':'◦','sector-root':'◉','priority-tree':'↓',need:'◆','fulfillment-class':'◇',records:'▤','record-class':'□','market-class':'⇄',classification:'▣','classification-system':'▦',model:'▦','model-object':'□','simulation-class':'△','data-reference':'◫','source-library':'☷','source-filter':'◫','processed-assets':'▤','finance-class':'◇','public-class':'⌂','public-data':'▤','product-category':'▣','product-page':'▤',product:'•'};
+const icons={orientation:'⌂','sector-link':'◦','sector-root':'◉','priority-tree':'↓',need:'◆','fulfillment-class':'◇',records:'▤','record-class':'□','market-class':'⇄',classification:'▣','classification-system':'▦',model:'▦','model-object':'□','simulation-class':'△','data-reference':'◫','source-library':'☷','source-filter':'◫','processed-assets':'▤','finance-class':'◇','public-class':'⌂','public-data':'▤','product-category':'▣','product-page':'▤',product:'•','service-category':'▣','service-page':'▤',service:'•','classification-node':'▦'};
 function ownText(node){return [node.label,node.meta,node.description,node.source_uid,node.product_record_id].filter(Boolean).join(' ').toLowerCase()}
 export function createTreeView({container,countElement,filterElement,contextElement,expandButton,collapseButton,trees,store}){
   const expanded=state=>new Set(state.expandedBySector[state.sector]||[]);
   const currentTree=state=>trees[state.sector]||trees.home;
   function render(state){
     const root=currentTree(state),selectedId=state.selectedNodeBySector[state.sector]||root.id,open=expanded(state),filter=(state.treeFilter||'').toLowerCase().trim();
-    countElement.textContent=`${countTreeNodes(root).toLocaleString()} nodes · ${(root.product_count||0).toLocaleString()} products`;
+    countElement.textContent=`${countTreeNodes(root).toLocaleString()} nodes · ${(root.product_count||0).toLocaleString()} linked records`;
     const matchCache=new Map();
     function branchMatches(node){if(!filter)return true;if(matchCache.has(node.id))return matchCache.get(node.id);const result=ownText(node).includes(filter)||(node.children||[]).some(branchMatches);matchCache.set(node.id,result);return result}
     const lines=[];
@@ -20,7 +20,7 @@ export function createTreeView({container,countElement,filterElement,contextElem
     }
     branch(root);container.innerHTML=lines.join('');
     const result=findTreeNode(root,selectedId),selected=result?.node||root;
-    contextElement.innerHTML=`<b>Tree:</b> ${escapeHtml(root.label)}<br><b>Selected:</b> ${escapeHtml(selected.label)}<br><b>Priority:</b> ${selected.priority_rank||'—'}<br><b>Products:</b> ${(selected.product_count||0).toLocaleString()}<br><b>Tool:</b> ${escapeHtml(state.tool)}`;
+    contextElement.innerHTML=`<b>Tree:</b> ${escapeHtml(root.label)}<br><b>Selected:</b> ${escapeHtml(selected.label)}<br><b>Priority:</b> ${selected.priority_rank||'—'}<br><b>Linked records:</b> ${(selected.product_count||0).toLocaleString()}<br><b>Tool:</b> ${escapeHtml(state.tool)}`;
     container.querySelectorAll('.tree-line').forEach(line=>line.addEventListener('click',event=>{
       const id=line.dataset.nodeId,found=findTreeNode(root,id)?.node;
       store.mutate(s=>{const sector=s.sector,arr=new Set(s.expandedBySector[sector]||[]);if(event.target.classList.contains('tree-toggle')&&(found?.children||[]).length){arr.has(id)?arr.delete(id):arr.add(id);s.expandedBySector[sector]=[...arr]}else if(found?.type==='sector-link'&&found.sector){s.sector=found.sector}else{s.selectedNodeBySector[sector]=id;if((found?.children||[]).length)arr.add(id);s.expandedBySector[sector]=[...arr];s.datagrid.page=1;s.datagrid.search=''}});

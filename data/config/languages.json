@@ -1,0 +1,25 @@
+{
+  "default": "en",
+  "supported_display_options": [
+    {
+      "id": "en",
+      "label": "English",
+      "status": "Default; all records in this build have English display text."
+    },
+    {
+      "id": "source",
+      "label": "Source Language",
+      "status": "Schema-ready."
+    },
+    {
+      "id": "fr",
+      "label": "French",
+      "status": "Requires translated text or a configured translation service."
+    }
+  ],
+  "record_schema": {
+    "source_language": "Language of source record",
+    "translations.en.item_name": "English item/service label",
+    "translations.fr.item_name": "Future French display label"
+  }
+}
