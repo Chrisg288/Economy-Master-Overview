@@ -1,0 +1,28 @@
+{
+  "app_id": "economy-master-modular-rebuild",
+  "title": "Economy Master Interface — Modular Rebuild v0.1",
+  "subtitle": "Layout baseline: v2.10.1",
+  "version": "0.1.0-review",
+  "layout_baseline": "2.10.1",
+  "default_context": {
+    "sector": "home",
+    "scope": "personal",
+    "overlay": "law-rights",
+    "tool": "swimlane"
+  },
+  "principles": [
+    "Human / Consumer TreeView lists wants and needs from most important survival needs to least important wants.",
+    "Comparator datagrids allow the user to choose visible columns and sort relative items to determine greatest value and fulfillment.",
+    "Catalog and source data support the needs tree; they do not replace it.",
+    "The four-level ribbon is a context lens and must never replace or duplicate the TreeView."
+  ],
+  "data_files": {
+    "ribbon": "data/config/ribbon.json",
+    "tree_index": "data/trees/index.json",
+    "comparator_columns": "data/comparator/columns.json",
+    "comparator_records": "data/comparator/sample_records.json",
+    "source_inventory": "data/sources/source_inventory.json",
+    "processed_assets": "data/sources/processed_assets.json",
+    "need_source_map": "data/mappings/need_source_map.json"
+  }
+}

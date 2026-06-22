@@ -1,0 +1,132 @@
+{
+  "id": "business-commercial",
+  "label": "Business / Commercial",
+  "type": "sector-root",
+  "children": [
+    {
+      "id": "business-types",
+      "label": "Business Type Library",
+      "type": "classification",
+      "children": [
+        {
+          "id": "business-food",
+          "label": "Food Businesses",
+          "type": "business-class"
+        },
+        {
+          "id": "business-trades",
+          "label": "Trades / Services",
+          "type": "business-class"
+        },
+        {
+          "id": "business-manufacturing",
+          "label": "Manufacturing",
+          "type": "business-class"
+        },
+        {
+          "id": "business-retail",
+          "label": "Retail / Distribution",
+          "type": "business-class"
+        },
+        {
+          "id": "business-professional",
+          "label": "Professional Services",
+          "type": "business-class"
+        }
+      ]
+    },
+    {
+      "id": "business-model",
+      "label": "Business Model",
+      "type": "model",
+      "children": [
+        {
+          "id": "business-customers",
+          "label": "Customer Segments",
+          "type": "model-object"
+        },
+        {
+          "id": "business-offers",
+          "label": "Offers / Products / Services",
+          "type": "model-object"
+        },
+        {
+          "id": "business-revenue",
+          "label": "Revenue Mechanisms",
+          "type": "model-object"
+        },
+        {
+          "id": "business-departments",
+          "label": "Department Swimlanes",
+          "type": "model-object"
+        },
+        {
+          "id": "business-evidence",
+          "label": "Evidence / Credits",
+          "type": "model-object"
+        }
+      ]
+    },
+    {
+      "id": "business-simulation",
+      "label": "Simulation / Calibration",
+      "type": "simulation-class",
+      "children": [
+        {
+          "id": "business-ised",
+          "label": "ISED FPD 2024 Calibration",
+          "type": "data-reference"
+        },
+        {
+          "id": "business-corporate-demography",
+          "label": "Corporate Demography",
+          "type": "theory-reference"
+        }
+      ]
+    },
+    {
+      "id": "business-source-library",
+      "label": "Source Library — Catalogs / Data / References",
+      "type": "source-library",
+      "children": [
+        {
+          "id": "source-product-catalogs",
+          "label": "Product Catalogs",
+          "type": "source-filter",
+          "filter": {
+            "source_group": "catalog"
+          }
+        },
+        {
+          "id": "source-official-data",
+          "label": "Official Data / Classifications",
+          "type": "source-filter",
+          "filter": {
+            "source_group": "official"
+          }
+        },
+        {
+          "id": "source-theory",
+          "label": "Reference Theory / Statistical Books",
+          "type": "source-filter",
+          "filter": {
+            "source_group": "reference"
+          }
+        },
+        {
+          "id": "source-acquisition",
+          "label": "Acquisition Targets",
+          "type": "source-filter",
+          "filter": {
+            "source_group": "target"
+          }
+        },
+        {
+          "id": "source-processed-assets",
+          "label": "Processed GitHub Assets",
+          "type": "processed-assets"
+        }
+      ]
+    }
+  ]
+}

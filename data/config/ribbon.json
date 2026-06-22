@@ -1,0 +1,136 @@
+{
+  "rows": [
+    {
+      "id": "sector",
+      "label": "SECTORS",
+      "selection": "single",
+      "items": [
+        {
+          "id": "home",
+          "label": "Home"
+        },
+        {
+          "id": "human",
+          "label": "Human / Consumer"
+        },
+        {
+          "id": "market",
+          "label": "Market / Exchange"
+        },
+        {
+          "id": "business",
+          "label": "Business / Commercial"
+        },
+        {
+          "id": "finance",
+          "label": "Finance / Capital"
+        },
+        {
+          "id": "public",
+          "label": "Public / Government"
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "label": "SCOPE",
+      "selection": "single",
+      "items": [
+        {
+          "id": "international",
+          "label": "International"
+        },
+        {
+          "id": "national",
+          "label": "National"
+        },
+        {
+          "id": "provincial-state",
+          "label": "Provincial / State"
+        },
+        {
+          "id": "municipal",
+          "label": "Municipal"
+        },
+        {
+          "id": "organizational",
+          "label": "Organizational"
+        },
+        {
+          "id": "personal",
+          "label": "Personal"
+        }
+      ]
+    },
+    {
+      "id": "overlay",
+      "label": "OVERLAYS",
+      "selection": "single",
+      "items": [
+        {
+          "id": "law-rights",
+          "label": "Law / Rights / Regulation"
+        },
+        {
+          "id": "security-defense",
+          "label": "Security / Defense / Intelligence"
+        },
+        {
+          "id": "infrastructure-logistics",
+          "label": "Infrastructure / Logistics"
+        },
+        {
+          "id": "resources-environment",
+          "label": "Resources / Environment"
+        },
+        {
+          "id": "information-records",
+          "label": "Information / Records"
+        },
+        {
+          "id": "risk-safety",
+          "label": "Risk / Safety / Emergency"
+        }
+      ]
+    },
+    {
+      "id": "tool",
+      "label": "TOOLS",
+      "selection": "single",
+      "items": [
+        {
+          "id": "swimlane",
+          "label": "Swimlane"
+        },
+        {
+          "id": "datagrid",
+          "label": "Datagrid"
+        },
+        {
+          "id": "user-profile",
+          "label": "User Profile"
+        },
+        {
+          "id": "model",
+          "label": "Model"
+        },
+        {
+          "id": "simulate",
+          "label": "Simulate"
+        },
+        {
+          "id": "assess",
+          "label": "Assess"
+        },
+        {
+          "id": "compare-transact",
+          "label": "Compare / Transact"
+        },
+        {
+          "id": "objects-definitions",
+          "label": "Objects / Definitions"
+        }
+      ]
+    }
+  ]
+}

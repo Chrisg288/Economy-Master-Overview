@@ -1,47 +1,56 @@
-# Economy Master Interface v2.10.8 — Human Needs Priority Tree
+# Economy Master Interface — Modular Rebuild v0.1
 
-This version restores the core Comparator design principle:
+**Layout baseline:** v2.10.1  
+**Review goal:** preserve the familiar v2.10.1 three-panel workspace while rebuilding the interface as separate modules.
 
-```text
-LIST USER WANTS / NEEDS
-MOST IMPORTANT
-↓
-HIERARCHICAL TREEVIEW
-↓
-LEAST IMPORTANT
-```
-
-## Fundamental rule
-
-For **Human / Consumer**, the TreeView is the fastest way for a user to identify wants and needs.
-
-It is ordered by priority from immediate survival needs to lower-priority wants.
-
-## Second fundamental rule
-
-The Comparator uses sortable datagrids so the user can compare relative items and determine greatest value/fulfillment.
-
-## Modular files
+## What is included
 
 ```text
-index.html
-README.md
-data/app/app_config.json
-data/app/context_ribbon.json
-data/app/tree_nodes.json
-data/app/source_inventory.json
-data/app/sample_records.json
-data/app/datagrid_columns.json
-data/app/need_priority_model.json
-data/app/tree_nodes.csv
-data/app/sample_records.csv
-data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.json
-data-sources/comparator_compiled/inventory/comparator_source_inventory_modular.csv
-data-sources/comparator_compiled/samples/comparator_sample_records_modular.json
-docs/layout/context_ribbon_modular_spec.json
-docs/principles/human_consumer_needs_tree_principle.md
+index.html                         Shell only
+assets/css/                        Separate layout, ribbon and component styles
+assets/js/                         Separate state, loader, ribbon, tree, workspace, datagrid, profile and inspector modules
+data/config/                       App and four-level ribbon configuration
+data/trees/                        One JSON tree per sector
+data/comparator/                   Sortable Comparator columns and sample records
+data/sources/                      66 compiled source records plus processed-asset registry
+data/mappings/                     Need-to-source support mappings
+docs/                              Architecture, principles and review checklist
 ```
 
-## Preservation rule
+## Non-negotiable principles
 
-Do not remove or replace this priority-tree principle unless explicitly instructed. Product catalog trees support the need tree; they do not replace the need tree.
+1. **Human / Consumer TreeView:** user wants and needs are ordered from most important survival need to least important want.
+2. **Comparator Datagrid:** the user chooses visible columns and sorts relative items to determine greatest value and fulfillment.
+3. **Source library:** catalogs, official datasets and reference books support the needs tree but never replace it.
+4. **Ribbon:** Sector × Scope × Overlay × Tool is a context lens only.
+
+## Compact four-level ribbon
+
+The ribbon uses 17-pixel rows and reduced button padding:
+
+```css
+padding: 2px 7px;
+font-size: 9.5px;
+line-height: 1;
+gap: 4px;
+```
+
+Each row scrolls horizontally on narrower screens instead of overlapping the workspace.
+
+## Run locally
+
+Double-click:
+
+```text
+serve_local.bat
+```
+
+or run:
+
+```powershell
+.\serve_local.ps1
+```
+
+Then open `http://localhost:8000/`.
+
+GitHub Pages will load the JSON and JavaScript modules normally.

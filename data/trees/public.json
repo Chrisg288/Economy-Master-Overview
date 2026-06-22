@@ -1,0 +1,59 @@
+{
+  "id": "public-government",
+  "label": "Public / Government",
+  "type": "sector-root",
+  "children": [
+    {
+      "id": "public-services",
+      "label": "Public Services",
+      "type": "public-class"
+    },
+    {
+      "id": "public-records",
+      "label": "Public Records / Registries",
+      "type": "public-class"
+    },
+    {
+      "id": "public-permits",
+      "label": "Permits / Licences / Authorizations",
+      "type": "public-class"
+    },
+    {
+      "id": "public-taxes",
+      "label": "Taxes / Fees / Transfers",
+      "type": "public-class"
+    },
+    {
+      "id": "public-rights",
+      "label": "Rights / Remedies / Appeals",
+      "type": "public-class"
+    },
+    {
+      "id": "public-procurement",
+      "label": "Procurement / Public Contracts",
+      "type": "public-class"
+    },
+    {
+      "id": "public-statistics",
+      "label": "Official Statistics / Data Cubes",
+      "type": "public-data",
+      "children": [
+        {
+          "id": "public-statcan",
+          "label": "StatCan Cubes",
+          "type": "data-reference"
+        },
+        {
+          "id": "public-ised",
+          "label": "ISED FPD Small Business Benchmarks",
+          "type": "data-reference"
+        },
+        {
+          "id": "public-usstats",
+          "label": "U.S. Statistical References",
+          "type": "data-reference"
+        }
+      ]
+    }
+  ]
+}

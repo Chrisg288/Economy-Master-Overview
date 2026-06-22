@@ -1,0 +1,64 @@
+{
+  "id": "market-exchange",
+  "label": "Market / Exchange",
+  "type": "sector-root",
+  "children": [
+    {
+      "id": "market-offers",
+      "label": "Offers / Listings",
+      "type": "market-class"
+    },
+    {
+      "id": "market-bids",
+      "label": "Bids / Quotes / Negotiations",
+      "type": "market-class"
+    },
+    {
+      "id": "market-transactions",
+      "label": "Transactions / Receipts / Contracts",
+      "type": "market-class"
+    },
+    {
+      "id": "market-prices",
+      "label": "Prices / Availability / Delivery",
+      "type": "market-class"
+    },
+    {
+      "id": "market-product-identity",
+      "label": "Product Identity / Classification",
+      "type": "classification",
+      "children": [
+        {
+          "id": "identity-napcs",
+          "label": "NAPCS Canada",
+          "type": "classification-system"
+        },
+        {
+          "id": "identity-gpc",
+          "label": "GS1 GPC Bricks",
+          "type": "classification-system"
+        },
+        {
+          "id": "identity-barcode",
+          "label": "UPC / GTIN / Barcode Identity",
+          "type": "classification-system"
+        },
+        {
+          "id": "identity-cpe",
+          "label": "NVD CPE IT Product Identity",
+          "type": "classification-system"
+        },
+        {
+          "id": "identity-energy-star",
+          "label": "ENERGY STAR Product Data",
+          "type": "classification-system"
+        },
+        {
+          "id": "identity-nhtsa",
+          "label": "NHTSA Vehicle Data",
+          "type": "classification-system"
+        }
+      ]
+    }
+  ]
+}

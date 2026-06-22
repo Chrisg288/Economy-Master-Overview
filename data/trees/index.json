@@ -1,0 +1,8 @@
+{
+  "home": "data/trees/home.json",
+  "human": "data/trees/human.json",
+  "market": "data/trees/market.json",
+  "business": "data/trees/business.json",
+  "finance": "data/trees/finance.json",
+  "public": "data/trees/public.json"
+}

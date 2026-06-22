@@ -1,0 +1,86 @@
+[
+  {
+    "field": "need_rank",
+    "label": "Need Rank",
+    "type": "number",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "need_path",
+    "label": "Need Path",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "item_name",
+    "label": "Item / Offer",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "source_vendor",
+    "label": "Source / Vendor",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "fulfillment_score",
+    "label": "Fulfillment",
+    "type": "number",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "survival_value",
+    "label": "Survival Value",
+    "type": "number",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "total_cost",
+    "label": "Total Cost",
+    "type": "currency",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "availability",
+    "label": "Availability",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "durability",
+    "label": "Durability",
+    "type": "number",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "risk",
+    "label": "Risk",
+    "type": "number",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "evidence",
+    "label": "Evidence",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "record_status",
+    "label": "Status",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  }
+]

@@ -1,0 +1,21 @@
+﻿id,need_id,need_rank,need_path,item_name,source_uid,source_vendor,fulfillment_score,survival_value,total_cost,availability,durability,risk,evidence,record_status
+REC-AIR-001,need-air,1,Air / Respiratory Protection,Half-mask respirator family,SRC-0115,North by Honeywell,72,95,,Historical catalog — verify current,70,35,Respiratory protection catalog,Safety-critical reference
+REC-WATER-001,need-water,2,Water / Pumps / Hoses / Fittings,Industrial hose and fitting system,SRC-0102,Parker Hannifin,78,92,,Technical catalog,86,42,Parker Catalog 4400,Verify current selection
+REC-WATER-002,need-water,2,Water / Pumps / Hoses / Fittings,Water pump / vacuum-truck pump category,SRC-0112,GapVax,66,88,,Catalog/reference,82,46,PartsExpress catalog,Technical reference
+REC-FOOD-001,need-food,3,Food / Grocery Products,Canadian packaged food identity records,SRC-0001,Open Food Facts,68,90,,Current open data,55,18,Bulk open database,Current source
+REC-SHELTER-001,need-shelter,4,Shelter / Windows / Doors,Architectural door hardware family,SRC-0121,IVES / Allegion,70,84,,Catalog/current-family bridge needed,88,22,Architectural hardware catalog,Catalog source
+REC-SHELTER-002,need-shelter,4,Shelter / Furnishings,Furniture and furnishings acquisition targets,SRC-0406,Furniture Suppliers,54,65,,Access investigation,65,12,Source acquisition queue,Acquisition target
+REC-SAFETY-001,need-safety,6,Safety / Vehicle Electrical Protection,Fuse and circuit protection family,SRC-0105,Grote,82,82,,Historical/current bridge needed,82,24,Grote fuse catalog,Safety-critical technical reference
+REC-HEALTH-001,need-health,7,Health / Laboratory and Diagnostics,Laboratory supply and instrument categories,SRC-0120,Scientific Products,58,76,,Historical catalog,70,36,Scientific Products catalog,Reference source
+REC-SANITATION-001,need-sanitation,8,Sanitation / Waste / Vacuum Systems,Vacuum and water truck component family,SRC-0111,LM Industries,75,72,,Catalog/current-family bridge needed,88,45,LM parts and technical catalog,Technical reference
+REC-ENERGY-001,need-energy,9,Energy / Efficient Appliances,ENERGY STAR certified product datasets,SRC-0007,ENERGY STAR,77,70,,Current downloadable data target,75,12,Official certification data,Acquisition target
+REC-TRANSPORT-001,need-transportation,10,Transportation / Vehicle Safety and Identity,Vehicle make/model and safety datasets,SRC-0008,NHTSA,80,74,,Current API/data target,70,10,Official vehicle data,Acquisition target
+REC-TRANSPORT-002,need-transportation,10,Transportation / Marine Vehicles,Welded boat model specifications,SRC-0113,Kingfisher,56,40,,Historical model catalog,86,28,2019 model guide,Historical model data
+REC-COMM-001,need-communication,11,Communication / IT Product Identity,"CPE vendor, product and version identity",SRC-0006,NIST / NVD,64,58,,Current open dictionary target,50,16,Official CPE dictionary,Acquisition target
+REC-INCOME-001,need-income-work,12,Income / Business Calibration,Small-business financial benchmark profiles,SRC-0003,ISED Canada,84,72,0,Processed 2024 data,78,12,ISED FPD 2024,Current benchmark
+REC-EDU-001,need-education,15,Education / Official Statistics,Enrollment and labour-outcome data cubes,SRC-0004,Statistics Canada,76,56,0,Local 2021 snapshots; refreshable,70,10,StatCan full-table cubes,Stale local copy
+REC-TOOLS-001,need-tools-repair,16,Tools / Industrial Components,Industrial components and hardware catalog,SRC-0100,Essentra Components,82,55,,2014 catalog; current bridge needed,88,20,Essentra catalog,High-priority conversion
+REC-TOOLS-002,need-tools-repair,16,Tools / Modular Framing,T-slot aluminum modular construction system,SRC-0104,80/20 Inc.,79,52,,Historical catalog; current online,92,14,Catalog 20,High-priority conversion
+REC-TOOLS-003,need-tools-repair,16,Tools / Truck Body Hardware,"Handles, latches, hinges and gas springs",SRC-0101,Faucher,85,58,,Catalog/current-family bridge needed,86,18,Faucher catalog set,High-priority conversion
+REC-RECREATION-001,need-recreation-meaning,18,Recreation / Group Activities,Group game and activity taxonomy,SRC-0214,Sterling Publishing,62,22,,Historical reference,60,5,Giant Book of Games,Reference taxonomy
+REC-LIFESTYLE-001,need-lifestyle,19,Lifestyle / Garden / Roses,Rose varieties and garden ratings,SRC-0114,Harkness Roses,58,10,,2015–2016 catalog,55,4,Harkness rose catalog,Historical catalog

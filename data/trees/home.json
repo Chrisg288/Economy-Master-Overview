@@ -1,0 +1,38 @@
+{
+  "id": "economy-home",
+  "label": "Economy Home",
+  "type": "orientation",
+  "description": "Orientation map of the five stable economic viewpoints.",
+  "children": [
+    {
+      "id": "home-human",
+      "label": "Human / Consumer",
+      "type": "sector-link",
+      "sector": "human"
+    },
+    {
+      "id": "home-market",
+      "label": "Market / Exchange",
+      "type": "sector-link",
+      "sector": "market"
+    },
+    {
+      "id": "home-business",
+      "label": "Business / Commercial",
+      "type": "sector-link",
+      "sector": "business"
+    },
+    {
+      "id": "home-finance",
+      "label": "Finance / Capital",
+      "type": "sector-link",
+      "sector": "finance"
+    },
+    {
+      "id": "home-public",
+      "label": "Public / Government",
+      "type": "sector-link",
+      "sector": "public"
+    }
+  ]
+}

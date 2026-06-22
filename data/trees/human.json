@@ -1,0 +1,935 @@
+{
+  "id": "human-consumer",
+  "label": "Human / Consumer",
+  "type": "sector-root",
+  "description": "Human-facing priority tree. User Profile remains a tool/lens, not a duplicate tree branch.",
+  "children": [
+    {
+      "id": "human-needs",
+      "label": "User Wants / Needs — Survival Priority",
+      "type": "priority-tree",
+      "description": "Fastest path to identify what the user needs or wants, ordered from most important survival need to least important want.",
+      "children": [
+        {
+          "id": "need-air",
+          "label": "Air / Breathable Environment",
+          "type": "need",
+          "priority_rank": 1,
+          "need_id": "need-air",
+          "description": "Immediate survival: breathable air, ventilation, smoke and gas protection.",
+          "children": [
+            {
+              "id": "need-air-ventilation",
+              "label": "Ventilation",
+              "type": "fulfillment-class",
+              "need_id": "need-air"
+            },
+            {
+              "id": "need-air-air-filtration",
+              "label": "Air Filtration",
+              "type": "fulfillment-class",
+              "need_id": "need-air"
+            },
+            {
+              "id": "need-air-respiratory-protection",
+              "label": "Respiratory Protection",
+              "type": "fulfillment-class",
+              "need_id": "need-air"
+            },
+            {
+              "id": "need-air-gas-detection",
+              "label": "Gas Detection",
+              "type": "fulfillment-class",
+              "need_id": "need-air"
+            },
+            {
+              "id": "need-air-smoke-fire-air-risk",
+              "label": "Smoke / Fire Air Risk",
+              "type": "fulfillment-class",
+              "need_id": "need-air"
+            }
+          ]
+        },
+        {
+          "id": "need-water",
+          "label": "Water / Hydration",
+          "type": "need",
+          "priority_rank": 2,
+          "need_id": "need-water",
+          "description": "Drinkable water, access, storage, filtration, pumping and hot water.",
+          "children": [
+            {
+              "id": "need-water-drinking-water",
+              "label": "Drinking Water",
+              "type": "fulfillment-class",
+              "need_id": "need-water"
+            },
+            {
+              "id": "need-water-water-storage",
+              "label": "Water Storage",
+              "type": "fulfillment-class",
+              "need_id": "need-water"
+            },
+            {
+              "id": "need-water-water-filtration",
+              "label": "Water Filtration",
+              "type": "fulfillment-class",
+              "need_id": "need-water"
+            },
+            {
+              "id": "need-water-pumps-hoses-fittings",
+              "label": "Pumps / Hoses / Fittings",
+              "type": "fulfillment-class",
+              "need_id": "need-water"
+            },
+            {
+              "id": "need-water-hot-water",
+              "label": "Hot Water",
+              "type": "fulfillment-class",
+              "need_id": "need-water"
+            }
+          ]
+        },
+        {
+          "id": "need-food",
+          "label": "Food / Nutrition / Survival",
+          "type": "need",
+          "priority_rank": 3,
+          "need_id": "need-food",
+          "description": "Calories, nutrition, food access, storage, preparation and preservation.",
+          "children": [
+            {
+              "id": "need-food-survival-food",
+              "label": "Survival Food",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            },
+            {
+              "id": "need-food-grocery-products",
+              "label": "Grocery Products",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            },
+            {
+              "id": "need-food-prepared-food",
+              "label": "Prepared Food",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            },
+            {
+              "id": "need-food-food-storage-preservation",
+              "label": "Food Storage / Preservation",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            },
+            {
+              "id": "need-food-cooking-equipment",
+              "label": "Cooking Equipment",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            },
+            {
+              "id": "need-food-nutrition-requirements",
+              "label": "Nutrition Requirements",
+              "type": "fulfillment-class",
+              "need_id": "need-food"
+            }
+          ]
+        },
+        {
+          "id": "need-shelter",
+          "label": "Shelter / Housing / Weather Protection",
+          "type": "need",
+          "priority_rank": 4,
+          "need_id": "need-shelter",
+          "description": "Protection from exposure through shelter, housing, building systems and utilities.",
+          "children": [
+            {
+              "id": "need-shelter-emergency-shelter",
+              "label": "Emergency Shelter",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-rent",
+              "label": "Rent",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-ownership",
+              "label": "Ownership",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-utilities",
+              "label": "Utilities",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-building-envelope",
+              "label": "Building Envelope",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-windows-doors",
+              "label": "Windows / Doors",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-hvac",
+              "label": "HVAC",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            },
+            {
+              "id": "need-shelter-furnishings",
+              "label": "Furnishings",
+              "type": "fulfillment-class",
+              "need_id": "need-shelter"
+            }
+          ]
+        },
+        {
+          "id": "need-thermal",
+          "label": "Heat / Thermal Protection / Clothing",
+          "type": "need",
+          "priority_rank": 5,
+          "need_id": "need-thermal",
+          "description": "Maintain safe body temperature with clothing, insulation and heating.",
+          "children": [
+            {
+              "id": "need-thermal-clothing",
+              "label": "Clothing",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            },
+            {
+              "id": "need-thermal-work-wear",
+              "label": "Work Wear",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            },
+            {
+              "id": "need-thermal-blankets-bedding",
+              "label": "Blankets / Bedding",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            },
+            {
+              "id": "need-thermal-insulation",
+              "label": "Insulation",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            },
+            {
+              "id": "need-thermal-heating-systems",
+              "label": "Heating Systems",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            },
+            {
+              "id": "need-thermal-cold-weather-gear",
+              "label": "Cold Weather Gear",
+              "type": "fulfillment-class",
+              "need_id": "need-thermal"
+            }
+          ]
+        },
+        {
+          "id": "need-safety",
+          "label": "Safety / Security / Emergency",
+          "type": "need",
+          "priority_rank": 6,
+          "need_id": "need-safety",
+          "description": "Reduce immediate danger through protection, detection and emergency response.",
+          "children": [
+            {
+              "id": "need-safety-personal-safety",
+              "label": "Personal Safety",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-fire-protection",
+              "label": "Fire Protection",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-first-aid",
+              "label": "First Aid",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-ppe",
+              "label": "PPE",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-security-storage",
+              "label": "Security Storage",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-vehicle-safety",
+              "label": "Vehicle Safety",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            },
+            {
+              "id": "need-safety-emergency-planning",
+              "label": "Emergency Planning",
+              "type": "fulfillment-class",
+              "need_id": "need-safety"
+            }
+          ]
+        },
+        {
+          "id": "need-health",
+          "label": "Health / Medical / Hygiene",
+          "type": "need",
+          "priority_rank": 7,
+          "need_id": "need-health",
+          "description": "Maintain health through care, prevention, hygiene and medical supplies.",
+          "children": [
+            {
+              "id": "need-health-medical-care",
+              "label": "Medical Care",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            },
+            {
+              "id": "need-health-first-aid-products",
+              "label": "First Aid Products",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            },
+            {
+              "id": "need-health-hygiene",
+              "label": "Hygiene",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            },
+            {
+              "id": "need-health-fitness-mobility",
+              "label": "Fitness / Mobility",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            },
+            {
+              "id": "need-health-health-insurance",
+              "label": "Health Insurance",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            },
+            {
+              "id": "need-health-medication-supplies",
+              "label": "Medication / Supplies",
+              "type": "fulfillment-class",
+              "need_id": "need-health"
+            }
+          ]
+        },
+        {
+          "id": "need-sanitation",
+          "label": "Sanitation / Waste / Cleaning",
+          "type": "need",
+          "priority_rank": 8,
+          "need_id": "need-sanitation",
+          "description": "Control waste, contamination, cleaning, pests and sewage.",
+          "children": [
+            {
+              "id": "need-sanitation-toilets-waste",
+              "label": "Toilets / Waste",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            },
+            {
+              "id": "need-sanitation-cleaning-supplies",
+              "label": "Cleaning Supplies",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            },
+            {
+              "id": "need-sanitation-janitorial",
+              "label": "Janitorial",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            },
+            {
+              "id": "need-sanitation-pest-control",
+              "label": "Pest Control",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            },
+            {
+              "id": "need-sanitation-laundry",
+              "label": "Laundry",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            },
+            {
+              "id": "need-sanitation-sewage-septic",
+              "label": "Sewage / Septic",
+              "type": "fulfillment-class",
+              "need_id": "need-sanitation"
+            }
+          ]
+        },
+        {
+          "id": "need-energy",
+          "label": "Energy / Power / Fuel",
+          "type": "need",
+          "priority_rank": 9,
+          "need_id": "need-energy",
+          "description": "Power heating, lighting, cooking, tools, transport and communications.",
+          "children": [
+            {
+              "id": "need-energy-electricity",
+              "label": "Electricity",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            },
+            {
+              "id": "need-energy-batteries",
+              "label": "Batteries",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            },
+            {
+              "id": "need-energy-generators",
+              "label": "Generators",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            },
+            {
+              "id": "need-energy-fuel",
+              "label": "Fuel",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            },
+            {
+              "id": "need-energy-solar-backup-power",
+              "label": "Solar / Backup Power",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            },
+            {
+              "id": "need-energy-efficient-appliances",
+              "label": "Efficient Appliances",
+              "type": "fulfillment-class",
+              "need_id": "need-energy"
+            }
+          ]
+        },
+        {
+          "id": "need-transportation",
+          "label": "Transportation / Mobility",
+          "type": "need",
+          "priority_rank": 10,
+          "need_id": "need-transportation",
+          "description": "Move people and goods through vehicles, transit and mobility systems.",
+          "children": [
+            {
+              "id": "need-transportation-passenger-vehicles",
+              "label": "Passenger Vehicles",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            },
+            {
+              "id": "need-transportation-auto-parts-fitment",
+              "label": "Auto Parts / Fitment",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            },
+            {
+              "id": "need-transportation-tires-tracks",
+              "label": "Tires / Tracks",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            },
+            {
+              "id": "need-transportation-vehicle-electrical",
+              "label": "Vehicle Electrical",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            },
+            {
+              "id": "need-transportation-marine-vehicles",
+              "label": "Marine Vehicles",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            },
+            {
+              "id": "need-transportation-transit-mobility",
+              "label": "Transit / Mobility",
+              "type": "fulfillment-class",
+              "need_id": "need-transportation"
+            }
+          ]
+        },
+        {
+          "id": "need-communication",
+          "label": "Communication / Information / Records",
+          "type": "need",
+          "priority_rank": 11,
+          "need_id": "need-communication",
+          "description": "Maintain communication, alerts, identity, records and information access.",
+          "children": [
+            {
+              "id": "need-communication-cell-phones",
+              "label": "Cell Phones",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            },
+            {
+              "id": "need-communication-internet",
+              "label": "Internet",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            },
+            {
+              "id": "need-communication-radio-shortwave-cb",
+              "label": "Radio / Shortwave / CB",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            },
+            {
+              "id": "need-communication-documents-identity",
+              "label": "Documents / Identity",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            },
+            {
+              "id": "need-communication-data-storage",
+              "label": "Data Storage",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            },
+            {
+              "id": "need-communication-alerts-news",
+              "label": "Alerts / News",
+              "type": "fulfillment-class",
+              "need_id": "need-communication"
+            }
+          ]
+        },
+        {
+          "id": "need-income-work",
+          "label": "Income / Work / Economic Activity",
+          "type": "need",
+          "priority_rank": 12,
+          "need_id": "need-income-work",
+          "description": "Obtain income and productive capacity through employment and business activity.",
+          "children": [
+            {
+              "id": "need-income-work-employment",
+              "label": "Employment",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            },
+            {
+              "id": "need-income-work-business-model",
+              "label": "Business Model",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            },
+            {
+              "id": "need-income-work-tools-for-work",
+              "label": "Tools for Work",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            },
+            {
+              "id": "need-income-work-training-for-work",
+              "label": "Training for Work",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            },
+            {
+              "id": "need-income-work-business-benchmarks",
+              "label": "Business Benchmarks",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            },
+            {
+              "id": "need-income-work-customer-segments",
+              "label": "Customer Segments",
+              "type": "fulfillment-class",
+              "need_id": "need-income-work"
+            }
+          ]
+        },
+        {
+          "id": "need-family-community",
+          "label": "Family / Community / Care",
+          "type": "need",
+          "priority_rank": 13,
+          "need_id": "need-family-community",
+          "description": "Support dependents, care networks, households and community relationships.",
+          "children": [
+            {
+              "id": "need-family-community-household-members",
+              "label": "Household Members",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            },
+            {
+              "id": "need-family-community-caregiving",
+              "label": "Caregiving",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            },
+            {
+              "id": "need-family-community-community-services",
+              "label": "Community Services",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            },
+            {
+              "id": "need-family-community-childcare",
+              "label": "Childcare",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            },
+            {
+              "id": "need-family-community-eldercare",
+              "label": "Eldercare",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            },
+            {
+              "id": "need-family-community-social-support",
+              "label": "Social Support",
+              "type": "fulfillment-class",
+              "need_id": "need-family-community"
+            }
+          ]
+        },
+        {
+          "id": "need-legal-rights",
+          "label": "Legal / Rights / Public Services",
+          "type": "need",
+          "priority_rank": 14,
+          "need_id": "need-legal-rights",
+          "description": "Use rights, permits, benefits, remedies and public obligations.",
+          "children": [
+            {
+              "id": "need-legal-rights-rights-remedies",
+              "label": "Rights / Remedies",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            },
+            {
+              "id": "need-legal-rights-licences-permits",
+              "label": "Licences / Permits",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            },
+            {
+              "id": "need-legal-rights-taxes-benefits",
+              "label": "Taxes / Benefits",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            },
+            {
+              "id": "need-legal-rights-consumer-protection",
+              "label": "Consumer Protection",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            },
+            {
+              "id": "need-legal-rights-public-records",
+              "label": "Public Records",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            },
+            {
+              "id": "need-legal-rights-regulatory-compliance",
+              "label": "Regulatory Compliance",
+              "type": "fulfillment-class",
+              "need_id": "need-legal-rights"
+            }
+          ]
+        },
+        {
+          "id": "need-education",
+          "label": "Education / Skills / Knowledge",
+          "type": "need",
+          "priority_rank": 15,
+          "need_id": "need-education",
+          "description": "Build knowledge, skills, credentials and decision capability.",
+          "children": [
+            {
+              "id": "need-education-basic-education",
+              "label": "Basic Education",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            },
+            {
+              "id": "need-education-postsecondary",
+              "label": "Postsecondary",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            },
+            {
+              "id": "need-education-skills-training",
+              "label": "Skills Training",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            },
+            {
+              "id": "need-education-reference-books",
+              "label": "Reference Books",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            },
+            {
+              "id": "need-education-credentials",
+              "label": "Credentials",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            },
+            {
+              "id": "need-education-learning-materials",
+              "label": "Learning Materials",
+              "type": "fulfillment-class",
+              "need_id": "need-education"
+            }
+          ]
+        },
+        {
+          "id": "need-tools-repair",
+          "label": "Tools / Property Maintenance / Repair",
+          "type": "need",
+          "priority_rank": 16,
+          "need_id": "need-tools-repair",
+          "description": "Maintain and create assets through tools, hardware, components and repair.",
+          "children": [
+            {
+              "id": "need-tools-repair-hand-tools",
+              "label": "Hand Tools",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-power-tools",
+              "label": "Power Tools",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-fasteners",
+              "label": "Fasteners",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-hardware",
+              "label": "Hardware",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-modular-framing",
+              "label": "Modular Framing",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-hose-fittings",
+              "label": "Hose / Fittings",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-building-materials",
+              "label": "Building Materials",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            },
+            {
+              "id": "need-tools-repair-cabinets-slides",
+              "label": "Cabinets / Slides",
+              "type": "fulfillment-class",
+              "need_id": "need-tools-repair"
+            }
+          ]
+        },
+        {
+          "id": "need-finance-resilience",
+          "label": "Finance / Insurance / Long-Term Resilience",
+          "type": "need",
+          "priority_rank": 17,
+          "need_id": "need-finance-resilience",
+          "description": "Build financial stability through savings, insurance, credit and capital.",
+          "children": [
+            {
+              "id": "need-finance-resilience-cash-flow",
+              "label": "Cash Flow",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            },
+            {
+              "id": "need-finance-resilience-credit",
+              "label": "Credit",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            },
+            {
+              "id": "need-finance-resilience-insurance",
+              "label": "Insurance",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            },
+            {
+              "id": "need-finance-resilience-savings",
+              "label": "Savings",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            },
+            {
+              "id": "need-finance-resilience-capital-assets",
+              "label": "Capital Assets",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            },
+            {
+              "id": "need-finance-resilience-retirement",
+              "label": "Retirement",
+              "type": "fulfillment-class",
+              "need_id": "need-finance-resilience"
+            }
+          ]
+        },
+        {
+          "id": "need-recreation-meaning",
+          "label": "Recreation / Culture / Meaning",
+          "type": "need",
+          "priority_rank": 18,
+          "need_id": "need-recreation-meaning",
+          "description": "Support social, recreational, cultural and spiritual value.",
+          "children": [
+            {
+              "id": "need-recreation-meaning-games-activities",
+              "label": "Games / Activities",
+              "type": "fulfillment-class",
+              "need_id": "need-recreation-meaning"
+            },
+            {
+              "id": "need-recreation-meaning-outdoor-recreation",
+              "label": "Outdoor Recreation",
+              "type": "fulfillment-class",
+              "need_id": "need-recreation-meaning"
+            },
+            {
+              "id": "need-recreation-meaning-culture-arts",
+              "label": "Culture / Arts",
+              "type": "fulfillment-class",
+              "need_id": "need-recreation-meaning"
+            },
+            {
+              "id": "need-recreation-meaning-spiritual-meaning",
+              "label": "Spiritual / Meaning",
+              "type": "fulfillment-class",
+              "need_id": "need-recreation-meaning"
+            },
+            {
+              "id": "need-recreation-meaning-gardening",
+              "label": "Gardening",
+              "type": "fulfillment-class",
+              "need_id": "need-recreation-meaning"
+            }
+          ]
+        },
+        {
+          "id": "need-lifestyle",
+          "label": "Lifestyle Wants / Comfort / Nice-to-Have",
+          "type": "need",
+          "priority_rank": 19,
+          "need_id": "need-lifestyle",
+          "description": "Lower-priority comfort, convenience, aesthetics, hobbies and status wants.",
+          "children": [
+            {
+              "id": "need-lifestyle-comfort-upgrades",
+              "label": "Comfort Upgrades",
+              "type": "fulfillment-class",
+              "need_id": "need-lifestyle"
+            },
+            {
+              "id": "need-lifestyle-luxury-goods",
+              "label": "Luxury Goods",
+              "type": "fulfillment-class",
+              "need_id": "need-lifestyle"
+            },
+            {
+              "id": "need-lifestyle-collectibles-historical-reference",
+              "label": "Collectibles / Historical Reference",
+              "type": "fulfillment-class",
+              "need_id": "need-lifestyle"
+            },
+            {
+              "id": "need-lifestyle-hobby-items",
+              "label": "Hobby Items",
+              "type": "fulfillment-class",
+              "need_id": "need-lifestyle"
+            },
+            {
+              "id": "need-lifestyle-aesthetic-preference",
+              "label": "Aesthetic Preference",
+              "type": "fulfillment-class",
+              "need_id": "need-lifestyle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-comparisons",
+      "label": "Comparison Sessions",
+      "type": "records",
+      "children": [
+        {
+          "id": "human-comparisons-open",
+          "label": "Open Comparisons",
+          "type": "record-class"
+        },
+        {
+          "id": "human-comparisons-completed",
+          "label": "Completed Comparisons / Transactions",
+          "type": "record-class"
+        }
+      ]
+    },
+    {
+      "id": "human-outcomes",
+      "label": "Ownership / Outcome Records",
+      "type": "records",
+      "children": [
+        {
+          "id": "human-outcomes-assets",
+          "label": "Owned Assets",
+          "type": "record-class"
+        },
+        {
+          "id": "human-outcomes-service",
+          "label": "Service / Maintenance Records",
+          "type": "record-class"
+        },
+        {
+          "id": "human-outcomes-experience",
+          "label": "Experience / Satisfaction Notes",
+          "type": "record-class"
+        }
+      ]
+    }
+  ]
+}

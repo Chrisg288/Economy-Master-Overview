@@ -1,0 +1,32 @@
+{
+  "id": "finance-capital",
+  "label": "Finance / Capital",
+  "type": "sector-root",
+  "children": [
+    {
+      "id": "finance-cashflow",
+      "label": "Accounts / Cash Flow",
+      "type": "finance-class"
+    },
+    {
+      "id": "finance-credit",
+      "label": "Credit / Loans / Leases",
+      "type": "finance-class"
+    },
+    {
+      "id": "finance-insurance",
+      "label": "Insurance / Risk Transfer",
+      "type": "finance-class"
+    },
+    {
+      "id": "finance-savings",
+      "label": "Savings / Capital Assets",
+      "type": "finance-class"
+    },
+    {
+      "id": "finance-assessment",
+      "label": "Value / Credit Assessment",
+      "type": "finance-class"
+    }
+  ]
+}

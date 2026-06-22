@@ -1,0 +1,197 @@
+[
+  {
+    "path": "README.md",
+    "size_bytes": 1885,
+    "sha256": "a2c2d5ef2385da8857fe9857923579a409fadde362436907229b263b4af979ed"
+  },
+  {
+    "path": "assets/css/base.css",
+    "size_bytes": 944,
+    "sha256": "f65987e21a83946a0213342cb570e3ea69de6cf91c5cbb519ae3f7a4e04ed71c"
+  },
+  {
+    "path": "assets/css/components.css",
+    "size_bytes": 6205,
+    "sha256": "977e427b1bbdaa8bfa41acb7c08ee054be34ada6d79b3befaf4338555a9faa64"
+  },
+  {
+    "path": "assets/css/layout.css",
+    "size_bytes": 3442,
+    "sha256": "d25143cf8286434bf6b6338b59e01a26c5dd9881225301d65b456212f2a80e4c"
+  },
+  {
+    "path": "assets/css/ribbon.css",
+    "size_bytes": 1189,
+    "sha256": "7b4fdd533e8a50b3e59b8f77ff7b61891162256cf8432dec59705196e0b9c5bd"
+  },
+  {
+    "path": "assets/js/app.js",
+    "size_bytes": 2259,
+    "sha256": "b5619dc175fd042b472c89a4b809a5dd0b2d4ba24f3bce36ae4ce92f7fa99e72"
+  },
+  {
+    "path": "assets/js/data-loader.js",
+    "size_bytes": 983,
+    "sha256": "019d96b02a2b2887f175171e9c71e37ecb43bcc9c66e67c139b927ae5898a85c"
+  },
+  {
+    "path": "assets/js/datagrid.js",
+    "size_bytes": 3367,
+    "sha256": "8c5d31db2e0567c83263d6388fa83af9d20065d06f591bebaed7662fc609f9ab"
+  },
+  {
+    "path": "assets/js/event-bus.js",
+    "size_bytes": 941,
+    "sha256": "205e1d995c06ee1d75c3089e4fc66ea65d6f0de7b16dcd68fd6785330d82a4a1"
+  },
+  {
+    "path": "assets/js/inspector.js",
+    "size_bytes": 1922,
+    "sha256": "7551b5cc35a04781a0a4c25e031d57b5eaa7607766a116c36139dcea7f211d9a"
+  },
+  {
+    "path": "assets/js/persistence.js",
+    "size_bytes": 308,
+    "sha256": "6bf1db9c316b85ce6900deeae6dab977e77cdc06d6ccc0412212957effcab3c2"
+  },
+  {
+    "path": "assets/js/ribbon.js",
+    "size_bytes": 931,
+    "sha256": "f1692ab8c55f7b0b925f0b139ba2e4a5a689174bf5ccf0d6d6f2c7244892161c"
+  },
+  {
+    "path": "assets/js/state.js",
+    "size_bytes": 1432,
+    "sha256": "2dcc7af599bb0ce11d79848ed6c42ca738f4d3dd354257f4f47cbe69ab08c597"
+  },
+  {
+    "path": "assets/js/treeview.js",
+    "size_bytes": 3609,
+    "sha256": "a237ee4fe5159c065840fc28f31fb071bda6e36ae4a7859274bf3f469fce7d77"
+  },
+  {
+    "path": "assets/js/user-profile.js",
+    "size_bytes": 2073,
+    "sha256": "d02e7a3c9f8974879647757fe6103c5648423259b0017005c86b1563c7256c65"
+  },
+  {
+    "path": "assets/js/utils.js",
+    "size_bytes": 1262,
+    "sha256": "62876d30cd156c3acb98e93032bd6afe6226c646bd257540264fcd70b1f901b5"
+  },
+  {
+    "path": "assets/js/workspace.js",
+    "size_bytes": 8985,
+    "sha256": "b8a94657721bb1e273ce7f9f8c3f2e6725ad9f4ea3e12d75433f8e9f4abf73f7"
+  },
+  {
+    "path": "data/comparator/columns.json",
+    "size_bytes": 1622,
+    "sha256": "ea7c863c5457aa8bab42c8fd0aca538433e6053f4ef13c5a10541e4d90d1f608"
+  },
+  {
+    "path": "data/comparator/sample_records.csv",
+    "size_bytes": 4383,
+    "sha256": "3a12ee541599750cdf6ad4ef9624e0195e49bfbac703a0fa5cc915c0c7d64c0a"
+  },
+  {
+    "path": "data/comparator/sample_records.json",
+    "size_bytes": 10427,
+    "sha256": "b84a838ac208cb4ed6786af5c3380fa378d25be44e98c4f788ade86199999ac2"
+  },
+  {
+    "path": "data/config/app.json",
+    "size_bytes": 1207,
+    "sha256": "dac6e4d74d602c7e9d79bf3e9877fecb9a4af256ac5c69f5a3b47a21e2cdfee8"
+  },
+  {
+    "path": "data/config/ribbon.json",
+    "size_bytes": 2797,
+    "sha256": "0963506b91d9135b6923db76d163133859d8e5d54d5ae70f2e32e598a9971768"
+  },
+  {
+    "path": "data/mappings/need_source_map.json",
+    "size_bytes": 15785,
+    "sha256": "de4de4c9a8e276ac6ce5279ec5e9d648742e5efc7927aaab50ba37cf99282624"
+  },
+  {
+    "path": "data/sources/processed_assets.json",
+    "size_bytes": 4538,
+    "sha256": "fd847b660cd34246c9a6902c5a1bb29172b1ba390f79526a04ed1e1d8882f018"
+  },
+  {
+    "path": "data/sources/source_inventory.csv",
+    "size_bytes": 32188,
+    "sha256": "f816965b97b150238f3b5adc94284e1fbd448e88daa89987c7522f3b3b25a0f7"
+  },
+  {
+    "path": "data/sources/source_inventory.json",
+    "size_bytes": 52920,
+    "sha256": "1c3dc311351ed05f59bb5f82c03804ba96a283c32dbc8bf8774bb7fe2abc4a5d"
+  },
+  {
+    "path": "data/trees/business.json",
+    "size_bytes": 3347,
+    "sha256": "52ab5fa82da884b74f6746105a0647f262b6f9eca21b318c9d3c9390e03be267"
+  },
+  {
+    "path": "data/trees/finance.json",
+    "size_bytes": 693,
+    "sha256": "3d926588306f8ab8709d27bab95da8d53c9b5aa62f3d9fc12f0cd01c9eba8a0d"
+  },
+  {
+    "path": "data/trees/home.json",
+    "size_bytes": 833,
+    "sha256": "5d716cf1d441787d526f9fce7fcb0323de6ebd4a9bb3a2f3f14e32f985cedaeb"
+  },
+  {
+    "path": "data/trees/human.json",
+    "size_bytes": 32089,
+    "sha256": "8cdeee008d14e59c9054f26550230b22a59239f0e2dbb5ce5b111c3d9a55fd3a"
+  },
+  {
+    "path": "data/trees/index.json",
+    "size_bytes": 230,
+    "sha256": "3466950c8c68482c2f921cac13471b595ecd0f5c90579d8c634afd95e1d0675b"
+  },
+  {
+    "path": "data/trees/market.json",
+    "size_bytes": 1593,
+    "sha256": "3e2463c677f244db785eca135b38803a34ee5172fd4a234a6e5290ebbe69413c"
+  },
+  {
+    "path": "data/trees/public.json",
+    "size_bytes": 1379,
+    "sha256": "dd3fb132904d6ce65d7a51ef1244991f59274da261677208b527fa68ce571768"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "size_bytes": 898,
+    "sha256": "4f7cc62aefcbfa3e2dc3312d5c31485bbbefe86b6e7650938cbaac4cc313ffef"
+  },
+  {
+    "path": "docs/PRINCIPLES.md",
+    "size_bytes": 636,
+    "sha256": "069b79f980ed840a0bd534321c3f0642f46922870c23195d76fa82393ce42c25"
+  },
+  {
+    "path": "docs/REVIEW_CHECKLIST.md",
+    "size_bytes": 805,
+    "sha256": "b17e568a479fa8c47dcedabbf3b9a174e4649e6922641ccaede24214fb7cbf6c"
+  },
+  {
+    "path": "index.html",
+    "size_bytes": 3349,
+    "sha256": "54adbb16e66cd77899dcf5d4d67b4d16e283a4283874af8a90519bd9635d3e10"
+  },
+  {
+    "path": "serve_local.bat",
+    "size_bytes": 86,
+    "sha256": "ea6cb4f0ba5f9c3e8d9cda30697935b274b353e257609cfd93592124082d78db"
+  },
+  {
+    "path": "serve_local.ps1",
+    "size_bytes": 203,
+    "sha256": "c373280c2c8f6062a8baa8b0b200f3491dfc5fa89d3ee9acbc2a896b62df3d31"
+  }
+]

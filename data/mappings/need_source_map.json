@@ -1,0 +1,692 @@
+[
+  {
+    "need_id": "need-food",
+    "source_uid": "SRC-0001",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0002",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-income-work",
+    "source_uid": "SRC-0003",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0004",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0004",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0005",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-communication",
+    "source_uid": "SRC-0006",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-thermal",
+    "source_uid": "SRC-0007",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-0007",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0008",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0008",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0100",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0101",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0101",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0101",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0102",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0102",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0103",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0103",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0103",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0103",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0104",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0105",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-0105",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0105",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-0106",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0106",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0107",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0108",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0109",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0110",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0111",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-sanitation",
+    "source_uid": "SRC-0111",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0111",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0112",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-sanitation",
+    "source_uid": "SRC-0112",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0112",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0113",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-0113",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0114",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-0114",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-air",
+    "source_uid": "SRC-0115",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0115",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-health",
+    "source_uid": "SRC-0115",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0116",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0117",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0117",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0117",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0118",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0119",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0120",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-health",
+    "source_uid": "SRC-0120",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0121",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0121",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0122",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0122",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0122",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0123",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0123",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-0123",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-0123",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0124",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0124",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0125",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0126",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0126",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-lifestyle",
+    "source_uid": "SRC-0127",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0128",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-income-work",
+    "source_uid": "SRC-0200",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-health",
+    "source_uid": "SRC-0201",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0201",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-legal-rights",
+    "source_uid": "SRC-0201",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0201",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-income-work",
+    "source_uid": "SRC-0202",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0203",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0204",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0204",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0204",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0205",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0206",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0206",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0207",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-0207",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-income-work",
+    "source_uid": "SRC-0208",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0208",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0209",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0210",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0211",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-legal-rights",
+    "source_uid": "SRC-0211",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0212",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0213",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-0214",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-0214",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0300",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0301",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-lifestyle",
+    "source_uid": "SRC-0302",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0303",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-lifestyle",
+    "source_uid": "SRC-0303",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-lifestyle",
+    "source_uid": "SRC-0304",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0305",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-0306",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0400",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0400",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0401",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0401",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0402",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-0403",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-0403",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-0404",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0404",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-thermal",
+    "source_uid": "SRC-0404",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-0404",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-0404",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-communication",
+    "source_uid": "SRC-0405",
+    "relationship": "supports",
+    "confidence": "provisional"
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-0406",
+    "relationship": "supports",
+    "confidence": "provisional"
+  }
+]

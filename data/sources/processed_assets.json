@@ -1,0 +1,114 @@
+[
+  {
+    "id": "asset-napcs",
+    "name": "Canadian Product Classification NAPCS 2022",
+    "repo_path": "Comparator-definitions/taxonomy/canada/NAPCS_2022/",
+    "status": "processed package created",
+    "artifact": "Canadian_Product_Classification_NAPCS_2022_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-ised",
+    "name": "ISED FPD 2024 Small Business Calibration",
+    "repo_path": "data-sources/ised_fpd_2024/",
+    "status": "GitHub-safe package created",
+    "artifact": "ISED_FPD_2024_Small_Business_Calibration_GitHub_SAFE_v0_2.zip"
+  },
+  {
+    "id": "asset-statcan",
+    "name": "StatCan Cube Outputs",
+    "repo_path": "data-sources/statcan_cubes/",
+    "status": "sample cubes imported; current refresh pending",
+    "artifact": "StatCan_Cube_Importer_v0_1.zip"
+  },
+  {
+    "id": "asset-off",
+    "name": "Open Food Facts Canada Outputs",
+    "repo_path": "data-sources/open_food_facts/",
+    "status": "local bulk processing completed for Canada sample",
+    "artifact": "Open_Food_Facts_Comparator_Processor_v0_1.zip"
+  },
+  {
+    "id": "asset-building",
+    "name": "Building Modular Components Source Package",
+    "repo_path": "data-sources/catalog_acquisition/building_modular/",
+    "status": "acquisition/source package created",
+    "artifact": "Building_Modular_Components_Brick_Level_Catalogs_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-housing",
+    "name": "Housing and Construction Product Sources",
+    "repo_path": "data-sources/acquisition_targets/housing_construction/",
+    "status": "source package created",
+    "artifact": "Housing_Construction_Product_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-tools",
+    "name": "Tools, Fasteners, Hardware and Property Sources",
+    "repo_path": "data-sources/acquisition_targets/tools_hardware/",
+    "status": "source package created",
+    "artifact": "Tools_Fasteners_Hardware_Property_Cabinet_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-auto",
+    "name": "Auto Parts and Fitment Sources",
+    "repo_path": "data-sources/acquisition_targets/auto_parts/",
+    "status": "source package created",
+    "artifact": "Auto_Parts_Fitment_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-furniture",
+    "name": "Furnishings and Furniture Sources",
+    "repo_path": "data-sources/acquisition_targets/furnishings/",
+    "status": "source package created",
+    "artifact": "Furnishings_Furniture_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-housewares",
+    "name": "Housewares, Kitchen, Appliances and Clothing Sources",
+    "repo_path": "data-sources/acquisition_targets/housewares/",
+    "status": "source package created",
+    "artifact": "Housewares_Kitchen_Appliances_Clothing_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-it",
+    "name": "Computer, IT and Communications Sources",
+    "repo_path": "data-sources/acquisition_targets/it_communications/",
+    "status": "source package created",
+    "artifact": "Computer_IT_Communications_Product_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-office",
+    "name": "Office Supplies and Low-cost General Sources",
+    "repo_path": "data-sources/acquisition_targets/office_general/",
+    "status": "source package created",
+    "artifact": "Office_Supplies_Low_Cost_General_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-identity",
+    "name": "Product Identity, Barcode and Classification Sources",
+    "repo_path": "data-sources/product_identity/",
+    "status": "source package created",
+    "artifact": "Product_Identity_Barcode_Classification_Data_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-newark",
+    "name": "Newark Historical and Current Bridge",
+    "repo_path": "data-sources/catalog_conversions/electronics/newark/",
+    "status": "historical index/current bridge packages created",
+    "artifact": "Newark_Catalog_112_Index_Current_Bridge_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-acquisition-run1",
+    "name": "Comparator Acquisition Run 01 Open Sources",
+    "repo_path": "Comparator-definitions/data-sources/acquisition_runs/run_01_open_sources/",
+    "status": "package created",
+    "artifact": "Comparator_Catalog_Acquisition_Run_01_Open_Sources_GitHub_Import_v0_1.zip"
+  },
+  {
+    "id": "asset-compiled",
+    "name": "Compiled Comparator Source Inventory",
+    "repo_path": "data-sources/comparator_compiled/",
+    "status": "66 source records compiled",
+    "artifact": "Comparator_Compiled_Data_GitHub_Import_v0_3_CLEAN_ROOT.zip"
+  }
+]
