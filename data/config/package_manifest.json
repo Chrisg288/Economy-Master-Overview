@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "size_bytes": 2789,
-    "sha256": "00833ddea6584c6345bed65465a814bbbb2240f85052eefa54682f6e094a7e5f"
+    "size_bytes": 3050,
+    "sha256": "4bb2ec2e2ea4412015216217f5cc1a0e963b1d6db9aba1545eb8b91c2dc0d4fa"
   },
   {
     "path": "assets/css/base.css",
@@ -61,8 +61,8 @@
   },
   {
     "path": "assets/js/product-repository.js",
-    "size_bytes": 1655,
-    "sha256": "64ee5516e28739f3a5bd08e3795c9ca357f3446897b443a124938d9e025eaf34"
+    "size_bytes": 1838,
+    "sha256": "efe59bcd3b57e97349cafff7be2b7108d268edf7843a535e24ccf8a3ad91fe26"
   },
   {
     "path": "assets/js/ribbon.js",
@@ -121,8 +121,8 @@
   },
   {
     "path": "data/config/app.json",
-    "size_bytes": 1674,
-    "sha256": "69cc1c598f6b28e38f0321cfd8084442869b3fade1d0aadebcc804574ea67d2a"
+    "size_bytes": 1690,
+    "sha256": "aac9b3ad2fa7f8d477a10b5c9cb4fe3fcdefd8935eda3582f2de35adf2e4f14f"
   },
   {
     "path": "data/config/languages.json",
@@ -156,8 +156,8 @@
   },
   {
     "path": "data/products/index.json",
-    "size_bytes": 4628,
-    "sha256": "87354f5bf958317245ddb97082a7bd46b41908ef04b141a7602d3039c005bbe6"
+    "size_bytes": 6342,
+    "sha256": "748d472debae1690ed3d90358e4f2e7f8d68bbfdd67102cd0e2e97a7e89fd80f"
   },
   {
     "path": "data/products/need-air.json",
@@ -165,14 +165,79 @@
     "sha256": "4b12a6fd0fc6c9db50449d135fd7bde119eb0ed6c0f8fa322db68ca5dfb4f2ee"
   },
   {
-    "path": "data/products/need-communication.json",
-    "size_bytes": 4206453,
-    "sha256": "102f47a9d36f78a7559026073097ac710a5df1300e12fe9d87cb0b8dcc70d42d"
+    "path": "data/products/need-communication_part_001.json",
+    "size_bytes": 1247940,
+    "sha256": "33412fbc0ff1fd664eff8fec43ae26db8fe9e7c843ba246d9e97e990ccc18ba0"
   },
   {
-    "path": "data/products/need-education.json",
-    "size_bytes": 17243010,
-    "sha256": "46e96ee631daf05088fefe9ce16cfa0b265df58c6e6551dd6883e45b7200a4d6"
+    "path": "data/products/need-communication_part_002.json",
+    "size_bytes": 1247736,
+    "sha256": "eee856cfd4a8f7dded766cf2850ee5ec5c1035c389a9f50dc56a62a9c043835e"
+  },
+  {
+    "path": "data/products/need-communication_part_003.json",
+    "size_bytes": 1061574,
+    "sha256": "d2575c327d96c1e1432bb9cc217660b25418c2cba9c48dd6d20ea792feae1964"
+  },
+  {
+    "path": "data/products/need-education_part_001.json",
+    "size_bytes": 1249760,
+    "sha256": "314aaf4b8801609262e34f234b763e5e5f654cd67447587714395080c9c49f33"
+  },
+  {
+    "path": "data/products/need-education_part_002.json",
+    "size_bytes": 1249546,
+    "sha256": "b5521983a43630c2f8db32d3ab228ab92e4b1dfef3cd1157a070053dc88918c0"
+  },
+  {
+    "path": "data/products/need-education_part_003.json",
+    "size_bytes": 1248524,
+    "sha256": "71f301f826e1e1b2b00831f213bf40252532d41f3e94f4ce0fde1d11e98ba71a"
+  },
+  {
+    "path": "data/products/need-education_part_004.json",
+    "size_bytes": 1248958,
+    "sha256": "b10a96ccad253fae9abeade34c6b3475ccb9b97c509688105cf88c7b7833b8c0"
+  },
+  {
+    "path": "data/products/need-education_part_005.json",
+    "size_bytes": 1248295,
+    "sha256": "564744ec2bd923f5b76ec2e737737509b2909f0be4f0975f269b6cd4f4efbd58"
+  },
+  {
+    "path": "data/products/need-education_part_006.json",
+    "size_bytes": 1247601,
+    "sha256": "3693c2a80d6dba64415dada1a02890ac6a9581003f15cd0382524a5c6e3dd3ef"
+  },
+  {
+    "path": "data/products/need-education_part_007.json",
+    "size_bytes": 1249592,
+    "sha256": "2bcf764670f1c84dafbbacc9689285d22b6434eae943efc45636d9578058e246"
+  },
+  {
+    "path": "data/products/need-education_part_008.json",
+    "size_bytes": 1248332,
+    "sha256": "9edcde69b567ed4ccf1844ab86296fe92a5400a3a2d02505b6a273a62e6c18dd"
+  },
+  {
+    "path": "data/products/need-education_part_009.json",
+    "size_bytes": 1247452,
+    "sha256": "6f5e97046d70737cf94cf3c7684423d8de98b395c4e31f0ffe078515d7732b9f"
+  },
+  {
+    "path": "data/products/need-education_part_010.json",
+    "size_bytes": 1249785,
+    "sha256": "c36a8a4f3fe18dfcc9721385cdfad955edf5c42d62bc137a32be78e39dc5e7da"
+  },
+  {
+    "path": "data/products/need-education_part_011.json",
+    "size_bytes": 1249185,
+    "sha256": "43a71606e5eedb4e94818244f927b34bd17c859256c50fe2cf260632cc28dc5e"
+  },
+  {
+    "path": "data/products/need-education_part_012.json",
+    "size_bytes": 1030078,
+    "sha256": "74fcdb92a2ef434a5a1ad87a8f2ef2a81cb569192996cfb37a8165fa6d3c4b3c"
   },
   {
     "path": "data/products/need-energy.json",
@@ -200,9 +265,14 @@
     "sha256": "68913d5039a283fc55dfdac1fea578e3846ee82b6800a0625c82254b75ca8025"
   },
   {
-    "path": "data/products/need-sanitation.json",
-    "size_bytes": 2322192,
-    "sha256": "ea2154e8d652aa867e8cfd6a8da48afc4f37814ebec4ac13a225e8c700d56689"
+    "path": "data/products/need-sanitation_part_001.json",
+    "size_bytes": 1248033,
+    "sha256": "d6acdb6900b2283544eb734ee900cc3126f28fd335ec25ff5ec54a015ee6b857"
+  },
+  {
+    "path": "data/products/need-sanitation_part_002.json",
+    "size_bytes": 689171,
+    "sha256": "2a0e86c736bd52f405a700c94830c3a5b1f22d263d229a05cb5b3cc3e4eadbac"
   },
   {
     "path": "data/products/need-shelter.json",
@@ -215,14 +285,69 @@
     "sha256": "1f80de1776518aa28ab5d7f844301c0bdec27421e79e19daf44b8b5cfa267eec"
   },
   {
-    "path": "data/products/need-tools-repair.json",
-    "size_bytes": 12813008,
-    "sha256": "fa2b230aba3865114767dc506b97e7f474032dbb319ed0781773860ed245e30e"
+    "path": "data/products/need-tools-repair_part_001.json",
+    "size_bytes": 1248485,
+    "sha256": "9527f9f4163d24f791c58537a5819e0ccbafc8dd04f07d5ec2bbec7df55dfa5a"
   },
   {
-    "path": "data/products/need-transportation.json",
-    "size_bytes": 4957440,
-    "sha256": "e4a39468be64283d1b62e52b9e8342d0a00835c5b1e4e4366c396b7f8d21c810"
+    "path": "data/products/need-tools-repair_part_002.json",
+    "size_bytes": 1248306,
+    "sha256": "cfd519a18bd2e61e81a04b6c9b064dc0dde9f2007efa4197e3fe64b858c4d94d"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_003.json",
+    "size_bytes": 1248116,
+    "sha256": "5610efca0c5320e9240968af385eb55a9c922c2e9c3b8ee178eb702df38fa304"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_004.json",
+    "size_bytes": 1247948,
+    "sha256": "6f619c8acfa38f8092f1757f3e1b38567f77bcea427bd7a871afdf76eca801b7"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_005.json",
+    "size_bytes": 1249485,
+    "sha256": "7b7519d488e32118e1512c25ac41cd4d2cdbadf1c7b0efded572b771dbb77d43"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_006.json",
+    "size_bytes": 1249844,
+    "sha256": "0d937c2d1c6ee95b3e4bf5dc45f31ec26d405d28bdb4a6c5efbe3ce3c9a0217b"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_007.json",
+    "size_bytes": 1248808,
+    "sha256": "683fe36aa49faac519c0cbd8fabd2599b59669bb29d005478071657aa9c03c6d"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_008.json",
+    "size_bytes": 1248165,
+    "sha256": "50db5033e41d254cbe835b439255a114bf058c43cb396c0f5b69a343476f1529"
+  },
+  {
+    "path": "data/products/need-tools-repair_part_009.json",
+    "size_bytes": 768554,
+    "sha256": "04a66c50f0218d1d19ada516cb10c7c3c7c7f64e6ef360472cb8fc00f829bbb9"
+  },
+  {
+    "path": "data/products/need-transportation_part_001.json",
+    "size_bytes": 1249121,
+    "sha256": "2fb6448d37f796bf5ab9f9adedc353abe9566645551fb10e593c824dba733b8e"
+  },
+  {
+    "path": "data/products/need-transportation_part_002.json",
+    "size_bytes": 1249216,
+    "sha256": "383f60a6243de89c647324ebf6a08cbca9f6aa9ce3e0772bf4b11b86884f8d5e"
+  },
+  {
+    "path": "data/products/need-transportation_part_003.json",
+    "size_bytes": 1247853,
+    "sha256": "b23e6cbaa12b7d44ca41a788d34ca5d8347d5d5d3313f847aa51693cf2f50650"
+  },
+  {
+    "path": "data/products/need-transportation_part_004.json",
+    "size_bytes": 421656,
+    "sha256": "290c6e0a8e57cd379cb3b4b4b0a6ec9d77114d51b2cc5e261cd258c537128072"
   },
   {
     "path": "data/products/need-water.json",
@@ -240,29 +365,134 @@
     "sha256": "be576a51b7c7b570ecc1d423b58a6b054df96a7d96893edebf096144191d4aed"
   },
   {
-    "path": "data/products/product_service_records_19009_part_001.csv",
-    "size_bytes": 6030438,
-    "sha256": "3e0568ea042906fb797c44e85ef323f5e0b30d8fae66be111fff488c38f5af1b"
+    "path": "data/products/product_service_records_19009_part_001_subpart_001.csv",
+    "size_bytes": 1100780,
+    "sha256": "2662d4ff4d53824ff8fd969e1fc1d5b5296c598ca01ea8c3ece57f76b0ffeebc"
   },
   {
-    "path": "data/products/product_service_records_19009_part_002.csv",
-    "size_bytes": 5856275,
-    "sha256": "68646822a2d02c52bfda27fb5a14bf777cf1a37a40aa33b3638be8fc51ac6bd2"
+    "path": "data/products/product_service_records_19009_part_001_subpart_002.csv",
+    "size_bytes": 1099986,
+    "sha256": "0f5d619f9ca8ad8f035a83e00f236faf123056d958159478ede9de250797fea2"
   },
   {
-    "path": "data/products/product_service_records_19009_part_003.csv",
-    "size_bytes": 6457789,
-    "sha256": "f97dfd50c4d41963ac7eaf420489285e1cbbfc21ea81376dd82fb64e2c96d9f5"
+    "path": "data/products/product_service_records_19009_part_001_subpart_003.csv",
+    "size_bytes": 1100285,
+    "sha256": "204cc09feac50a7cd58b2ea67a56ca70b8ea9ec32d5e1b956793052f15d81844"
   },
   {
-    "path": "data/products/product_service_records_19009_part_004.csv",
-    "size_bytes": 7347723,
-    "sha256": "c731c3a8a8b80754530efdc7db70ed3560e884321c8d07a288899c16869470b4"
+    "path": "data/products/product_service_records_19009_part_001_subpart_004.csv",
+    "size_bytes": 1100848,
+    "sha256": "8ddd506067e21781151dfd304c6d1bd3818fea241b70fe886b9d738062a88505"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_001_subpart_005.csv",
+    "size_bytes": 1100371,
+    "sha256": "78494eecd102e2b3c8e304a7d724541855ffc390c2c758d58869b49a33234710"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_001_subpart_006.csv",
+    "size_bytes": 531853,
+    "sha256": "18c7e4cf637d6fa4ac699c3223a1ddda288aa213a01fe35f9699af2b2dc0fbe7"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_001.csv",
+    "size_bytes": 1100551,
+    "sha256": "f4b236bb547566df44e68d45db07067a617ebd5f528cff5f57bc8d96b2f8d7d8"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_002.csv",
+    "size_bytes": 1100237,
+    "sha256": "208c5973c31fc0a2ca3b909801065f637901b15a6d60d4872610ee00b6e9382e"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_003.csv",
+    "size_bytes": 1099937,
+    "sha256": "3df0f475f91e7c7a8e2dae8cb3696075cb12fa5511c9fcf5b61238b8a51f3984"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_004.csv",
+    "size_bytes": 1100863,
+    "sha256": "556c294bd317493c830a6344e8a1dd523f8770c3c706a951ce7f087b1994a071"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_005.csv",
+    "size_bytes": 1099694,
+    "sha256": "9bc62432abe05535f74223c85e92e31bbb2b6a41ab1964833535c795bec71735"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_002_subpart_006.csv",
+    "size_bytes": 358678,
+    "sha256": "0c2bafc783bb9b33013d1ddea6e940f57eb176a5baa3709f8489d33053e4b1e4"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_001.csv",
+    "size_bytes": 1100710,
+    "sha256": "0a2d8058a71e4530c2634f3df9f0353f0b0f2ecc9f590371c17408eacf4415b5"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_002.csv",
+    "size_bytes": 1099998,
+    "sha256": "c28c8ecfaec11a2b84079b3ba2d116e4e5c410a06fecf59109165c379fe27da2"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_003.csv",
+    "size_bytes": 1099677,
+    "sha256": "ff3d17f9d8f495efb7182e489a7c7ce532a69c642aa7c0180793b17d39b71136"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_004.csv",
+    "size_bytes": 1100027,
+    "sha256": "846a996b7239f3d9d80fbe2a5e3dc67e04ce9a10dcd16c00ae945daea208cf3e"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_005.csv",
+    "size_bytes": 1100562,
+    "sha256": "91a011aba616f0b1143697388a687e5a11c3dda1a923c6fd26cf25a52def25f2"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_003_subpart_006.csv",
+    "size_bytes": 960500,
+    "sha256": "a92226282de190582afbc732302472df96def3e7e85535776b027d83461c7625"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_001.csv",
+    "size_bytes": 1100311,
+    "sha256": "b5e8bb40b11b416e89ad6a5f08d4e934eabfb1e5b3603d3aa878a08271bbb131"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_002.csv",
+    "size_bytes": 1100023,
+    "sha256": "c75b3923d9c26819e07f6585224791e53d93ddd3470038f5f67543add10410b3"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_003.csv",
+    "size_bytes": 1100173,
+    "sha256": "335bf3ec714c024f0424ef130ad1aad3cd6297c644115921f2b313203924c7d7"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_004.csv",
+    "size_bytes": 1099261,
+    "sha256": "2bc91eb03ff53e31329df57123ee50fc2588fcf06e64ea071e5966b084bc8527"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_005.csv",
+    "size_bytes": 1100632,
+    "sha256": "78d0dac1f3ac4fc13c7bb109633efb03e85e173d5c74b4246c7ef1c34770ebe0"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_006.csv",
+    "size_bytes": 1099101,
+    "sha256": "f6bee90b4bb9dd5e3bee5c27a01eb37740d4cf195528abbb07df11fb1255e772"
+  },
+  {
+    "path": "data/products/product_service_records_19009_part_004_subpart_007.csv",
+    "size_bytes": 752644,
+    "sha256": "ff5c4487c711eef47fd75d20e55a8d60e257bd95133bdca215b498774f2bb62f"
   },
   {
     "path": "data/products/product_service_records_19009_parts_index.json",
-    "size_bytes": 2588,
-    "sha256": "4426bbbf71e01de011d304c2ec3f8225f582b4e5e60a87cc2f7eba721219a66f"
+    "size_bytes": 7543,
+    "sha256": "3da193e0cd02555f0fb787b6f7316f669863625e2cf2bb6ab479dbda5c34c477"
   },
   {
     "path": "data/products/source_composition.json",
@@ -270,9 +500,19 @@
     "sha256": "4ecc2c247b8a93ffd3ecfd5e5d57e0957d8687e468089c4de850f9d4c0584876"
   },
   {
-    "path": "data/review/catalog_candidates_low_confidence.json",
-    "size_bytes": 2306007,
-    "sha256": "874acb8e0d58494ec7960258e2d97a092c5aad07c47adb38331776e1798ee448"
+    "path": "data/review/catalog_candidates_low_confidence_part_001.json",
+    "size_bytes": 899924,
+    "sha256": "56f33def4c6884836f382118545498cd181acccd05e6a8526f6c2e774d3774cc"
+  },
+  {
+    "path": "data/review/catalog_candidates_low_confidence_part_002.json",
+    "size_bytes": 899704,
+    "sha256": "d0a90babe042794eb1952214bd1ba4af0ddc2359cc290d7670bf491499d2277a"
+  },
+  {
+    "path": "data/review/catalog_candidates_low_confidence_part_003.json",
+    "size_bytes": 186196,
+    "sha256": "9c21807659ebd4f0bbb252b79d8b12f800f9b5947bc31315960b6673ca580e15"
   },
   {
     "path": "data/services/independent_study_courses_1995.csv",
@@ -343,6 +583,11 @@
     "path": "docs/ENGLISH_CORPUS_PROVENANCE.md",
     "size_bytes": 918,
     "sha256": "f75e5f5952aa38837e47209ebd18ec9b2f20331f2eb89a9d43a683a35dd78ef2"
+  },
+  {
+    "path": "docs/GITHUB_BATCH_04_MICRO_UPLOAD.md",
+    "size_bytes": 285,
+    "sha256": "dc69d2f66d754d4cd11c8ce7502087d5be6a60337607274627aa9b805833170f"
   },
   {
     "path": "docs/GITHUB_WEB_UPLOAD_INSTRUCTIONS.md",

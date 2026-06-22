@@ -1,0 +1,207 @@
+{
+  "dataset": "product_service_records_19009",
+  "original_row_count": 19009,
+  "parts": [
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_001.csv",
+      "row_count": 878,
+      "first_data_row": 1,
+      "last_data_row": 878,
+      "size_bytes": 1100780,
+      "sha256": "2662d4ff4d53824ff8fd969e1fc1d5b5296c598ca01ea8c3ece57f76b0ffeebc"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_002.csv",
+      "row_count": 850,
+      "first_data_row": 879,
+      "last_data_row": 1728,
+      "size_bytes": 1099986,
+      "sha256": "0f5d619f9ca8ad8f035a83e00f236faf123056d958159478ede9de250797fea2"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_003.csv",
+      "row_count": 844,
+      "first_data_row": 1729,
+      "last_data_row": 2572,
+      "size_bytes": 1100285,
+      "sha256": "204cc09feac50a7cd58b2ea67a56ca70b8ea9ec32d5e1b956793052f15d81844"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_004.csv",
+      "row_count": 860,
+      "first_data_row": 2573,
+      "last_data_row": 3432,
+      "size_bytes": 1100848,
+      "sha256": "8ddd506067e21781151dfd304c6d1bd3818fea241b70fe886b9d738062a88505"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_005.csv",
+      "row_count": 867,
+      "first_data_row": 3433,
+      "last_data_row": 4299,
+      "size_bytes": 1100371,
+      "sha256": "78494eecd102e2b3c8e304a7d724541855ffc390c2c758d58869b49a33234710"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_001_subpart_006.csv",
+      "row_count": 454,
+      "first_data_row": 4300,
+      "last_data_row": 4753,
+      "size_bytes": 531853,
+      "sha256": "18c7e4cf637d6fa4ac699c3223a1ddda288aa213a01fe35f9699af2b2dc0fbe7"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_001.csv",
+      "row_count": 910,
+      "first_data_row": 4754,
+      "last_data_row": 5663,
+      "size_bytes": 1100551,
+      "sha256": "f4b236bb547566df44e68d45db07067a617ebd5f528cff5f57bc8d96b2f8d7d8"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_002.csv",
+      "row_count": 895,
+      "first_data_row": 5664,
+      "last_data_row": 6558,
+      "size_bytes": 1100237,
+      "sha256": "208c5973c31fc0a2ca3b909801065f637901b15a6d60d4872610ee00b6e9382e"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_003.csv",
+      "row_count": 912,
+      "first_data_row": 6559,
+      "last_data_row": 7470,
+      "size_bytes": 1099937,
+      "sha256": "3df0f475f91e7c7a8e2dae8cb3696075cb12fa5511c9fcf5b61238b8a51f3984"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_004.csv",
+      "row_count": 939,
+      "first_data_row": 7471,
+      "last_data_row": 8409,
+      "size_bytes": 1100863,
+      "sha256": "556c294bd317493c830a6344e8a1dd523f8770c3c706a951ce7f087b1994a071"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_005.csv",
+      "row_count": 826,
+      "first_data_row": 8410,
+      "last_data_row": 9235,
+      "size_bytes": 1099694,
+      "sha256": "9bc62432abe05535f74223c85e92e31bbb2b6a41ab1964833535c795bec71735"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_002_subpart_006.csv",
+      "row_count": 271,
+      "first_data_row": 9236,
+      "last_data_row": 9506,
+      "size_bytes": 358678,
+      "sha256": "0c2bafc783bb9b33013d1ddea6e940f57eb176a5baa3709f8489d33053e4b1e4"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_001.csv",
+      "row_count": 837,
+      "first_data_row": 9507,
+      "last_data_row": 10343,
+      "size_bytes": 1100710,
+      "sha256": "0a2d8058a71e4530c2634f3df9f0353f0b0f2ecc9f590371c17408eacf4415b5"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_002.csv",
+      "row_count": 819,
+      "first_data_row": 10344,
+      "last_data_row": 11162,
+      "size_bytes": 1099998,
+      "sha256": "c28c8ecfaec11a2b84079b3ba2d116e4e5c410a06fecf59109165c379fe27da2"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_003.csv",
+      "row_count": 819,
+      "first_data_row": 11163,
+      "last_data_row": 11981,
+      "size_bytes": 1099677,
+      "sha256": "ff3d17f9d8f495efb7182e489a7c7ce532a69c642aa7c0180793b17d39b71136"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_004.csv",
+      "row_count": 882,
+      "first_data_row": 11982,
+      "last_data_row": 12863,
+      "size_bytes": 1100027,
+      "sha256": "846a996b7239f3d9d80fbe2a5e3dc67e04ce9a10dcd16c00ae945daea208cf3e"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_005.csv",
+      "row_count": 772,
+      "first_data_row": 12864,
+      "last_data_row": 13635,
+      "size_bytes": 1100562,
+      "sha256": "91a011aba616f0b1143697388a687e5a11c3dda1a923c6fd26cf25a52def25f2"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_003_subpart_006.csv",
+      "row_count": 624,
+      "first_data_row": 13636,
+      "last_data_row": 14259,
+      "size_bytes": 960500,
+      "sha256": "a92226282de190582afbc732302472df96def3e7e85535776b027d83461c7625"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_001.csv",
+      "row_count": 715,
+      "first_data_row": 14260,
+      "last_data_row": 14974,
+      "size_bytes": 1100311,
+      "sha256": "b5e8bb40b11b416e89ad6a5f08d4e934eabfb1e5b3603d3aa878a08271bbb131"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_002.csv",
+      "row_count": 706,
+      "first_data_row": 14975,
+      "last_data_row": 15680,
+      "size_bytes": 1100023,
+      "sha256": "c75b3923d9c26819e07f6585224791e53d93ddd3470038f5f67543add10410b3"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_003.csv",
+      "row_count": 716,
+      "first_data_row": 15681,
+      "last_data_row": 16396,
+      "size_bytes": 1100173,
+      "sha256": "335bf3ec714c024f0424ef130ad1aad3cd6297c644115921f2b313203924c7d7"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_004.csv",
+      "row_count": 713,
+      "first_data_row": 16397,
+      "last_data_row": 17109,
+      "size_bytes": 1099261,
+      "sha256": "2bc91eb03ff53e31329df57123ee50fc2588fcf06e64ea071e5966b084bc8527"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_005.csv",
+      "row_count": 711,
+      "first_data_row": 17110,
+      "last_data_row": 17820,
+      "size_bytes": 1100632,
+      "sha256": "78d0dac1f3ac4fc13c7bb109633efb03e85e173d5c74b4246c7ef1c34770ebe0"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_006.csv",
+      "row_count": 703,
+      "first_data_row": 17821,
+      "last_data_row": 18523,
+      "size_bytes": 1099101,
+      "sha256": "f6bee90b4bb9dd5e3bee5c27a01eb37740d4cf195528abbb07df11fb1255e772"
+    },
+    {
+      "file": "data/products/product_service_records_19009_part_004_subpart_007.csv",
+      "row_count": 486,
+      "first_data_row": 18524,
+      "last_data_row": 19009,
+      "size_bytes": 752644,
+      "sha256": "ff5c4487c711eef47fd75d20e55a8d60e257bd95133bdca215b498774f2bb62f"
+    }
+  ],
+  "usage_note": "Concatenate in listed order, retaining only the first header."
+}

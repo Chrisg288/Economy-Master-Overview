@@ -1,15 +1,98 @@
 {
-  "dataset_id": "comparator-products-10000-v0.2",
-  "record_count": 10000,
+  "dataset_id": "comparator-products-services-english-v0.3.2",
+  "record_count": 19009,
+  "catalog_product_count": 13197,
+  "service_record_count": 5812,
+  "source_language_default": "English",
   "page_size_in_tree": 50,
   "composition": [
     {
-      "source_uid": "SRC-HC-RECALLS",
-      "record_count": 9842
+      "source_uid": "SRC-EDU-ISC-1995",
+      "record_count": 5812
     },
     {
-      "source_uid": "SRC-NEWARK-112",
-      "record_count": 158
+      "source_uid": "SRC-0103",
+      "record_count": 2882
+    },
+    {
+      "source_uid": "SRC-0118",
+      "record_count": 2008
+    },
+    {
+      "source_uid": "SRC-0120",
+      "record_count": 1611
+    },
+    {
+      "source_uid": "SRC-0105",
+      "record_count": 1053
+    },
+    {
+      "source_uid": "SRC-0104",
+      "record_count": 828
+    },
+    {
+      "source_uid": "SRC-0124",
+      "record_count": 791
+    },
+    {
+      "source_uid": "SRC-0119",
+      "record_count": 722
+    },
+    {
+      "source_uid": "SRC-0112",
+      "record_count": 651
+    },
+    {
+      "source_uid": "SRC-0110",
+      "record_count": 625
+    },
+    {
+      "source_uid": "SRC-0102",
+      "record_count": 532
+    },
+    {
+      "source_uid": "SRC-0121",
+      "record_count": 433
+    },
+    {
+      "source_uid": "SRC-0122",
+      "record_count": 352
+    },
+    {
+      "source_uid": "SRC-0111",
+      "record_count": 196
+    },
+    {
+      "source_uid": "SRC-0101",
+      "record_count": 166
+    },
+    {
+      "source_uid": "SRC-0108",
+      "record_count": 117
+    },
+    {
+      "source_uid": "SRC-0125",
+      "record_count": 63
+    },
+    {
+      "source_uid": "SRC-0109",
+      "record_count": 57
+    },
+    {
+      "source_uid": "SRC-0123",
+      "record_count": 42
+    },
+    {
+      "source_uid": "SRC-0106",
+      "record_count": 25
+    },
+    {
+      "source_uid": "SRC-0107",
+      "record_count": 23
+    },
+    {
+      "source_uid": "SRC-0113",
+      "record_count": 20
     }
   ],
   "files": [
@@ -17,113 +100,141 @@
       "need_id": "need-air",
       "need_rank": 1,
       "need_label": "Air / Breathable Environment",
-      "record_count": 350,
+      "record_count": 2,
       "path": "data/products/need-air.json"
     },
     {
       "need_id": "need-water",
       "need_rank": 2,
       "need_label": "Water / Hydration",
-      "record_count": 25,
+      "record_count": 336,
       "path": "data/products/need-water.json"
     },
     {
       "need_id": "need-food",
       "need_rank": 3,
       "need_label": "Food / Nutrition / Survival",
-      "record_count": 1800,
+      "record_count": 21,
       "path": "data/products/need-food.json"
     },
     {
       "need_id": "need-shelter",
       "need_rank": 4,
       "need_label": "Shelter / Housing / Weather Protection",
-      "record_count": 500,
+      "record_count": 1182,
       "path": "data/products/need-shelter.json"
     },
     {
       "need_id": "need-thermal",
       "need_rank": 5,
       "need_label": "Heat / Thermal Protection / Clothing",
-      "record_count": 200,
+      "record_count": 22,
       "path": "data/products/need-thermal.json"
     },
     {
       "need_id": "need-safety",
       "need_rank": 6,
       "need_label": "Safety / Security / Emergency",
-      "record_count": 600,
+      "record_count": 447,
       "path": "data/products/need-safety.json"
     },
     {
       "need_id": "need-health",
       "need_rank": 7,
       "need_label": "Health / Medical / Hygiene",
-      "record_count": 3000,
+      "record_count": 1616,
       "path": "data/products/need-health.json"
     },
     {
       "need_id": "need-sanitation",
       "need_rank": 8,
       "need_label": "Sanitation / Waste / Cleaning",
-      "record_count": 180,
-      "path": "data/products/need-sanitation.json"
+      "record_count": 883,
+      "paths": [
+        "data/products/need-sanitation_part_001.json",
+        "data/products/need-sanitation_part_002.json"
+      ],
+      "part_count": 2
     },
     {
       "need_id": "need-energy",
       "need_rank": 9,
       "need_label": "Energy / Power / Fuel",
-      "record_count": 88,
+      "record_count": 645,
       "path": "data/products/need-energy.json"
     },
     {
       "need_id": "need-transportation",
       "need_rank": 10,
       "need_label": "Transportation / Mobility",
-      "record_count": 2200,
-      "path": "data/products/need-transportation.json"
+      "record_count": 1811,
+      "paths": [
+        "data/products/need-transportation_part_001.json",
+        "data/products/need-transportation_part_002.json",
+        "data/products/need-transportation_part_003.json",
+        "data/products/need-transportation_part_004.json"
+      ],
+      "part_count": 4
     },
     {
       "need_id": "need-communication",
       "need_rank": 11,
       "need_label": "Communication / Information / Records",
-      "record_count": 100,
-      "path": "data/products/need-communication.json"
-    },
-    {
-      "need_id": "need-family-community",
-      "need_rank": 13,
-      "need_label": "Family / Community / Care",
-      "record_count": 36,
-      "path": "data/products/need-family-community.json"
+      "record_count": 1489,
+      "paths": [
+        "data/products/need-communication_part_001.json",
+        "data/products/need-communication_part_002.json",
+        "data/products/need-communication_part_003.json"
+      ],
+      "part_count": 3
     },
     {
       "need_id": "need-education",
       "need_rank": 15,
       "need_label": "Education / Skills / Knowledge",
-      "record_count": 73,
-      "path": "data/products/need-education.json"
+      "record_count": 5812,
+      "paths": [
+        "data/products/need-education_part_001.json",
+        "data/products/need-education_part_002.json",
+        "data/products/need-education_part_003.json",
+        "data/products/need-education_part_004.json",
+        "data/products/need-education_part_005.json",
+        "data/products/need-education_part_006.json",
+        "data/products/need-education_part_007.json",
+        "data/products/need-education_part_008.json",
+        "data/products/need-education_part_009.json",
+        "data/products/need-education_part_010.json",
+        "data/products/need-education_part_011.json",
+        "data/products/need-education_part_012.json"
+      ],
+      "part_count": 12
     },
     {
       "need_id": "need-tools-repair",
       "need_rank": 16,
       "need_label": "Tools / Property Maintenance / Repair",
-      "record_count": 198,
-      "path": "data/products/need-tools-repair.json"
+      "record_count": 4714,
+      "paths": [
+        "data/products/need-tools-repair_part_001.json",
+        "data/products/need-tools-repair_part_002.json",
+        "data/products/need-tools-repair_part_003.json",
+        "data/products/need-tools-repair_part_004.json",
+        "data/products/need-tools-repair_part_005.json",
+        "data/products/need-tools-repair_part_006.json",
+        "data/products/need-tools-repair_part_007.json",
+        "data/products/need-tools-repair_part_008.json",
+        "data/products/need-tools-repair_part_009.json"
+      ],
+      "part_count": 9
     },
     {
       "need_id": "need-recreation-meaning",
       "need_rank": 18,
       "need_label": "Recreation / Culture / Meaning",
-      "record_count": 600,
+      "record_count": 29,
       "path": "data/products/need-recreation-meaning.json"
-    },
-    {
-      "need_id": "need-lifestyle",
-      "need_rank": 19,
-      "need_label": "Lifestyle Wants / Comfort / Nice-to-Have",
-      "record_count": 50,
-      "path": "data/products/need-lifestyle.json"
     }
-  ]
+  ],
+  "chunked_files": true,
+  "chunk_target_bytes": 1250000
 }

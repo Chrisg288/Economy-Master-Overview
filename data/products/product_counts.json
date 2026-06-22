@@ -1,202 +1,142 @@
 {
-  "record_count": 10000,
-  "needs": [
-    {
-      "need_id": "need-air",
-      "need_rank": 1,
-      "need_label": "Air / Breathable Environment",
-      "product_count": 350,
-      "fulfillment_classes": {
-        "Gas Detection": 34,
-        "Respiratory Protection": 44,
-        "Ventilation": 272
-      }
-    },
-    {
-      "need_id": "need-water",
-      "need_rank": 2,
-      "need_label": "Water / Hydration",
-      "product_count": 25,
-      "fulfillment_classes": {
-        "Hot Water": 1,
-        "Pumps / Hoses / Fittings": 19,
-        "Water Filtration": 4,
-        "Water Storage": 1
-      }
-    },
-    {
-      "need_id": "need-food",
-      "need_rank": 3,
-      "need_label": "Food / Nutrition / Survival",
-      "product_count": 1800,
-      "fulfillment_classes": {
-        "Cooking Equipment": 18,
-        "Food Storage / Preservation": 189,
-        "Grocery Products": 1549,
-        "Nutrition Requirements": 17,
-        "Prepared Food": 27
-      }
-    },
-    {
-      "need_id": "need-shelter",
-      "need_rank": 4,
-      "need_label": "Shelter / Housing / Weather Protection",
-      "product_count": 500,
-      "fulfillment_classes": {
-        "Furnishings": 448,
-        "Windows / Doors": 52
-      }
-    },
-    {
-      "need_id": "need-thermal",
-      "need_rank": 5,
-      "need_label": "Heat / Thermal Protection / Clothing",
-      "product_count": 200,
-      "fulfillment_classes": {
-        "Blankets / Bedding": 6,
-        "Clothing": 183,
-        "Heating Systems": 11
-      }
-    },
-    {
-      "need_id": "need-safety",
-      "need_rank": 6,
-      "need_label": "Safety / Security / Emergency",
-      "product_count": 600,
-      "fulfillment_classes": {
-        "Fire Protection": 259,
-        "Personal Safety": 259,
-        "Vehicle Safety": 82
-      }
-    },
-    {
-      "need_id": "need-health",
-      "need_rank": 7,
-      "need_label": "Health / Medical / Hygiene",
-      "product_count": 3000,
-      "fulfillment_classes": {
-        "First Aid Products": 49,
-        "Fitness / Mobility": 138,
-        "Hygiene": 717,
-        "Medical Care": 1048,
-        "Medication / Supplies": 1048
-      }
-    },
-    {
-      "need_id": "need-sanitation",
-      "need_rank": 8,
-      "need_label": "Sanitation / Waste / Cleaning",
-      "product_count": 180,
-      "fulfillment_classes": {
-        "Cleaning Supplies": 171,
-        "Laundry": 6,
-        "Toilets / Waste": 3
-      }
-    },
-    {
-      "need_id": "need-energy",
-      "need_rank": 9,
-      "need_label": "Energy / Power / Fuel",
-      "product_count": 88,
-      "fulfillment_classes": {
-        "Batteries": 33,
-        "Efficient Appliances": 34,
-        "Electricity": 8,
-        "Generators": 13
-      }
-    },
-    {
-      "need_id": "need-transportation",
-      "need_rank": 10,
-      "need_label": "Transportation / Mobility",
-      "product_count": 2200,
-      "fulfillment_classes": {
-        "Auto Parts / Fitment": 522,
-        "Passenger Vehicles": 522,
-        "Tires / Tracks": 112,
-        "Transit / Mobility": 522,
-        "Vehicle Electrical": 522
-      }
-    },
-    {
-      "need_id": "need-communication",
-      "need_rank": 11,
-      "need_label": "Communication / Information / Records",
-      "product_count": 100,
-      "fulfillment_classes": {
-        "Cell Phones": 7,
-        "Data Storage": 93
-      }
-    },
-    {
-      "need_id": "need-income-work",
-      "need_rank": 12,
-      "need_label": "Income / Work / Economic Activity",
-      "product_count": 0,
-      "fulfillment_classes": {}
-    },
-    {
-      "need_id": "need-family-community",
-      "need_rank": 13,
-      "need_label": "Family / Community / Care",
-      "product_count": 36,
-      "fulfillment_classes": {
-        "Childcare": 36
-      }
-    },
-    {
-      "need_id": "need-legal-rights",
-      "need_rank": 14,
-      "need_label": "Legal / Rights / Public Services",
-      "product_count": 0,
-      "fulfillment_classes": {}
-    },
-    {
-      "need_id": "need-education",
-      "need_rank": 15,
-      "need_label": "Education / Skills / Knowledge",
-      "product_count": 73,
-      "fulfillment_classes": {
-        "Reference Books": 73
-      }
-    },
-    {
-      "need_id": "need-tools-repair",
-      "need_rank": 16,
-      "need_label": "Tools / Property Maintenance / Repair",
-      "product_count": 198,
-      "fulfillment_classes": {
-        "Fasteners": 2,
-        "Hand Tools": 90,
-        "Hardware": 77,
-        "Power Tools": 29
-      }
-    },
-    {
-      "need_id": "need-finance-resilience",
-      "need_rank": 17,
-      "need_label": "Finance / Insurance / Long-Term Resilience",
-      "product_count": 0,
-      "fulfillment_classes": {}
-    },
-    {
-      "need_id": "need-recreation-meaning",
-      "need_rank": 18,
-      "need_label": "Recreation / Culture / Meaning",
-      "product_count": 600,
-      "fulfillment_classes": {
-        "Games / Activities": 300,
-        "Outdoor Recreation": 300
-      }
-    },
-    {
-      "need_id": "need-lifestyle",
-      "need_rank": 19,
-      "need_label": "Lifestyle Wants / Comfort / Nice-to-Have",
-      "product_count": 50,
-      "fulfillment_classes": {
-        "Luxury Goods": 50
-      }
-    }
-  ]
+  "record_count": 19009,
+  "catalog_products": 13197,
+  "education_services": 5812,
+  "need_counts": {
+    "need-tools-repair": 4714,
+    "need-water": 336,
+    "need-shelter": 1182,
+    "need-communication": 1489,
+    "need-food": 21,
+    "need-energy": 645,
+    "need-safety": 447,
+    "need-transportation": 1811,
+    "need-sanitation": 883,
+    "need-thermal": 22,
+    "need-health": 1616,
+    "need-air": 2,
+    "need-recreation-meaning": 29,
+    "need-education": 5812
+  },
+  "group_counts": {
+    "pg-tools-hose": 1153,
+    "pg-water-fittings": 189,
+    "pg-shelter-furnishings": 27,
+    "pg-tools-storage": 262,
+    "pg-tools-hand": 1005,
+    "pg-shelter-door-hardware": 926,
+    "pg-tools-adhesives": 83,
+    "pg-communication-storage": 113,
+    "pg-food-storage": 15,
+    "pg-tools-hardware": 131,
+    "pg-shelter-building-hardware": 214,
+    "pg-tools-fasteners": 203,
+    "pg-energy-wire": 350,
+    "pg-energy-lighting": 173,
+    "pg-tools-modular": 838,
+    "pg-tools-measuring": 793,
+    "pg-tools-power": 9,
+    "pg-water-hose": 101,
+    "pg-tools-abrasives": 169,
+    "pg-safety-ppe": 56,
+    "pg-energy-batteries": 48,
+    "pg-transport-marine": 22,
+    "pg-safety-security-storage": 74,
+    "pg-tools-workholding": 68,
+    "pg-sanitation-vacuum": 849,
+    "pg-communication-av": 273,
+    "pg-sanitation-cleaning": 34,
+    "pg-transport-electrical": 1033,
+    "pg-transport-brake-hose": 60,
+    "pg-water-pumps": 42,
+    "pg-energy-power": 74,
+    "pg-thermal-workwear": 22,
+    "pg-communication-radio": 25,
+    "pg-transport-tires": 11,
+    "pg-water-filtration": 4,
+    "pg-communication-electronics": 1066,
+    "pg-shelter-heating-vent": 15,
+    "pg-health-lab": 1613,
+    "pg-communication-network": 12,
+    "pg-safety-warning": 23,
+    "pg-air-detection": 2,
+    "pg-transport-lighting": 675,
+    "pg-health-medical": 3,
+    "pg-recreation-water": 29,
+    "pg-safety-fuses": 294,
+    "pg-transport-trailer": 10,
+    "pg-food-kitchen": 6,
+    "pg-service-high-school-mathematics-statistics": 58,
+    "pg-service-college-business-economics-finance": 1054,
+    "pg-service-college-english-communication-journalism": 655,
+    "pg-service-college-science-environment": 565,
+    "pg-service-college-history-geography-government-law": 484,
+    "pg-service-college-mathematics-statistics": 226,
+    "pg-service-college-psychology-sociology-human-services": 494,
+    "pg-service-college-health-nursing-emergency-services": 163,
+    "pg-service-college-education-teaching": 165,
+    "pg-service-college-languages": 338,
+    "pg-service-college-general-interdisciplinary": 630,
+    "pg-service-college-arts-music-theatre": 118,
+    "pg-service-college-computing-engineering-technology": 157,
+    "pg-service-high-school-business-economics-finance": 54,
+    "pg-service-high-school-arts-music-theatre": 10,
+    "pg-service-high-school-psychology-sociology-human-services": 11,
+    "pg-service-high-school-english-communication-journalism": 59,
+    "pg-service-high-school-education-teaching": 9,
+    "pg-service-high-school-general-interdisciplinary": 12,
+    "pg-service-high-school-languages": 25,
+    "pg-service-high-school-science-environment": 52,
+    "pg-service-high-school-history-geography-government-law": 18,
+    "pg-service-graduate-education-teaching": 27,
+    "pg-service-graduate-business-economics-finance": 55,
+    "pg-service-graduate-general-interdisciplinary": 30,
+    "pg-service-graduate-psychology-sociology-human-services": 18,
+    "pg-service-graduate-mathematics-statistics": 6,
+    "pg-service-graduate-computing-engineering-technology": 2,
+    "pg-service-noncredit-business-economics-finance": 61,
+    "pg-service-noncredit-computing-engineering-technology": 10,
+    "pg-service-noncredit-general-interdisciplinary": 65,
+    "pg-service-noncredit-education-teaching": 10,
+    "pg-service-noncredit-english-communication-journalism": 28,
+    "pg-service-noncredit-arts-music-theatre": 14,
+    "pg-service-noncredit-health-nursing-emergency-services": 8,
+    "pg-service-noncredit-languages": 8,
+    "pg-service-graduate-arts-music-theatre": 10,
+    "pg-service-graduate-history-geography-government-law": 16,
+    "pg-service-graduate-english-communication-journalism": 17,
+    "pg-service-graduate-science-environment": 9,
+    "pg-service-noncredit-history-geography-government-law": 7,
+    "pg-service-noncredit-psychology-sociology-human-services": 3,
+    "pg-service-noncredit-mathematics-statistics": 25,
+    "pg-service-graduate-health-nursing-emergency-services": 4,
+    "pg-service-high-school-health-nursing-emergency-services": 4,
+    "pg-service-college-agriculture-natural-resources": 8,
+    "pg-service-noncredit-science-environment": 4,
+    "pg-service-noncredit-agriculture-natural-resources": 6
+  },
+  "source_counts": {
+    "SRC-0102": 532,
+    "SRC-0103": 2882,
+    "SRC-0104": 828,
+    "SRC-0105": 1053,
+    "SRC-0107": 23,
+    "SRC-0112": 651,
+    "SRC-0118": 2008,
+    "SRC-0119": 722,
+    "SRC-0120": 1611,
+    "SRC-0123": 42,
+    "SRC-0124": 791,
+    "SRC-0125": 63,
+    "SRC-0101": 166,
+    "SRC-0106": 25,
+    "SRC-0108": 117,
+    "SRC-0109": 57,
+    "SRC-0110": 625,
+    "SRC-0111": 196,
+    "SRC-0113": 20,
+    "SRC-0121": 433,
+    "SRC-0122": 352,
+    "SRC-EDU-ISC-1995": 5812
+  }
 }

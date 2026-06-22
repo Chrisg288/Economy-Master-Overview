@@ -1,10 +1,90 @@
 [
   {
-    "source_uid": "SRC-HC-RECALLS",
-    "record_count": 9842
+    "source_uid": "SRC-EDU-ISC-1995",
+    "record_count": 5812
   },
   {
-    "source_uid": "SRC-NEWARK-112",
-    "record_count": 158
+    "source_uid": "SRC-0103",
+    "record_count": 2882
+  },
+  {
+    "source_uid": "SRC-0118",
+    "record_count": 2008
+  },
+  {
+    "source_uid": "SRC-0120",
+    "record_count": 1611
+  },
+  {
+    "source_uid": "SRC-0105",
+    "record_count": 1053
+  },
+  {
+    "source_uid": "SRC-0104",
+    "record_count": 828
+  },
+  {
+    "source_uid": "SRC-0124",
+    "record_count": 791
+  },
+  {
+    "source_uid": "SRC-0119",
+    "record_count": 722
+  },
+  {
+    "source_uid": "SRC-0112",
+    "record_count": 651
+  },
+  {
+    "source_uid": "SRC-0110",
+    "record_count": 625
+  },
+  {
+    "source_uid": "SRC-0102",
+    "record_count": 532
+  },
+  {
+    "source_uid": "SRC-0121",
+    "record_count": 433
+  },
+  {
+    "source_uid": "SRC-0122",
+    "record_count": 352
+  },
+  {
+    "source_uid": "SRC-0111",
+    "record_count": 196
+  },
+  {
+    "source_uid": "SRC-0101",
+    "record_count": 166
+  },
+  {
+    "source_uid": "SRC-0108",
+    "record_count": 117
+  },
+  {
+    "source_uid": "SRC-0125",
+    "record_count": 63
+  },
+  {
+    "source_uid": "SRC-0109",
+    "record_count": 57
+  },
+  {
+    "source_uid": "SRC-0123",
+    "record_count": 42
+  },
+  {
+    "source_uid": "SRC-0106",
+    "record_count": 25
+  },
+  {
+    "source_uid": "SRC-0107",
+    "record_count": 23
+  },
+  {
+    "source_uid": "SRC-0113",
+    "record_count": 20
   }
 ]

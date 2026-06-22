@@ -1,4 +1,4 @@
-# Economy Master Interface — English Massive Corpus v0.3.1 (GitHub Web Upload Safe)
+# Economy Master Interface — English Massive Corpus v0.3.2 (Micro-Batched GitHub Web Upload)
 
 This review build keeps the v2.10.1 modular layout and four-level ribbon, makes the TreeView **30% wider by default**, and adds a draggable TreeView/Workspace separator.
 
@@ -52,3 +52,8 @@ data/products/product_service_records_19009_part_004.csv
 The app does not depend on the former combined CSV at runtime. The linked need-level JSON files remain unchanged.
 
 For browser uploading, use the four batch ZIPs supplied with this release. Extract each ZIP and upload its contents to the repository root in numerical order. Do not upload the ZIP files themselves.
+
+
+## Replacement Batch 04
+
+The failed Batch 04 is replaced by small micro-batches. Every individual file is below 2 MB and each required commit is below 4.2 MB. The app automatically combines chunked need JSON files through `data/products/index.json`.
