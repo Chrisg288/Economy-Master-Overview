@@ -688,5 +688,138 @@
     "source_uid": "SRC-0406",
     "relationship": "supports",
     "confidence": "provisional"
+  },
+  {
+    "need_id": "need-air",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 350
+  },
+  {
+    "need_id": "need-water",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 25
+  },
+  {
+    "need_id": "need-food",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 1800
+  },
+  {
+    "need_id": "need-shelter",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 500
+  },
+  {
+    "need_id": "need-thermal",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 200
+  },
+  {
+    "need_id": "need-safety",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 600
+  },
+  {
+    "need_id": "need-health",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 3000
+  },
+  {
+    "need_id": "need-sanitation",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 180
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 80
+  },
+  {
+    "need_id": "need-transportation",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 2200
+  },
+  {
+    "need_id": "need-communication",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 100
+  },
+  {
+    "need_id": "need-family-community",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 36
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 0
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 121
+  },
+  {
+    "need_id": "need-recreation-meaning",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 600
+  },
+  {
+    "need_id": "need-lifestyle",
+    "source_uid": "SRC-HC-RECALLS",
+    "relationship": "provides product safety / recall evidence",
+    "confidence": "derived rule mapping",
+    "product_record_count": 50
+  },
+  {
+    "need_id": "need-education",
+    "source_uid": "SRC-NEWARK-112",
+    "relationship": "provides historical catalog products",
+    "confidence": "structured extraction",
+    "product_record_count": 73
+  },
+  {
+    "need_id": "need-tools-repair",
+    "source_uid": "SRC-NEWARK-112",
+    "relationship": "provides historical catalog products",
+    "confidence": "structured extraction",
+    "product_record_count": 77
+  },
+  {
+    "need_id": "need-energy",
+    "source_uid": "SRC-NEWARK-112",
+    "relationship": "provides historical catalog products",
+    "confidence": "structured extraction",
+    "product_record_count": 8
   }
 ]

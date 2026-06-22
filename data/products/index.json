@@ -1,0 +1,129 @@
+{
+  "dataset_id": "comparator-products-10000-v0.2",
+  "record_count": 10000,
+  "page_size_in_tree": 50,
+  "composition": [
+    {
+      "source_uid": "SRC-HC-RECALLS",
+      "record_count": 9842
+    },
+    {
+      "source_uid": "SRC-NEWARK-112",
+      "record_count": 158
+    }
+  ],
+  "files": [
+    {
+      "need_id": "need-air",
+      "need_rank": 1,
+      "need_label": "Air / Breathable Environment",
+      "record_count": 350,
+      "path": "data/products/need-air.json"
+    },
+    {
+      "need_id": "need-water",
+      "need_rank": 2,
+      "need_label": "Water / Hydration",
+      "record_count": 25,
+      "path": "data/products/need-water.json"
+    },
+    {
+      "need_id": "need-food",
+      "need_rank": 3,
+      "need_label": "Food / Nutrition / Survival",
+      "record_count": 1800,
+      "path": "data/products/need-food.json"
+    },
+    {
+      "need_id": "need-shelter",
+      "need_rank": 4,
+      "need_label": "Shelter / Housing / Weather Protection",
+      "record_count": 500,
+      "path": "data/products/need-shelter.json"
+    },
+    {
+      "need_id": "need-thermal",
+      "need_rank": 5,
+      "need_label": "Heat / Thermal Protection / Clothing",
+      "record_count": 200,
+      "path": "data/products/need-thermal.json"
+    },
+    {
+      "need_id": "need-safety",
+      "need_rank": 6,
+      "need_label": "Safety / Security / Emergency",
+      "record_count": 600,
+      "path": "data/products/need-safety.json"
+    },
+    {
+      "need_id": "need-health",
+      "need_rank": 7,
+      "need_label": "Health / Medical / Hygiene",
+      "record_count": 3000,
+      "path": "data/products/need-health.json"
+    },
+    {
+      "need_id": "need-sanitation",
+      "need_rank": 8,
+      "need_label": "Sanitation / Waste / Cleaning",
+      "record_count": 180,
+      "path": "data/products/need-sanitation.json"
+    },
+    {
+      "need_id": "need-energy",
+      "need_rank": 9,
+      "need_label": "Energy / Power / Fuel",
+      "record_count": 88,
+      "path": "data/products/need-energy.json"
+    },
+    {
+      "need_id": "need-transportation",
+      "need_rank": 10,
+      "need_label": "Transportation / Mobility",
+      "record_count": 2200,
+      "path": "data/products/need-transportation.json"
+    },
+    {
+      "need_id": "need-communication",
+      "need_rank": 11,
+      "need_label": "Communication / Information / Records",
+      "record_count": 100,
+      "path": "data/products/need-communication.json"
+    },
+    {
+      "need_id": "need-family-community",
+      "need_rank": 13,
+      "need_label": "Family / Community / Care",
+      "record_count": 36,
+      "path": "data/products/need-family-community.json"
+    },
+    {
+      "need_id": "need-education",
+      "need_rank": 15,
+      "need_label": "Education / Skills / Knowledge",
+      "record_count": 73,
+      "path": "data/products/need-education.json"
+    },
+    {
+      "need_id": "need-tools-repair",
+      "need_rank": 16,
+      "need_label": "Tools / Property Maintenance / Repair",
+      "record_count": 198,
+      "path": "data/products/need-tools-repair.json"
+    },
+    {
+      "need_id": "need-recreation-meaning",
+      "need_rank": 18,
+      "need_label": "Recreation / Culture / Meaning",
+      "record_count": 600,
+      "path": "data/products/need-recreation-meaning.json"
+    },
+    {
+      "need_id": "need-lifestyle",
+      "need_rank": 19,
+      "need_label": "Lifestyle Wants / Comfort / Nice-to-Have",
+      "record_count": 50,
+      "path": "data/products/need-lifestyle.json"
+    }
+  ]
+}

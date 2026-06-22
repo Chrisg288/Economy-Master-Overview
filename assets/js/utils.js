@@ -21,6 +21,6 @@ export function findTreeNode(root,id,path=[]){
 export function countTreeNodes(root){ let count=0; walkTree(root,()=>count++); return count; }
 export function formatCell(value,type){
   if(value===null || value===undefined || value==='') return '';
-  if(type==='currency') return typeof value==='number' ? new Intl.NumberFormat('en-CA',{style:'currency',currency:'CAD',maximumFractionDigits:0}).format(value) : value;
+  if(type==='currency') return typeof value==='number' ? new Intl.NumberFormat('en-CA',{maximumFractionDigits:2}).format(value) : value;
   return String(value);
 }

@@ -1,8 +1,8 @@
 [
   {
     "path": "README.md",
-    "size_bytes": 1885,
-    "sha256": "a2c2d5ef2385da8857fe9857923579a409fadde362436907229b263b4af979ed"
+    "size_bytes": 1571,
+    "sha256": "c00e8ec790aaee4e9ac52a1ed2b73792d63e31ed19ff493da1a2a089242912b3"
   },
   {
     "path": "assets/css/base.css",
@@ -11,8 +11,8 @@
   },
   {
     "path": "assets/css/components.css",
-    "size_bytes": 6205,
-    "sha256": "977e427b1bbdaa8bfa41acb7c08ee054be34ada6d79b3befaf4338555a9faa64"
+    "size_bytes": 7392,
+    "sha256": "2545ae3cd9f2aa216b3ebdbf09bba2fa91265404c523c4fd4d8c79ece6cde2a5"
   },
   {
     "path": "assets/css/layout.css",
@@ -26,18 +26,18 @@
   },
   {
     "path": "assets/js/app.js",
-    "size_bytes": 2259,
-    "sha256": "b5619dc175fd042b472c89a4b809a5dd0b2d4ba24f3bce36ae4ce92f7fa99e72"
+    "size_bytes": 2298,
+    "sha256": "88632bca72d9e8c086e658fd3226b80276fc8bd88da2bea76cd26791ae19e1ac"
   },
   {
     "path": "assets/js/data-loader.js",
-    "size_bytes": 983,
-    "sha256": "019d96b02a2b2887f175171e9c71e37ecb43bcc9c66e67c139b927ae5898a85c"
+    "size_bytes": 947,
+    "sha256": "d15acbdb0fa8328e21b03bd0ee64d383f01eeab3c11d12553e2c2d1c85db319c"
   },
   {
     "path": "assets/js/datagrid.js",
-    "size_bytes": 3367,
-    "sha256": "8c5d31db2e0567c83263d6388fa83af9d20065d06f591bebaed7662fc609f9ab"
+    "size_bytes": 6259,
+    "sha256": "249e8732da1002947bbcfb5aaaa0454a8afc76ecbc5d222b28e7f55489fedd74"
   },
   {
     "path": "assets/js/event-bus.js",
@@ -46,13 +46,18 @@
   },
   {
     "path": "assets/js/inspector.js",
-    "size_bytes": 1922,
-    "sha256": "7551b5cc35a04781a0a4c25e031d57b5eaa7607766a116c36139dcea7f211d9a"
+    "size_bytes": 2868,
+    "sha256": "9faa9ce29656bfc67a561bf3d8718ddde925335c6a55ff1c24d8dbb5b87e9c03"
   },
   {
     "path": "assets/js/persistence.js",
     "size_bytes": 308,
     "sha256": "6bf1db9c316b85ce6900deeae6dab977e77cdc06d6ccc0412212957effcab3c2"
+  },
+  {
+    "path": "assets/js/product-repository.js",
+    "size_bytes": 1655,
+    "sha256": "64ee5516e28739f3a5bd08e3795c9ca357f3446897b443a124938d9e025eaf34"
   },
   {
     "path": "assets/js/ribbon.js",
@@ -61,13 +66,13 @@
   },
   {
     "path": "assets/js/state.js",
-    "size_bytes": 1432,
-    "sha256": "2dcc7af599bb0ce11d79848ed6c42ca738f4d3dd354257f4f47cbe69ab08c597"
+    "size_bytes": 1467,
+    "sha256": "4631a2fd6a26a3b94273a3b1162f2f78cf6f392ed76db6479f50788bbc26c328"
   },
   {
     "path": "assets/js/treeview.js",
-    "size_bytes": 3609,
-    "sha256": "a237ee4fe5159c065840fc28f31fb071bda6e36ae4a7859274bf3f469fce7d77"
+    "size_bytes": 4156,
+    "sha256": "9292f619ef900e655c378e7d501876e62d0d8c2f021087bcf12aef57dc145b68"
   },
   {
     "path": "assets/js/user-profile.js",
@@ -76,18 +81,18 @@
   },
   {
     "path": "assets/js/utils.js",
-    "size_bytes": 1262,
-    "sha256": "62876d30cd156c3acb98e93032bd6afe6226c646bd257540264fcd70b1f901b5"
+    "size_bytes": 1230,
+    "sha256": "efa9fa5ca9e52f28b6d8d7ff0bc36019bcd289b80aaa857fc915d1d61c638253"
   },
   {
     "path": "assets/js/workspace.js",
-    "size_bytes": 8985,
-    "sha256": "b8a94657721bb1e273ce7f9f8c3f2e6725ad9f4ea3e12d75433f8e9f4abf73f7"
+    "size_bytes": 10601,
+    "sha256": "c404d09257bd8d45f11fd329f932b5448e882a6e227073025330e4d8b53dafbc"
   },
   {
     "path": "data/comparator/columns.json",
-    "size_bytes": 1622,
-    "sha256": "ea7c863c5457aa8bab42c8fd0aca538433e6053f4ef13c5a10541e4d90d1f608"
+    "size_bytes": 3149,
+    "sha256": "2bb35d8ee0c2d9edc7e4e7a5fb2b518e7079941916d5a0ee05b718eba1d62dff"
   },
   {
     "path": "data/comparator/sample_records.csv",
@@ -101,8 +106,8 @@
   },
   {
     "path": "data/config/app.json",
-    "size_bytes": 1207,
-    "sha256": "dac6e4d74d602c7e9d79bf3e9877fecb9a4af256ac5c69f5a3b47a21e2cdfee8"
+    "size_bytes": 1435,
+    "sha256": "f4e9f7598765cb2fd92b7581ad66178c9f75f093a450736bf71d258ce3ef0d9e"
   },
   {
     "path": "data/config/ribbon.json",
@@ -111,23 +116,138 @@
   },
   {
     "path": "data/mappings/need_source_map.json",
-    "size_bytes": 15785,
-    "sha256": "de4de4c9a8e276ac6ce5279ec5e9d648742e5efc7927aaab50ba37cf99282624"
+    "size_bytes": 19890,
+    "sha256": "ab829f521dfa87d8f017180e409bd33ce32662cf49824c66c21d047a2899a562"
+  },
+  {
+    "path": "data/mappings/product_need_assignment_rules.json",
+    "size_bytes": 452,
+    "sha256": "f3669ebf3059f28599734d6c29a161f679a7334bf49d503ac100334698fa9566"
+  },
+  {
+    "path": "data/mappings/product_tree_link_summary.json",
+    "size_bytes": 5327,
+    "sha256": "e87d98cd0f8f1b4651550f48f5d3476826079b21d25897d5756dded7419533b8"
+  },
+  {
+    "path": "data/products/README.md",
+    "size_bytes": 657,
+    "sha256": "96fa42de09978f9fa3e663e4bc7e0acb449116521af79ecd7ba4216e655fa7ab"
+  },
+  {
+    "path": "data/products/index.json",
+    "size_bytes": 3517,
+    "sha256": "80ddf325a741e1275ff5ac4280ed03aebaa0517ce5f2c3f8917e05eff1d7305a"
+  },
+  {
+    "path": "data/products/need-air.json",
+    "size_bytes": 863727,
+    "sha256": "c98cd818062d9efe3721d0b864d92595f68784c4f7c98dd073e87b4e40af4b20"
+  },
+  {
+    "path": "data/products/need-communication.json",
+    "size_bytes": 240572,
+    "sha256": "b48746dc42642440f1d2a3a9279ece15df97503630c1b0090c7c6206de069529"
+  },
+  {
+    "path": "data/products/need-education.json",
+    "size_bytes": 139865,
+    "sha256": "4098296148084f38fafa5cab7d477004de89395ebd0f28eb9fef66a58237da3d"
+  },
+  {
+    "path": "data/products/need-energy.json",
+    "size_bytes": 195949,
+    "sha256": "c70806eb7594a0f18303d2ac6e6ee42dbdbc46aaa989cca4483fdc5113f7fc88"
+  },
+  {
+    "path": "data/products/need-family-community.json",
+    "size_bytes": 86119,
+    "sha256": "36f885ee121a051161925e24f632687752e957ef03444b7e82f923a8f6bebc32"
+  },
+  {
+    "path": "data/products/need-food.json",
+    "size_bytes": 3923181,
+    "sha256": "df935cbc6ad4875f728a1ce396789b9e608f98590ecceb880031f3c7fd040f58"
+  },
+  {
+    "path": "data/products/need-health.json",
+    "size_bytes": 6388401,
+    "sha256": "d647ace1e5ebb62a3cbb02cc31ac7b118b4e4dd829511f52815ee276220540b2"
+  },
+  {
+    "path": "data/products/need-lifestyle.json",
+    "size_bytes": 104870,
+    "sha256": "e35e5bedf80e10eaa0a43844f9966fe7db5c5bb721fce710edd399aef9047745"
+  },
+  {
+    "path": "data/products/need-recreation-meaning.json",
+    "size_bytes": 1435697,
+    "sha256": "911897f2f97ba08b8f76cebf0ee59581e2bff58daeaeab2266e60824965cc4cc"
+  },
+  {
+    "path": "data/products/need-safety.json",
+    "size_bytes": 1393681,
+    "sha256": "921ca1a62d48b4cd2208683c089d58f44681fcfd825fe8da8face2fcb37bcd70"
+  },
+  {
+    "path": "data/products/need-sanitation.json",
+    "size_bytes": 440795,
+    "sha256": "f08b9a5068b2a2f555d4ab5fe9a3f4761127c3421de944da7a2eb29099468790"
+  },
+  {
+    "path": "data/products/need-shelter.json",
+    "size_bytes": 1112465,
+    "sha256": "aeef7ad126fbde2e1d762ba9e386521947278fa39ddc75571fdcb0524256e7c2"
+  },
+  {
+    "path": "data/products/need-thermal.json",
+    "size_bytes": 437553,
+    "sha256": "77ca4f9d5c380a0f845fb9b243b2ae0824a7329c4bd9fda698d974255cd2ae49"
+  },
+  {
+    "path": "data/products/need-tools-repair.json",
+    "size_bytes": 416206,
+    "sha256": "a2d4190ef2fc931931d790ae79c254257b802bf6d3d3334c08696802d48c2ef9"
+  },
+  {
+    "path": "data/products/need-transportation.json",
+    "size_bytes": 4264026,
+    "sha256": "c3b3b7ef2caf5fcee10e9e2718839230a425636441d90445941b58b8a18914cd"
+  },
+  {
+    "path": "data/products/need-water.json",
+    "size_bytes": 54352,
+    "sha256": "729da1dc409e4e00ab19617fa319b0ba819619b71d5e8da3d3a16766b2fa988c"
+  },
+  {
+    "path": "data/products/product_counts.json",
+    "size_bytes": 5146,
+    "sha256": "cdd328ce8cc33a2caeb6932468137719e47d15ada0cf6cc8c943c7b020bb598b"
+  },
+  {
+    "path": "data/products/product_records_10000.csv",
+    "size_bytes": 9464441,
+    "sha256": "be576a51b7c7b570ecc1d423b58a6b054df96a7d96893edebf096144191d4aed"
+  },
+  {
+    "path": "data/products/source_composition.json",
+    "size_bytes": 141,
+    "sha256": "a72e131cf44118140b37ef27f7e63bea27733534ecfd66c94dc2e6333c8db52d"
   },
   {
     "path": "data/sources/processed_assets.json",
-    "size_bytes": 4538,
-    "sha256": "fd847b660cd34246c9a6902c5a1bb29172b1ba390f79526a04ed1e1d8882f018"
+    "size_bytes": 4839,
+    "sha256": "e9c06808fd080a3088b8b056a28d03633aa2ac12400afd5775350caaba4f7c48"
   },
   {
     "path": "data/sources/source_inventory.csv",
-    "size_bytes": 32188,
-    "sha256": "f816965b97b150238f3b5adc94284e1fbd448e88daa89987c7522f3b3b25a0f7"
+    "size_bytes": 33429,
+    "sha256": "28e1631b54a05fc27a7bc892a42390731b38b350bfac04aabf3bb4039239480a"
   },
   {
     "path": "data/sources/source_inventory.json",
-    "size_bytes": 52920,
-    "sha256": "1c3dc311351ed05f59bb5f82c03804ba96a283c32dbc8bf8774bb7fe2abc4a5d"
+    "size_bytes": 54793,
+    "sha256": "2903378e70c1f0c88908c3daa3269fd84a6406da366fd3b96887e5f90ea9cc1b"
   },
   {
     "path": "data/trees/business.json",
@@ -146,8 +266,8 @@
   },
   {
     "path": "data/trees/human.json",
-    "size_bytes": 32089,
-    "sha256": "8cdeee008d14e59c9054f26550230b22a59239f0e2dbb5ce5b111c3d9a55fd3a"
+    "size_bytes": 4379699,
+    "sha256": "40557477b5090cf91fd2a8dd03ff3e76891a20edacb9d01cf1aad29e0a627c90"
   },
   {
     "path": "data/trees/index.json",
@@ -175,14 +295,24 @@
     "sha256": "069b79f980ed840a0bd534321c3f0642f46922870c23195d76fa82393ce42c25"
   },
   {
+    "path": "docs/PRODUCT_DATA_PROVENANCE.md",
+    "size_bytes": 732,
+    "sha256": "2a19651861ad533ed522bd8809144e5e88c0d75934b79234b2a13860d34e6836"
+  },
+  {
+    "path": "docs/PRODUCT_LINKING.md",
+    "size_bytes": 645,
+    "sha256": "7e20bc1c8a50eeff9ad8f6eda3951019add4d851ae1076cbd318774ac2b54024"
+  },
+  {
     "path": "docs/REVIEW_CHECKLIST.md",
-    "size_bytes": 805,
-    "sha256": "b17e568a479fa8c47dcedabbf3b9a174e4649e6922641ccaede24214fb7cbf6c"
+    "size_bytes": 858,
+    "sha256": "31646b48a2df4308cd3469e2ab4f3fe864dc624fb1fbbd054e5de7eb9c037e5f"
   },
   {
     "path": "index.html",
-    "size_bytes": 3349,
-    "sha256": "54adbb16e66cd77899dcf5d4d67b4d16e283a4283874af8a90519bd9635d3e10"
+    "size_bytes": 3398,
+    "sha256": "d2c46f840c0ba48ddca50a70fa776d8c1a8b4721d6c625ced1849bc5a8ef9d5f"
   },
   {
     "path": "serve_local.bat",

@@ -110,5 +110,12 @@
     "repo_path": "data-sources/comparator_compiled/",
     "status": "66 source records compiled",
     "artifact": "Comparator_Compiled_Data_GitHub_Import_v0_3_CLEAN_ROOT.zip"
+  },
+  {
+    "id": "asset-products-10000",
+    "name": "10,000 Human-needs-linked product records",
+    "repo_path": "data/products/",
+    "status": "review dataset created and linked to Human tree and Comparator datagrid",
+    "artifact": "Economy_Master_Rebuild_v0_2_10000_PRODUCTS_GitHub_Root.zip"
   }
 ]

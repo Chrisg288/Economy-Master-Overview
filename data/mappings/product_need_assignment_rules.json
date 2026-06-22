@@ -1,0 +1,11 @@
+{
+  "method": "deterministic keyword/category/agency rules over the included Health Canada snapshot; direct category mapping for Newark records",
+  "status": "review mapping — not a substitute for later manual classification or GS1/NAPCS crosswalk",
+  "priority_order": [
+    "transport agency/category",
+    "food agency/category",
+    "medical agency/category",
+    "specific product/category keywords",
+    "general consumer safety fallback"
+  ]
+}

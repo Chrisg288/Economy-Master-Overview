@@ -1,56 +1,33 @@
-# Economy Master Interface — Modular Rebuild v0.1
+# Economy Master Interface — Modular Rebuild v0.2
 
-**Layout baseline:** v2.10.1  
-**Review goal:** preserve the familiar v2.10.1 three-panel workspace while rebuilding the interface as separate modules.
+Review build based on the v2.10.1 layout with the compact four-level ribbon.
 
-## What is included
+## What changed
 
-```text
-index.html                         Shell only
-assets/css/                        Separate layout, ribbon and component styles
-assets/js/                         Separate state, loader, ribbon, tree, workspace, datagrid, profile and inspector modules
-data/config/                       App and four-level ribbon configuration
-data/trees/                        One JSON tree per sector
-data/comparator/                   Sortable Comparator columns and sample records
-data/sources/                      66 compiled source records plus processed-asset registry
-data/mappings/                     Need-to-source support mappings
-docs/                              Architecture, principles and review checklist
-```
+- The Human / Consumer TreeView now contains **10,000 product-linked leaves**.
+- Products are organized under: **survival-priority need → fulfillment class → source category → 50-product page → product**.
+- Tree nodes show linked product counts.
+- The Comparator datagrid is linked at every tree level.
+- Clicking a tree node filters the datagrid.
+- Clicking a datagrid row selects and expands the exact product in the tree.
+- The datagrid now has search, selectable columns, multi-column sorting, pagination, and page-size control.
+- Existing source inventory, processed-asset registry, need/source mappings, and all sector trees remain included.
 
-## Non-negotiable principles
+## Product data
 
-1. **Human / Consumer TreeView:** user wants and needs are ordered from most important survival need to least important want.
-2. **Comparator Datagrid:** the user chooses visible columns and sorts relative items to determine greatest value and fulfillment.
-3. **Source library:** catalogs, official datasets and reference books support the needs tree but never replace it.
-4. **Ribbon:** Sector × Scope × Overlay × Tool is a context lens only.
+Exactly 10,000 real processed records are included:
 
-## Compact four-level ribbon
+- 9,842 Government of Canada product recall/safety records.
+- 158 Newark Electronics Catalog 112 (1992) historical records.
 
-The ribbon uses 17-pixel rows and reduced button padding:
+These are deliberately labelled by status. Recall evidence is not treated as a current market offer, and Newark listings are marked obsolete.
 
-```css
-padding: 2px 7px;
-font-size: 9.5px;
-line-height: 1;
-gap: 4px;
-```
+## Review
 
-Each row scrolls horizontally on narrower screens instead of overlapping the workspace.
+Run `serve_local.bat`, then verify:
 
-## Run locally
-
-Double-click:
-
-```text
-serve_local.bat
-```
-
-or run:
-
-```powershell
-.\serve_local.ps1
-```
-
-Then open `http://localhost:8000/`.
-
-GitHub Pages will load the JSON and JavaScript modules normally.
+1. Human / Consumer shows `10,000 products`.
+2. Expand a need and fulfillment class to reach product categories and 50-product pages.
+3. Select a need/category/page/product, click **Open Linked Datagrid**, and verify the record count.
+4. Click a datagrid row and confirm the tree returns to the matching product node.
+5. Click headers to sort; Shift-click adds secondary sorting.

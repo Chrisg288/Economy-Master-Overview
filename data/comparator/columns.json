@@ -15,7 +15,7 @@
   },
   {
     "field": "item_name",
-    "label": "Item / Offer",
+    "label": "Item / Product",
     "type": "text",
     "default_visible": true,
     "sortable": true
@@ -28,8 +28,36 @@
     "sortable": true
   },
   {
-    "field": "fulfillment_score",
-    "label": "Fulfillment",
+    "field": "category_original",
+    "label": "Source Category",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "record_type",
+    "label": "Record Type",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "manufacturer",
+    "label": "Manufacturer",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "model_part_number",
+    "label": "Model / Part No.",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "need_match_score",
+    "label": "Need Match",
     "type": "number",
     "default_visible": true,
     "sortable": true
@@ -42,10 +70,31 @@
     "sortable": true
   },
   {
+    "field": "fulfillment_score",
+    "label": "Fulfillment",
+    "type": "number",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "value_score",
+    "label": "Value Score",
+    "type": "number",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
     "field": "total_cost",
     "label": "Total Cost",
-    "type": "currency",
+    "type": "number",
     "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "currency",
+    "label": "Currency",
+    "type": "text",
+    "default_visible": false,
     "sortable": true
   },
   {
@@ -56,17 +105,31 @@
     "sortable": true
   },
   {
-    "field": "durability",
-    "label": "Durability",
-    "type": "number",
-    "default_visible": false,
-    "sortable": true
-  },
-  {
     "field": "risk",
     "label": "Risk",
     "type": "number",
     "default_visible": true,
+    "sortable": true
+  },
+  {
+    "field": "risk_type",
+    "label": "Risk Type",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "recall_class",
+    "label": "Recall Class",
+    "type": "text",
+    "default_visible": false,
+    "sortable": true
+  },
+  {
+    "field": "evidence_score",
+    "label": "Evidence Score",
+    "type": "number",
+    "default_visible": false,
     "sortable": true
   },
   {
@@ -77,10 +140,24 @@
     "sortable": true
   },
   {
+    "field": "last_updated",
+    "label": "Updated / Year",
+    "type": "text",
+    "default_visible": true,
+    "sortable": true
+  },
+  {
     "field": "record_status",
     "label": "Status",
     "type": "text",
     "default_visible": true,
     "sortable": true
+  },
+  {
+    "field": "source_url",
+    "label": "Source URL",
+    "type": "text",
+    "default_visible": false,
+    "sortable": false
   }
 ]

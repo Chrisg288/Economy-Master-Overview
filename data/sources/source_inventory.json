@@ -1186,5 +1186,41 @@
     "expected_tables": "furnishing_source_queue; furniture_category_mapping",
     "notes": "Useful for shelter/household domain.",
     "source_group": "target"
+  },
+  {
+    "uid": "SRC-HC-RECALLS",
+    "title": "Health Canada Recalls and Safety Alerts — normalized product subset",
+    "vendor": "Government of Canada / Health Canada and partner agencies",
+    "year": "snapshot downloaded 2026-06-18",
+    "source_type": "Official Product Safety Data",
+    "domain": "Consumer products / medical products / food / vehicles / recalls",
+    "sector": "Human / Consumer; Public / Government",
+    "scope": "National",
+    "status": "Current snapshot with archived and active notices",
+    "priority": "High",
+    "sensitivity": "Safety-critical product evidence",
+    "conversion_mode": "Normalized recall/product safety records mapped to the Human needs tree",
+    "recommended_path": "data-sources/open-product-data/health_canada_recalls/",
+    "expected_tables": "product_records; recall_evidence; need_mapping",
+    "notes": "9,842 records selected from the 33,672-row snapshot included in Open_Product_Data_Sources_GitHub_Import_v0_1.zip.",
+    "source_group": "official"
+  },
+  {
+    "uid": "SRC-NEWARK-112",
+    "title": "Newark Electronics Catalog 112 (1992) structured sample records",
+    "vendor": "Newark Electronics",
+    "year": "1992",
+    "source_type": "Historical Electronics Catalog",
+    "domain": "Electronics books / LED indicators / PCB hardware",
+    "sector": "Business / Commercial; Human / Consumer",
+    "scope": "Organizational; Personal",
+    "status": "Obsolete historical catalog records",
+    "priority": "Medium",
+    "sensitivity": "Normal",
+    "conversion_mode": "Structured historical catalog extraction",
+    "recommended_path": "data-sources/catalog_conversions/electronics/newark/catalog_112_1992/",
+    "expected_tables": "historical_catalog_products; current_bridge",
+    "notes": "158 structured sample records from the existing Newark Catalog 112 package.",
+    "source_group": "catalog"
   }
 ]
