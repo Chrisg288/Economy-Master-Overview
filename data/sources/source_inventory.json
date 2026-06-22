@@ -1203,7 +1203,9 @@
     "recommended_path": "data-sources/open-product-data/health_canada_recalls/",
     "expected_tables": "product_records; recall_evidence; need_mapping",
     "notes": "9,842 records selected from the 33,672-row snapshot included in Open_Product_Data_Sources_GitHub_Import_v0_1.zip.",
-    "source_group": "official"
+    "source_group": "official",
+    "default_tree_population": "Excluded from English-default tree; available as optional safety evidence source.",
+    "preferred_display_language": "English translation required before default display."
   },
   {
     "uid": "SRC-NEWARK-112",
@@ -1222,5 +1224,24 @@
     "expected_tables": "historical_catalog_products; current_bridge",
     "notes": "158 structured sample records from the existing Newark Catalog 112 package.",
     "source_group": "catalog"
+  },
+  {
+    "uid": "SRC-EDU-ISC-1995",
+    "title": "The Independent Study Catalog — over 10,000 correspondence courses",
+    "vendor": "Peterson’s / historical independent-study institutions",
+    "year": "1995",
+    "source_type": "Historical Education Service Catalog",
+    "domain": "Education / Training / Correspondence Courses / Services",
+    "sector": "Human / Consumer; Market / Exchange",
+    "scope": "National / International",
+    "status": "Historical service listings; current availability requires verification",
+    "priority": "Medium",
+    "sensitivity": "Normal",
+    "conversion_mode": "Normalized institution, level, subject, course title, code and credit records",
+    "recommended_path": "data-sources/catalog_conversions/education/independent_study_catalog_1995/",
+    "expected_tables": "education_service_records; institution_index; subject_index",
+    "notes": "English historical course/service records included to establish the service side of the Comparator.",
+    "source_group": "catalog",
+    "source_language": "English"
   }
 ]

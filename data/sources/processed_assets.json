@@ -117,5 +117,17 @@
     "repo_path": "data/products/",
     "status": "review dataset created and linked to Human tree and Comparator datagrid",
     "artifact": "Economy_Master_Rebuild_v0_2_10000_PRODUCTS_GitHub_Root.zip"
+  },
+  {
+    "name": "English product/service corpus 19,009",
+    "repo_path": "data/products/",
+    "status": "Review build",
+    "artifact": "Economy_Master_Rebuild_v0_3_ENGLISH_MASSIVE_GitHub_Root.zip"
+  },
+  {
+    "name": "NAPCS Canada 2022 English classification",
+    "repo_path": "data/classifications/napcs_2022_nodes_flat.json",
+    "status": "5,199 nodes",
+    "artifact": "Canadian_Product_Classification_NAPCS_2022_GitHub_Import_v0_1.zip"
   }
 ]

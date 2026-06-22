@@ -1,0 +1,94 @@
+{
+  "generated": "2026-06-22",
+  "principle": "Massive external datasets stay partitioned and lazy-loaded; do not place millions of records directly in one GitHub Pages JSON file.",
+  "sources": [
+    {
+      "id": "overture-places",
+      "title": "Overture Maps Places",
+      "language": "multilingual with names/common metadata",
+      "scale": "More than 75 million real-world places",
+      "record_kind": "service / business / point of interest",
+      "status": "Queued for regional or category-partitioned acquisition",
+      "method": "overturemaps client or DuckDB against cloud GeoParquet",
+      "official_page": "https://docs.overturemaps.org/guides/places/",
+      "script": "scripts/acquire_overture_places.py"
+    },
+    {
+      "id": "nvd-cpe",
+      "title": "NVD Official CPE Dictionary",
+      "language": "primarily English product identity",
+      "scale": "1.75M+ official CPE names",
+      "record_kind": "IT hardware / software product identity",
+      "status": "Queued for full feed acquisition",
+      "method": "Nightly CPE 2.0 ZIP feed",
+      "official_page": "https://nvd.nist.gov/products/cpe",
+      "script": "scripts/acquire_direct_sources.py"
+    },
+    {
+      "id": "energy-star",
+      "title": "ENERGY STAR certified product datasets",
+      "language": "English",
+      "scale": "45,000+ certified models across 50+ daily-updated datasets",
+      "record_kind": "current certified products",
+      "status": "Queued; dataset IDs/categories selected by config",
+      "method": "Socrata API / CSV exports",
+      "official_page": "https://www.energystar.gov/productfinder/advanced",
+      "script": "scripts/acquire_energy_star.py"
+    },
+    {
+      "id": "usda-fdc",
+      "title": "USDA FoodData Central",
+      "language": "English",
+      "scale": "Large public-domain food and branded-food datasets",
+      "record_kind": "food / nutrients / branded products",
+      "status": "Queued; downloadable JSON/CSV or API",
+      "method": "Download dataset or use API key stored outside repository",
+      "official_page": "https://fdc.nal.usda.gov/download-datasets",
+      "script": "scripts/acquire_fooddata_central.py"
+    },
+    {
+      "id": "fda-ndc",
+      "title": "FDA National Drug Code Directory",
+      "language": "English",
+      "scale": "Daily-updated marketed drug product listings",
+      "record_kind": "drug product identity",
+      "status": "Queued; safety/medical classification only",
+      "method": "openFDA zipped JSON downloads",
+      "official_page": "https://open.fda.gov/apis/drug/ndc/download/",
+      "script": "scripts/acquire_fda_ndc.py"
+    },
+    {
+      "id": "nhtsa-vpic",
+      "title": "NHTSA vPIC",
+      "language": "English",
+      "scale": "Manufacturer, make, model, VIN and vehicle product data",
+      "record_kind": "vehicle identity",
+      "status": "Queued for API acquisition",
+      "method": "GetAllMakes + GetModelsForMakeId",
+      "official_page": "https://www.nhtsa.gov/cars/rules/manufacture",
+      "script": "scripts/acquire_nhtsa_vpic.py"
+    },
+    {
+      "id": "cpsc-recalls",
+      "title": "U.S. CPSC recall dataset",
+      "language": "English",
+      "scale": "Decades of consumer-product recalls back to 1973",
+      "record_kind": "product safety evidence",
+      "status": "Queued; excluded from recommendation offers",
+      "method": "Recall REST API / full CSV",
+      "official_page": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information",
+      "script": "scripts/acquire_direct_sources.py"
+    },
+    {
+      "id": "health-canada-en",
+      "title": "Health Canada recalls — English export",
+      "language": "English",
+      "scale": "Active and archived Canadian recall records",
+      "record_kind": "product safety evidence",
+      "status": "Queued as optional English safety layer",
+      "method": "Official English CSV",
+      "official_page": "https://recalls-rappels.canada.ca/en",
+      "script": "scripts/acquire_direct_sources.py"
+    }
+  ]
+}
