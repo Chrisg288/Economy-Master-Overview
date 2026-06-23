@@ -1,72 +1,86 @@
-[
-  {
-    "path": "README_UI_PATCH_v0_3_3.md",
-    "size_bytes": 302,
-    "sha256": "b220eff9f1d342c2ebd9103f45f616328a214a6cdbb188b0d0ec1b211d15b6e8"
-  },
-  {
-    "path": "assets/css/components.css",
-    "size_bytes": 8548,
-    "sha256": "0e98f33d7e19e9e9ffc7656d85fac5d1a76aa0b6e640a0cc032be9f3bf83c0e1"
-  },
-  {
-    "path": "assets/css/layout.css",
-    "size_bytes": 4496,
-    "sha256": "ef67dd970ee378b6fd342b8969e73cf56b1ed290894f3949c1a4d57bf92d64ec"
-  },
-  {
-    "path": "assets/js/app.js",
-    "size_bytes": 2717,
-    "sha256": "34d22774c4aa405c366592a8ac2b498ec8ff90aad86fedf5cb3ebee291d7238c"
-  },
-  {
-    "path": "assets/js/datagrid.js",
-    "size_bytes": 6577,
-    "sha256": "f64e41d61ef6d1fa582e0f87f15e6534b6cb32bcaeb3e570cdfac853532bc0df"
-  },
-  {
-    "path": "assets/js/display-labels.js",
-    "size_bytes": 3011,
-    "sha256": "8943a273a8fe08ceeb49adde3cbf339c075ef974e3f9146130a6b69b39d9743d"
-  },
-  {
-    "path": "assets/js/inspector.js",
-    "size_bytes": 3630,
-    "sha256": "03a3b4e095078690fb65d9b95fe0c4cf851c4fb9d41bd0e1e9dad3171e01c24b"
-  },
-  {
-    "path": "assets/js/ribbon.js",
-    "size_bytes": 849,
-    "sha256": "4f314a9d140bb8819b9c27d6db2c385d5f1543a83aaa01549881216561cae06f"
-  },
-  {
-    "path": "assets/js/state.js",
-    "size_bytes": 1518,
-    "sha256": "96989e484e6081d8bc1011055fbe3c3042a671c63b338df9ea717b660fc807aa"
-  },
-  {
-    "path": "assets/js/treeview.js",
-    "size_bytes": 4961,
-    "sha256": "811770e685750fabea13f7c509547985233e1388b006a4290705f11f6dc20409"
-  },
-  {
-    "path": "assets/js/workspace.js",
-    "size_bytes": 10858,
-    "sha256": "dcfe3135f514f5cdd4a36702259cc79504f5c042b8dc810ff1a8ddf72957ff8d"
-  },
-  {
-    "path": "data/config/app.json",
-    "size_bytes": 1699,
-    "sha256": "63279d44984462756d47685fd6f7abfd237171fdef8bba3f933cdc31a1985a30"
-  },
-  {
-    "path": "docs/UI_REVIEW_v0_3_3.md",
-    "size_bytes": 889,
-    "sha256": "41144ca31f678dfeba6891be03dcba30c90119f584ce7d74a4dea0de575be01f"
-  },
-  {
-    "path": "index.html",
-    "size_bytes": 3810,
-    "sha256": "21e111faeefa49d6680c838a3e9788108846e5f6c887afc5f400ba4b27d2ba80"
-  }
-]
+{
+  "version": "0.3.4",
+  "purpose": "Datagrid single-line and horizontal-scroll cache-busted fix",
+  "files": [
+    {
+      "path": "README_UI_PATCH_v0_3_3.md",
+      "size_bytes": 302,
+      "sha256": "b220eff9f1d342c2ebd9103f45f616328a214a6cdbb188b0d0ec1b211d15b6e8"
+    },
+    {
+      "path": "README_UI_PATCH_v0_3_4.md",
+      "size_bytes": 523,
+      "sha256": "c185918276a164189fe68cba66e7f2d60afe1021093e84498d1a115b23a4b8a4"
+    },
+    {
+      "path": "assets/css/components.css",
+      "size_bytes": 8988,
+      "sha256": "f66d0f0d1f07feaa24f912a650417274b6beb4ba55c3619c78fb71a791043b75"
+    },
+    {
+      "path": "assets/css/layout.css",
+      "size_bytes": 5155,
+      "sha256": "08cdaecba05ad2554c7fd8d9cd81c2f4307d701103665155140117f367578ff1"
+    },
+    {
+      "path": "assets/js/app.js",
+      "size_bytes": 2797,
+      "sha256": "df0724ffcda48b2a62019bb87f04cbdaeef813dbbe213bdeef3951c9f8c55631"
+    },
+    {
+      "path": "assets/js/datagrid.js",
+      "size_bytes": 7925,
+      "sha256": "6422b87946a845dd3420298b7b7e5191f42a4a625bf8239f7a6b868eb4660719"
+    },
+    {
+      "path": "assets/js/display-labels.js",
+      "size_bytes": 3011,
+      "sha256": "8943a273a8fe08ceeb49adde3cbf339c075ef974e3f9146130a6b69b39d9743d"
+    },
+    {
+      "path": "assets/js/inspector.js",
+      "size_bytes": 3630,
+      "sha256": "03a3b4e095078690fb65d9b95fe0c4cf851c4fb9d41bd0e1e9dad3171e01c24b"
+    },
+    {
+      "path": "assets/js/ribbon.js",
+      "size_bytes": 849,
+      "sha256": "4f314a9d140bb8819b9c27d6db2c385d5f1543a83aaa01549881216561cae06f"
+    },
+    {
+      "path": "assets/js/state.js",
+      "size_bytes": 1518,
+      "sha256": "96989e484e6081d8bc1011055fbe3c3042a671c63b338df9ea717b660fc807aa"
+    },
+    {
+      "path": "assets/js/treeview.js",
+      "size_bytes": 4961,
+      "sha256": "811770e685750fabea13f7c509547985233e1388b006a4290705f11f6dc20409"
+    },
+    {
+      "path": "assets/js/workspace.js",
+      "size_bytes": 10866,
+      "sha256": "0a441a061b67af3ff947b3064580a91da8455e42b089e8c102091f463579f381"
+    },
+    {
+      "path": "data/config/app.json",
+      "size_bytes": 1705,
+      "sha256": "fd3060bf73e3a8be3a563372455e6044d9f5d76bf33280876a509ff984877da9"
+    },
+    {
+      "path": "docs/UI_REVIEW_v0_3_3.md",
+      "size_bytes": 889,
+      "sha256": "41144ca31f678dfeba6891be03dcba30c90119f584ce7d74a4dea0de575be01f"
+    },
+    {
+      "path": "docs/UI_REVIEW_v0_3_4.md",
+      "size_bytes": 540,
+      "sha256": "24813510e4284163d029e31fcda90a723979a10c13b5ba642f38cce537c6e54e"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 3850,
+      "sha256": "c31c7e3f8427c9c97a52590bd0849a311ecda233d981fa5240952b6319c19555"
+    }
+  ]
+}

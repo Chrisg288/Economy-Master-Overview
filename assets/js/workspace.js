@@ -1,5 +1,5 @@
 import {escapeHtml,findTreeNode} from './utils.js';
-import {renderDatagrid} from './datagrid.js';
+import {renderDatagrid} from './datagrid.js?v=0.3.4';
 import {renderUserProfile} from './user-profile.js';
 import {recordDisplayName} from './display-labels.js';
 function polar(cx,cy,r,angle){const rad=(angle-90)*Math.PI/180;return{x:cx+r*Math.cos(rad),y:cy+r*Math.sin(rad)}}function arcPath(cx,cy,r,start,end){const a=polar(cx,cy,r,end),b=polar(cx,cy,r,start),large=end-start<=180?0:1;return `M ${cx} ${cy} L ${b.x} ${b.y} A ${r} ${r} 0 ${large} 1 ${a.x} ${a.y} Z`}
