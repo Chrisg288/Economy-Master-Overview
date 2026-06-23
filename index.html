@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Economy Master Interface — English Massive Corpus v0.3</title>
+  <title>Economy Master Interface — English Massive Corpus v0.3.3</title>
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/ribbon.css">
@@ -13,7 +13,7 @@
   <div id="app" class="app-shell">
     <header class="app-header">
       <div>
-        <div id="appTitle" class="app-title">Economy Master Interface — English Massive Corpus v0.3</div>
+        <div id="appTitle" class="app-title">Economy Master Interface — English Massive Corpus v0.3.3</div>
         <div id="appSubtitle" class="app-subtitle">Layout baseline: v2.10.1</div>
       </div>
       <div class="header-badges">
@@ -49,10 +49,10 @@
         <div id="workspaceViewport" class="workspace-viewport"></div>
       </section>
 
-      <aside class="panel inspector-panel">
+      <aside id="inspectorPanel" class="panel inspector-panel" aria-hidden="true">
         <div class="panel-heading">
           <span class="eyebrow">SELECTED ITEM INSPECTOR</span>
-          <span class="muted-small">Sector / Scope / Overlay</span>
+          <button id="closeInspector" class="icon-button inspector-close" title="Close inspector" aria-label="Close inspector">×</button>
         </div>
         <div id="inspectorBody" class="inspector-body"></div>
         <div class="inspector-footer">

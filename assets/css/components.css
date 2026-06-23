@@ -66,3 +66,17 @@
 @media(max-width:1350px){ .home-layout{grid-template-columns:1fr;} .home-notes{grid-template-columns:repeat(3,1fr);} .needs-layout{grid-template-columns:220px 1fr;} }
 
 .product-count{margin-left:4px;padding:1px 5px;border:1px solid #b4d6e6;border-radius:999px;background:#f3fbff;color:#176185;font-size:8px;font-weight:900}.grid-search{width:180px;height:25px;border:1px solid var(--line);border-radius:7px;padding:3px 7px;font-size:10px}.page-size{height:25px;border:1px solid var(--line);border-radius:7px;background:#fff;font-size:10px}.grid-stats{margin-top:3px;color:#668595;font-size:9px;font-weight:750}.pager{display:flex;align-items:center;justify-content:center;gap:6px;padding:7px 0 0;font-size:10px}.pager button:disabled{opacity:.45;cursor:not-allowed}.data-grid tbody tr[data-record-id]{cursor:pointer}.data-grid tbody tr[data-record-id]:hover{background:#e8f7ff}.product-detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:9px 0}.product-detail-grid>div{padding:8px;border:1px solid var(--line-soft);border-radius:7px;background:#f9fdff;font-size:10px}.product-detail-grid strong{font-size:9px;text-transform:uppercase;color:#587788}.tree-node .product-count+.tree-meta{margin-left:3px}@media(max-width:1350px){.grid-search{width:135px}.product-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v0.3.3: single-line Comparator rows and horizontal comparison canvas */
+.datagrid-card{min-width:0;overflow:visible}
+.data-grid-wrap{width:100%;max-width:100%;overflow:auto;scrollbar-gutter:stable both-edges}
+.data-grid{width:max-content;min-width:100%;table-layout:auto}
+.data-grid th,.data-grid td{white-space:nowrap;vertical-align:middle}
+.data-grid tbody tr{height:27px}
+.data-grid td{height:27px;padding:3px 6px;line-height:18px;max-width:360px;overflow:hidden;text-overflow:ellipsis}
+.data-grid td .cell-text{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.data-grid th[data-sort-field="need_path"],.data-grid td[data-field="need_path"]{min-width:190px}
+.data-grid th[data-sort-field="item_name"],.data-grid td[data-field="item_name"],.data-grid th[data-sort-field="product_name"],.data-grid td[data-field="product_name"]{min-width:210px;max-width:300px}
+.data-grid th[data-sort-field="record_status"],.data-grid td[data-field="record_status"]{min-width:260px;max-width:360px}
+.data-grid th[data-sort-field="source_vendor"],.data-grid td[data-field="source_vendor"]{min-width:120px}
+.tree-line[title]{position:relative}

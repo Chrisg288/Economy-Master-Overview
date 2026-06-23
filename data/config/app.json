@@ -1,8 +1,8 @@
 {
   "app_id": "economy-master-modular-rebuild",
-  "title": "Economy Master Interface \u2014 English Massive Corpus v0.3.2",
-  "subtitle": "v2.10.1 layout \u00b7 four-level ribbon \u00b7 draggable TreeView \u00b7 micro-batched GitHub-safe English corpus",
-  "version": "0.3.2",
+  "title": "Economy Master Interface — English Massive Corpus v0.3.3",
+  "subtitle": "v2.10.1 layout · four-level ribbon · draggable TreeView · single-line datagrid · flyout inspector · cleaned leaf labels",
+  "version": "0.3.3",
   "layout_baseline": "2.10.1",
   "default_context": {
     "sector": "home",
