@@ -1,8 +1,8 @@
 {
   "app_id": "economy-master-modular-rebuild",
-  "title": "Economy Master Interface — English Massive Corpus v0.3.4",
-  "subtitle": "v2.10.1 layout · four-level ribbon · draggable TreeView · enforced single-line datagrid · horizontal scroll · flyout inspector",
-  "version": "0.3.4",
+  "title": "Economy Master Interface — English Massive Corpus v0.3.5 — Brick Tree",
+  "subtitle": "v2.10.1 layout · four-level ribbon · draggable TreeView · sectors/categories/classes/bricks only · linked datagrid records",
+  "version": "0.3.5",
   "layout_baseline": "2.10.1",
   "default_context": {
     "sector": "home",
@@ -29,8 +29,9 @@
     "acquisition_registry": "data/acquisition/source_registry.json"
   },
   "product_record_count": 10000,
-  "human_tree_node_count": 11362,
+  "human_tree_node_count": 238,
   "loading_strategy": "Human tree loads at startup; product records load lazily by selected need.",
   "record_count": 19009,
-  "classification_node_count": 5199
+  "classification_node_count": 5199,
+  "tree_record_policy": "Product and service records are datagrid rows only. TreeView contains classifications: sectors, categories, classes and bricks."
 }

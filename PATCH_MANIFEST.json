@@ -1,86 +1,90 @@
 {
-  "version": "0.3.4",
-  "purpose": "Datagrid single-line and horizontal-scroll cache-busted fix",
+  "version": "0.3.5",
+  "purpose": "Remove item/page leaves from Human TreeView; retain sectors/categories/classes/bricks and linked datagrid records.",
+  "human_tree_node_count": 238,
+  "linked_record_count": 19009,
+  "removed": {
+    "product": 13197,
+    "service": 5812,
+    "product-page": 291,
+    "service-page": 151
+  },
+  "converted": {
+    "class": 120,
+    "brick": 95,
+    "category": 22,
+    "sector": 1
+  },
   "files": [
     {
-      "path": "README_UI_PATCH_v0_3_3.md",
-      "size_bytes": 302,
-      "sha256": "b220eff9f1d342c2ebd9103f45f616328a214a6cdbb188b0d0ec1b211d15b6e8"
-    },
-    {
-      "path": "README_UI_PATCH_v0_3_4.md",
-      "size_bytes": 523,
-      "sha256": "c185918276a164189fe68cba66e7f2d60afe1021093e84498d1a115b23a4b8a4"
-    },
-    {
-      "path": "assets/css/components.css",
-      "size_bytes": 8988,
-      "sha256": "f66d0f0d1f07feaa24f912a650417274b6beb4ba55c3619c78fb71a791043b75"
-    },
-    {
-      "path": "assets/css/layout.css",
-      "size_bytes": 5155,
-      "sha256": "08cdaecba05ad2554c7fd8d9cd81c2f4307d701103665155140117f367578ff1"
+      "path": "README_TREE_PATCH_v0_3_5.md",
+      "size_bytes": 1156,
+      "sha256": "630a03fc1f732f1fa9d809a0121f9e9ae29bb8c22de5913f2ed68f1b77378fbd"
     },
     {
       "path": "assets/js/app.js",
       "size_bytes": 2797,
-      "sha256": "df0724ffcda48b2a62019bb87f04cbdaeef813dbbe213bdeef3951c9f8c55631"
+      "sha256": "a69621b2bb20fa5e43dcb7489175aedb81635f4a4b94542c71fe41a8c09230fc"
     },
     {
       "path": "assets/js/datagrid.js",
-      "size_bytes": 7925,
-      "sha256": "6422b87946a845dd3420298b7b7e5191f42a4a625bf8239f7a6b868eb4660719"
-    },
-    {
-      "path": "assets/js/display-labels.js",
-      "size_bytes": 3011,
-      "sha256": "8943a273a8fe08ceeb49adde3cbf339c075ef974e3f9146130a6b69b39d9743d"
+      "size_bytes": 7752,
+      "sha256": "d6252925b8d9278beeb3d9d9f430e5cfd5a355d60d6b60b27cfaa70a2e776946"
     },
     {
       "path": "assets/js/inspector.js",
-      "size_bytes": 3630,
-      "sha256": "03a3b4e095078690fb65d9b95fe0c4cf851c4fb9d41bd0e1e9dad3171e01c24b"
+      "size_bytes": 3735,
+      "sha256": "e83120da72cfb686971e73a7bd659a3235613bd061e275a96bc981516df60952"
+    },
+    {
+      "path": "assets/js/persistence.js",
+      "size_bytes": 320,
+      "sha256": "b08915449e62d527bb5b1fc9f1e9f3ce93bea3dce8a947751dd94600009ae080"
+    },
+    {
+      "path": "assets/js/product-repository.js",
+      "size_bytes": 1971,
+      "sha256": "d86f354e1f17cd9d3156e097c623d44bae8575273dea36343c9bb4adcf97023f"
     },
     {
       "path": "assets/js/ribbon.js",
-      "size_bytes": 849,
-      "sha256": "4f314a9d140bb8819b9c27d6db2c385d5f1543a83aaa01549881216561cae06f"
+      "size_bytes": 909,
+      "sha256": "1762149f9588b4408f06cb53f6b6bc321844dab027543e41218afacb9d42b044"
     },
     {
       "path": "assets/js/state.js",
-      "size_bytes": 1518,
-      "sha256": "96989e484e6081d8bc1011055fbe3c3042a671c63b338df9ea717b660fc807aa"
+      "size_bytes": 1563,
+      "sha256": "991b76d9676a92040483d08030c86910bb791af60bd33e08a100ef50c8350418"
     },
     {
       "path": "assets/js/treeview.js",
-      "size_bytes": 4961,
-      "sha256": "811770e685750fabea13f7c509547985233e1388b006a4290705f11f6dc20409"
+      "size_bytes": 4977,
+      "sha256": "0bf9857337cb02d6aec93ec6afc3ea210d5764b6dad75363b76fd6e3c5eca2cb"
     },
     {
       "path": "assets/js/workspace.js",
-      "size_bytes": 10866,
-      "sha256": "0a441a061b67af3ff947b3064580a91da8455e42b089e8c102091f463579f381"
+      "size_bytes": 10614,
+      "sha256": "4c234ac32bd1ced256f5ff28006afb3369afaaed670efb507f80b35041b81c99"
     },
     {
       "path": "data/config/app.json",
-      "size_bytes": 1705,
-      "sha256": "fd3060bf73e3a8be3a563372455e6044d9f5d76bf33280876a509ff984877da9"
+      "size_bytes": 1868,
+      "sha256": "3918b5ef2816e226571c6315bc9bba44c4276868fd14efa87ed58a564169e2d7"
     },
     {
-      "path": "docs/UI_REVIEW_v0_3_3.md",
-      "size_bytes": 889,
-      "sha256": "41144ca31f678dfeba6891be03dcba30c90119f584ce7d74a4dea0de575be01f"
+      "path": "data/trees/human.json",
+      "size_bytes": 138714,
+      "sha256": "9c1904ca32f620cbc391c5cec94a2f9d43fb80a4825ba617f4acaa060d9e6062"
     },
     {
-      "path": "docs/UI_REVIEW_v0_3_4.md",
-      "size_bytes": 540,
-      "sha256": "24813510e4284163d029e31fcda90a723979a10c13b5ba642f38cce537c6e54e"
+      "path": "docs/TREE_CLASS_BRICK_FIX_v0_3_5.md",
+      "size_bytes": 1156,
+      "sha256": "630a03fc1f732f1fa9d809a0121f9e9ae29bb8c22de5913f2ed68f1b77378fbd"
     },
     {
       "path": "index.html",
-      "size_bytes": 3850,
-      "sha256": "c31c7e3f8427c9c97a52590bd0849a311ecda233d981fa5240952b6319c19555"
+      "size_bytes": 3880,
+      "sha256": "b1bc0cb4b255e7737a8a7efd56de83f9683bf9856a67545a55834ba73db14f22"
     }
   ]
 }

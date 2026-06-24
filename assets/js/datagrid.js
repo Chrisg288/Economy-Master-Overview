@@ -41,7 +41,7 @@ export function renderDatagrid({state,store,columns,rows,title='Comparator Datag
     document.querySelector('[data-action="prev"]')?.addEventListener('click',()=>move(page-1));
     document.querySelector('[data-action="next"]')?.addEventListener('click',()=>move(page+1));
     document.querySelector('[data-action="last"]')?.addEventListener('click',()=>move(totalPages));
-    document.querySelectorAll('[data-record-id]').forEach(tr=>tr.addEventListener('click',()=>{const row=pageRows.find(r=>r.record_id===tr.dataset.recordId);if(!row?.product_node_id)return;store.mutate(s=>{s.sector='human';s.selectedNodeBySector.human=row.product_node_id;const expanded=new Set(s.expandedBySector.human||[]);(row.tree_path_ids||[]).slice(0,-1).forEach(id=>expanded.add(id));s.expandedBySector.human=[...expanded];s.inspectorOpen=true})}));
+    document.querySelectorAll('[data-record-id]').forEach(tr=>tr.addEventListener('click',()=>{const row=pageRows.find(r=>r.record_id===tr.dataset.recordId);if(!row)return;store.mutate(s=>{s.selectedRecordId=row.record_id;s.selectedRecordNeedId=row.need_id;s.inspectorOpen=true})}));
   });
   return html;
 }
